@@ -1,0 +1,4 @@
+Struct dap_events_socket_callbacks
+==================================
+
+.. doxygenstruct:: dap_events_socket_callbacks

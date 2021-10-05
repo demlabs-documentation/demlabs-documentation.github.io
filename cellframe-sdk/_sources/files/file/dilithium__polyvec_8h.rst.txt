@@ -1,0 +1,4 @@
+File dilithium_polyvec.h
+========================
+
+.. doxygenfile:: dilithium_polyvec.h

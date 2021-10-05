@@ -1,0 +1,4 @@
+Struct dap_enc_ca
+=================
+
+.. doxygenstruct:: dap_enc_ca

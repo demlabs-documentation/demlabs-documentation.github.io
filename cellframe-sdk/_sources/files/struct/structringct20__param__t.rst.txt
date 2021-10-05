@@ -1,0 +1,4 @@
+Struct ringct20_param_t
+=======================
+
+.. doxygenstruct:: ringct20_param_t

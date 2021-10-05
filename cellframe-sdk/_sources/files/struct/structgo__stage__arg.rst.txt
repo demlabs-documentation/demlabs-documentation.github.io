@@ -1,0 +1,4 @@
+Struct go_stage_arg
+===================
+
+.. doxygenstruct:: go_stage_arg

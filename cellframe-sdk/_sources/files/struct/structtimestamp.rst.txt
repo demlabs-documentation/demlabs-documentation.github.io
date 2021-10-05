@@ -1,0 +1,4 @@
+Struct timestamp
+================
+
+.. doxygenstruct:: timestamp

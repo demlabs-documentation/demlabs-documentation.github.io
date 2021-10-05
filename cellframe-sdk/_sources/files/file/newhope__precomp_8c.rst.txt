@@ -1,0 +1,4 @@
+File newhope_precomp.c
+======================
+
+.. doxygenfile:: newhope_precomp.c

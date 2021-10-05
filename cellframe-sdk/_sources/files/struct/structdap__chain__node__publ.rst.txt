@@ -1,0 +1,4 @@
+Struct dap_chain_node_publ
+==========================
+
+.. doxygenstruct:: dap_chain_node_publ

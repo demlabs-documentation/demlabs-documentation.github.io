@@ -1,0 +1,4 @@
+Struct MMDB_metadata_s
+======================
+
+.. doxygenstruct:: MMDB_metadata_s

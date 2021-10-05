@@ -1,0 +1,4 @@
+Struct dap_chain_class_dag_event_hdr
+====================================
+
+.. doxygenstruct:: dap_chain_class_dag_event_hdr

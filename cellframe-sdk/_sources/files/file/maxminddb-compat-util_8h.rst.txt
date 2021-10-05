@@ -1,0 +1,4 @@
+File maxminddb-compat-util.h
+============================
+
+.. doxygenfile:: maxminddb-compat-util.h

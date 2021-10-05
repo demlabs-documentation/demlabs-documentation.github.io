@@ -1,0 +1,4 @@
+Struct global_cache_t
+=====================
+
+.. doxygenstruct:: global_cache_t

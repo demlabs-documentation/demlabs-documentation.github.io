@@ -1,0 +1,4 @@
+Union dap_sign_type
+===================
+
+.. doxygenunion:: dap_sign_type

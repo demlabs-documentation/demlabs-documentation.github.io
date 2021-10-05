@@ -1,0 +1,4 @@
+Struct dilithium_signature_t
+============================
+
+.. doxygenstruct:: dilithium_signature_t

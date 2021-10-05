@@ -1,0 +1,4 @@
+Struct dap_binary_tree
+======================
+
+.. doxygenstruct:: dap_binary_tree

@@ -1,0 +1,4 @@
+File pthread_barrier.c
+======================
+
+.. doxygenfile:: pthread_barrier.c

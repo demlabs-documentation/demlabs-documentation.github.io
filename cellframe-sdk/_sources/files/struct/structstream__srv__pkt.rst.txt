@@ -1,0 +1,4 @@
+Struct stream_srv_pkt
+=====================
+
+.. doxygenstruct:: stream_srv_pkt

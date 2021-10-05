@@ -1,0 +1,4 @@
+Struct dap_chain_net_srv_vpn_tun_socket
+=======================================
+
+.. doxygenstruct:: dap_chain_net_srv_vpn_tun_socket

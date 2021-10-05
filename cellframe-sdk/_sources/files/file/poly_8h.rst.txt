@@ -1,0 +1,4 @@
+File poly.h
+===========
+
+.. doxygenfile:: poly.h

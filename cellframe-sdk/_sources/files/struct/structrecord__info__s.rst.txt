@@ -1,0 +1,4 @@
+Struct record_info_s
+====================
+
+.. doxygenstruct:: record_info_s

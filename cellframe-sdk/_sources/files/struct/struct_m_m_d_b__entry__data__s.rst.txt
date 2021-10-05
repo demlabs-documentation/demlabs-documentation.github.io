@@ -1,0 +1,4 @@
+Struct MMDB_entry_data_s
+========================
+
+.. doxygenstruct:: MMDB_entry_data_s

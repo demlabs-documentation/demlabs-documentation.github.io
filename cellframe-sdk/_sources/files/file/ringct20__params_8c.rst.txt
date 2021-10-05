@@ -1,0 +1,4 @@
+File ringct20_params.c
+======================
+
+.. doxygenfile:: ringct20_params.c

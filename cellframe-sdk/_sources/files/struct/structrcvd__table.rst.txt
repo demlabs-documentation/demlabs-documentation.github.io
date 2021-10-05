@@ -1,0 +1,4 @@
+Struct rcvd_table
+=================
+
+.. doxygenstruct:: rcvd_table

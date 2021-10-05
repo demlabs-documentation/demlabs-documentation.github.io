@@ -1,0 +1,4 @@
+Struct dap_app_cli_cmd_state
+============================
+
+.. doxygenstruct:: dap_app_cli_cmd_state

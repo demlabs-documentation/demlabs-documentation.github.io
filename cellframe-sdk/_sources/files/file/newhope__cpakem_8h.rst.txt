@@ -1,0 +1,4 @@
+File newhope_cpakem.h
+=====================
+
+.. doxygenfile:: newhope_cpakem.h

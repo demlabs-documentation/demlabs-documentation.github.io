@@ -1,0 +1,4 @@
+Struct dap_network_notification_t
+=================================
+
+.. doxygenstruct:: dap_network_notification_t

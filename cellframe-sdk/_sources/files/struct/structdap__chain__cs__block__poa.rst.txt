@@ -1,0 +1,4 @@
+Struct dap_chain_cs_block_poa
+=============================
+
+.. doxygenstruct:: dap_chain_cs_block_poa

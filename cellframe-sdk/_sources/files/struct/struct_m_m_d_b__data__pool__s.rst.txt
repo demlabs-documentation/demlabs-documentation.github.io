@@ -1,0 +1,4 @@
+Struct MMDB_data_pool_s
+=======================
+
+.. doxygenstruct:: MMDB_data_pool_s

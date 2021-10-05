@@ -1,0 +1,4 @@
+Struct view_t
+=============
+
+.. doxygenstruct:: view_t

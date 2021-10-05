@@ -1,0 +1,4 @@
+Struct dap_chain_datum_tx
+=========================
+
+.. doxygenstruct:: dap_chain_datum_tx

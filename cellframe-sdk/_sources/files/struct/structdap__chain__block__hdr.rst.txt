@@ -1,0 +1,4 @@
+Struct dap_chain_block_hdr
+==========================
+
+.. doxygenstruct:: dap_chain_block_hdr

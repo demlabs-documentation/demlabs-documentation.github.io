@@ -1,0 +1,4 @@
+Struct dilithium_public_key_t
+=============================
+
+.. doxygenstruct:: dilithium_public_key_t

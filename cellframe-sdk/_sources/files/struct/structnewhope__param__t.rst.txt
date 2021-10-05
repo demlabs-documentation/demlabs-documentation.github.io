@@ -1,0 +1,4 @@
+Struct newhope_param_t
+======================
+
+.. doxygenstruct:: newhope_param_t

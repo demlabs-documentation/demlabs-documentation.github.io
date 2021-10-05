@@ -1,0 +1,4 @@
+Struct dap_chain_node_cmd_item_func_overrides
+=============================================
+
+.. doxygenstruct:: dap_chain_node_cmd_item_func_overrides

@@ -1,0 +1,4 @@
+File dap_chain_node_remote.c
+============================
+
+.. doxygenfile:: dap_chain_node_remote.c

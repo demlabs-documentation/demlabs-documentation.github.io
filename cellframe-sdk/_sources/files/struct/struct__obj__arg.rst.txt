@@ -1,0 +1,4 @@
+Struct _obj_arg
+===============
+
+.. doxygenstruct:: _obj_arg

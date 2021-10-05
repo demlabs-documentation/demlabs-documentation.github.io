@@ -1,0 +1,4 @@
+Struct dap_chain_net_srv_abstract
+=================================
+
+.. doxygenstruct:: dap_chain_net_srv_abstract

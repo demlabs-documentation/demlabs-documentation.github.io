@@ -1,0 +1,4 @@
+Struct dap_chain_net_srv_vpn_item_ipv4
+======================================
+
+.. doxygenstruct:: dap_chain_net_srv_vpn_item_ipv4

@@ -1,0 +1,4 @@
+File dap_hash_fusion.c
+======================
+
+.. doxygenfile:: dap_hash_fusion.c

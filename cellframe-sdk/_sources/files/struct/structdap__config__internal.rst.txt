@@ -1,0 +1,4 @@
+Struct dap_config_internal
+==========================
+
+.. doxygenstruct:: dap_config_internal

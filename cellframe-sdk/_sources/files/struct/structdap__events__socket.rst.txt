@@ -1,0 +1,4 @@
+Struct dap_events_socket
+========================
+
+.. doxygenstruct:: dap_events_socket

@@ -1,0 +1,4 @@
+Struct dap_chain_tx_out
+=======================
+
+.. doxygenstruct:: dap_chain_tx_out

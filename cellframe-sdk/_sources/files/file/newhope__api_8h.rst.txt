@@ -1,0 +1,4 @@
+File newhope_api.h
+==================
+
+.. doxygenfile:: newhope_api.h

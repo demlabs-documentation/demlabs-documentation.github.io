@@ -1,0 +1,4 @@
+File dap_enc_base64.h
+=====================
+
+.. doxygenfile:: dap_enc_base64.h

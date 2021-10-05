@@ -1,0 +1,4 @@
+Struct dap_global_db_obj
+========================
+
+.. doxygenstruct:: dap_global_db_obj

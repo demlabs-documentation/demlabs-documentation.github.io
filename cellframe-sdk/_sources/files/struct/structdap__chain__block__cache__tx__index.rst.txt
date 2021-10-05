@@ -1,0 +1,4 @@
+Struct dap_chain_block_cache_tx_index
+=====================================
+
+.. doxygenstruct:: dap_chain_block_cache_tx_index

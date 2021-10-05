@@ -1,0 +1,4 @@
+File crypto_stream_salsa2012.h
+==============================
+
+.. doxygenfile:: crypto_stream_salsa2012.h

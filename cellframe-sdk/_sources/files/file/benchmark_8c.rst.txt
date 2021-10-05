@@ -1,0 +1,4 @@
+File benchmark.c
+================
+
+.. doxygenfile:: benchmark.c

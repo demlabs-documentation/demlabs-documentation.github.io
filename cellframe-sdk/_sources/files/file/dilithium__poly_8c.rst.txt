@@ -1,0 +1,4 @@
+File dilithium_poly.c
+=====================
+
+.. doxygenfile:: dilithium_poly.c

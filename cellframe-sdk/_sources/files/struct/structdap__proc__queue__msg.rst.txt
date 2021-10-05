@@ -1,0 +1,4 @@
+Struct dap_proc_queue_msg
+=========================
+
+.. doxygenstruct:: dap_proc_queue_msg

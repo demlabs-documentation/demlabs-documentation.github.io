@@ -1,0 +1,4 @@
+Struct dap_chain_wallet_internal
+================================
+
+.. doxygenstruct:: dap_chain_wallet_internal

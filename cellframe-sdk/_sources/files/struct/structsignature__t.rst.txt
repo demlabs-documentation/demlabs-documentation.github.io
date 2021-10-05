@@ -1,0 +1,4 @@
+Struct signature_t
+==================
+
+.. doxygenstruct:: signature_t

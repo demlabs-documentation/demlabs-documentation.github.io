@@ -1,0 +1,4 @@
+Struct dap_enc_key_serealize
+============================
+
+.. doxygenstruct:: dap_enc_key_serealize

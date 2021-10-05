@@ -1,0 +1,4 @@
+Struct ntt_state_simple_t
+=========================
+
+.. doxygenstruct:: ntt_state_simple_t

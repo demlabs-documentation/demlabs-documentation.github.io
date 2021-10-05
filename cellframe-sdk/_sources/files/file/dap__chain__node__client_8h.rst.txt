@@ -1,0 +1,4 @@
+File dap_chain_node_client.h
+============================
+
+.. doxygenfile:: dap_chain_node_client.h

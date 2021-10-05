@@ -1,0 +1,4 @@
+Struct _dap_dns_message_flags_bits_t
+====================================
+
+.. doxygenstruct:: _dap_dns_message_flags_bits_t

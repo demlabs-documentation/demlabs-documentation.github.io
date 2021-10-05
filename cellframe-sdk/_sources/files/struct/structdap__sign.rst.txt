@@ -1,0 +1,4 @@
+Struct dap_sign
+===============
+
+.. doxygenstruct:: dap_sign

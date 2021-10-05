@@ -1,0 +1,4 @@
+Struct dap_server
+=================
+
+.. doxygenstruct:: dap_server

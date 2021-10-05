@@ -1,0 +1,4 @@
+File stream_salsa2012.c
+=======================
+
+.. doxygenfile:: stream_salsa2012.c

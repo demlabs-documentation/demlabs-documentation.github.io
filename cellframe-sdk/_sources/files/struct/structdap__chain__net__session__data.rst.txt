@@ -1,0 +1,4 @@
+Struct dap_chain_net_session_data
+=================================
+
+.. doxygenstruct:: dap_chain_net_session_data

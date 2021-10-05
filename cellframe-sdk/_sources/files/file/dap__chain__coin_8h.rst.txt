@@ -1,0 +1,4 @@
+File dap_chain_coin.h
+=====================
+
+.. doxygenfile:: dap_chain_coin.h

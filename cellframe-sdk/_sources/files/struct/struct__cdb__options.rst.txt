@@ -1,0 +1,4 @@
+Struct _cdb_options
+===================
+
+.. doxygenstruct:: _cdb_options

@@ -1,0 +1,4 @@
+Struct _SQLITE_VALUE_
+=====================
+
+.. doxygenstruct:: _SQLITE_VALUE_

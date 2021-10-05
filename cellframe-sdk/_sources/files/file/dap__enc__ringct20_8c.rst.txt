@@ -1,0 +1,4 @@
+File dap_enc_ringct20.c
+=======================
+
+.. doxygenfile:: dap_enc_ringct20.c

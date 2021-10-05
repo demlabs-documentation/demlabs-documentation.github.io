@@ -1,0 +1,4 @@
+Struct niquery_option
+=====================
+
+.. doxygenstruct:: niquery_option

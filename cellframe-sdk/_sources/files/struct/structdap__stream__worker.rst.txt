@@ -1,0 +1,4 @@
+Struct dap_stream_worker
+========================
+
+.. doxygenstruct:: dap_stream_worker

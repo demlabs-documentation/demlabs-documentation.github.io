@@ -1,0 +1,4 @@
+File newhope_reduce.c
+=====================
+
+.. doxygenfile:: newhope_reduce.c

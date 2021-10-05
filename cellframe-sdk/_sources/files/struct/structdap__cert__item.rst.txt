@@ -1,0 +1,4 @@
+Struct dap_cert_item
+====================
+
+.. doxygenstruct:: dap_cert_item

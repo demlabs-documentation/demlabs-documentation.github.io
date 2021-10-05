@@ -1,0 +1,4 @@
+File dap_app_cli_shell.c
+========================
+
+.. doxygenfile:: dap_app_cli_shell.c

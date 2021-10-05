@@ -1,0 +1,4 @@
+Struct socket_st
+================
+
+.. doxygenstruct:: socket_st

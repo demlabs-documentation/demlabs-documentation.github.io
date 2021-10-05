@@ -1,0 +1,4 @@
+Struct thread_arg
+=================
+
+.. doxygenstruct:: thread_arg

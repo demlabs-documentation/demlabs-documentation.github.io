@@ -1,0 +1,4 @@
+File picnic_types.h
+===================
+
+.. doxygenfile:: picnic_types.h

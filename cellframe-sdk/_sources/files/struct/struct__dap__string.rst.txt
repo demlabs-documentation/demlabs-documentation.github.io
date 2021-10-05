@@ -1,0 +1,4 @@
+Struct _dap_string
+==================
+
+.. doxygenstruct:: _dap_string

@@ -1,0 +1,4 @@
+Struct randomTape_t
+===================
+
+.. doxygenstruct:: randomTape_t

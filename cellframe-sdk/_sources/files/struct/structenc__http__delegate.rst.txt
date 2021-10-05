@@ -1,0 +1,4 @@
+Struct enc_http_delegate
+========================
+
+.. doxygenstruct:: enc_http_delegate

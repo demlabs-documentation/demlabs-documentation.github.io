@@ -1,0 +1,4 @@
+File dap_enc_salsa2012.h
+========================
+
+.. doxygenfile:: dap_enc_salsa2012.h

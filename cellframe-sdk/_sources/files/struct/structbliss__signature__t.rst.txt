@@ -1,0 +1,4 @@
+Struct bliss_signature_t
+========================
+
+.. doxygenstruct:: bliss_signature_t

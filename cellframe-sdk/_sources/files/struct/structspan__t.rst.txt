@@ -1,0 +1,4 @@
+Struct span_t
+=============
+
+.. doxygenstruct:: span_t

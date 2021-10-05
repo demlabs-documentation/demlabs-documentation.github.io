@@ -1,0 +1,4 @@
+File maxminddb_config.h
+=======================
+
+.. doxygenfile:: maxminddb_config.h

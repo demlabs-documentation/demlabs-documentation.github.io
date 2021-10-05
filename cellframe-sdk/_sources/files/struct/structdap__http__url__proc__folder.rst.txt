@@ -1,0 +1,4 @@
+Struct dap_http_url_proc_folder
+===============================
+
+.. doxygenstruct:: dap_http_url_proc_folder

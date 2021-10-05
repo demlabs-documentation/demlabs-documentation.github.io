@@ -1,0 +1,4 @@
+Struct _CONSOLE_INFO
+====================
+
+.. doxygenstruct:: _CONSOLE_INFO

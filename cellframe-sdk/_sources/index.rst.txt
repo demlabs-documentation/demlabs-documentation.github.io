@@ -3,11 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Cellframe SDK documentation page!
+Welcome to DAP SDK Crypto submodule documentation page!
 =====================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   :glob:
+   
+   filelist.rst
+   
+.. rubric:: Modules
 
 .. doxygenindex::

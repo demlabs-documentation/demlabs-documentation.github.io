@@ -1,0 +1,4 @@
+Struct _hist_entry
+==================
+
+.. doxygenstruct:: _hist_entry

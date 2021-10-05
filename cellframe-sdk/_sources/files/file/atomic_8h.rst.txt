@@ -1,0 +1,4 @@
+File atomic.h
+=============
+
+.. doxygenfile:: atomic.h

@@ -1,0 +1,4 @@
+Struct dap_http_file
+====================
+
+.. doxygenstruct:: dap_http_file

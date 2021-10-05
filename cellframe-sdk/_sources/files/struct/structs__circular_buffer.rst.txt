@@ -1,0 +1,4 @@
+Struct s_circularBuffer
+=======================
+
+.. doxygenstruct:: s_circularBuffer

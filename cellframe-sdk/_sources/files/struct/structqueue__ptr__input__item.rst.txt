@@ -1,0 +1,4 @@
+Struct queue_ptr_input_item
+===========================
+
+.. doxygenstruct:: queue_ptr_input_item

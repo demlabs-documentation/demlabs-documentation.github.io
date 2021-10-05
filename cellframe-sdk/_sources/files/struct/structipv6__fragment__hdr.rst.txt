@@ -1,0 +1,4 @@
+Struct ipv6_fragment_hdr
+========================
+
+.. doxygenstruct:: ipv6_fragment_hdr

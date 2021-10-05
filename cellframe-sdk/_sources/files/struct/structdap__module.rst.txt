@@ -1,0 +1,4 @@
+Struct dap_module
+=================
+
+.. doxygenstruct:: dap_module

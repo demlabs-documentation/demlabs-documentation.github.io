@@ -1,0 +1,4 @@
+Struct ni_hdr
+=============
+
+.. doxygenstruct:: ni_hdr

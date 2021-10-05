@@ -1,0 +1,4 @@
+Struct bliss_private_key_t
+==========================
+
+.. doxygenstruct:: bliss_private_key_t

@@ -1,0 +1,4 @@
+File dap_enc_picnic.h
+=====================
+
+.. doxygenfile:: dap_enc_picnic.h

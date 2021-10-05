@@ -1,0 +1,4 @@
+Struct ping_handle
+==================
+
+.. doxygenstruct:: ping_handle

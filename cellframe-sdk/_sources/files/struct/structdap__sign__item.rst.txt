@@ -1,0 +1,4 @@
+Struct dap_sign_item
+====================
+
+.. doxygenstruct:: dap_sign_item

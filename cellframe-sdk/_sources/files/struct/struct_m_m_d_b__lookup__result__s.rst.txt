@@ -1,0 +1,4 @@
+Struct MMDB_lookup_result_s
+===========================
+
+.. doxygenstruct:: MMDB_lookup_result_s

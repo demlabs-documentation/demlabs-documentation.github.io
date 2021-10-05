@@ -1,0 +1,4 @@
+Struct _dap_dns_server_t
+========================
+
+.. doxygenstruct:: _dap_dns_server_t

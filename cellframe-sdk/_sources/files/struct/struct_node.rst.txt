@@ -1,0 +1,4 @@
+Struct Node
+===========
+
+.. doxygenstruct:: Node

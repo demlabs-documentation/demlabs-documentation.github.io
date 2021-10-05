@@ -1,0 +1,4 @@
+Struct dap_chain_net_srv_ch_vpn_info
+====================================
+
+.. doxygenstruct:: dap_chain_net_srv_ch_vpn_info

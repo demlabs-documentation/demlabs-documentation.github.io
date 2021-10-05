@@ -1,0 +1,4 @@
+File sampler.h
+==============
+
+.. doxygenfile:: sampler.h

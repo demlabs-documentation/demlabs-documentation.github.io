@@ -1,0 +1,4 @@
+File modes.h
+============
+
+.. doxygenfile:: modes.h

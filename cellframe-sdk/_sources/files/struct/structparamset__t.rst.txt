@@ -1,0 +1,4 @@
+Struct paramset_t
+=================
+
+.. doxygenstruct:: paramset_t

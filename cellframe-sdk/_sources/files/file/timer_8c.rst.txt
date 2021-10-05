@@ -1,0 +1,4 @@
+File timer.c
+============
+
+.. doxygenfile:: timer.c

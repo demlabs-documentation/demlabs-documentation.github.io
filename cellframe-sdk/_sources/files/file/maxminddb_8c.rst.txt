@@ -1,0 +1,4 @@
+File maxminddb.c
+================
+
+.. doxygenfile:: maxminddb.c

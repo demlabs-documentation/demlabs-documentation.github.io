@@ -1,0 +1,4 @@
+Struct dap_chain_block_section
+==============================
+
+.. doxygenstruct:: dap_chain_block_section

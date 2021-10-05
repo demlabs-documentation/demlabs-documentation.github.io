@@ -1,0 +1,4 @@
+Struct _dap_slist
+=================
+
+.. doxygenstruct:: _dap_slist

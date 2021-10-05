@@ -1,0 +1,4 @@
+Struct rpmalloc_config_t
+========================
+
+.. doxygenstruct:: rpmalloc_config_t

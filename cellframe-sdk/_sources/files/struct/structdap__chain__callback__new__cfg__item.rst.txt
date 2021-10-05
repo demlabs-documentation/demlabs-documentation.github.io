@@ -1,0 +1,4 @@
+Struct dap_chain_callback_new_cfg_item
+======================================
+
+.. doxygenstruct:: dap_chain_callback_new_cfg_item

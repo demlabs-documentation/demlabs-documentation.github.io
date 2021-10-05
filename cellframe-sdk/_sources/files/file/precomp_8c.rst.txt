@@ -1,0 +1,4 @@
+File precomp.c
+==============
+
+.. doxygenfile:: precomp.c

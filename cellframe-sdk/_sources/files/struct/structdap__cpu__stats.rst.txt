@@ -1,0 +1,4 @@
+Struct dap_cpu_stats
+====================
+
+.. doxygenstruct:: dap_cpu_stats

@@ -1,0 +1,4 @@
+Struct rpmalloc_global_statistics_t
+===================================
+
+.. doxygenstruct:: rpmalloc_global_statistics_t

@@ -1,0 +1,4 @@
+Struct newhope_signature_t
+==========================
+
+.. doxygenstruct:: newhope_signature_t

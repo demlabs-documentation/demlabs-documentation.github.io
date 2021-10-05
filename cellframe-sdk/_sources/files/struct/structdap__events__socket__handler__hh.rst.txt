@@ -1,0 +1,4 @@
+Struct dap_events_socket_handler_hh
+===================================
+
+.. doxygenstruct:: dap_events_socket_handler_hh

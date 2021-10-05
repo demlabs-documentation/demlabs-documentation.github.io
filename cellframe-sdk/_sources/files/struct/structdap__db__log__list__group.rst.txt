@@ -1,0 +1,4 @@
+Struct dap_db_log_list_group
+============================
+
+.. doxygenstruct:: dap_db_log_list_group

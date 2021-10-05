@@ -1,0 +1,4 @@
+File newhope_poly.h
+===================
+
+.. doxygenfile:: newhope_poly.h

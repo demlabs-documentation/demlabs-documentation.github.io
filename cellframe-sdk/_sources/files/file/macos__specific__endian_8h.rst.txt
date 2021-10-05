@@ -1,0 +1,4 @@
+File macos_specific_endian.h
+============================
+
+.. doxygenfile:: macos_specific_endian.h

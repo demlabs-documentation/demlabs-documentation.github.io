@@ -1,0 +1,4 @@
+Struct picnic_privatekey_t
+==========================
+
+.. doxygenstruct:: picnic_privatekey_t

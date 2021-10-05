@@ -1,0 +1,4 @@
+File dap_sha3_tests.c
+=====================
+
+.. doxygenfile:: dap_sha3_tests.c

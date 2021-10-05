@@ -1,0 +1,4 @@
+Struct dap_stream_session
+=========================
+
+.. doxygenstruct:: dap_stream_session

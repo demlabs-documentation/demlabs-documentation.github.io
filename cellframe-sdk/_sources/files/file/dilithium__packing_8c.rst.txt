@@ -1,0 +1,4 @@
+File dilithium_packing.c
+========================
+
+.. doxygenfile:: dilithium_packing.c

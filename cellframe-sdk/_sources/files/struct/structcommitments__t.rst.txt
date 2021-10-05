@@ -1,0 +1,4 @@
+Struct commitments_t
+====================
+
+.. doxygenstruct:: commitments_t

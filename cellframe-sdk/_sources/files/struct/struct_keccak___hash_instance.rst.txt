@@ -1,0 +1,4 @@
+Struct Keccak_HashInstance
+==========================
+
+.. doxygenstruct:: Keccak_HashInstance

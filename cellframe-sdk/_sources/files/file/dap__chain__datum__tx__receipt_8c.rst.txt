@@ -1,0 +1,4 @@
+File dap_chain_datum_tx_receipt.c
+=================================
+
+.. doxygenfile:: dap_chain_datum_tx_receipt.c

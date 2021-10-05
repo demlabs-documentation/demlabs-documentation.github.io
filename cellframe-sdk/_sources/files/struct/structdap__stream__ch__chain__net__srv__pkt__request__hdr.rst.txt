@@ -1,0 +1,4 @@
+Struct dap_stream_ch_chain_net_srv_pkt_request_hdr
+==================================================
+
+.. doxygenstruct:: dap_stream_ch_chain_net_srv_pkt_request_hdr

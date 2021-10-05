@@ -1,0 +1,4 @@
+Struct heap_class_t
+===================
+
+.. doxygenstruct:: heap_class_t

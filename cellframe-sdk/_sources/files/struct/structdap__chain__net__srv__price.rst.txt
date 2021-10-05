@@ -1,0 +1,4 @@
+Struct dap_chain_net_srv_price
+==============================
+
+.. doxygenstruct:: dap_chain_net_srv_price

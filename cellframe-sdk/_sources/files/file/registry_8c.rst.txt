@@ -1,0 +1,4 @@
+File registry.c
+===============
+
+.. doxygenfile:: registry.c

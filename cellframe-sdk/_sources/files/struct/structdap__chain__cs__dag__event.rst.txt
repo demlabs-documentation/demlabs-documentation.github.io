@@ -1,0 +1,4 @@
+Struct dap_chain_cs_dag_event
+=============================
+
+.. doxygenstruct:: dap_chain_cs_dag_event

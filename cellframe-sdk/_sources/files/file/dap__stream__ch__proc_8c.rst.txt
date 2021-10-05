@@ -1,0 +1,4 @@
+File dap_stream_ch_proc.c
+=========================
+
+.. doxygenfile:: dap_stream_ch_proc.c

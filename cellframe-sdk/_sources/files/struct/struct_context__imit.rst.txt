@@ -1,0 +1,4 @@
+Struct Context_imit
+===================
+
+.. doxygenstruct:: Context_imit

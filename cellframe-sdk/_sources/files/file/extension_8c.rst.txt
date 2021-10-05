@@ -1,0 +1,4 @@
+File extension.c
+================
+
+.. doxygenfile:: extension.c

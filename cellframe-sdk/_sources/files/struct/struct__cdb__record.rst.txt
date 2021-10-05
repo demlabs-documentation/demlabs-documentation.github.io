@@ -1,0 +1,4 @@
+Struct _cdb_record
+==================
+
+.. doxygenstruct:: _cdb_record

@@ -1,0 +1,4 @@
+Struct dap_chain_net_srv_stake
+==============================
+
+.. doxygenstruct:: dap_chain_net_srv_stake

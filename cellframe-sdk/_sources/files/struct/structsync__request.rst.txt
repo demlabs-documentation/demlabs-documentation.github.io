@@ -1,0 +1,4 @@
+Struct sync_request
+===================
+
+.. doxygenstruct:: sync_request

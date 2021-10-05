@@ -1,0 +1,4 @@
+Struct ipv6_hdr
+===============
+
+.. doxygenstruct:: ipv6_hdr

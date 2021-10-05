@@ -1,0 +1,4 @@
+File dap_enc_picnic_test.c
+==========================
+
+.. doxygenfile:: dap_enc_picnic_test.c

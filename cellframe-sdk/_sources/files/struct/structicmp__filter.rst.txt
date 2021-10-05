@@ -1,0 +1,4 @@
+Struct icmp_filter
+==================
+
+.. doxygenstruct:: icmp_filter

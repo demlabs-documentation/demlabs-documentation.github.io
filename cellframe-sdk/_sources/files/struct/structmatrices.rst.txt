@@ -1,0 +1,4 @@
+Struct matrices
+===============
+
+.. doxygenstruct:: matrices

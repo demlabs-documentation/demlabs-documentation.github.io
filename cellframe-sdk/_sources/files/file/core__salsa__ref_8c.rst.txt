@@ -1,0 +1,4 @@
+File core_salsa_ref.c
+=====================
+
+.. doxygenfile:: core_salsa_ref.c

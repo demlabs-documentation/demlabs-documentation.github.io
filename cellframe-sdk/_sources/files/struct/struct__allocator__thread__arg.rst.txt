@@ -1,0 +1,4 @@
+Struct _allocator_thread_arg
+============================
+
+.. doxygenstruct:: _allocator_thread_arg

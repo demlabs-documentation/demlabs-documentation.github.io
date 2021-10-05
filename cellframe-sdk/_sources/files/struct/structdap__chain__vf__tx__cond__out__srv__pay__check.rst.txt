@@ -1,0 +1,4 @@
+Struct dap_chain_vf_tx_cond_out_srv_pay_check
+=============================================
+
+.. doxygenstruct:: dap_chain_vf_tx_cond_out_srv_pay_check

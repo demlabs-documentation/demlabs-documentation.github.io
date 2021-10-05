@@ -1,0 +1,4 @@
+Struct dap_global_db_hist
+=========================
+
+.. doxygenstruct:: dap_global_db_hist

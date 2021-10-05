@@ -1,0 +1,4 @@
+Struct pthread_barrier_t
+========================
+
+.. doxygenstruct:: pthread_barrier_t

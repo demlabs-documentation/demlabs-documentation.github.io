@@ -1,0 +1,4 @@
+File rpmalloc.h
+===============
+
+.. doxygenfile:: rpmalloc.h

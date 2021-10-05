@@ -1,0 +1,4 @@
+Struct stream_ch_chain_net_pkt_hdr
+==================================
+
+.. doxygenstruct:: stream_ch_chain_net_pkt_hdr

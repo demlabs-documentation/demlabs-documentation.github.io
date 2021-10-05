@@ -1,0 +1,4 @@
+File sample.c
+=============
+
+.. doxygenfile:: sample.c

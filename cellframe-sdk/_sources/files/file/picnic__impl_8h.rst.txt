@@ -1,0 +1,4 @@
+File picnic_impl.h
+==================
+
+.. doxygenfile:: picnic_impl.h

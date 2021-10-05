@@ -1,0 +1,4 @@
+Struct dns_client
+=================
+
+.. doxygenstruct:: dns_client

@@ -1,0 +1,4 @@
+Struct sampler_s
+================
+
+.. doxygenstruct:: sampler_s

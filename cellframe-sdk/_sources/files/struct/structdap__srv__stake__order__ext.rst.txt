@@ -1,0 +1,4 @@
+Struct dap_srv_stake_order_ext
+==============================
+
+.. doxygenstruct:: dap_srv_stake_order_ext

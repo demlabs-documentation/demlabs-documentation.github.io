@@ -1,0 +1,4 @@
+Struct geoip_info
+=================
+
+.. doxygenstruct:: geoip_info

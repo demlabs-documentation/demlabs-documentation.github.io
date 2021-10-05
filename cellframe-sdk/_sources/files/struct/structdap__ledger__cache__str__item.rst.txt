@@ -1,0 +1,4 @@
+Struct dap_ledger_cache_str_item
+================================
+
+.. doxygenstruct:: dap_ledger_cache_str_item

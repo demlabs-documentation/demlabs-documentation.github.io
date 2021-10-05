@@ -1,0 +1,4 @@
+Struct bliss_param_t
+====================
+
+.. doxygenstruct:: bliss_param_t

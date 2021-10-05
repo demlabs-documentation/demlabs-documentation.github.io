@@ -1,0 +1,4 @@
+Struct dap_db_driver_callbacks
+==============================
+
+.. doxygenstruct:: dap_db_driver_callbacks

@@ -1,0 +1,4 @@
+Struct MMDB_ipv4_start_node_s
+=============================
+
+.. doxygenstruct:: MMDB_ipv4_start_node_s

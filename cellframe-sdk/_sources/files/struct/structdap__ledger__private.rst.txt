@@ -1,0 +1,4 @@
+Struct dap_ledger_private
+=========================
+
+.. doxygenstruct:: dap_ledger_private

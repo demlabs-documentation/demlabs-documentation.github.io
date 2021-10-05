@@ -1,0 +1,4 @@
+Struct dap_http_user_agent
+==========================
+
+.. doxygenstruct:: dap_http_user_agent

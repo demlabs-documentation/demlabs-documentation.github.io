@@ -1,0 +1,4 @@
+File dap_chain_net_srv_stake.h
+==============================
+
+.. doxygenfile:: dap_chain_net_srv_stake.h

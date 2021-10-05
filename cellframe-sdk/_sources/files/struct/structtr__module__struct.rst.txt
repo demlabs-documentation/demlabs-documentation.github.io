@@ -1,0 +1,4 @@
+Struct tr_module_struct
+=======================
+
+.. doxygenstruct:: tr_module_struct

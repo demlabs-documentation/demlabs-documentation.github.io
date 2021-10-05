@@ -1,0 +1,252 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Union dap_chain_hash_fast &mdash; cellframe 2.9 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Union dap_chain_hash_slow" href="uniondap__chain__hash__slow.html" />
+    <link rel="prev" title="Union dap_chain_datum_typeid" href="uniondap__chain__datum__typeid.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> cellframe
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../filelist.html">File list</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../filelist.html">File list</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../structlist.html">Struct list</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../unionlist.html">Union list</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="union__dap__dns__message__flags__t.html">Union _dap_dns_message_flags_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unioncommon__sockaddr.html">Union common_sockaddr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="uniondap__chain__block__typeid.html">Union dap_chain_block_typeid</a></li>
+<li class="toctree-l3"><a class="reference internal" href="uniondap__chain__cell__id.html">Union dap_chain_cell_id</a></li>
+<li class="toctree-l3"><a class="reference internal" href="uniondap__chain__datum__typeid.html">Union dap_chain_datum_typeid</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Union dap_chain_hash_fast</a></li>
+<li class="toctree-l3"><a class="reference internal" href="uniondap__chain__hash__slow.html">Union dap_chain_hash_slow</a></li>
+<li class="toctree-l3"><a class="reference internal" href="uniondap__chain__id.html">Union dap_chain_id</a></li>
+<li class="toctree-l3"><a class="reference internal" href="uniondap__chain__net__id.html">Union dap_chain_net_id</a></li>
+<li class="toctree-l3"><a class="reference internal" href="uniondap__chain__net__srv__price__unit__uid__t.html">Union dap_chain_net_srv_price_unit_uid_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="uniondap__chain__net__srv__uid__t.html">Union dap_chain_net_srv_uid_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="uniondap__chain__node__addr.html">Union dap_chain_node_addr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="uniondap__chain__node__role.html">Union dap_chain_node_role</a></li>
+<li class="toctree-l3"><a class="reference internal" href="uniondap__pkey__type.html">Union dap_pkey_type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="uniondap__sign__type.html">Union dap_sign_type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unionnode__addr__t.html">Union node_addr_t</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">cellframe</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../filelist.html">File list</a> &raquo;</li>
+        
+          <li><a href="../unionlist.html">Union list</a> &raquo;</li>
+        
+      <li>Union dap_chain_hash_fast</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/files/union/uniondap__chain__hash__fast.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="union-dap-chain-hash-fast">
+<h1>Union dap_chain_hash_fast<a class="headerlink" href="#union-dap-chain-hash-fast" title="Permalink to this headline">¶</a></h1>
+<dl class="cpp union">
+<dt class="sig sig-object cpp" id="_CPPv419dap_chain_hash_fast">
+<span id="_CPPv319dap_chain_hash_fast"></span><span id="_CPPv219dap_chain_hash_fast"></span><span class="target" id="uniondap__chain__hash__fast"></span><span class="k"><span class="pre">union</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_chain_hash_fast</span></span></span><br /></dt>
+<dd><em>#include &lt;D:/Git/demlabs/cellframe-for-test/cellframe-sdk/dap-sdk/crypto/include/dap_hash.h&gt;</em><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N19dap_chain_hash_fast3rawE">
+<span id="_CPPv3N19dap_chain_hash_fast3rawE"></span><span id="_CPPv2N19dap_chain_hash_fast3rawE"></span><span id="dap_chain_hash_fast::raw__uint8_tA"></span><span class="target" id="uniondap__chain__hash__fast_1a783bec994d3c6d066967494d48662c17"></span><span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">raw</span></span></span><span class="p"><span class="pre">[</span></span><span class="n"><span class="pre">DAP_CHAIN_HASH_FAST_SIZE</span></span><span class="p"><span class="pre">]</span></span><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="uniondap__chain__hash__slow.html" class="btn btn-neutral float-right" title="Union dap_chain_hash_slow" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="uniondap__chain__datum__typeid.html" class="btn btn-neutral float-left" title="Union dap_chain_datum_typeid" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Demlabs.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

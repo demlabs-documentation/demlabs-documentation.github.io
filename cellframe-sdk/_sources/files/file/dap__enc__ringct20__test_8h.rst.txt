@@ -1,0 +1,4 @@
+File dap_enc_ringct20_test.h
+============================
+
+.. doxygenfile:: dap_enc_ringct20_test.h

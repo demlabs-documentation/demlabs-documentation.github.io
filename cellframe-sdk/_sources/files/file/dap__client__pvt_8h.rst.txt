@@ -1,0 +1,4 @@
+File dap_client_pvt.h
+=====================
+
+.. doxygenfile:: dap_client_pvt.h

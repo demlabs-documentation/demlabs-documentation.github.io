@@ -1,0 +1,4 @@
+Struct dap_chain_ledger_token_item
+==================================
+
+.. doxygenstruct:: dap_chain_ledger_token_item

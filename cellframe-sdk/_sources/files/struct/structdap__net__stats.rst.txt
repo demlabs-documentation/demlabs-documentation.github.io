@@ -1,0 +1,4 @@
+Struct dap_net_stats
+====================
+
+.. doxygenstruct:: dap_net_stats

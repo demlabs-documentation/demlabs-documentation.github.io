@@ -1,0 +1,4 @@
+Struct service_list
+===================
+
+.. doxygenstruct:: service_list

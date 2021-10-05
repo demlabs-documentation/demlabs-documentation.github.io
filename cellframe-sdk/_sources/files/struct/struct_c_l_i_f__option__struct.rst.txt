@@ -1,0 +1,4 @@
+Struct CLIF_option_struct
+=========================
+
+.. doxygenstruct:: CLIF_option_struct

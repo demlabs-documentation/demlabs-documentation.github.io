@@ -1,0 +1,4 @@
+Struct dap_chain_cs_blocks_pvt
+==============================
+
+.. doxygenstruct:: dap_chain_cs_blocks_pvt

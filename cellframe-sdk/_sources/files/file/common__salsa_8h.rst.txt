@@ -1,0 +1,4 @@
+File common_salsa.h
+===================
+
+.. doxygenfile:: common_salsa.h

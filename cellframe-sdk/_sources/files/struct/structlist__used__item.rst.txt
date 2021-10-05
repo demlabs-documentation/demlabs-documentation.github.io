@@ -1,0 +1,4 @@
+Struct list_used_item
+=====================
+
+.. doxygenstruct:: list_used_item

@@ -1,0 +1,4 @@
+File module.c
+=============
+
+.. doxygenfile:: module.c

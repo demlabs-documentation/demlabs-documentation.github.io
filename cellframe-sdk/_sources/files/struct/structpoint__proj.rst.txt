@@ -1,0 +1,4 @@
+Struct point_proj
+=================
+
+.. doxygenstruct:: point_proj

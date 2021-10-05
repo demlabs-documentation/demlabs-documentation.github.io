@@ -1,0 +1,4 @@
+File dap_chain_btc_rpc_handlers.c
+=================================
+
+.. doxygenfile:: dap_chain_btc_rpc_handlers.c

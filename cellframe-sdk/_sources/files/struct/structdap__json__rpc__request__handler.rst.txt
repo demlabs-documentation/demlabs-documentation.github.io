@@ -1,0 +1,4 @@
+Struct dap_json_rpc_request_handler
+===================================
+
+.. doxygenstruct:: dap_json_rpc_request_handler

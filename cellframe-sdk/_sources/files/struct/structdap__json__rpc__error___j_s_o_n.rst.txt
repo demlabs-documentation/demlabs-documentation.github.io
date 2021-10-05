@@ -1,0 +1,4 @@
+Struct dap_json_rpc_error_JSON
+==============================
+
+.. doxygenstruct:: dap_json_rpc_error_JSON

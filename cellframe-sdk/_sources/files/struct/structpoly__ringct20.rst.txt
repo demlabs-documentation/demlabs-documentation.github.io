@@ -1,0 +1,4 @@
+Struct poly_ringct20
+====================
+
+.. doxygenstruct:: poly_ringct20

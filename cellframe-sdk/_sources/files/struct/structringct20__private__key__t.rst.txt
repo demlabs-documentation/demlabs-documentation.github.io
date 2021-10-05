@@ -1,0 +1,4 @@
+Struct ringct20_private_key_t
+=============================
+
+.. doxygenstruct:: ringct20_private_key_t

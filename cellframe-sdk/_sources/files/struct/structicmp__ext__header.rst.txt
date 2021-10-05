@@ -1,0 +1,4 @@
+Struct icmp_ext_header
+======================
+
+.. doxygenstruct:: icmp_ext_header

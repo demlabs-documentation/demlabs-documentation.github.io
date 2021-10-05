@@ -1,0 +1,4 @@
+Struct newhope_public_key_t
+===========================
+
+.. doxygenstruct:: newhope_public_key_t

@@ -1,0 +1,4 @@
+Struct dap_events_socket_uuid_w_data
+====================================
+
+.. doxygenstruct:: dap_events_socket_uuid_w_data

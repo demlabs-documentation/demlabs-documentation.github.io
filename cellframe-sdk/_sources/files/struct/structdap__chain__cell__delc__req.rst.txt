@@ -1,0 +1,4 @@
+Struct dap_chain_cell_delc_req
+==============================
+
+.. doxygenstruct:: dap_chain_cell_delc_req

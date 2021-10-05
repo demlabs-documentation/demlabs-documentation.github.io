@@ -1,0 +1,4 @@
+Struct dap_stream_worker_msg_io
+===============================
+
+.. doxygenstruct:: dap_stream_worker_msg_io

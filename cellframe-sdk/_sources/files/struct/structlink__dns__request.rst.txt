@@ -1,0 +1,4 @@
+Struct link_dns_request
+=======================
+
+.. doxygenstruct:: link_dns_request

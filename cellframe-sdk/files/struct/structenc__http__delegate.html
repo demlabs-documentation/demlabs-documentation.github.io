@@ -1,0 +1,612 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Struct enc_http_delegate &mdash; cellframe 2.9 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Struct entropy_s" href="structentropy__s.html" />
+    <link rel="prev" title="Struct dns_client" href="structdns__client.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> cellframe
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../filelist.html">File list</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../filelist.html">File list</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../structlist.html">Struct list</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="struct___c_o_n_s_o_l_e___i_n_f_o.html">Struct _CONSOLE_INFO</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct___s_q_l_i_t_e___r_o_w___v_a_l_u_e__.html">Struct _SQLITE_ROW_VALUE_</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct___s_q_l_i_t_e___v_a_l_u_e__.html">Struct _SQLITE_VALUE_</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct__allocator__thread__arg.html">Struct _allocator_thread_arg</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct__cdb__instance.html">Struct _cdb_instance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct__cdb__options.html">Struct _cdb_options</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct__cdb__record.html">Struct _cdb_record</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct__dap__dns__buf__t.html">Struct _dap_dns_buf_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct__dap__dns__message__flags__bits__t.html">Struct _dap_dns_message_flags_bits_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct__dap__dns__server__t.html">Struct _dap_dns_server_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct__dap__dns__zone__hash__t.html">Struct _dap_dns_zone_hash_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct__dap__list.html">Struct _dap_list</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct__dap__multi__sign__keys__t.html">Struct _dap_multi_sign_keys_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct__dap__multi__sign__meta__t.html">Struct _dap_multi_sign_meta_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct__dap__multi__sign__params__t.html">Struct _dap_multi_sign_params_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct__dap__multi__sign__t.html">Struct _dap_multi_sign_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct__dap__slist.html">Struct _dap_slist</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct__dap__string.html">Struct _dap_string</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct__hist__entry.html">Struct _hist_entry</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct__oaes__ctx.html">Struct _oaes_ctx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct__oaes__key.html">Struct _oaes_key</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct__obj__arg.html">Struct _obj_arg</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_c_l_i_f__argument__struct.html">Struct CLIF_argument_struct</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_c_l_i_f__option__struct.html">Struct CLIF_option_struct</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_context__cbc.html">Struct Context_cbc</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_context__cfb.html">Struct Context_cfb</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_context__ctr.html">Struct Context_ctr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_context__ecb.html">Struct Context_ecb</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_context__imit.html">Struct Context_imit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_context__ofb.html">Struct Context_ofb</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_i_w.html">Struct IW</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_keccak___hash_instance.html">Struct Keccak_HashInstance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_lattice_crypto_struct.html">Struct LatticeCryptoStruct</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_m_m_d_b__data__pool__s.html">Struct MMDB_data_pool_s</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_m_m_d_b__description__s.html">Struct MMDB_description_s</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_m_m_d_b__entry__data__list__s.html">Struct MMDB_entry_data_list_s</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_m_m_d_b__entry__data__s.html">Struct MMDB_entry_data_s</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_m_m_d_b__entry__s.html">Struct MMDB_entry_s</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_m_m_d_b__ipv4__start__node__s.html">Struct MMDB_ipv4_start_node_s</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_m_m_d_b__lookup__result__s.html">Struct MMDB_lookup_result_s</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_m_m_d_b__metadata__s.html">Struct MMDB_metadata_s</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_m_m_d_b__s.html">Struct MMDB_s</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_m_m_d_b__search__node__s.html">Struct MMDB_search_node_s</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_node.html">Struct Node</a></li>
+<li class="toctree-l3"><a class="reference internal" href="struct_s_t_r_u_c_t.html">Struct STRUCT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structbenchmark__arg.html">Struct benchmark_arg</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structbf__key__st.html">Struct bf_key_st</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structbliss__param__t.html">Struct bliss_param_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structbliss__private__key__t.html">Struct bliss_private_key_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structbliss__public__key__t.html">Struct bliss_public_key_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structbliss__signature__t.html">Struct bliss_signature_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structch__vpn__pkt.html">Struct ch_vpn_pkt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structcommitments__t.html">Struct commitments_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__app__cli__cmd__state.html">Struct dap_app_cli_cmd_state</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__binary__tree.html">Struct dap_binary_tree</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__cert.html">Struct dap_cert</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__cert__file.html">Struct dap_cert_file</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__cert__file__aux.html">Struct dap_cert_file_aux</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__cert__file__hdr.html">Struct dap_cert_file_hdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__cert__folder.html">Struct dap_cert_folder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__cert__item.html">Struct dap_cert_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__cert__metadata.html">Struct dap_cert_metadata</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__cert__pvt.html">Struct dap_cert_pvt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain.html">Struct dap_chain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__addr.html">Struct dap_chain_addr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__atom__item.html">Struct dap_chain_atom_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__atom__iter.html">Struct dap_chain_atom_iter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__block.html">Struct dap_chain_block</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__block__cache.html">Struct dap_chain_block_cache</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__block__cache__hash.html">Struct dap_chain_block_cache_hash</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__block__cache__tx__index.html">Struct dap_chain_block_cache_tx_index</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__block__chunk.html">Struct dap_chain_block_chunk</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__block__chunks.html">Struct dap_chain_block_chunks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__block__hdr.html">Struct dap_chain_block_hdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__block__meta.html">Struct dap_chain_block_meta</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__block__section.html">Struct dap_chain_block_section</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__callback__new__cfg__item.html">Struct dap_chain_callback_new_cfg_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__cell.html">Struct dap_chain_cell</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__cell__decl.html">Struct dap_chain_cell_decl</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__cell__delc__req.html">Struct dap_chain_cell_delc_req</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__cell__file__header.html">Struct dap_chain_cell_file_header</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__class__dag__event__hdr.html">Struct dap_chain_class_dag_event_hdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__cs.html">Struct dap_chain_cs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__cs__block__poa.html">Struct dap_chain_cs_block_poa</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__cs__blocks.html">Struct dap_chain_cs_blocks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__cs__blocks__iter.html">Struct dap_chain_cs_blocks_iter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__cs__blocks__pvt.html">Struct dap_chain_cs_blocks_pvt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__cs__dag.html">Struct dap_chain_cs_dag</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__cs__dag__event.html">Struct dap_chain_cs_dag_event</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__cs__dag__event__item.html">Struct dap_chain_cs_dag_event_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__cs__dag__hal__item.html">Struct dap_chain_cs_dag_hal_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__cs__dag__poa.html">Struct dap_chain_cs_dag_poa</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__cs__dag__poa__pvt.html">Struct dap_chain_cs_dag_poa_pvt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__cs__dag__pos.html">Struct dap_chain_cs_dag_pos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__cs__dag__pos__pvt.html">Struct dap_chain_cs_dag_pos_pvt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__cs__dag__pvt.html">Struct dap_chain_cs_dag_pvt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__datum.html">Struct dap_chain_datum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__datum__hashtree__roots__v1.html">Struct dap_chain_datum_hashtree_roots_v1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__datum__hashtree__roots__v2.html">Struct dap_chain_datum_hashtree_roots_v2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__datum__iter.html">Struct dap_chain_datum_iter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__datum__token.html">Struct dap_chain_datum_token</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__datum__token__emission.html">Struct dap_chain_datum_token_emission</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__datum__tx.html">Struct dap_chain_datum_tx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__datum__tx__receipt.html">Struct dap_chain_datum_tx_receipt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__gdb.html">Struct dap_chain_gdb</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__gdb__datum__hash__item.html">Struct dap_chain_gdb_datum_hash_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__gdb__private.html">Struct dap_chain_gdb_private</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__item.html">Struct dap_chain_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__item__id.html">Struct dap_chain_item_id</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__ledger__token__emission__item.html">Struct dap_chain_ledger_token_emission_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__ledger__token__item.html">Struct dap_chain_ledger_token_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__ledger__tokenizer.html">Struct dap_chain_ledger_tokenizer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__ledger__tx__bound.html">Struct dap_chain_ledger_tx_bound</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__ledger__tx__item.html">Struct dap_chain_ledger_tx_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__ledger__verificator.html">Struct dap_chain_ledger_verificator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net.html">Struct dap_chain_net</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__item.html">Struct dap_chain_net_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__pvt.html">Struct dap_chain_net_pvt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__remote.html">Struct dap_chain_net_remote</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__session__data.html">Struct dap_chain_net_session_data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__srv.html">Struct dap_chain_net_srv</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__srv__abstract.html">Struct dap_chain_net_srv_abstract</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__srv__banlist__item.html">Struct dap_chain_net_srv_banlist_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__srv__ch__vpn.html">Struct dap_chain_net_srv_ch_vpn</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__srv__ch__vpn__info.html">Struct dap_chain_net_srv_ch_vpn_info</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__srv__client.html">Struct dap_chain_net_srv_client</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__srv__grace.html">Struct dap_chain_net_srv_grace</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__srv__order.html">Struct dap_chain_net_srv_order</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__srv__price.html">Struct dap_chain_net_srv_price</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__srv__stake.html">Struct dap_chain_net_srv_stake</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__srv__stake__item.html">Struct dap_chain_net_srv_stake_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__srv__stream__session.html">Struct dap_chain_net_srv_stream_session</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__srv__usage.html">Struct dap_chain_net_srv_usage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__srv__vpn.html">Struct dap_chain_net_srv_vpn</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__srv__vpn__item__ipv4.html">Struct dap_chain_net_srv_vpn_item_ipv4</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__srv__vpn__tun__socket.html">Struct dap_chain_net_srv_vpn_tun_socket</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__srv__xchange.html">Struct dap_chain_net_srv_xchange</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__srv__xchange__db__item.html">Struct dap_chain_net_srv_xchange_db_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__net__srv__xchange__price.html">Struct dap_chain_net_srv_xchange_price</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__node.html">Struct dap_chain_node</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__node__client.html">Struct dap_chain_node_client</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__node__client__callbacks.html">Struct dap_chain_node_client_callbacks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__node__client__handle.html">Struct dap_chain_node_client_handle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__node__cmd__item.html">Struct dap_chain_node_cmd_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__node__cmd__item__func__overrides.html">Struct dap_chain_node_cmd_item_func_overrides</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__node__decl.html">Struct dap_chain_node_decl</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__node__delc__req.html">Struct dap_chain_node_delc_req</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__node__info.html">Struct dap_chain_node_info</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__node__link__item.html">Struct dap_chain_node_link_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__node__publ.html">Struct dap_chain_node_publ</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__pkt__item.html">Struct dap_chain_pkt_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__pvt.html">Struct dap_chain_pvt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__receipt.html">Struct dap_chain_receipt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__tx__block__index.html">Struct dap_chain_tx_block_index</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__tx__hash__processed__ht.html">Struct dap_chain_tx_hash_processed_ht</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__tx__in.html">Struct dap_chain_tx_in</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__tx__in__cond.html">Struct dap_chain_tx_in_cond</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__tx__item.html">Struct dap_chain_tx_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__tx__out.html">Struct dap_chain_tx_out</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__tx__out__cond.html">Struct dap_chain_tx_out_cond</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__tx__out__ext.html">Struct dap_chain_tx_out_ext</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__tx__pkey.html">Struct dap_chain_tx_pkey</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__tx__sig.html">Struct dap_chain_tx_sig</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__tx__token.html">Struct dap_chain_tx_token</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__tx__token__ext.html">Struct dap_chain_tx_token_ext</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__vf__tx__check.html">Struct dap_chain_vf_tx_check</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__vf__tx__cond__in__check.html">Struct dap_chain_vf_tx_cond_in_check</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__vf__tx__cond__out__srv__pay__check.html">Struct dap_chain_vf_tx_cond_out_srv_pay_check</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__wallet.html">Struct dap_chain_wallet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__wallet__cert.html">Struct dap_chain_wallet_cert</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__wallet__cert__hdr.html">Struct dap_chain_wallet_cert_hdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__wallet__file.html">Struct dap_chain_wallet_file</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__wallet__file__hdr.html">Struct dap_chain_wallet_file_hdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__chain__wallet__internal.html">Struct dap_chain_wallet_internal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__client.html">Struct dap_client</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__client__internal.html">Struct dap_client_internal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__client__list.html">Struct dap_client_list</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__client__pvt__hh.html">Struct dap_client_pvt_hh</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__config.html">Struct dap_config</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__config__internal.html">Struct dap_config_internal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__config__item.html">Struct dap_config_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__cpu.html">Struct dap_cpu</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__cpu__stats.html">Struct dap_cpu_stats</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__datum__mempool.html">Struct dap_datum_mempool</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__db__driver__callbacks.html">Struct dap_db_driver_callbacks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__db__log__list.html">Struct dap_db_log_list</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__db__log__list__group.html">Struct dap_db_log_list_group</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__db__log__list__obj.html">Struct dap_db_log_list_obj</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__enc__aes__key.html">Struct dap_enc_aes_key</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__enc__ca.html">Struct dap_enc_ca</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__enc__defeo__key.html">Struct dap_enc_defeo_key</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__enc__key.html">Struct dap_enc_key</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__enc__key__callbacks.html">Struct dap_enc_key_callbacks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__enc__key__serealize.html">Struct dap_enc_key_serealize</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__enc__ks__key.html">Struct dap_enc_ks_key</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__events.html">Struct dap_events</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__events__socket.html">Struct dap_events_socket</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__events__socket__buf__item.html">Struct dap_events_socket_buf_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__events__socket__callbacks.html">Struct dap_events_socket_callbacks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__events__socket__handler__hh.html">Struct dap_events_socket_handler_hh</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__events__socket__uuid__w__data.html">Struct dap_events_socket_uuid_w_data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__events__socket__w__data.html">Struct dap_events_socket_w_data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__global__db__hist.html">Struct dap_global_db_hist</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__global__db__obj.html">Struct dap_global_db_obj</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__http.html">Struct dap_http</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__http__cache.html">Struct dap_http_cache</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__http__client.html">Struct dap_http_client</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__http__client__internal.html">Struct dap_http_client_internal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__http__file.html">Struct dap_http_file</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__http__header.html">Struct dap_http_header</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__http__simple.html">Struct dap_http_simple</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__http__simple__url__proc.html">Struct dap_http_simple_url_proc</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__http__url__proc.html">Struct dap_http_url_proc</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__http__url__proc__folder.html">Struct dap_http_url_proc_folder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__http__user__agent.html">Struct dap_http_user_agent</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__json__rpc__error.html">Struct dap_json_rpc_error</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__json__rpc__error___j_s_o_n.html">Struct dap_json_rpc_error_JSON</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__json__rpc__notification__handler.html">Struct dap_json_rpc_notification_handler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__json__rpc__param.html">Struct dap_json_rpc_param</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__json__rpc__params.html">Struct dap_json_rpc_params</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__json__rpc__request.html">Struct dap_json_rpc_request</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__json__rpc__request__handler.html">Struct dap_json_rpc_request_handler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__json__rpc__response.html">Struct dap_json_rpc_response</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__json__rpc__response___j_s_o_n.html">Struct dap_json_rpc_response_JSON</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__json__rpc__response__handler.html">Struct dap_json_rpc_response_handler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__ledger.html">Struct dap_ledger</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__ledger__cache__item.html">Struct dap_ledger_cache_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__ledger__cache__str__item.html">Struct dap_ledger_cache_str_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__ledger__private.html">Struct dap_ledger_private</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__ledger__wallet__balance.html">Struct dap_ledger_wallet_balance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__list__name__directories.html">Struct dap_list_name_directories</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__log__history__str__s.html">Struct dap_log_history_str_s</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__meta.html">Struct dap_meta</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__module.html">Struct dap_module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__module__args.html">Struct dap_module_args</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__net__stats.html">Struct dap_net_stats</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__network__notification__t.html">Struct dap_network_notification_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__pkey.html">Struct dap_pkey</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__proc__queue.html">Struct dap_proc_queue</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__proc__queue__item.html">Struct dap_proc_queue_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__proc__queue__msg.html">Struct dap_proc_queue_msg</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__proc__thread.html">Struct dap_proc_thread</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__process__memory.html">Struct dap_process_memory</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__server.html">Struct dap_server</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__sign.html">Struct dap_sign</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__sign__hdr.html">Struct dap_sign_hdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__sign__item.html">Struct dap_sign_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__srv__stake__order__ext.html">Struct dap_srv_stake_order_ext</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__srv__xchange__order__ext.html">Struct dap_srv_xchange_order_ext</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__store__obj.html">Struct dap_store_obj</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__store__obj__pkt.html">Struct dap_store_obj_pkt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream.html">Struct dap_stream</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__ch.html">Struct dap_stream_ch</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__ch__chain.html">Struct dap_stream_ch_chain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__ch__chain__hash__item.html">Struct dap_stream_ch_chain_hash_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__ch__chain__net.html">Struct dap_stream_ch_chain_net</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__ch__chain__net__pkt.html">Struct dap_stream_ch_chain_net_pkt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__ch__chain__net__srv.html">Struct dap_stream_ch_chain_net_srv</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__ch__chain__net__srv__pkt__data.html">Struct dap_stream_ch_chain_net_srv_pkt_data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__ch__chain__net__srv__pkt__data__hdr.html">Struct dap_stream_ch_chain_net_srv_pkt_data_hdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__ch__chain__net__srv__pkt__error.html">Struct dap_stream_ch_chain_net_srv_pkt_error</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__ch__chain__net__srv__pkt__request.html">Struct dap_stream_ch_chain_net_srv_pkt_request</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__ch__chain__net__srv__pkt__request__hdr.html">Struct dap_stream_ch_chain_net_srv_pkt_request_hdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__ch__chain__net__srv__pkt__success.html">Struct dap_stream_ch_chain_net_srv_pkt_success</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__ch__chain__net__srv__pkt__success__hdr.html">Struct dap_stream_ch_chain_net_srv_pkt_success_hdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__ch__chain__net__srv__pkt__test.html">Struct dap_stream_ch_chain_net_srv_pkt_test</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__ch__chain__pkt.html">Struct dap_stream_ch_chain_pkt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__ch__chain__pkt__hdr.html">Struct dap_stream_ch_chain_pkt_hdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__ch__chain__sync__request.html">Struct dap_stream_ch_chain_sync_request</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__ch__chain__update__element.html">Struct dap_stream_ch_chain_update_element</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__ch__pkt.html">Struct dap_stream_ch_pkt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__ch__pkt__hdr.html">Struct dap_stream_ch_pkt_hdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__ch__proc.html">Struct dap_stream_ch_proc</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__ch__vpn.html">Struct dap_stream_ch_vpn</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__pkt.html">Struct dap_stream_pkt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__pkt__hdr.html">Struct dap_stream_pkt_hdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__session.html">Struct dap_stream_session</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__worker.html">Struct dap_stream_worker</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__stream__worker__msg__io.html">Struct dap_stream_worker_msg_io</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__thread.html">Struct dap_thread</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__timer__interface.html">Struct dap_timer_interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__timerfd.html">Struct dap_timerfd</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__tsd.html">Struct dap_tsd</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__tx__data.html">Struct dap_tx_data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__worker.html">Struct dap_worker</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__worker__msg__callback.html">Struct dap_worker_msg_callback</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__worker__msg__io.html">Struct dap_worker_msg_io</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdap__worker__msg__reassign.html">Struct dap_worker_msg_reassign</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdilithium__param__t.html">Struct dilithium_param_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdilithium__private__key__t.html">Struct dilithium_private_key_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdilithium__public__key__t.html">Struct dilithium_public_key_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdilithium__signature__t.html">Struct dilithium_signature_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structdns__client.html">Struct dns_client</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Struct enc_http_delegate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structentropy__s.html">Struct entropy_s</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structg__commitments__t.html">Struct g_commitments_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structgeoip__info.html">Struct geoip_info</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structglobal__cache__t.html">Struct global_cache_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structgo__stage__arg.html">Struct go_stage_arg</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structheap__class__t.html">Struct heap_class_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structheap__t.html">Struct heap_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structhhistory.html">Struct hhistory</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structicmp__ext__header.html">Struct icmp_ext_header</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structicmp__ext__object.html">Struct icmp_ext_object</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structicmp__filter.html">Struct icmp_filter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structicmp__hdr.html">Struct icmp_hdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structicmpv6__echo__request.html">Struct icmpv6_echo_request</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structicmpv6__hdr.html">Struct icmpv6_hdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structin6__flowlabel__req__.html">Struct in6_flowlabel_req_</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structip__hdr.html">Struct ip_hdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structiphdr.html">Struct iphdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structipv4__option__hdr.html">Struct ipv4_option_hdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structipv6__fragment__hdr.html">Struct ipv6_fragment_hdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structipv6__hdr.html">Struct ipv6_hdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structlink__dns__request.html">Struct link_dns_request</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structlist__priority__.html">Struct list_priority_</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structlist__used__item.html">Struct list_used_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structlog__str__t.html">Struct log_str_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structmatrices.html">Struct matrices</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structnewhope__param__t.html">Struct newhope_param_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structnewhope__private__key__t.html">Struct newhope_private_key_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structnewhope__public__key__t.html">Struct newhope_public_key_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structnewhope__signature__t.html">Struct newhope_signature_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structni__hdr.html">Struct ni_hdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structniquery__option.html">Struct niquery_option</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structntt__state__simple__t.html">Struct ntt_state_simple_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structparamset__t.html">Struct paramset_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structpicnic__privatekey__t.html">Struct picnic_privatekey_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structpicnic__publickey__t.html">Struct picnic_publickey_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structping__func__set__st.html">Struct ping_func_set_st</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structping__handle.html">Struct ping_handle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structpoint__proj.html">Struct point_proj</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structpoly.html">Struct poly</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structpoly__newhope.html">Struct poly_newhope</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structpoly__ringct20.html">Struct poly_ringct20</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structpolyveck.html">Struct polyveck</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structpolyvecl.html">Struct polyvecl</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structprobe__struct.html">Struct probe_struct</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structprobehdr.html">Struct probehdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structproc__stat__line.html">Struct proc_stat_line</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structproc__thread__stream.html">Struct proc_thread_stream</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structproof__t.html">Struct proof_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structpthread__barrier__t.html">Struct pthread_barrier_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structqueue__ptr__input__item.html">Struct queue_ptr_input_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structqueue__ptr__input__pvt.html">Struct queue_ptr_input_pvt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structrandom_tape__t.html">Struct randomTape_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structrcvd__table.html">Struct rcvd_table</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structrecord__info__s.html">Struct record_info_s</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structringct20__param__t.html">Struct ringct20_param_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structringct20__private__key__t.html">Struct ringct20_private_key_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structringct20__public__key__t.html">Struct ringct20_public_key_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structringct20__signature__t.html">Struct ringct20_signature_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structrpmalloc__config__t.html">Struct rpmalloc_config_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structrpmalloc__global__statistics__t.html">Struct rpmalloc_global_statistics_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structrpmalloc__thread__statistics__t.html">Struct rpmalloc_thread_statistics_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structrun__state.html">Struct run_state</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structs__circular_buffer.html">Struct s_circularBuffer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structsampler__s.html">Struct sampler_s</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structseed__key__st.html">Struct seed_key_st</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structseeds__t.html">Struct seeds_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structservice__list.html">Struct service_list</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structsignature__t.html">Struct signature_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structsize__class__t.html">Struct size_class_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structsocket__st.html">Struct socket_st</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structspan__t.html">Struct span_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structstream__ch__chain__net__pkt__hdr.html">Struct stream_ch_chain_net_pkt_hdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structstream__srv__pkt.html">Struct stream_srv_pkt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structsync__group__item.html">Struct sync_group_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structsync__request.html">Struct sync_request</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structtesla__param__t.html">Struct tesla_param_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structtesla__private__key__t.html">Struct tesla_private_key_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structtesla__public__key__t.html">Struct tesla_public_key_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structtesla__signature__t.html">Struct tesla_signature_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structthread__arg.html">Struct thread_arg</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structthread__info.html">Struct thread_info</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structthread__pointers.html">Struct thread_pointers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structtimestamp.html">Struct timestamp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structtr__module__struct.html">Struct tr_module_struct</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structtun__socket__msg.html">Struct tun_socket_msg</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structudp__hdr.html">Struct udp_hdr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structusage__client.html">Struct usage_client</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structuser__agents__item.html">Struct user_agents_item</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structview__t.html">Struct view_t</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structvpn__local__network.html">Struct vpn_local_network</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../unionlist.html">Union list</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">cellframe</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../filelist.html">File list</a> &raquo;</li>
+        
+          <li><a href="../structlist.html">Struct list</a> &raquo;</li>
+        
+      <li>Struct enc_http_delegate</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/files/struct/structenc__http__delegate.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="struct-enc-http-delegate">
+<h1>Struct enc_http_delegate<a class="headerlink" href="#struct-enc-http-delegate" title="Permalink to this headline">¶</a></h1>
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv417enc_http_delegate">
+<span id="_CPPv317enc_http_delegate"></span><span id="_CPPv217enc_http_delegate"></span><span id="enc_http_delegate"></span><span class="target" id="structenc__http__delegate"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">enc_http_delegate</span></span></span><br /></dt>
+<dd></dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="structentropy__s.html" class="btn btn-neutral float-right" title="Struct entropy_s" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="structdns__client.html" class="btn btn-neutral float-left" title="Struct dns_client" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Demlabs.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

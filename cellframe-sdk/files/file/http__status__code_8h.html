@@ -1,0 +1,1275 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>File http_status_code.h &mdash; cellframe 2.9 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="File iaes256_cbc_cernal.c" href="iaes256__cbc__cernal_8c.html" />
+    <link rel="prev" title="File hash.h" href="hash_8h.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> cellframe
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../filelist.html">File list</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../filelist.html">File list</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="28147__14_8c.html">File 28147_14.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="28147__14_8h.html">File 28147_14.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="28147__89_8c.html">File 28147_89.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="28147__89_8h.html">File 28147_89.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_hash_8c.html">File KeccakHash.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_hash_8h.html">File KeccakHash.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_p-1600-_sn_p_8h.html">File KeccakP-1600-SnP.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_p-1600-reference_8c.html">File KeccakP-1600-reference.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_p-1600-reference_8h.html">File KeccakP-1600-reference.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_sponge-common_8h.html">File KeccakSponge-common.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_sponge_8inc.html">File KeccakSponge.inc</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_sponge_width1600_8c.html">File KeccakSpongeWidth1600.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_sponge_width1600_8h.html">File KeccakSpongeWidth1600.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="align_8h.html">File align.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="android_2pthread__barrier_8h.html">File pthread_barrier.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="as__lookups_8c.html">File as_lookups.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="atomic_8h.html">File atomic.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="benchmark_8c.html">File benchmark.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="benchmark_8h.html">File benchmark.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bf__local_8h.html">File bf_local.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__b_8h.html">File bliss_b.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__b__keys_8c.html">File bliss_b_keys.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__b__params_8c.html">File bliss_b_params.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__b__params_8h.html">File bliss_b_params.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__b__signatures_8c.html">File bliss_b_signatures.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__b__utils_8c.html">File bliss_b_utils.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__tables_8c.html">File bliss_tables.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__tables_8h.html">File bliss_tables.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="block__cipher_8c.html">File block_cipher.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="block__cipher_8h.html">File block_cipher.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="blowfish_8c.html">File blowfish.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="blowfish_8h.html">File blowfish.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="brg__endian_8h.html">File brg_endian.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="callback__print_8h.html">File callback_print.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="circular__buffer_8h.html">File circular_buffer.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clif_8c.html">File clif.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clif_8h.html">File clif.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="common__salsa_8h.html">File common_salsa.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="core_2test_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="core_2test_2rpmalloc_2benchmark_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="core_2test_2rpmalloc_2test_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="core__salsa__ref_8c.html">File core_salsa_ref.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="crt__benchmark_8c.html">File crt_benchmark.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="crypto_2test_2cert_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="crypto_2test_2crypto_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="crypto__core__salsa2012_8h.html">File crypto_core_salsa2012.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="crypto__stream__salsa2012_8h.html">File crypto_stream_salsa2012.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="csum_8c.html">File csum.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap-sdk_2crypto_2src_2msrln_2random_8c.html">File random.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__app__cli_8c.html">File dap_app_cli.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__app__cli_8h.html">File dap_app_cli.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__app__cli__net_8c.html">File dap_app_cli_net.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__app__cli__net_8h.html">File dap_app_cli_net.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__app__cli__shell_8c.html">File dap_app_cli_shell.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__app__cli__shell_8h.html">File dap_app_cli_shell.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__binary__tree_8c.html">File dap_binary_tree.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__binary__tree_8h.html">File dap_binary_tree.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__cert_8c.html">File dap_cert.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__cert_8h.html">File dap_cert.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__cert__file_8c.html">File dap_cert_file.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__cert__file_8h.html">File dap_cert_file.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain_8c.html">File dap_chain.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain_8h.html">File dap_chain.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__block_8c.html">File dap_chain_block.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__block_8h.html">File dap_chain_block.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__block__cache_8c.html">File dap_chain_block_cache.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__block__cache_8h.html">File dap_chain_block_cache.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__block__chunk_8c.html">File dap_chain_block_chunk.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__block__chunk_8h.html">File dap_chain_block_chunk.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__btc__rpc_8c.html">File dap_chain_btc_rpc.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__btc__rpc_8h.html">File dap_chain_btc_rpc.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__btc__rpc__handlers_8c.html">File dap_chain_btc_rpc_handlers.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__btc__rpc__handlers_8h.html">File dap_chain_btc_rpc_handlers.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cell_8c.html">File dap_chain_cell.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cell_8h.html">File dap_chain_cell.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__coin_8c.html">File dap_chain_coin.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__coin_8h.html">File dap_chain_coin.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__common_8c.html">File dap_chain_common.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__common_8h.html">File dap_chain_common.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs_8c.html">File dap_chain_cs.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs_8h.html">File dap_chain_cs.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__block__poa_8c.html">File dap_chain_cs_block_poa.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__block__poa_8h.html">File dap_chain_cs_block_poa.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__block__pow_8c.html">File dap_chain_cs_block_pow.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__block__pow_8h.html">File dap_chain_cs_block_pow.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__blocks_8c.html">File dap_chain_cs_blocks.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__blocks_8h.html">File dap_chain_cs_blocks.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag_8c.html">File dap_chain_cs_dag.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag_8h.html">File dap_chain_cs_dag.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag__event_8c.html">File dap_chain_cs_dag_event.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag__event_8h.html">File dap_chain_cs_dag_event.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag__poa_8c.html">File dap_chain_cs_dag_poa.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag__poa_8h.html">File dap_chain_cs_dag_poa.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag__pos_8c.html">File dap_chain_cs_dag_pos.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag__pos_8h.html">File dap_chain_cs_dag_pos.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__none_8c.html">File dap_chain_cs_none.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__none_8h.html">File dap_chain_cs_none.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum_8c.html">File dap_chain_datum.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum_8h.html">File dap_chain_datum.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__decree_8c.html">File dap_chain_datum_decree.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__decree_8h.html">File dap_chain_datum_decree.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__hashtree__roots_8c.html">File dap_chain_datum_hashtree_roots.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__hashtree__roots_8h.html">File dap_chain_datum_hashtree_roots.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__poll_8c.html">File dap_chain_datum_poll.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__poll_8h.html">File dap_chain_datum_poll.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__token_8c.html">File dap_chain_datum_token.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__token_8h.html">File dap_chain_datum_token.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx_8c.html">File dap_chain_datum_tx.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx_8h.html">File dap_chain_datum_tx.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__in_8h.html">File dap_chain_datum_tx_in.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__in__cond_8h.html">File dap_chain_datum_tx_in_cond.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__items_8c.html">File dap_chain_datum_tx_items.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__items_8h.html">File dap_chain_datum_tx_items.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__out_8h.html">File dap_chain_datum_tx_out.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__out__cond_8h.html">File dap_chain_datum_tx_out_cond.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__out__ext_8h.html">File dap_chain_datum_tx_out_ext.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__pkey_8h.html">File dap_chain_datum_tx_pkey.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__receipt_8c.html">File dap_chain_datum_tx_receipt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__receipt_8h.html">File dap_chain_datum_tx_receipt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__sig_8h.html">File dap_chain_datum_tx_sig.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__token_8c.html">File dap_chain_datum_tx_token.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__token_8h.html">File dap_chain_datum_tx_token.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__vote_8c.html">File dap_chain_datum_vote.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__vote_8h.html">File dap_chain_datum_vote.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__dht_8c.html">File dap_chain_dht.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__dht_8h.html">File dap_chain_dht.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db_8c.html">File dap_chain_global_db.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db_8h.html">File dap_chain_global_db.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver_8c.html">File dap_chain_global_db_driver.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver_8h.html">File dap_chain_global_db_driver.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver__cdb_8c.html">File dap_chain_global_db_driver_cdb.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver__cdb_8h.html">File dap_chain_global_db_driver_cdb.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver__mdbx_8c.html">File dap_chain_global_db_driver_mdbx.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver__mdbx_8h.html">File dap_chain_global_db_driver_mdbx.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver__sqlite_8c.html">File dap_chain_global_db_driver_sqlite.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver__sqlite_8h.html">File dap_chain_global_db_driver_sqlite.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__hist_8c.html">File dap_chain_global_db_hist.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__hist_8h.html">File dap_chain_global_db_hist.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__remote_8c.html">File dap_chain_global_db_remote.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__remote_8h.html">File dap_chain_global_db_remote.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__ledger_8c.html">File dap_chain_ledger.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__ledger_8h.html">File dap_chain_ledger.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__mempool_8c.html">File dap_chain_mempool.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__mempool_8h.html">File dap_chain_mempool.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net_8c.html">File dap_chain_net.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net_8h.html">File dap_chain_net.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__bugreport_8h.html">File dap_chain_net_bugreport.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__news_8h.html">File dap_chain_net_news.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__remote_8c.html">File dap_chain_net_remote.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__remote_8h.html">File dap_chain_net_remote.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv_8c.html">File dap_chain_net_srv.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv_8h.html">File dap_chain_net_srv.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__app_8c.html">File dap_chain_net_srv_app.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__app_8h.html">File dap_chain_net_srv_app.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__app__db_8c.html">File dap_chain_net_srv_app_db.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__app__db_8h.html">File dap_chain_net_srv_app_db.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__client_8c.html">File dap_chain_net_srv_client.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__client_8h.html">File dap_chain_net_srv_client.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__common_8c.html">File dap_chain_net_srv_common.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__common_8h.html">File dap_chain_net_srv_common.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__countries_8h.html">File dap_chain_net_srv_countries.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__datum_8c.html">File dap_chain_net_srv_datum.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__datum_8h.html">File dap_chain_net_srv_datum.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__datum__pool_8c.html">File dap_chain_net_srv_datum_pool.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__datum__pool_8h.html">File dap_chain_net_srv_datum_pool.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__geoip_8c.html">File dap_chain_net_srv_geoip.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__geoip_8h.html">File dap_chain_net_srv_geoip.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__order_8c.html">File dap_chain_net_srv_order.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__order_8h.html">File dap_chain_net_srv_order.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__stake_8c.html">File dap_chain_net_srv_stake.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__stake_8h.html">File dap_chain_net_srv_stake.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__stream__session_8c.html">File dap_chain_net_srv_stream_session.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__stream__session_8h.html">File dap_chain_net_srv_stream_session.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__vpn_8c.html">File dap_chain_net_srv_vpn.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__vpn_8h.html">File dap_chain_net_srv_vpn.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__vpn__cmd_8c.html">File dap_chain_net_srv_vpn_cmd.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__vpn__cmd_8h.html">File dap_chain_net_srv_vpn_cmd.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__xchange_8c.html">File dap_chain_net_srv_xchange.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__xchange_8h.html">File dap_chain_net_srv_xchange.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__vpn__client_8c.html">File dap_chain_net_vpn_client.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__vpn__client_8h.html">File dap_chain_net_vpn_client.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__vpn__client__tun_8c.html">File dap_chain_net_vpn_client_tun.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__vpn__client__tun_8h.html">File dap_chain_net_vpn_client_tun.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node_8c.html">File dap_chain_node.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node_8h.html">File dap_chain_node.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__cli_8c.html">File dap_chain_node_cli.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__cli_8h.html">File dap_chain_node_cli.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__cli__cmd_8c.html">File dap_chain_node_cli_cmd.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__cli__cmd_8h.html">File dap_chain_node_cli_cmd.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__cli__cmd__tx_8c.html">File dap_chain_node_cli_cmd_tx.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__cli__cmd__tx_8h.html">File dap_chain_node_cli_cmd_tx.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__client_8c.html">File dap_chain_node_client.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__client_8h.html">File dap_chain_node_client.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__dns__client_8c.html">File dap_chain_node_dns_client.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__dns__client_8h.html">File dap_chain_node_dns_client.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__dns__server_8c.html">File dap_chain_node_dns_server.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__dns__server_8h.html">File dap_chain_node_dns_server.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__ping_8c.html">File dap_chain_node_ping.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__ping_8h.html">File dap_chain_node_ping.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__remote_8c.html">File dap_chain_node_remote.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__remote_8h.html">File dap_chain_node_remote.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__pvt_8c.html">File dap_chain_pvt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__pvt_8h.html">File dap_chain_pvt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__vf_8c.html">File dap_chain_vf.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__vf_8h.html">File dap_chain_vf.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__wallet_8c.html">File dap_chain_wallet.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__wallet_8h.html">File dap_chain_wallet.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__wallet__internal_8h.html">File dap_chain_wallet_internal.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__wallet__ops_8c.html">File dap_chain_wallet_ops.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__wallet__ops_8h.html">File dap_chain_wallet_ops.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__circular__buffer_8c.html">File dap_circular_buffer.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__circular__buffer_8h.html">File dap_circular_buffer.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__circular__test_8c.html">File dap_circular_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__circular__test_8h.html">File dap_circular_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client_8c.html">File dap_client.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client_8h.html">File dap_client.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client__http_8c.html">File dap_client_http.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client__http_8h.html">File dap_client_http.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client__pool_8c.html">File dap_client_pool.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client__pool_8h.html">File dap_client_pool.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client__pvt_8c.html">File dap_client_pvt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client__pvt_8h.html">File dap_client_pvt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client__pvt__hh_8c.html">File dap_client_pvt_hh.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__common_8c.html">File dap_common.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__common_8h.html">File dap_common.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__common__test_8c.html">File dap_common_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__common__test_8h.html">File dap_common_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__config_8c.html">File dap_config.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__config_8h.html">File dap_config.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__config__test_8c.html">File dap_config_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__config__test_8h.html">File dap_config_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__console__manager_8c.html">File dap_console_manager.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__console__manager_8h.html">File dap_console_manager.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__cpu__monitor__test_8c.html">File dap_cpu_monitor_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__cpu__monitor__test_8h.html">File dap_cpu_monitor_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__crypto__cert__save__tests_8c.html">File dap_crypto_cert_save_tests.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__crypto__cert__save__tests_8h.html">File dap_crypto_cert_save_tests.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__crypto__common_8h.html">File dap_crypto_common.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc_8c.html">File dap_enc.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc_8h.html">File dap_enc.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc___g_o_s_t_8c.html">File dap_enc_GOST.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc___g_o_s_t_8h.html">File dap_enc_GOST.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc___s_e_e_d_8c.html">File dap_enc_SEED.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc___s_e_e_d_8h.html">File dap_enc_SEED.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base58_8c.html">File dap_enc_base58.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base58_8h.html">File dap_enc_base58.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base58__test_8c.html">File dap_enc_base58_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base58__test_8h.html">File dap_enc_base58_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base64_8c.html">File dap_enc_base64.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base64_8h.html">File dap_enc_base64.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base64__test_8c.html">File dap_enc_base64_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base64__test_8h.html">File dap_enc_base64_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__bf_8c.html">File dap_enc_bf.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__bf_8h.html">File dap_enc_bf.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__bliss_8c.html">File dap_enc_bliss.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__bliss_8h.html">File dap_enc_bliss.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ca_8c.html">File dap_enc_ca.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ca_8h.html">File dap_enc_ca.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__defeo_8c.html">File dap_enc_defeo.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__defeo_8h.html">File dap_enc_defeo.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__defeo__test_8c.html">File dap_enc_defeo_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__defeo__test_8h.html">File dap_enc_defeo_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__dilithium_8c.html">File dap_enc_dilithium.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__dilithium_8h.html">File dap_enc_dilithium.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__dilithium__test_8c.html">File dap_enc_dilithium_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__dilithium__test_8h.html">File dap_enc_dilithium_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__http_8c.html">File dap_enc_http.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__http_8h.html">File dap_enc_http.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__iaes_8c.html">File dap_enc_iaes.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__iaes_8h.html">File dap_enc_iaes.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__key_8c.html">File dap_enc_key.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__key_8h.html">File dap_enc_key.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ks_8c.html">File dap_enc_ks.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ks_8h.html">File dap_enc_ks.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__msrln_8c.html">File dap_enc_msrln.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__msrln_8h.html">File dap_enc_msrln.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__msrln__test_8c.html">File dap_enc_msrln_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__msrln__test_8h.html">File dap_enc_msrln_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__newhope_8c.html">File dap_enc_newhope.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__newhope_8h.html">File dap_enc_newhope.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__newhope__test_8c.html">File dap_enc_newhope_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__oaes_8c.html">File dap_enc_oaes.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__oaes_8h.html">File dap_enc_oaes.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__picnic_8c.html">File dap_enc_picnic.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__picnic_8h.html">File dap_enc_picnic.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__picnic__test_8c.html">File dap_enc_picnic_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__picnic__test_8h.html">File dap_enc_picnic_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ringct20_8c.html">File dap_enc_ringct20.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ringct20_8h.html">File dap_enc_ringct20.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ringct20__test_8c.html">File dap_enc_ringct20_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ringct20__test_8h.html">File dap_enc_ringct20_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__salsa2012_8c.html">File dap_enc_salsa2012.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__salsa2012_8h.html">File dap_enc_salsa2012.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__sig__bliss__test_8c.html">File dap_enc_sig_bliss_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__sig__bliss__test_8h.html">File dap_enc_sig_bliss_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__sign__multi__test_8c.html">File dap_enc_sign_multi_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__sign__multi__test_8h.html">File dap_enc_sign_multi_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__tesla_8c.html">File dap_enc_tesla.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__tesla_8h.html">File dap_enc_tesla.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__tesla__test_8c.html">File dap_enc_tesla_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__tesla__test_8h.html">File dap_enc_tesla_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__test_8c.html">File dap_enc_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__test_8h.html">File dap_enc_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__events_8c.html">File dap_events.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__events_8h.html">File dap_events.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__events__socket_8c.html">File dap_events_socket.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__events__socket_8h.html">File dap_events_socket.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__file__utils_8c.html">File dap_file_utils.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__file__utils_8h.html">File dap_file_utils.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__fnmatch_8c.html">File dap_fnmatch.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__fnmatch_8h.html">File dap_fnmatch.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__fnmatch__loop_8h.html">File dap_fnmatch_loop.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash_8c.html">File dap_hash.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash_8h.html">File dap_hash.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash__fusion_8c.html">File dap_hash_fusion.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash__fusion_8h.html">File dap_hash_fusion.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash__keccak_8c.html">File dap_hash_keccak.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash__keccak_8h.html">File dap_hash_keccak.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash__slow_8c.html">File dap_hash_slow.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash__slow_8h.html">File dap_hash_slow.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http_8c.html">File dap_http.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http_8h.html">File dap_http.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__cache_8c.html">File dap_http_cache.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__cache_8h.html">File dap_http_cache.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__client_8c.html">File dap_http_client.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__client_8h.html">File dap_http_client.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__folder_8c.html">File dap_http_folder.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__folder_8h.html">File dap_http_folder.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__header_8c.html">File dap_http_header.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__header_8h.html">File dap_http_header.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__simple_8c.html">File dap_http_simple.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__simple_8h.html">File dap_http_simple.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__simple__test_8c.html">File dap_http_simple_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__simple__test_8h.html">File dap_http_simple_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__user__agent_8c.html">File dap_http_user_agent.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__user__agent_8h.html">File dap_http_user_agent.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__user__agent__test_8c.html">File dap_http_user_agent_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__user__agent__test_8h.html">File dap_http_user_agent_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__iaes__proto_8h.html">File dap_iaes_proto.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc_8c.html">File dap_json_rpc.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc_8h.html">File dap_json_rpc.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__errors_8c.html">File dap_json_rpc_errors.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__errors_8h.html">File dap_json_rpc_errors.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__notification_8c.html">File dap_json_rpc_notification.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__notification_8h.html">File dap_json_rpc_notification.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__params_8c.html">File dap_json_rpc_params.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__params_8h.html">File dap_json_rpc_params.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__request_8c.html">File dap_json_rpc_request.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__request_8h.html">File dap_json_rpc_request.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__request__handler_8c.html">File dap_json_rpc_request_handler.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__request__handler_8h.html">File dap_json_rpc_request_handler.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__response_8c.html">File dap_json_rpc_response.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__response_8h.html">File dap_json_rpc_response.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__response__handler_8c.html">File dap_json_rpc_response_handler.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__response__handler_8h.html">File dap_json_rpc_response_handler.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__list_8c.html">File dap_list.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__list_8h.html">File dap_list.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__lut_8h.html">File dap_lut.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__math__ops_8c.html">File dap_math_ops.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__math__ops_8h.html">File dap_math_ops.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__meta_8c.html">File dap_meta.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__meta_8h.html">File dap_meta.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__module_8c.html">File dap_module.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__module_8h.html">File dap_module.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__modules__dynamic__cdb_8c.html">File dap_modules_dynamic_cdb.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__modules__dynamic__cdb_8h.html">File dap_modules_dynamic_cdb.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__net_8c.html">File dap_net.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__net_8h.html">File dap_net.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__network__monitor__test_8c.html">File dap_network_monitor_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__network__monitor__test_8h.html">File dap_network_monitor_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__notify__srv_8c.html">File dap_notify_srv.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__notify__srv_8h.html">File dap_notify_srv.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__pkey_8c.html">File dap_pkey.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__pkey_8h.html">File dap_pkey.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__proc__queue_8c.html">File dap_proc_queue.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__proc__queue_8h.html">File dap_proc_queue.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__proc__thread_8c.html">File dap_proc_thread.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__proc__thread_8h.html">File dap_proc_thread.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__process__mem__test_8c.html">File dap_process_mem_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__process__mem__test_8h.html">File dap_process_mem_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__rand_8c.html">File dap_rand.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__rand_8h.html">File dap_rand.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__server_8c.html">File dap_server.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__server_8h.html">File dap_server.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__sha3__tests_8c.html">File dap_sha3_tests.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__sign_8c.html">File dap_sign.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__sign_8h.html">File dap_sign.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream_8c.html">File dap_stream.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream_8h.html">File dap_stream.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch_8c.html">File dap_stream_ch.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch_8h.html">File dap_stream_ch.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain_8c.html">File dap_stream_ch_chain.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain_8h.html">File dap_stream_ch_chain.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net_8c.html">File dap_stream_ch_chain_net.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net_8h.html">File dap_stream_ch_chain_net.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net__pkt_8c.html">File dap_stream_ch_chain_net_pkt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net__pkt_8h.html">File dap_stream_ch_chain_net_pkt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net__srv_8c.html">File dap_stream_ch_chain_net_srv.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net__srv_8h.html">File dap_stream_ch_chain_net_srv.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net__srv__pkt_8c.html">File dap_stream_ch_chain_net_srv_pkt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net__srv__pkt_8h.html">File dap_stream_ch_chain_net_srv_pkt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__pkt_8c.html">File dap_stream_ch_chain_pkt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__pkt_8h.html">File dap_stream_ch_chain_pkt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__pkt_8c.html">File dap_stream_ch_pkt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__pkt_8h.html">File dap_stream_ch_pkt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__proc_8c.html">File dap_stream_ch_proc.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__proc_8h.html">File dap_stream_ch_proc.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ctl_8c.html">File dap_stream_ctl.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ctl_8h.html">File dap_stream_ctl.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__pkt_8c.html">File dap_stream_pkt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__pkt_8h.html">File dap_stream_pkt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__session_8c.html">File dap_stream_session.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__session_8h.html">File dap_stream_session.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__worker_8c.html">File dap_stream_worker.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__worker_8h.html">File dap_stream_worker.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__strfuncs_8c.html">File dap_strfuncs.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__strfuncs_8h.html">File dap_strfuncs.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__strfuncs__test_8c.html">File dap_strfuncs_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__strfuncs__test_8h.html">File dap_strfuncs_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__string_8c.html">File dap_string.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__string_8h.html">File dap_string.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__test_8c.html">File dap_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__test_8h.html">File dap_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__test__generator_8c.html">File dap_test_generator.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__test__generator_8h.html">File dap_test_generator.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__timerfd_8c.html">File dap_timerfd.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__timerfd_8h.html">File dap_timerfd.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__traffic__track__test_8c.html">File dap_traffic_track_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__traffic__track__test_8h.html">File dap_traffic_track_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__tsd_8c.html">File dap_tsd.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__tsd_8h.html">File dap_tsd.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__uuid_8c.html">File dap_uuid.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__uuid_8h.html">File dap_uuid.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__worker_8c.html">File dap_worker.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__worker_8h.html">File dap_worker.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="darwin_2macos_2dap__network__monitor_8c.html">File dap_network_monitor.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="darwin_2macos_2dap__network__monitor_8h.html">File dap_network_monitor.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="darwin_2macos_2pthread__barrier_8h.html">File pthread_barrier.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data-pool_8c.html">File data-pool.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data-pool_8h.html">File data-pool.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="defeo___p768__internal_8h.html">File defeo_P768_internal.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="defeo__config_8h.html">File defeo_config.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="defeo__kex_8c.html">File defeo_kex.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__packing_8c.html">File dilithium_packing.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__packing_8h.html">File dilithium_packing.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__params_8c.html">File dilithium_params.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__params_8h.html">File dilithium_params.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__poly_8c.html">File dilithium_poly.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__poly_8h.html">File dilithium_poly.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__polyvec_8c.html">File dilithium_polyvec.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__polyvec_8h.html">File dilithium_polyvec.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__rounding__reduce_8c.html">File dilithium_rounding_reduce.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__rounding__reduce_8h.html">File dilithium_rounding_reduce.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__sign_8c.html">File dilithium_sign.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__sign_8h.html">File dilithium_sign.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dll__import_8h.html">File dll_import.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="entropy_8c.html">File entropy.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="extension_8c.html">File extension.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="fips202_8c.html">File fips202.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="fips202_8h.html">File fips202.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="flowlabel_8h.html">File flowlabel.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="hash_8c.html">File hash.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="hash_8h.html">File hash.h</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">File http_status_code.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="iaes256__cbc__cernal_8c.html">File iaes256_cbc_cernal.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="iaes__tables_8h.html">File iaes_tables.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="include_2dap__stream__ch__chain__net__srv_8h.html">File dap_stream_ch_chain_net_srv.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="int-util_8h.html">File int-util.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="iputils_8c.html">File iputils.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="iputils_8h.html">File iputils.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="kex_8c.html">File kex.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="lowmc__constants_8c.html">File lowmc_constants.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="lowmc__constants_8h.html">File lowmc_constants.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="macos__specific__endian_8h.html">File macos_specific_endian.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="maxminddb-compat-util_8h.html">File maxminddb-compat-util.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="maxminddb_8c.html">File maxminddb.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="maxminddb_8h.html">File maxminddb.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="maxminddb__config_8h.html">File maxminddb_config.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="memwipe_8c.html">File memwipe.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="memwipe_8h.html">File memwipe.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mmdblookup_8c.html">File mmdblookup.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mod-dccp_8c.html">File mod-dccp.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mod-icmp_8c.html">File mod-icmp.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mod-raw_8c.html">File mod-raw.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mod-tcp_8c.html">File mod-tcp.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mod-tcpconn_8c.html">File mod-tcpconn.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mod-udp_8c.html">File mod-udp.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="modes_8h.html">File modes.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="module_8c.html">File module.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules_2net_2iputils_2traceroute_2random_8c.html">File random.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules_2net_2win32_2ip_8h.html">File ip.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules_2net_2win32_2iphdr_8h.html">File iphdr.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="msrln_2_a_m_d64_2consts_8c.html">File consts.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="msrln_2generic_2ntt_8c.html">File ntt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="msrln_8h.html">File msrln.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="msrln__priv_8h.html">File msrln_priv.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="net_2client_2test_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="net_2core_2test_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="net_2server_2test_2enc__server_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="net_2server_2test_2http__server_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="net_2server_2test_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="net_2stream_2test_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__api_8h.html">File newhope_api.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__cpakem_8c.html">File newhope_cpakem.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__cpakem_8h.html">File newhope_cpakem.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__cpapke_8c.html">File newhope_cpapke.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__cpapke_8h.html">File newhope_cpapke.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__ntt_8c.html">File newhope_ntt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__ntt_8h.html">File newhope_ntt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__params_8h.html">File newhope_params.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__poly_8c.html">File newhope_poly.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__poly_8h.html">File newhope_poly.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__precomp_8c.html">File newhope_precomp.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__reduce_8c.html">File newhope_reduce.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__reduce_8h.html">File newhope_reduce.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ntt_8h.html">File ntt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ntt__api_8h.html">File ntt_api.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ntt__api__blzzd_8c.html">File ntt_api_blzzd.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ntt__blzzd_8c.html">File ntt_blzzd.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ntt__x64_8c.html">File ntt_x64.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oaes__lib_8c.html">File oaes_lib.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oaes__lib_8h.html">File oaes_lib.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ofb128_8c.html">File ofb128.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="os_2win32_2ip_8h.html">File ip.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="os_2win32_2iphdr_8h.html">File iphdr.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="params_8h.html">File params.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="picnic_8c.html">File picnic.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="picnic_8h.html">File picnic.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="picnic__impl_8c.html">File picnic_impl.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="picnic__impl_8h.html">File picnic_impl.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="picnic__types_8c.html">File picnic_types.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="picnic__types_8h.html">File picnic_types.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ping6__common_8c.html">File ping6_common.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ping_8c.html">File ping.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ping_8h.html">File ping.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ping__common_8c.html">File ping_common.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="platform_8h.html">File platform.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="poll_8c.html">File poll.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="poly_8c.html">File poly.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="poly_8h.html">File poly.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="portable__endian_8h.html">File portable_endian.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="precomp_8c.html">File precomp.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="print__data_8c.html">File print_data.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="print__data_8h.html">File print_data.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pthread__barrier_8c.html">File pthread_barrier.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="reduce_8c.html">File reduce.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="reduce_8h.html">File reduce.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="registry_8c.html">File registry.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="registry_8h.html">File registry.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ring_8c.html">File ring.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ring_8h.html">File ring.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ringct20_2ntt_8c.html">File ntt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ringct20__params_8c.html">File ringct20_params.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ringct20__params_8h.html">File ringct20_params.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rpmalloc_8c.html">File rpmalloc.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rpmalloc_8h.html">File rpmalloc.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sample_8c.html">File sample.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sampler_8c.html">File sampler.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sampler_8h.html">File sampler.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="seed_8c.html">File seed.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="seed_8h.html">File seed.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="seed__local_8h.html">File seed_local.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="seed__ofb_8c.html">File seed_ofb.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sig__tesla_2consts_8c.html">File consts.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sign_8c.html">File sign.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="stream__salsa2012_8c.html">File stream_salsa2012.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="stream__salsa2012__ref_8c.html">File stream_salsa2012_ref.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="table_8h.html">File table.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tesla__params_8c.html">File tesla_params.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tesla__params_8h.html">File tesla_params.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="test_8h.html">File test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="thread_8c.html">File thread.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="thread_8h.html">File thread.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="time_8c.html">File time.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="timer_8c.html">File timer.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="timer_8h.html">File timer.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tracepath_8c.html">File tracepath.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="traceroute_8c.html">File traceroute.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="traceroute_8h.html">File traceroute.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2dap__cpu__monitor_8c.html">File dap_cpu_monitor.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2dap__cpu__monitor_8h.html">File dap_cpu_monitor.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2dap__process__manager_8c.html">File dap_process_manager.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2dap__process__manager_8h.html">File dap_process_manager.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2dap__process__memory_8c.html">File dap_process_memory.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2dap__process__memory_8h.html">File dap_process_memory.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2linux_2dap__network__monitor_8c.html">File dap_network_monitor.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2linux_2dap__network__monitor_8h.html">File dap_network_monitor.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="win32_2dap__cpu__monitor_8c.html">File dap_cpu_monitor.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="win32_2dap__cpu__monitor_8h.html">File dap_cpu_monitor.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="win32_2dap__process__manager_8c.html">File dap_process_manager.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="win32_2dap__process__manager_8h.html">File dap_process_manager.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="win32_2dap__process__memory_8c.html">File dap_process_memory.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="win32_2dap__process__memory_8h.html">File dap_process_memory.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../structlist.html">Struct list</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../unionlist.html">Union list</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">cellframe</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../filelist.html">File list</a> &raquo;</li>
+        
+          <li><a href="../filelist.html">File list</a> &raquo;</li>
+        
+      <li>File http_status_code.h</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/files/file/http__status__code_8h.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="file-http-status-code-h">
+<h1>File http_status_code.h<a class="headerlink" href="#file-http-status-code-h" title="Permalink to this headline">¶</a></h1>
+<p>HTTP Status Codes - C Variant</p>
+<p><a class="reference external" href="https://github.com/j-ulrich/http-status-codes-cpp">https://github.com/j-ulrich/http-status-codes-cpp</a></p>
+<p><dl class="simple">
+<dt><strong>Version</strong></dt><dd><p>1.1.1 </p>
+</dd>
+<dt><strong>Author</strong></dt><dd><p>Jochen Ulrich <a class="reference external" href="mailto:jochenulrich&#37;&#52;&#48;t-online&#46;de">jochenulrich<span>&#64;</span>t-online<span>&#46;</span>de</a> </p>
+</dd>
+<dt><strong>Copyright</strong></dt><dd><p>Licensed under Creative Commons CC0 (<a class="reference external" href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</a>) </p>
+</dd>
+</dl>
+</p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-typedefs">Typedefs</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv418http_status_code_t">
+<span id="_CPPv318http_status_code_t"></span><span id="_CPPv218http_status_code_t"></span><span id="http_status_code_t"></span><span class="target" id="http__status__code_8h_1a365be7487633c60e8ba9218c313747b2"></span><span class="k"><span class="pre">typedef</span></span><span class="w"> </span><span class="k"><span class="pre">enum</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv416http_status_code" title="http_status_code"><span class="n"><span class="pre">http_status_code</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">http_status_code_t</span></span></span><a class="headerlink" href="#_CPPv418http_status_code_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-enums">Enums</p>
+<dl class="cpp enum">
+<dt class="sig sig-object cpp" id="_CPPv416http_status_code">
+<span id="_CPPv316http_status_code"></span><span id="_CPPv216http_status_code"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9"></span><span class="k"><span class="pre">enum</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">http_status_code</span></span></span><a class="headerlink" href="#_CPPv416http_status_code" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><em>Values:</em></p>
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code20Http_Status_ContinueE">
+<span id="_CPPv3N16http_status_code20Http_Status_ContinueE"></span><span id="_CPPv2N16http_status_code20Http_Status_ContinueE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a04394ab8a0ac8c506d03adc96c0eb6aa"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_Continue</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code20Http_Status_ContinueE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the initial part of a request has been received and has not yet been rejected by the server. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code30Http_Status_SwitchingProtocolsE">
+<span id="_CPPv3N16http_status_code30Http_Status_SwitchingProtocolsE"></span><span id="_CPPv2N16http_status_code30Http_Status_SwitchingProtocolsE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a3566538d535dfc14b04499f88dc098b6"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_SwitchingProtocols</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code30Http_Status_SwitchingProtocolsE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the server understands and is willing to comply with the client’s request, via the Upgrade header field, for a change in the application protocol being used on this connection. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code22Http_Status_ProcessingE">
+<span id="_CPPv3N16http_status_code22Http_Status_ProcessingE"></span><span id="_CPPv2N16http_status_code22Http_Status_ProcessingE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9adfa529499002d286b8632780ce138ebd"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_Processing</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code22Http_Status_ProcessingE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Is an interim response used to inform the client that the server has accepted the complete request, but has not yet completed it. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code22Http_Status_EarlyHintsE">
+<span id="_CPPv3N16http_status_code22Http_Status_EarlyHintsE"></span><span id="_CPPv2N16http_status_code22Http_Status_EarlyHintsE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a51e1141a0a5b084f337947476c43f909"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_EarlyHints</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code22Http_Status_EarlyHintsE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates to the client that the server is likely to send a final response with the header fields included in the informational response. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code14Http_Status_OKE">
+<span id="_CPPv3N16http_status_code14Http_Status_OKE"></span><span id="_CPPv2N16http_status_code14Http_Status_OKE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a70227f0dd537122caf8e0e6da7826168"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_OK</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code14Http_Status_OKE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the request has succeeded. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code19Http_Status_CreatedE">
+<span id="_CPPv3N16http_status_code19Http_Status_CreatedE"></span><span id="_CPPv2N16http_status_code19Http_Status_CreatedE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a830bda929573d8513cb85c08f1dac7b1"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_Created</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code19Http_Status_CreatedE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the request has been fulfilled and has resulted in one or more new resources being created. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code20Http_Status_AcceptedE">
+<span id="_CPPv3N16http_status_code20Http_Status_AcceptedE"></span><span id="_CPPv2N16http_status_code20Http_Status_AcceptedE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a48bdab9b0ec3bb24e1d2a07ecd36198f"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_Accepted</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code20Http_Status_AcceptedE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the request has been accepted for processing, but the processing has not been completed. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code39Http_Status_NonAuthoritativeInformationE">
+<span id="_CPPv3N16http_status_code39Http_Status_NonAuthoritativeInformationE"></span><span id="_CPPv2N16http_status_code39Http_Status_NonAuthoritativeInformationE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a24df060edb2522d0f7283ac1e930e239"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_NonAuthoritativeInformation</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code39Http_Status_NonAuthoritativeInformationE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the request was successful but the enclosed payload has been modified from that of the origin server’s 200 (OK) response by a transforming proxy. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code21Http_Status_NoContentE">
+<span id="_CPPv3N16http_status_code21Http_Status_NoContentE"></span><span id="_CPPv2N16http_status_code21Http_Status_NoContentE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9af94caee9f2f7af16e2ab3337c2d12e7b"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_NoContent</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code21Http_Status_NoContentE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the server has successfully fulfilled the request and that there is no additional content to send in the response payload body. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code24Http_Status_ResetContentE">
+<span id="_CPPv3N16http_status_code24Http_Status_ResetContentE"></span><span id="_CPPv2N16http_status_code24Http_Status_ResetContentE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a0d364a38eed5e888426209fdd2e105e1"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_ResetContent</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code24Http_Status_ResetContentE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the server has fulfilled the request and desires that the user agent reset the “document view”, which caused the request to be sent, to its original state as received from the origin server. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code26Http_Status_PartialContentE">
+<span id="_CPPv3N16http_status_code26Http_Status_PartialContentE"></span><span id="_CPPv2N16http_status_code26Http_Status_PartialContentE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a4a48286fe139780d74f4051f72c6825d"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_PartialContent</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code26Http_Status_PartialContentE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the server is successfully fulfilling a range request for the target resource by transferring one or more parts of the selected representation that correspond to the satisfiable ranges found in the requests’s Range header field. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code23Http_Status_MultiStatusE">
+<span id="_CPPv3N16http_status_code23Http_Status_MultiStatusE"></span><span id="_CPPv2N16http_status_code23Http_Status_MultiStatusE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a26a70e68c0e06a3f0fb1220c3a1e33d2"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_MultiStatus</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code23Http_Status_MultiStatusE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Provides status for multiple independent operations. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code27Http_Status_AlreadyReportedE">
+<span id="_CPPv3N16http_status_code27Http_Status_AlreadyReportedE"></span><span id="_CPPv2N16http_status_code27Http_Status_AlreadyReportedE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9af3284b7d17567f22b03e77ff50aa0d42"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_AlreadyReported</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code27Http_Status_AlreadyReportedE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Used inside a DAV:propstat response element to avoid enumerating the internal members of multiple bindings to the same collection repeatedly. [RFC 5842] </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code18Http_Status_IMUsedE">
+<span id="_CPPv3N16http_status_code18Http_Status_IMUsedE"></span><span id="_CPPv2N16http_status_code18Http_Status_IMUsedE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9aa1752a7135af3ec18d5a1ad0d3a3405b"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_IMUsed</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code18Http_Status_IMUsedE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>The server has fulfilled a GET request for the resource, and the response is a representation of the result of one or more instance-manipulations applied to the current instance. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code27Http_Status_MultipleChoicesE">
+<span id="_CPPv3N16http_status_code27Http_Status_MultipleChoicesE"></span><span id="_CPPv2N16http_status_code27Http_Status_MultipleChoicesE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a7c5faa0a58906f6ae880ca13f2982342"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_MultipleChoices</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code27Http_Status_MultipleChoicesE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the target resource has more than one representation, each with its own more specific identifier, and information about the alternatives is being provided so that the user (or user agent) can select a preferred representation by redirecting its request to one or more of those identifiers. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code28Http_Status_MovedPermanentlyE">
+<span id="_CPPv3N16http_status_code28Http_Status_MovedPermanentlyE"></span><span id="_CPPv2N16http_status_code28Http_Status_MovedPermanentlyE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a4d335aab9adff1e968c5bfa7500e6286"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_MovedPermanently</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code28Http_Status_MovedPermanentlyE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the target resource has been assigned a new permanent URI and any future references to this resource ought to use one of the enclosed URIs. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code17Http_Status_FoundE">
+<span id="_CPPv3N16http_status_code17Http_Status_FoundE"></span><span id="_CPPv2N16http_status_code17Http_Status_FoundE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a3e571c7c7b2f85ec98e773d69d529f6c"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_Found</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code17Http_Status_FoundE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the target resource resides temporarily under a different URI. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code20Http_Status_SeeOtherE">
+<span id="_CPPv3N16http_status_code20Http_Status_SeeOtherE"></span><span id="_CPPv2N16http_status_code20Http_Status_SeeOtherE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9ae0f6b3f28e7a2b948fea0b14ca557231"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_SeeOther</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code20Http_Status_SeeOtherE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the server is redirecting the user agent to a different resource, as indicated by a URI in the Location header field, that is intended to provide an indirect response to the original request. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code23Http_Status_NotModifiedE">
+<span id="_CPPv3N16http_status_code23Http_Status_NotModifiedE"></span><span id="_CPPv2N16http_status_code23Http_Status_NotModifiedE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a4d9d4baff472921cca7079f66b5fa0cb"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_NotModified</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code23Http_Status_NotModifiedE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that a conditional GET request has been received and would have resulted in a 200 (OK) response if it were not for the fact that the condition has evaluated to false. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code20Http_Status_UseProxyE">
+<span id="_CPPv3N16http_status_code20Http_Status_UseProxyE"></span><span id="_CPPv2N16http_status_code20Http_Status_UseProxyE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a5a972f2942496d709cbdd094afdb46f1"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_UseProxy</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code20Http_Status_UseProxyE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>The requested resource MUST be accessed through the proxy given by the Location field. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code29Http_Status_TemporaryRedirectE">
+<span id="_CPPv3N16http_status_code29Http_Status_TemporaryRedirectE"></span><span id="_CPPv2N16http_status_code29Http_Status_TemporaryRedirectE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a40623ad0bf2ee5fce795b696d376e109"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_TemporaryRedirect</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code29Http_Status_TemporaryRedirectE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the target resource resides temporarily under a different URI and the user agent MUST NOT change the request method if it performs an automatic redirection to that URI. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code29Http_Status_PermanentRedirectE">
+<span id="_CPPv3N16http_status_code29Http_Status_PermanentRedirectE"></span><span id="_CPPv2N16http_status_code29Http_Status_PermanentRedirectE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a760471fd9d9d1446a4ed6f049eb5c926"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_PermanentRedirect</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code29Http_Status_PermanentRedirectE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>The target resource has been assigned a new permanent URI and any future references to this resource ought to use one of the enclosed URIs. […] This status code is similar to 301 Moved Permanently (Section 7.3.2 of rfc7231), except that it does not allow rewriting the request method from POST to GET. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code22Http_Status_BadRequestE">
+<span id="_CPPv3N16http_status_code22Http_Status_BadRequestE"></span><span id="_CPPv2N16http_status_code22Http_Status_BadRequestE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a7723bd4fdde70825ef550f4fa8f0a3d6"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_BadRequest</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code22Http_Status_BadRequestE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the server cannot or will not process the request because the received syntax is invalid, nonsensical, or exceeds some limitation on what the server is willing to process. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code24Http_Status_UnauthorizedE">
+<span id="_CPPv3N16http_status_code24Http_Status_UnauthorizedE"></span><span id="_CPPv2N16http_status_code24Http_Status_UnauthorizedE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a15c9ca4970868b6c2b0540ff5b263b8f"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_Unauthorized</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code24Http_Status_UnauthorizedE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the request has not been applied because it lacks valid authentication credentials for the target resource. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code27Http_Status_PaymentRequiredE">
+<span id="_CPPv3N16http_status_code27Http_Status_PaymentRequiredE"></span><span id="_CPPv2N16http_status_code27Http_Status_PaymentRequiredE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a6521a4e9e48dcbee4904fa6341a30401"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_PaymentRequired</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code27Http_Status_PaymentRequiredE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><em>Reserved</em> </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code21Http_Status_ForbiddenE">
+<span id="_CPPv3N16http_status_code21Http_Status_ForbiddenE"></span><span id="_CPPv2N16http_status_code21Http_Status_ForbiddenE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9ac90cb78cda5520ff057990661f8856cc"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_Forbidden</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code21Http_Status_ForbiddenE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the server understood the request but refuses to authorize it. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code20Http_Status_NotFoundE">
+<span id="_CPPv3N16http_status_code20Http_Status_NotFoundE"></span><span id="_CPPv2N16http_status_code20Http_Status_NotFoundE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a215c1a8f2f3ce8175f117fc19c356f8d"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_NotFound</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code20Http_Status_NotFoundE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the origin server did not find a current representation for the target resource or is not willing to disclose that one exists. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code28Http_Status_MethodNotAllowedE">
+<span id="_CPPv3N16http_status_code28Http_Status_MethodNotAllowedE"></span><span id="_CPPv2N16http_status_code28Http_Status_MethodNotAllowedE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a8935bdc54c19438aabafe64d072966e4"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_MethodNotAllowed</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code28Http_Status_MethodNotAllowedE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the method specified in the request-line is known by the origin server but not supported by the target resource. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code25Http_Status_NotAcceptableE">
+<span id="_CPPv3N16http_status_code25Http_Status_NotAcceptableE"></span><span id="_CPPv2N16http_status_code25Http_Status_NotAcceptableE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a4f8e606e085ea36b7053d17a7cdf0903"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_NotAcceptable</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code25Http_Status_NotAcceptableE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the target resource does not have a current representation that would be acceptable to the user agent, according to the proactive negotiation header fields received in the request, and the server is unwilling to supply a default representation. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code39Http_Status_ProxyAuthenticationRequiredE">
+<span id="_CPPv3N16http_status_code39Http_Status_ProxyAuthenticationRequiredE"></span><span id="_CPPv2N16http_status_code39Http_Status_ProxyAuthenticationRequiredE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a9c2d43f85827f250831d3f62d6f73bc3"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_ProxyAuthenticationRequired</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code39Http_Status_ProxyAuthenticationRequiredE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Is similar to 401 (Unauthorized), but indicates that the client needs to authenticate itself in order to use a proxy. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code26Http_Status_RequestTimeoutE">
+<span id="_CPPv3N16http_status_code26Http_Status_RequestTimeoutE"></span><span id="_CPPv2N16http_status_code26Http_Status_RequestTimeoutE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9ac37d015feb4c83deb85a55c727cca2c4"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_RequestTimeout</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code26Http_Status_RequestTimeoutE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the server did not receive a complete request message within the time that it was prepared to wait. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code20Http_Status_ConflictE">
+<span id="_CPPv3N16http_status_code20Http_Status_ConflictE"></span><span id="_CPPv2N16http_status_code20Http_Status_ConflictE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a481c54a405d4c48a0c88c2ce6acdd74c"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_Conflict</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code20Http_Status_ConflictE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the request could not be completed due to a conflict with the current state of the resource. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code16Http_Status_GoneE">
+<span id="_CPPv3N16http_status_code16Http_Status_GoneE"></span><span id="_CPPv2N16http_status_code16Http_Status_GoneE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a91b7606cb6fa95e453b98d8d051090a1"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_Gone</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code16Http_Status_GoneE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that access to the target resource is no longer available at the origin server and that this condition is likely to be permanent. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code26Http_Status_LengthRequiredE">
+<span id="_CPPv3N16http_status_code26Http_Status_LengthRequiredE"></span><span id="_CPPv2N16http_status_code26Http_Status_LengthRequiredE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a6de90df2b0e1b6c4fc31cfdf3d04b5ec"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_LengthRequired</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code26Http_Status_LengthRequiredE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the server refuses to accept the request without a defined Content-Length. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code30Http_Status_PreconditionFailedE">
+<span id="_CPPv3N16http_status_code30Http_Status_PreconditionFailedE"></span><span id="_CPPv2N16http_status_code30Http_Status_PreconditionFailedE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a469e7ae6cd020ff05d2ffdbebd63cfdd"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_PreconditionFailed</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code30Http_Status_PreconditionFailedE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that one or more preconditions given in the request header fields evaluated to false when tested on the server. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code27Http_Status_PayloadTooLargeE">
+<span id="_CPPv3N16http_status_code27Http_Status_PayloadTooLargeE"></span><span id="_CPPv2N16http_status_code27Http_Status_PayloadTooLargeE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9aed6c7a3b2dbb810488dfe928e0cbe8d9"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_PayloadTooLarge</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code27Http_Status_PayloadTooLargeE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the server is refusing to process a request because the request payload is larger than the server is willing or able to process. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code22Http_Status_URITooLongE">
+<span id="_CPPv3N16http_status_code22Http_Status_URITooLongE"></span><span id="_CPPv2N16http_status_code22Http_Status_URITooLongE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a60aa888e05295d8c5b2e3a2956bfa0dc"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_URITooLong</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code22Http_Status_URITooLongE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the server is refusing to service the request because the request-target is longer than the server is willing to interpret. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code32Http_Status_UnsupportedMediaTypeE">
+<span id="_CPPv3N16http_status_code32Http_Status_UnsupportedMediaTypeE"></span><span id="_CPPv2N16http_status_code32Http_Status_UnsupportedMediaTypeE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9ad73d552248399f13c3cae797dca464b7"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_UnsupportedMediaType</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code32Http_Status_UnsupportedMediaTypeE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the origin server is refusing to service the request because the payload is in a format not supported by the target resource for this method. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code31Http_Status_RangeNotSatisfiableE">
+<span id="_CPPv3N16http_status_code31Http_Status_RangeNotSatisfiableE"></span><span id="_CPPv2N16http_status_code31Http_Status_RangeNotSatisfiableE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a92d4f5ca97dde84bfe3d37edea7b234e"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_RangeNotSatisfiable</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code31Http_Status_RangeNotSatisfiableE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that none of the ranges in the request’s Range header field overlap the current extent of the selected resource or that the set of ranges requested has been rejected due to invalid ranges or an excessive request of small or overlapping ranges. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code29Http_Status_ExpectationFailedE">
+<span id="_CPPv3N16http_status_code29Http_Status_ExpectationFailedE"></span><span id="_CPPv2N16http_status_code29Http_Status_ExpectationFailedE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a8350ec58161e541cfa41809c0d8c9e2d"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_ExpectationFailed</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code29Http_Status_ExpectationFailedE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the expectation given in the request’s Expect header field could not be met by at least one of the inbound servers. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code21Http_Status_ImATeapotE">
+<span id="_CPPv3N16http_status_code21Http_Status_ImATeapotE"></span><span id="_CPPv2N16http_status_code21Http_Status_ImATeapotE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9af09abc96103c82bb3aba96fcbdb1a613"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_ImATeapot</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code21Http_Status_ImATeapotE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Any attempt to brew coffee with a teapot should result in the error code 418 I’m a teapot. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code31Http_Status_UnprocessableEntityE">
+<span id="_CPPv3N16http_status_code31Http_Status_UnprocessableEntityE"></span><span id="_CPPv2N16http_status_code31Http_Status_UnprocessableEntityE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a808f3f601e886a78586adbd35af80e29"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_UnprocessableEntity</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code31Http_Status_UnprocessableEntityE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Means the server understands the content type of the request entity (hence a 415(Unsupported Media Type) status code is inappropriate), and the syntax of the request entity is correct (thus a 400 (Bad Request) status code is inappropriate) but was unable to process the contained instructions. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code18Http_Status_LockedE">
+<span id="_CPPv3N16http_status_code18Http_Status_LockedE"></span><span id="_CPPv2N16http_status_code18Http_Status_LockedE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a6aa799252738ca66ebc8a5e52c78388a"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_Locked</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code18Http_Status_LockedE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Means the source or destination resource of a method is locked. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code28Http_Status_FailedDependencyE">
+<span id="_CPPv3N16http_status_code28Http_Status_FailedDependencyE"></span><span id="_CPPv2N16http_status_code28Http_Status_FailedDependencyE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a6491c1b30992d53ef9b79230e3f3ee00"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_FailedDependency</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code28Http_Status_FailedDependencyE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Means that the method could not be performed on the resource because the requested action depended on another action and that action failed. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code27Http_Status_UpgradeRequiredE">
+<span id="_CPPv3N16http_status_code27Http_Status_UpgradeRequiredE"></span><span id="_CPPv2N16http_status_code27Http_Status_UpgradeRequiredE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9adb7d12b1d951c4774db436b798187463"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_UpgradeRequired</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code27Http_Status_UpgradeRequiredE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the server refuses to perform the request using the current protocol but might be willing to do so after the client upgrades to a different protocol. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code32Http_Status_PreconditionRequiredE">
+<span id="_CPPv3N16http_status_code32Http_Status_PreconditionRequiredE"></span><span id="_CPPv2N16http_status_code32Http_Status_PreconditionRequiredE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9af061f12b79259e5efa2f39b8c21ff645"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_PreconditionRequired</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code32Http_Status_PreconditionRequiredE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the origin server requires the request to be conditional. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code27Http_Status_TooManyRequestsE">
+<span id="_CPPv3N16http_status_code27Http_Status_TooManyRequestsE"></span><span id="_CPPv2N16http_status_code27Http_Status_TooManyRequestsE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a5329b9f65d44ee37dc916f285ee4c1ac"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_TooManyRequests</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code27Http_Status_TooManyRequestsE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the user has sent too many requests in a given amount of time (“rate limiting”). </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code39Http_Status_RequestHeaderFieldsTooLargeE">
+<span id="_CPPv3N16http_status_code39Http_Status_RequestHeaderFieldsTooLargeE"></span><span id="_CPPv2N16http_status_code39Http_Status_RequestHeaderFieldsTooLargeE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a06c8a173cc81fce4b7e2f8c95cc5185a"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_RequestHeaderFieldsTooLarge</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code39Http_Status_RequestHeaderFieldsTooLargeE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the server is unwilling to process the request because its header fields are too large. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code38Http_Status_UnavailableForLegalReasonsE">
+<span id="_CPPv3N16http_status_code38Http_Status_UnavailableForLegalReasonsE"></span><span id="_CPPv2N16http_status_code38Http_Status_UnavailableForLegalReasonsE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a0be77480ae2df909da111b4dda8dec25"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_UnavailableForLegalReasons</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code38Http_Status_UnavailableForLegalReasonsE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>This status code indicates that the server is denying access to the resource in response to a legal demand. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code31Http_Status_InternalServerErrorE">
+<span id="_CPPv3N16http_status_code31Http_Status_InternalServerErrorE"></span><span id="_CPPv2N16http_status_code31Http_Status_InternalServerErrorE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a497629fac89ef26a47aebcc94e93ee04"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_InternalServerError</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code31Http_Status_InternalServerErrorE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the server encountered an unexpected condition that prevented it from fulfilling the request. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code26Http_Status_NotImplementedE">
+<span id="_CPPv3N16http_status_code26Http_Status_NotImplementedE"></span><span id="_CPPv2N16http_status_code26Http_Status_NotImplementedE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a6f421459ecf63fd8478964d7ec0c8638"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_NotImplemented</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code26Http_Status_NotImplementedE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the server does not support the functionality required to fulfill the request. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code22Http_Status_BadGatewayE">
+<span id="_CPPv3N16http_status_code22Http_Status_BadGatewayE"></span><span id="_CPPv2N16http_status_code22Http_Status_BadGatewayE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a38f05859ad11f0519fd3f7373c95b1f3"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_BadGateway</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code22Http_Status_BadGatewayE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the server, while acting as a gateway or proxy, received an invalid response from an inbound server it accessed while attempting to fulfill the request. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code30Http_Status_ServiceUnavailableE">
+<span id="_CPPv3N16http_status_code30Http_Status_ServiceUnavailableE"></span><span id="_CPPv2N16http_status_code30Http_Status_ServiceUnavailableE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9abfc667c081267ac5ec3e7dc5336e07e5"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_ServiceUnavailable</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code30Http_Status_ServiceUnavailableE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the server is currently unable to handle the request due to a temporary overload or scheduled maintenance, which will likely be alleviated after some delay. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code26Http_Status_GatewayTimeoutE">
+<span id="_CPPv3N16http_status_code26Http_Status_GatewayTimeoutE"></span><span id="_CPPv2N16http_status_code26Http_Status_GatewayTimeoutE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9aa9f16118cdd061196e9307eb02abef61"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_GatewayTimeout</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code26Http_Status_GatewayTimeoutE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the server, while acting as a gateway or proxy, did not receive a timely response from an upstream server it needed to access in order to complete the request. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code35Http_Status_HTTPVersionNotSupportedE">
+<span id="_CPPv3N16http_status_code35Http_Status_HTTPVersionNotSupportedE"></span><span id="_CPPv2N16http_status_code35Http_Status_HTTPVersionNotSupportedE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9ac5112a822ef0b22b05a02c98905f22d3"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_HTTPVersionNotSupported</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code35Http_Status_HTTPVersionNotSupportedE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the server does not support, or refuses to support, the protocol version that was used in the request message. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code33Http_Status_VariantAlsoNegotiatesE">
+<span id="_CPPv3N16http_status_code33Http_Status_VariantAlsoNegotiatesE"></span><span id="_CPPv2N16http_status_code33Http_Status_VariantAlsoNegotiatesE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9ab4f34e1fced7cb9b7bfd4f91683c99da"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_VariantAlsoNegotiates</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code33Http_Status_VariantAlsoNegotiatesE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the server has an internal configuration error: the chosen variant resource is configured to engage in transparent content negotiation itself, and is therefore not a proper end point in the negotiation process. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code31Http_Status_InsufficientStorageE">
+<span id="_CPPv3N16http_status_code31Http_Status_InsufficientStorageE"></span><span id="_CPPv2N16http_status_code31Http_Status_InsufficientStorageE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a33769f8a7d2deb3649d4f2b4cfb1abfe"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_InsufficientStorage</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code31Http_Status_InsufficientStorageE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Means the method could not be performed on the resource because the server is unable to store the representation needed to successfully complete the request. </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code24Http_Status_LoopDetectedE">
+<span id="_CPPv3N16http_status_code24Http_Status_LoopDetectedE"></span><span id="_CPPv2N16http_status_code24Http_Status_LoopDetectedE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9ad108a1959d6b11704299462bc0e4530e"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_LoopDetected</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code24Http_Status_LoopDetectedE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Indicates that the server terminated an operation because it encountered an infinite loop while processing a request with “Depth: infinity”. [RFC 5842] </p>
+</dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N16http_status_code23Http_Status_NotExtendedE">
+<span id="_CPPv3N16http_status_code23Http_Status_NotExtendedE"></span><span id="_CPPv2N16http_status_code23Http_Status_NotExtendedE"></span><span class="target" id="http__status__code_8h_1a2b7c48caf8cdea85b49e8e85719c8aa9a8082b342dddf2e2800d5d5fd1048c00b"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Http_Status_NotExtended</span></span></span><a class="headerlink" href="#_CPPv4N16http_status_code23Http_Status_NotExtendedE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>The policy for accessing the resource has not been met in the request. [RFC 2774] </p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-functions">Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv428http_status_is_informationali">
+<span id="_CPPv328http_status_is_informationali"></span><span id="_CPPv228http_status_is_informationali"></span><span id="http_status_is_informational__i"></span><span class="target" id="http__status__code_8h_1a867c0c260964316c63b956b3b550fe5c"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">http_status_is_informational</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">code</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv428http_status_is_informationali" title="Permalink to this definition">¶</a><br /></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">true</span></code> if the given <code class="docutils literal notranslate"><span class="pre">code</span></code> is an informational code. </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv425http_status_is_successfuli">
+<span id="_CPPv325http_status_is_successfuli"></span><span id="_CPPv225http_status_is_successfuli"></span><span id="http_status_is_successful__i"></span><span class="target" id="http__status__code_8h_1a16b71dc9b02db3191403aba6fc9a28b4"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">http_status_is_successful</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">code</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv425http_status_is_successfuli" title="Permalink to this definition">¶</a><br /></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">true</span></code> if the given <code class="docutils literal notranslate"><span class="pre">code</span></code> is a successful code. </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv426http_status_is_redirectioni">
+<span id="_CPPv326http_status_is_redirectioni"></span><span id="_CPPv226http_status_is_redirectioni"></span><span id="http_status_is_redirection__i"></span><span class="target" id="http__status__code_8h_1ae8957a6dcced444363efb8f3a4652bd9"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">http_status_is_redirection</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">code</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv426http_status_is_redirectioni" title="Permalink to this definition">¶</a><br /></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">true</span></code> if the given <code class="docutils literal notranslate"><span class="pre">code</span></code> is a redirectional code. </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv427http_status_is_client_errori">
+<span id="_CPPv327http_status_is_client_errori"></span><span id="_CPPv227http_status_is_client_errori"></span><span id="http_status_is_client_error__i"></span><span class="target" id="http__status__code_8h_1ae20982ca4e22e740afe5efb8e6ea9841"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">http_status_is_client_error</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">code</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv427http_status_is_client_errori" title="Permalink to this definition">¶</a><br /></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">true</span></code> if the given <code class="docutils literal notranslate"><span class="pre">code</span></code> is a client error code. </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv426http_status_is_serverErrori">
+<span id="_CPPv326http_status_is_serverErrori"></span><span id="_CPPv226http_status_is_serverErrori"></span><span id="http_status_is_serverError__i"></span><span class="target" id="http__status__code_8h_1af3c22d4b734493eb3ad114bea13428d5"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">http_status_is_serverError</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">code</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv426http_status_is_serverErrori" title="Permalink to this definition">¶</a><br /></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">true</span></code> if the given <code class="docutils literal notranslate"><span class="pre">code</span></code> is a server error code. </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv420http_status_is_errori">
+<span id="_CPPv320http_status_is_errori"></span><span id="_CPPv220http_status_is_errori"></span><span id="http_status_is_error__i"></span><span class="target" id="http__status__code_8h_1a9053c22dc8e95d6e487008a6797b4eab"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">http_status_is_error</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">code</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv420http_status_is_errori" title="Permalink to this definition">¶</a><br /></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">true</span></code> if the given <code class="docutils literal notranslate"><span class="pre">code</span></code> is any type of error code. </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv425http_status_reason_phraset">
+<span id="_CPPv325http_status_reason_phraset"></span><span id="_CPPv225http_status_reason_phraset"></span><span id="http_status_reason_phrase__unsigned-short"></span><span class="target" id="http__status__code_8h_1a1e9f28da06d3f23cd7cbd69629c0e3e8"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">http_status_reason_phrase</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">unsigned</span> <span class="pre">short</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">code</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv425http_status_reason_phraset" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Returns the standard HTTP reason phrase for a HTTP status code. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>code</strong> – An HTTP status code. </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The standard HTTP reason phrase for the given <code class="docutils literal notranslate"><span class="pre">code</span></code> or <code class="docutils literal notranslate"><span class="pre">NULL</span></code> if no standard phrase for the given <code class="docutils literal notranslate"><span class="pre">code</span></code> is known. </p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="iaes256__cbc__cernal_8c.html" class="btn btn-neutral float-right" title="File iaes256_cbc_cernal.c" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="hash_8h.html" class="btn btn-neutral float-left" title="File hash.h" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Demlabs.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

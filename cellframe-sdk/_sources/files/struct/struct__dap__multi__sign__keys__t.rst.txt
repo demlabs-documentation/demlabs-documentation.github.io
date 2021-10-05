@@ -1,0 +1,4 @@
+Struct _dap_multi_sign_keys_t
+=============================
+
+.. doxygenstruct:: _dap_multi_sign_keys_t

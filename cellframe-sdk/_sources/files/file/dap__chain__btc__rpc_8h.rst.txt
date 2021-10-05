@@ -1,0 +1,4 @@
+File dap_chain_btc_rpc.h
+========================
+
+.. doxygenfile:: dap_chain_btc_rpc.h

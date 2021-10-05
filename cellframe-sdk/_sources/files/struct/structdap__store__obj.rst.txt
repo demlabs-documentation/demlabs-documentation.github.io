@@ -1,0 +1,4 @@
+Struct dap_store_obj
+====================
+
+.. doxygenstruct:: dap_store_obj

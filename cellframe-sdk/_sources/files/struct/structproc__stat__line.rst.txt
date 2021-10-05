@@ -1,0 +1,4 @@
+Struct proc_stat_line
+=====================
+
+.. doxygenstruct:: proc_stat_line

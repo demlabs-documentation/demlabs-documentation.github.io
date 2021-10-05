@@ -1,0 +1,4 @@
+Struct icmpv6_hdr
+=================
+
+.. doxygenstruct:: icmpv6_hdr

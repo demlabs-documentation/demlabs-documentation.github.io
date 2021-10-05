@@ -1,0 +1,4 @@
+File dap_json_rpc_errors.c
+==========================
+
+.. doxygenfile:: dap_json_rpc_errors.c

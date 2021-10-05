@@ -1,0 +1,4 @@
+Struct entropy_s
+================
+
+.. doxygenstruct:: entropy_s

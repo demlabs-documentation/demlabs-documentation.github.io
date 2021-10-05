@@ -1,0 +1,4 @@
+File main.c
+===========
+
+.. doxygenfile:: main.c

@@ -1,0 +1,4 @@
+Struct dap_proc_thread
+======================
+
+.. doxygenstruct:: dap_proc_thread

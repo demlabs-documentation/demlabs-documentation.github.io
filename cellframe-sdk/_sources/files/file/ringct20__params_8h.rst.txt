@@ -1,0 +1,4 @@
+File ringct20_params.h
+======================
+
+.. doxygenfile:: ringct20_params.h

@@ -1,0 +1,4 @@
+File registry.h
+===============
+
+.. doxygenfile:: registry.h

@@ -1,0 +1,4 @@
+Struct dap_chain_node_client
+============================
+
+.. doxygenstruct:: dap_chain_node_client

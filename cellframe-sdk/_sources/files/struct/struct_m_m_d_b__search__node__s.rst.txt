@@ -1,0 +1,4 @@
+Struct MMDB_search_node_s
+=========================
+
+.. doxygenstruct:: MMDB_search_node_s

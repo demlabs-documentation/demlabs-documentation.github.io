@@ -1,0 +1,4 @@
+Union dap_chain_node_role
+=========================
+
+.. doxygenunion:: dap_chain_node_role

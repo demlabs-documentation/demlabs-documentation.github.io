@@ -1,0 +1,4 @@
+Struct dap_http_simple
+======================
+
+.. doxygenstruct:: dap_http_simple

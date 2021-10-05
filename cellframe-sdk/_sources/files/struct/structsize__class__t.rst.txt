@@ -1,0 +1,4 @@
+Struct size_class_t
+===================
+
+.. doxygenstruct:: size_class_t

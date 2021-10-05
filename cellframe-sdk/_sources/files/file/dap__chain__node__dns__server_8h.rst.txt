@@ -1,0 +1,4 @@
+File dap_chain_node_dns_server.h
+================================
+
+.. doxygenfile:: dap_chain_node_dns_server.h

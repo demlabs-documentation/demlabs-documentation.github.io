@@ -1,0 +1,4 @@
+File newhope_params.h
+=====================
+
+.. doxygenfile:: newhope_params.h

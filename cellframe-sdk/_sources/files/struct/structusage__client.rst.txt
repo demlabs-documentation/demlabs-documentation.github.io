@@ -1,0 +1,4 @@
+Struct usage_client
+===================
+
+.. doxygenstruct:: usage_client

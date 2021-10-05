@@ -1,0 +1,4 @@
+File dilithium_params.h
+=======================
+
+.. doxygenfile:: dilithium_params.h

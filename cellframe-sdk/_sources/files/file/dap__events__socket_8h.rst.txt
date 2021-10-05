@@ -1,0 +1,4 @@
+File dap_events_socket.h
+========================
+
+.. doxygenfile:: dap_events_socket.h

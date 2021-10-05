@@ -1,0 +1,4 @@
+Struct CLIF_argument_struct
+===========================
+
+.. doxygenstruct:: CLIF_argument_struct

@@ -1,0 +1,4 @@
+Struct newhope_private_key_t
+============================
+
+.. doxygenstruct:: newhope_private_key_t

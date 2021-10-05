@@ -1,0 +1,4 @@
+Struct dap_db_log_list_obj
+==========================
+
+.. doxygenstruct:: dap_db_log_list_obj

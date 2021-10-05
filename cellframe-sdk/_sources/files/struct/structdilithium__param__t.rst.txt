@@ -1,0 +1,4 @@
+Struct dilithium_param_t
+========================
+
+.. doxygenstruct:: dilithium_param_t

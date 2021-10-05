@@ -1,0 +1,4 @@
+Struct dap_chain_gdb_datum_hash_item
+====================================
+
+.. doxygenstruct:: dap_chain_gdb_datum_hash_item

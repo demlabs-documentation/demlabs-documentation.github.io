@@ -1,0 +1,854 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>File registry.h &mdash; cellframe 2.9 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="File ring.c" href="ring_8c.html" />
+    <link rel="prev" title="File registry.c" href="registry_8c.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> cellframe
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../filelist.html">File list</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../filelist.html">File list</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="28147__14_8c.html">File 28147_14.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="28147__14_8h.html">File 28147_14.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="28147__89_8c.html">File 28147_89.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="28147__89_8h.html">File 28147_89.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_hash_8c.html">File KeccakHash.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_hash_8h.html">File KeccakHash.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_p-1600-_sn_p_8h.html">File KeccakP-1600-SnP.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_p-1600-reference_8c.html">File KeccakP-1600-reference.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_p-1600-reference_8h.html">File KeccakP-1600-reference.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_sponge-common_8h.html">File KeccakSponge-common.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_sponge_8inc.html">File KeccakSponge.inc</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_sponge_width1600_8c.html">File KeccakSpongeWidth1600.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_sponge_width1600_8h.html">File KeccakSpongeWidth1600.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="align_8h.html">File align.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="android_2pthread__barrier_8h.html">File pthread_barrier.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="as__lookups_8c.html">File as_lookups.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="atomic_8h.html">File atomic.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="benchmark_8c.html">File benchmark.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="benchmark_8h.html">File benchmark.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bf__local_8h.html">File bf_local.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__b_8h.html">File bliss_b.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__b__keys_8c.html">File bliss_b_keys.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__b__params_8c.html">File bliss_b_params.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__b__params_8h.html">File bliss_b_params.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__b__signatures_8c.html">File bliss_b_signatures.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__b__utils_8c.html">File bliss_b_utils.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__tables_8c.html">File bliss_tables.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__tables_8h.html">File bliss_tables.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="block__cipher_8c.html">File block_cipher.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="block__cipher_8h.html">File block_cipher.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="blowfish_8c.html">File blowfish.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="blowfish_8h.html">File blowfish.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="brg__endian_8h.html">File brg_endian.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="callback__print_8h.html">File callback_print.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="circular__buffer_8h.html">File circular_buffer.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clif_8c.html">File clif.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clif_8h.html">File clif.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="common__salsa_8h.html">File common_salsa.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="core_2test_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="core_2test_2rpmalloc_2benchmark_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="core_2test_2rpmalloc_2test_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="core__salsa__ref_8c.html">File core_salsa_ref.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="crt__benchmark_8c.html">File crt_benchmark.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="crypto_2test_2cert_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="crypto_2test_2crypto_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="crypto__core__salsa2012_8h.html">File crypto_core_salsa2012.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="crypto__stream__salsa2012_8h.html">File crypto_stream_salsa2012.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="csum_8c.html">File csum.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap-sdk_2crypto_2src_2msrln_2random_8c.html">File random.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__app__cli_8c.html">File dap_app_cli.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__app__cli_8h.html">File dap_app_cli.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__app__cli__net_8c.html">File dap_app_cli_net.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__app__cli__net_8h.html">File dap_app_cli_net.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__app__cli__shell_8c.html">File dap_app_cli_shell.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__app__cli__shell_8h.html">File dap_app_cli_shell.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__binary__tree_8c.html">File dap_binary_tree.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__binary__tree_8h.html">File dap_binary_tree.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__cert_8c.html">File dap_cert.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__cert_8h.html">File dap_cert.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__cert__file_8c.html">File dap_cert_file.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__cert__file_8h.html">File dap_cert_file.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain_8c.html">File dap_chain.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain_8h.html">File dap_chain.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__block_8c.html">File dap_chain_block.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__block_8h.html">File dap_chain_block.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__block__cache_8c.html">File dap_chain_block_cache.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__block__cache_8h.html">File dap_chain_block_cache.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__block__chunk_8c.html">File dap_chain_block_chunk.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__block__chunk_8h.html">File dap_chain_block_chunk.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__btc__rpc_8c.html">File dap_chain_btc_rpc.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__btc__rpc_8h.html">File dap_chain_btc_rpc.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__btc__rpc__handlers_8c.html">File dap_chain_btc_rpc_handlers.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__btc__rpc__handlers_8h.html">File dap_chain_btc_rpc_handlers.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cell_8c.html">File dap_chain_cell.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cell_8h.html">File dap_chain_cell.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__coin_8c.html">File dap_chain_coin.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__coin_8h.html">File dap_chain_coin.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__common_8c.html">File dap_chain_common.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__common_8h.html">File dap_chain_common.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs_8c.html">File dap_chain_cs.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs_8h.html">File dap_chain_cs.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__block__poa_8c.html">File dap_chain_cs_block_poa.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__block__poa_8h.html">File dap_chain_cs_block_poa.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__block__pow_8c.html">File dap_chain_cs_block_pow.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__block__pow_8h.html">File dap_chain_cs_block_pow.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__blocks_8c.html">File dap_chain_cs_blocks.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__blocks_8h.html">File dap_chain_cs_blocks.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag_8c.html">File dap_chain_cs_dag.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag_8h.html">File dap_chain_cs_dag.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag__event_8c.html">File dap_chain_cs_dag_event.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag__event_8h.html">File dap_chain_cs_dag_event.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag__poa_8c.html">File dap_chain_cs_dag_poa.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag__poa_8h.html">File dap_chain_cs_dag_poa.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag__pos_8c.html">File dap_chain_cs_dag_pos.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag__pos_8h.html">File dap_chain_cs_dag_pos.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__none_8c.html">File dap_chain_cs_none.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__none_8h.html">File dap_chain_cs_none.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum_8c.html">File dap_chain_datum.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum_8h.html">File dap_chain_datum.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__decree_8c.html">File dap_chain_datum_decree.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__decree_8h.html">File dap_chain_datum_decree.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__hashtree__roots_8c.html">File dap_chain_datum_hashtree_roots.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__hashtree__roots_8h.html">File dap_chain_datum_hashtree_roots.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__poll_8c.html">File dap_chain_datum_poll.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__poll_8h.html">File dap_chain_datum_poll.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__token_8c.html">File dap_chain_datum_token.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__token_8h.html">File dap_chain_datum_token.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx_8c.html">File dap_chain_datum_tx.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx_8h.html">File dap_chain_datum_tx.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__in_8h.html">File dap_chain_datum_tx_in.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__in__cond_8h.html">File dap_chain_datum_tx_in_cond.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__items_8c.html">File dap_chain_datum_tx_items.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__items_8h.html">File dap_chain_datum_tx_items.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__out_8h.html">File dap_chain_datum_tx_out.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__out__cond_8h.html">File dap_chain_datum_tx_out_cond.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__out__ext_8h.html">File dap_chain_datum_tx_out_ext.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__pkey_8h.html">File dap_chain_datum_tx_pkey.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__receipt_8c.html">File dap_chain_datum_tx_receipt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__receipt_8h.html">File dap_chain_datum_tx_receipt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__sig_8h.html">File dap_chain_datum_tx_sig.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__token_8c.html">File dap_chain_datum_tx_token.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__token_8h.html">File dap_chain_datum_tx_token.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__vote_8c.html">File dap_chain_datum_vote.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__vote_8h.html">File dap_chain_datum_vote.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__dht_8c.html">File dap_chain_dht.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__dht_8h.html">File dap_chain_dht.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db_8c.html">File dap_chain_global_db.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db_8h.html">File dap_chain_global_db.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver_8c.html">File dap_chain_global_db_driver.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver_8h.html">File dap_chain_global_db_driver.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver__cdb_8c.html">File dap_chain_global_db_driver_cdb.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver__cdb_8h.html">File dap_chain_global_db_driver_cdb.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver__mdbx_8c.html">File dap_chain_global_db_driver_mdbx.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver__mdbx_8h.html">File dap_chain_global_db_driver_mdbx.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver__sqlite_8c.html">File dap_chain_global_db_driver_sqlite.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver__sqlite_8h.html">File dap_chain_global_db_driver_sqlite.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__hist_8c.html">File dap_chain_global_db_hist.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__hist_8h.html">File dap_chain_global_db_hist.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__remote_8c.html">File dap_chain_global_db_remote.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__remote_8h.html">File dap_chain_global_db_remote.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__ledger_8c.html">File dap_chain_ledger.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__ledger_8h.html">File dap_chain_ledger.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__mempool_8c.html">File dap_chain_mempool.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__mempool_8h.html">File dap_chain_mempool.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net_8c.html">File dap_chain_net.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net_8h.html">File dap_chain_net.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__bugreport_8h.html">File dap_chain_net_bugreport.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__news_8h.html">File dap_chain_net_news.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__remote_8c.html">File dap_chain_net_remote.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__remote_8h.html">File dap_chain_net_remote.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv_8c.html">File dap_chain_net_srv.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv_8h.html">File dap_chain_net_srv.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__app_8c.html">File dap_chain_net_srv_app.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__app_8h.html">File dap_chain_net_srv_app.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__app__db_8c.html">File dap_chain_net_srv_app_db.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__app__db_8h.html">File dap_chain_net_srv_app_db.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__client_8c.html">File dap_chain_net_srv_client.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__client_8h.html">File dap_chain_net_srv_client.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__common_8c.html">File dap_chain_net_srv_common.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__common_8h.html">File dap_chain_net_srv_common.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__countries_8h.html">File dap_chain_net_srv_countries.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__datum_8c.html">File dap_chain_net_srv_datum.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__datum_8h.html">File dap_chain_net_srv_datum.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__datum__pool_8c.html">File dap_chain_net_srv_datum_pool.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__datum__pool_8h.html">File dap_chain_net_srv_datum_pool.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__geoip_8c.html">File dap_chain_net_srv_geoip.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__geoip_8h.html">File dap_chain_net_srv_geoip.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__order_8c.html">File dap_chain_net_srv_order.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__order_8h.html">File dap_chain_net_srv_order.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__stake_8c.html">File dap_chain_net_srv_stake.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__stake_8h.html">File dap_chain_net_srv_stake.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__stream__session_8c.html">File dap_chain_net_srv_stream_session.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__stream__session_8h.html">File dap_chain_net_srv_stream_session.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__vpn_8c.html">File dap_chain_net_srv_vpn.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__vpn_8h.html">File dap_chain_net_srv_vpn.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__vpn__cmd_8c.html">File dap_chain_net_srv_vpn_cmd.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__vpn__cmd_8h.html">File dap_chain_net_srv_vpn_cmd.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__xchange_8c.html">File dap_chain_net_srv_xchange.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__xchange_8h.html">File dap_chain_net_srv_xchange.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__vpn__client_8c.html">File dap_chain_net_vpn_client.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__vpn__client_8h.html">File dap_chain_net_vpn_client.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__vpn__client__tun_8c.html">File dap_chain_net_vpn_client_tun.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__vpn__client__tun_8h.html">File dap_chain_net_vpn_client_tun.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node_8c.html">File dap_chain_node.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node_8h.html">File dap_chain_node.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__cli_8c.html">File dap_chain_node_cli.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__cli_8h.html">File dap_chain_node_cli.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__cli__cmd_8c.html">File dap_chain_node_cli_cmd.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__cli__cmd_8h.html">File dap_chain_node_cli_cmd.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__cli__cmd__tx_8c.html">File dap_chain_node_cli_cmd_tx.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__cli__cmd__tx_8h.html">File dap_chain_node_cli_cmd_tx.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__client_8c.html">File dap_chain_node_client.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__client_8h.html">File dap_chain_node_client.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__dns__client_8c.html">File dap_chain_node_dns_client.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__dns__client_8h.html">File dap_chain_node_dns_client.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__dns__server_8c.html">File dap_chain_node_dns_server.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__dns__server_8h.html">File dap_chain_node_dns_server.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__ping_8c.html">File dap_chain_node_ping.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__ping_8h.html">File dap_chain_node_ping.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__remote_8c.html">File dap_chain_node_remote.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__remote_8h.html">File dap_chain_node_remote.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__pvt_8c.html">File dap_chain_pvt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__pvt_8h.html">File dap_chain_pvt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__vf_8c.html">File dap_chain_vf.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__vf_8h.html">File dap_chain_vf.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__wallet_8c.html">File dap_chain_wallet.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__wallet_8h.html">File dap_chain_wallet.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__wallet__internal_8h.html">File dap_chain_wallet_internal.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__wallet__ops_8c.html">File dap_chain_wallet_ops.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__wallet__ops_8h.html">File dap_chain_wallet_ops.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__circular__buffer_8c.html">File dap_circular_buffer.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__circular__buffer_8h.html">File dap_circular_buffer.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__circular__test_8c.html">File dap_circular_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__circular__test_8h.html">File dap_circular_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client_8c.html">File dap_client.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client_8h.html">File dap_client.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client__http_8c.html">File dap_client_http.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client__http_8h.html">File dap_client_http.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client__pool_8c.html">File dap_client_pool.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client__pool_8h.html">File dap_client_pool.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client__pvt_8c.html">File dap_client_pvt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client__pvt_8h.html">File dap_client_pvt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client__pvt__hh_8c.html">File dap_client_pvt_hh.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__common_8c.html">File dap_common.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__common_8h.html">File dap_common.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__common__test_8c.html">File dap_common_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__common__test_8h.html">File dap_common_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__config_8c.html">File dap_config.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__config_8h.html">File dap_config.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__config__test_8c.html">File dap_config_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__config__test_8h.html">File dap_config_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__console__manager_8c.html">File dap_console_manager.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__console__manager_8h.html">File dap_console_manager.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__cpu__monitor__test_8c.html">File dap_cpu_monitor_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__cpu__monitor__test_8h.html">File dap_cpu_monitor_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__crypto__cert__save__tests_8c.html">File dap_crypto_cert_save_tests.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__crypto__cert__save__tests_8h.html">File dap_crypto_cert_save_tests.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__crypto__common_8h.html">File dap_crypto_common.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc_8c.html">File dap_enc.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc_8h.html">File dap_enc.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc___g_o_s_t_8c.html">File dap_enc_GOST.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc___g_o_s_t_8h.html">File dap_enc_GOST.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc___s_e_e_d_8c.html">File dap_enc_SEED.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc___s_e_e_d_8h.html">File dap_enc_SEED.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base58_8c.html">File dap_enc_base58.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base58_8h.html">File dap_enc_base58.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base58__test_8c.html">File dap_enc_base58_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base58__test_8h.html">File dap_enc_base58_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base64_8c.html">File dap_enc_base64.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base64_8h.html">File dap_enc_base64.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base64__test_8c.html">File dap_enc_base64_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base64__test_8h.html">File dap_enc_base64_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__bf_8c.html">File dap_enc_bf.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__bf_8h.html">File dap_enc_bf.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__bliss_8c.html">File dap_enc_bliss.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__bliss_8h.html">File dap_enc_bliss.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ca_8c.html">File dap_enc_ca.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ca_8h.html">File dap_enc_ca.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__defeo_8c.html">File dap_enc_defeo.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__defeo_8h.html">File dap_enc_defeo.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__defeo__test_8c.html">File dap_enc_defeo_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__defeo__test_8h.html">File dap_enc_defeo_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__dilithium_8c.html">File dap_enc_dilithium.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__dilithium_8h.html">File dap_enc_dilithium.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__dilithium__test_8c.html">File dap_enc_dilithium_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__dilithium__test_8h.html">File dap_enc_dilithium_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__http_8c.html">File dap_enc_http.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__http_8h.html">File dap_enc_http.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__iaes_8c.html">File dap_enc_iaes.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__iaes_8h.html">File dap_enc_iaes.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__key_8c.html">File dap_enc_key.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__key_8h.html">File dap_enc_key.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ks_8c.html">File dap_enc_ks.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ks_8h.html">File dap_enc_ks.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__msrln_8c.html">File dap_enc_msrln.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__msrln_8h.html">File dap_enc_msrln.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__msrln__test_8c.html">File dap_enc_msrln_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__msrln__test_8h.html">File dap_enc_msrln_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__newhope_8c.html">File dap_enc_newhope.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__newhope_8h.html">File dap_enc_newhope.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__newhope__test_8c.html">File dap_enc_newhope_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__oaes_8c.html">File dap_enc_oaes.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__oaes_8h.html">File dap_enc_oaes.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__picnic_8c.html">File dap_enc_picnic.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__picnic_8h.html">File dap_enc_picnic.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__picnic__test_8c.html">File dap_enc_picnic_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__picnic__test_8h.html">File dap_enc_picnic_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ringct20_8c.html">File dap_enc_ringct20.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ringct20_8h.html">File dap_enc_ringct20.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ringct20__test_8c.html">File dap_enc_ringct20_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ringct20__test_8h.html">File dap_enc_ringct20_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__salsa2012_8c.html">File dap_enc_salsa2012.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__salsa2012_8h.html">File dap_enc_salsa2012.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__sig__bliss__test_8c.html">File dap_enc_sig_bliss_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__sig__bliss__test_8h.html">File dap_enc_sig_bliss_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__sign__multi__test_8c.html">File dap_enc_sign_multi_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__sign__multi__test_8h.html">File dap_enc_sign_multi_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__tesla_8c.html">File dap_enc_tesla.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__tesla_8h.html">File dap_enc_tesla.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__tesla__test_8c.html">File dap_enc_tesla_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__tesla__test_8h.html">File dap_enc_tesla_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__test_8c.html">File dap_enc_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__test_8h.html">File dap_enc_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__events_8c.html">File dap_events.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__events_8h.html">File dap_events.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__events__socket_8c.html">File dap_events_socket.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__events__socket_8h.html">File dap_events_socket.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__file__utils_8c.html">File dap_file_utils.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__file__utils_8h.html">File dap_file_utils.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__fnmatch_8c.html">File dap_fnmatch.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__fnmatch_8h.html">File dap_fnmatch.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__fnmatch__loop_8h.html">File dap_fnmatch_loop.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash_8c.html">File dap_hash.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash_8h.html">File dap_hash.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash__fusion_8c.html">File dap_hash_fusion.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash__fusion_8h.html">File dap_hash_fusion.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash__keccak_8c.html">File dap_hash_keccak.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash__keccak_8h.html">File dap_hash_keccak.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash__slow_8c.html">File dap_hash_slow.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash__slow_8h.html">File dap_hash_slow.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http_8c.html">File dap_http.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http_8h.html">File dap_http.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__cache_8c.html">File dap_http_cache.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__cache_8h.html">File dap_http_cache.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__client_8c.html">File dap_http_client.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__client_8h.html">File dap_http_client.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__folder_8c.html">File dap_http_folder.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__folder_8h.html">File dap_http_folder.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__header_8c.html">File dap_http_header.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__header_8h.html">File dap_http_header.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__simple_8c.html">File dap_http_simple.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__simple_8h.html">File dap_http_simple.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__simple__test_8c.html">File dap_http_simple_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__simple__test_8h.html">File dap_http_simple_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__user__agent_8c.html">File dap_http_user_agent.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__user__agent_8h.html">File dap_http_user_agent.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__user__agent__test_8c.html">File dap_http_user_agent_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__user__agent__test_8h.html">File dap_http_user_agent_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__iaes__proto_8h.html">File dap_iaes_proto.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc_8c.html">File dap_json_rpc.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc_8h.html">File dap_json_rpc.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__errors_8c.html">File dap_json_rpc_errors.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__errors_8h.html">File dap_json_rpc_errors.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__notification_8c.html">File dap_json_rpc_notification.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__notification_8h.html">File dap_json_rpc_notification.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__params_8c.html">File dap_json_rpc_params.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__params_8h.html">File dap_json_rpc_params.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__request_8c.html">File dap_json_rpc_request.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__request_8h.html">File dap_json_rpc_request.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__request__handler_8c.html">File dap_json_rpc_request_handler.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__request__handler_8h.html">File dap_json_rpc_request_handler.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__response_8c.html">File dap_json_rpc_response.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__response_8h.html">File dap_json_rpc_response.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__response__handler_8c.html">File dap_json_rpc_response_handler.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__response__handler_8h.html">File dap_json_rpc_response_handler.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__list_8c.html">File dap_list.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__list_8h.html">File dap_list.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__lut_8h.html">File dap_lut.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__math__ops_8c.html">File dap_math_ops.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__math__ops_8h.html">File dap_math_ops.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__meta_8c.html">File dap_meta.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__meta_8h.html">File dap_meta.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__module_8c.html">File dap_module.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__module_8h.html">File dap_module.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__modules__dynamic__cdb_8c.html">File dap_modules_dynamic_cdb.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__modules__dynamic__cdb_8h.html">File dap_modules_dynamic_cdb.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__net_8c.html">File dap_net.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__net_8h.html">File dap_net.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__network__monitor__test_8c.html">File dap_network_monitor_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__network__monitor__test_8h.html">File dap_network_monitor_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__notify__srv_8c.html">File dap_notify_srv.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__notify__srv_8h.html">File dap_notify_srv.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__pkey_8c.html">File dap_pkey.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__pkey_8h.html">File dap_pkey.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__proc__queue_8c.html">File dap_proc_queue.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__proc__queue_8h.html">File dap_proc_queue.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__proc__thread_8c.html">File dap_proc_thread.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__proc__thread_8h.html">File dap_proc_thread.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__process__mem__test_8c.html">File dap_process_mem_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__process__mem__test_8h.html">File dap_process_mem_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__rand_8c.html">File dap_rand.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__rand_8h.html">File dap_rand.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__server_8c.html">File dap_server.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__server_8h.html">File dap_server.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__sha3__tests_8c.html">File dap_sha3_tests.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__sign_8c.html">File dap_sign.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__sign_8h.html">File dap_sign.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream_8c.html">File dap_stream.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream_8h.html">File dap_stream.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch_8c.html">File dap_stream_ch.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch_8h.html">File dap_stream_ch.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain_8c.html">File dap_stream_ch_chain.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain_8h.html">File dap_stream_ch_chain.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net_8c.html">File dap_stream_ch_chain_net.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net_8h.html">File dap_stream_ch_chain_net.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net__pkt_8c.html">File dap_stream_ch_chain_net_pkt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net__pkt_8h.html">File dap_stream_ch_chain_net_pkt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net__srv_8c.html">File dap_stream_ch_chain_net_srv.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net__srv_8h.html">File dap_stream_ch_chain_net_srv.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net__srv__pkt_8c.html">File dap_stream_ch_chain_net_srv_pkt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net__srv__pkt_8h.html">File dap_stream_ch_chain_net_srv_pkt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__pkt_8c.html">File dap_stream_ch_chain_pkt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__pkt_8h.html">File dap_stream_ch_chain_pkt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__pkt_8c.html">File dap_stream_ch_pkt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__pkt_8h.html">File dap_stream_ch_pkt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__proc_8c.html">File dap_stream_ch_proc.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__proc_8h.html">File dap_stream_ch_proc.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ctl_8c.html">File dap_stream_ctl.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ctl_8h.html">File dap_stream_ctl.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__pkt_8c.html">File dap_stream_pkt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__pkt_8h.html">File dap_stream_pkt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__session_8c.html">File dap_stream_session.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__session_8h.html">File dap_stream_session.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__worker_8c.html">File dap_stream_worker.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__worker_8h.html">File dap_stream_worker.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__strfuncs_8c.html">File dap_strfuncs.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__strfuncs_8h.html">File dap_strfuncs.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__strfuncs__test_8c.html">File dap_strfuncs_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__strfuncs__test_8h.html">File dap_strfuncs_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__string_8c.html">File dap_string.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__string_8h.html">File dap_string.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__test_8c.html">File dap_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__test_8h.html">File dap_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__test__generator_8c.html">File dap_test_generator.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__test__generator_8h.html">File dap_test_generator.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__timerfd_8c.html">File dap_timerfd.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__timerfd_8h.html">File dap_timerfd.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__traffic__track__test_8c.html">File dap_traffic_track_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__traffic__track__test_8h.html">File dap_traffic_track_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__tsd_8c.html">File dap_tsd.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__tsd_8h.html">File dap_tsd.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__uuid_8c.html">File dap_uuid.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__uuid_8h.html">File dap_uuid.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__worker_8c.html">File dap_worker.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__worker_8h.html">File dap_worker.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="darwin_2macos_2dap__network__monitor_8c.html">File dap_network_monitor.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="darwin_2macos_2dap__network__monitor_8h.html">File dap_network_monitor.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="darwin_2macos_2pthread__barrier_8h.html">File pthread_barrier.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data-pool_8c.html">File data-pool.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data-pool_8h.html">File data-pool.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="defeo___p768__internal_8h.html">File defeo_P768_internal.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="defeo__config_8h.html">File defeo_config.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="defeo__kex_8c.html">File defeo_kex.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__packing_8c.html">File dilithium_packing.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__packing_8h.html">File dilithium_packing.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__params_8c.html">File dilithium_params.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__params_8h.html">File dilithium_params.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__poly_8c.html">File dilithium_poly.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__poly_8h.html">File dilithium_poly.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__polyvec_8c.html">File dilithium_polyvec.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__polyvec_8h.html">File dilithium_polyvec.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__rounding__reduce_8c.html">File dilithium_rounding_reduce.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__rounding__reduce_8h.html">File dilithium_rounding_reduce.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__sign_8c.html">File dilithium_sign.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__sign_8h.html">File dilithium_sign.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dll__import_8h.html">File dll_import.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="entropy_8c.html">File entropy.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="extension_8c.html">File extension.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="fips202_8c.html">File fips202.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="fips202_8h.html">File fips202.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="flowlabel_8h.html">File flowlabel.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="hash_8c.html">File hash.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="hash_8h.html">File hash.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="http__status__code_8h.html">File http_status_code.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="iaes256__cbc__cernal_8c.html">File iaes256_cbc_cernal.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="iaes__tables_8h.html">File iaes_tables.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="include_2dap__stream__ch__chain__net__srv_8h.html">File dap_stream_ch_chain_net_srv.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="int-util_8h.html">File int-util.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="iputils_8c.html">File iputils.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="iputils_8h.html">File iputils.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="kex_8c.html">File kex.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="lowmc__constants_8c.html">File lowmc_constants.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="lowmc__constants_8h.html">File lowmc_constants.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="macos__specific__endian_8h.html">File macos_specific_endian.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="maxminddb-compat-util_8h.html">File maxminddb-compat-util.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="maxminddb_8c.html">File maxminddb.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="maxminddb_8h.html">File maxminddb.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="maxminddb__config_8h.html">File maxminddb_config.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="memwipe_8c.html">File memwipe.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="memwipe_8h.html">File memwipe.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mmdblookup_8c.html">File mmdblookup.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mod-dccp_8c.html">File mod-dccp.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mod-icmp_8c.html">File mod-icmp.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mod-raw_8c.html">File mod-raw.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mod-tcp_8c.html">File mod-tcp.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mod-tcpconn_8c.html">File mod-tcpconn.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mod-udp_8c.html">File mod-udp.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="modes_8h.html">File modes.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="module_8c.html">File module.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules_2net_2iputils_2traceroute_2random_8c.html">File random.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules_2net_2win32_2ip_8h.html">File ip.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules_2net_2win32_2iphdr_8h.html">File iphdr.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="msrln_2_a_m_d64_2consts_8c.html">File consts.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="msrln_2generic_2ntt_8c.html">File ntt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="msrln_8h.html">File msrln.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="msrln__priv_8h.html">File msrln_priv.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="net_2client_2test_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="net_2core_2test_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="net_2server_2test_2enc__server_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="net_2server_2test_2http__server_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="net_2server_2test_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="net_2stream_2test_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__api_8h.html">File newhope_api.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__cpakem_8c.html">File newhope_cpakem.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__cpakem_8h.html">File newhope_cpakem.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__cpapke_8c.html">File newhope_cpapke.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__cpapke_8h.html">File newhope_cpapke.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__ntt_8c.html">File newhope_ntt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__ntt_8h.html">File newhope_ntt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__params_8h.html">File newhope_params.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__poly_8c.html">File newhope_poly.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__poly_8h.html">File newhope_poly.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__precomp_8c.html">File newhope_precomp.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__reduce_8c.html">File newhope_reduce.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__reduce_8h.html">File newhope_reduce.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ntt_8h.html">File ntt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ntt__api_8h.html">File ntt_api.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ntt__api__blzzd_8c.html">File ntt_api_blzzd.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ntt__blzzd_8c.html">File ntt_blzzd.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ntt__x64_8c.html">File ntt_x64.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oaes__lib_8c.html">File oaes_lib.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oaes__lib_8h.html">File oaes_lib.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ofb128_8c.html">File ofb128.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="os_2win32_2ip_8h.html">File ip.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="os_2win32_2iphdr_8h.html">File iphdr.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="params_8h.html">File params.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="picnic_8c.html">File picnic.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="picnic_8h.html">File picnic.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="picnic__impl_8c.html">File picnic_impl.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="picnic__impl_8h.html">File picnic_impl.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="picnic__types_8c.html">File picnic_types.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="picnic__types_8h.html">File picnic_types.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ping6__common_8c.html">File ping6_common.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ping_8c.html">File ping.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ping_8h.html">File ping.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ping__common_8c.html">File ping_common.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="platform_8h.html">File platform.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="poll_8c.html">File poll.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="poly_8c.html">File poly.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="poly_8h.html">File poly.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="portable__endian_8h.html">File portable_endian.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="precomp_8c.html">File precomp.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="print__data_8c.html">File print_data.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="print__data_8h.html">File print_data.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pthread__barrier_8c.html">File pthread_barrier.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="reduce_8c.html">File reduce.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="reduce_8h.html">File reduce.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="registry_8c.html">File registry.c</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">File registry.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ring_8c.html">File ring.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ring_8h.html">File ring.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ringct20_2ntt_8c.html">File ntt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ringct20__params_8c.html">File ringct20_params.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ringct20__params_8h.html">File ringct20_params.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rpmalloc_8c.html">File rpmalloc.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rpmalloc_8h.html">File rpmalloc.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sample_8c.html">File sample.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sampler_8c.html">File sampler.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sampler_8h.html">File sampler.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="seed_8c.html">File seed.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="seed_8h.html">File seed.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="seed__local_8h.html">File seed_local.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="seed__ofb_8c.html">File seed_ofb.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sig__tesla_2consts_8c.html">File consts.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sign_8c.html">File sign.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="stream__salsa2012_8c.html">File stream_salsa2012.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="stream__salsa2012__ref_8c.html">File stream_salsa2012_ref.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="table_8h.html">File table.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tesla__params_8c.html">File tesla_params.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tesla__params_8h.html">File tesla_params.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="test_8h.html">File test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="thread_8c.html">File thread.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="thread_8h.html">File thread.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="time_8c.html">File time.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="timer_8c.html">File timer.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="timer_8h.html">File timer.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tracepath_8c.html">File tracepath.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="traceroute_8c.html">File traceroute.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="traceroute_8h.html">File traceroute.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2dap__cpu__monitor_8c.html">File dap_cpu_monitor.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2dap__cpu__monitor_8h.html">File dap_cpu_monitor.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2dap__process__manager_8c.html">File dap_process_manager.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2dap__process__manager_8h.html">File dap_process_manager.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2dap__process__memory_8c.html">File dap_process_memory.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2dap__process__memory_8h.html">File dap_process_memory.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2linux_2dap__network__monitor_8c.html">File dap_network_monitor.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2linux_2dap__network__monitor_8h.html">File dap_network_monitor.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="win32_2dap__cpu__monitor_8c.html">File dap_cpu_monitor.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="win32_2dap__cpu__monitor_8h.html">File dap_cpu_monitor.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="win32_2dap__process__manager_8c.html">File dap_process_manager.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="win32_2dap__process__manager_8h.html">File dap_process_manager.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="win32_2dap__process__memory_8c.html">File dap_process_memory.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="win32_2dap__process__memory_8h.html">File dap_process_memory.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../structlist.html">Struct list</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../unionlist.html">Union list</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">cellframe</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../filelist.html">File list</a> &raquo;</li>
+        
+          <li><a href="../filelist.html">File list</a> &raquo;</li>
+        
+      <li>File registry.h</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/files/file/registry_8h.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="file-registry-h">
+<h1>File registry.h<a class="headerlink" href="#file-registry-h" title="Permalink to this headline">¶</a></h1>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-functions">Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv410readRegKey4HKEY7LPCWSTR7LPCWSTR">
+<span id="_CPPv310readRegKey4HKEY7LPCWSTR7LPCWSTR"></span><span id="_CPPv210readRegKey4HKEY7LPCWSTR7LPCWSTR"></span><span id="readRegKey__HKEY.LPCWSTR.LPCWSTR"></span><span class="target" id="registry_8h_1aa2ae5e9bcce5016a2ebb7808ca5eaddc"></span><span class="kt"><span class="pre">wchar_t</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">readRegKey</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">HKEY</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">hKey</span></span>, <span class="n"><span class="pre">LPCWSTR</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">regSubKey</span></span>, <span class="n"><span class="pre">LPCWSTR</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">val</span></span><span class="sig-paren">)</span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv410getTapGUIDv">
+<span id="_CPPv310getTapGUIDv"></span><span id="_CPPv210getTapGUIDv"></span><span id="getTapGUID"></span><span class="target" id="registry_8h_1ada7068d74bb2c6d32f7e6f60b6b9bbf8"></span><span class="kt"><span class="pre">wchar_t</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">getTapGUID</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv410getTapNamev">
+<span id="_CPPv310getTapNamev"></span><span id="_CPPv210getTapNamev"></span><span id="getTapName"></span><span class="target" id="registry_8h_1aa0f3d662beb7c2213b19ce0a847a638e"></span><span class="kt"><span class="pre">wchar_t</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">getTapName</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv410getUserSID7LPCWSTR">
+<span id="_CPPv310getUserSID7LPCWSTR"></span><span id="_CPPv210getUserSID7LPCWSTR"></span><span id="getUserSID__LPCWSTR"></span><span class="target" id="registry_8h_1a1e680e021daceb0190f04f3be979dece"></span><span class="kt"><span class="pre">wchar_t</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">getUserSID</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">LPCWSTR</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">homePath</span></span><span class="sig-paren">)</span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv412shGetUsrPathv">
+<span id="_CPPv312shGetUsrPathv"></span><span id="_CPPv212shGetUsrPathv"></span><span id="shGetUsrPath"></span><span class="target" id="registry_8h_1af86a68bbdf0c6ef9a369379900537242"></span><span class="kt"><span class="pre">wchar_t</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">shGetUsrPath</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv414regWGetUsrPathv">
+<span id="_CPPv314regWGetUsrPathv"></span><span id="_CPPv214regWGetUsrPathv"></span><span id="regWGetUsrPath"></span><span class="target" id="registry_8h_1aafba970b2268b16520247ae6efb2c337"></span><span class="kt"><span class="pre">wchar_t</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">regWGetUsrPath</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv413regGetUsrPathv">
+<span id="_CPPv313regGetUsrPathv"></span><span id="_CPPv213regGetUsrPathv"></span><span id="regGetUsrPath"></span><span class="target" id="registry_8h_1a41ced2e4d73394069949aa9401715934"></span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">regGetUsrPath</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><br /></dt>
+<dd></dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="ring_8c.html" class="btn btn-neutral float-right" title="File ring.c" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="registry_8c.html" class="btn btn-neutral float-left" title="File registry.c" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Demlabs.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

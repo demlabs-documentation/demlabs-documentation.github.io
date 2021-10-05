@@ -1,0 +1,4 @@
+Struct dap_log_history_str_s
+============================
+
+.. doxygenstruct:: dap_log_history_str_s

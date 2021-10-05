@@ -1,0 +1,4 @@
+Struct dap_chain_datum_hashtree_roots_v2
+========================================
+
+.. doxygenstruct:: dap_chain_datum_hashtree_roots_v2

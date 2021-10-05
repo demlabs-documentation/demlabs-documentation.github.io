@@ -1,0 +1,4 @@
+Struct dap_process_memory
+=========================
+
+.. doxygenstruct:: dap_process_memory

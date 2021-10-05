@@ -1,0 +1,4 @@
+Struct dap_timer_interface
+==========================
+
+.. doxygenstruct:: dap_timer_interface

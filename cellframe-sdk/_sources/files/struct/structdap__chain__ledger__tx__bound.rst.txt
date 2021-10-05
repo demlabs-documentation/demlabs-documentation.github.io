@@ -1,0 +1,4 @@
+Struct dap_chain_ledger_tx_bound
+================================
+
+.. doxygenstruct:: dap_chain_ledger_tx_bound

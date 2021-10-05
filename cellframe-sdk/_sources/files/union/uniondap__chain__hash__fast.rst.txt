@@ -1,0 +1,4 @@
+Union dap_chain_hash_fast
+=========================
+
+.. doxygenunion:: dap_chain_hash_fast

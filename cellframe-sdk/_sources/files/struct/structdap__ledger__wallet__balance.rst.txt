@@ -1,0 +1,4 @@
+Struct dap_ledger_wallet_balance
+================================
+
+.. doxygenstruct:: dap_ledger_wallet_balance

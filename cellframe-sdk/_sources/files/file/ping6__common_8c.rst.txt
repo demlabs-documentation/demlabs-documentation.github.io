@@ -1,0 +1,4 @@
+File ping6_common.c
+===================
+
+.. doxygenfile:: ping6_common.c

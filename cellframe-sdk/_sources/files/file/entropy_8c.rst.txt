@@ -1,0 +1,4 @@
+File entropy.c
+==============
+
+.. doxygenfile:: entropy.c

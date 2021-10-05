@@ -1,0 +1,4 @@
+Struct tesla_private_key_t
+==========================
+
+.. doxygenstruct:: tesla_private_key_t

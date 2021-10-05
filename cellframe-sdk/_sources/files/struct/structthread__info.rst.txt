@@ -1,0 +1,4 @@
+Struct thread_info
+==================
+
+.. doxygenstruct:: thread_info

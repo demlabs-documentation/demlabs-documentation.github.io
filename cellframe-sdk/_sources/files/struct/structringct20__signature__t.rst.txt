@@ -1,0 +1,4 @@
+Struct ringct20_signature_t
+===========================
+
+.. doxygenstruct:: ringct20_signature_t

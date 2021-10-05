@@ -1,0 +1,4 @@
+Struct thread_pointers
+======================
+
+.. doxygenstruct:: thread_pointers

@@ -1,0 +1,4 @@
+Struct dap_stream_ch_pkt_hdr
+============================
+
+.. doxygenstruct:: dap_stream_ch_pkt_hdr

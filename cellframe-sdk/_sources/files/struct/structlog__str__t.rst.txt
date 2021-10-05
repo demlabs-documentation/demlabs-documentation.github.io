@@ -1,0 +1,4 @@
+Struct log_str_t
+================
+
+.. doxygenstruct:: log_str_t

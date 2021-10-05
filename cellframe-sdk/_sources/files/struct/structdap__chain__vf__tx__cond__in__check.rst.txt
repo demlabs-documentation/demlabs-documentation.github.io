@@ -1,0 +1,4 @@
+Struct dap_chain_vf_tx_cond_in_check
+====================================
+
+.. doxygenstruct:: dap_chain_vf_tx_cond_in_check

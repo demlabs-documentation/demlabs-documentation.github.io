@@ -1,0 +1,4 @@
+Struct dap_client_internal
+==========================
+
+.. doxygenstruct:: dap_client_internal

@@ -1,0 +1,4 @@
+Struct dap_chain_wallet_cert_hdr
+================================
+
+.. doxygenstruct:: dap_chain_wallet_cert_hdr

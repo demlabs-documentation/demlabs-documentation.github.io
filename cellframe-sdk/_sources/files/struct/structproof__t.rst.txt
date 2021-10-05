@@ -1,0 +1,4 @@
+Struct proof_t
+==============
+
+.. doxygenstruct:: proof_t

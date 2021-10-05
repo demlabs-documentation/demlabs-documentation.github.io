@@ -1,0 +1,4 @@
+Struct dap_chain_node_delc_req
+==============================
+
+.. doxygenstruct:: dap_chain_node_delc_req

@@ -1,0 +1,4 @@
+Struct vpn_local_network
+========================
+
+.. doxygenstruct:: vpn_local_network

@@ -1,0 +1,4 @@
+Struct benchmark_arg
+====================
+
+.. doxygenstruct:: benchmark_arg

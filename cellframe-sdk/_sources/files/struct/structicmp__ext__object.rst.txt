@@ -1,0 +1,4 @@
+Struct icmp_ext_object
+======================
+
+.. doxygenstruct:: icmp_ext_object

@@ -1,0 +1,4 @@
+Struct Context_ctr
+==================
+
+.. doxygenstruct:: Context_ctr

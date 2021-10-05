@@ -1,0 +1,4 @@
+Struct icmpv6_echo_request
+==========================
+
+.. doxygenstruct:: icmpv6_echo_request

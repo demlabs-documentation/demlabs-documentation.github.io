@@ -1,0 +1,4 @@
+Struct dap_chain_cs_dag_poa_pvt
+===============================
+
+.. doxygenstruct:: dap_chain_cs_dag_poa_pvt

@@ -1,0 +1,4 @@
+File poly.c
+===========
+
+.. doxygenfile:: poly.c

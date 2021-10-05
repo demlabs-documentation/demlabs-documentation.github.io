@@ -1,0 +1,4 @@
+Struct ping_func_set_st
+=======================
+
+.. doxygenstruct:: ping_func_set_st

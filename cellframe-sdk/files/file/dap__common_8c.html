@@ -1,0 +1,1473 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>File dap_common.c &mdash; cellframe 2.9 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="File dap_common.h" href="dap__common_8h.html" />
+    <link rel="prev" title="File dap_client_pvt_hh.c" href="dap__client__pvt__hh_8c.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> cellframe
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../filelist.html">File list</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../filelist.html">File list</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="28147__14_8c.html">File 28147_14.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="28147__14_8h.html">File 28147_14.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="28147__89_8c.html">File 28147_89.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="28147__89_8h.html">File 28147_89.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_hash_8c.html">File KeccakHash.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_hash_8h.html">File KeccakHash.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_p-1600-_sn_p_8h.html">File KeccakP-1600-SnP.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_p-1600-reference_8c.html">File KeccakP-1600-reference.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_p-1600-reference_8h.html">File KeccakP-1600-reference.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_sponge-common_8h.html">File KeccakSponge-common.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_sponge_8inc.html">File KeccakSponge.inc</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_sponge_width1600_8c.html">File KeccakSpongeWidth1600.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_keccak_sponge_width1600_8h.html">File KeccakSpongeWidth1600.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="align_8h.html">File align.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="android_2pthread__barrier_8h.html">File pthread_barrier.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="as__lookups_8c.html">File as_lookups.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="atomic_8h.html">File atomic.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="benchmark_8c.html">File benchmark.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="benchmark_8h.html">File benchmark.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bf__local_8h.html">File bf_local.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__b_8h.html">File bliss_b.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__b__keys_8c.html">File bliss_b_keys.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__b__params_8c.html">File bliss_b_params.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__b__params_8h.html">File bliss_b_params.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__b__signatures_8c.html">File bliss_b_signatures.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__b__utils_8c.html">File bliss_b_utils.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__tables_8c.html">File bliss_tables.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bliss__tables_8h.html">File bliss_tables.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="block__cipher_8c.html">File block_cipher.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="block__cipher_8h.html">File block_cipher.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="blowfish_8c.html">File blowfish.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="blowfish_8h.html">File blowfish.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="brg__endian_8h.html">File brg_endian.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="callback__print_8h.html">File callback_print.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="circular__buffer_8h.html">File circular_buffer.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clif_8c.html">File clif.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clif_8h.html">File clif.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="common__salsa_8h.html">File common_salsa.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="core_2test_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="core_2test_2rpmalloc_2benchmark_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="core_2test_2rpmalloc_2test_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="core__salsa__ref_8c.html">File core_salsa_ref.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="crt__benchmark_8c.html">File crt_benchmark.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="crypto_2test_2cert_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="crypto_2test_2crypto_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="crypto__core__salsa2012_8h.html">File crypto_core_salsa2012.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="crypto__stream__salsa2012_8h.html">File crypto_stream_salsa2012.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="csum_8c.html">File csum.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap-sdk_2crypto_2src_2msrln_2random_8c.html">File random.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__app__cli_8c.html">File dap_app_cli.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__app__cli_8h.html">File dap_app_cli.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__app__cli__net_8c.html">File dap_app_cli_net.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__app__cli__net_8h.html">File dap_app_cli_net.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__app__cli__shell_8c.html">File dap_app_cli_shell.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__app__cli__shell_8h.html">File dap_app_cli_shell.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__binary__tree_8c.html">File dap_binary_tree.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__binary__tree_8h.html">File dap_binary_tree.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__cert_8c.html">File dap_cert.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__cert_8h.html">File dap_cert.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__cert__file_8c.html">File dap_cert_file.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__cert__file_8h.html">File dap_cert_file.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain_8c.html">File dap_chain.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain_8h.html">File dap_chain.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__block_8c.html">File dap_chain_block.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__block_8h.html">File dap_chain_block.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__block__cache_8c.html">File dap_chain_block_cache.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__block__cache_8h.html">File dap_chain_block_cache.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__block__chunk_8c.html">File dap_chain_block_chunk.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__block__chunk_8h.html">File dap_chain_block_chunk.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__btc__rpc_8c.html">File dap_chain_btc_rpc.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__btc__rpc_8h.html">File dap_chain_btc_rpc.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__btc__rpc__handlers_8c.html">File dap_chain_btc_rpc_handlers.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__btc__rpc__handlers_8h.html">File dap_chain_btc_rpc_handlers.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cell_8c.html">File dap_chain_cell.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cell_8h.html">File dap_chain_cell.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__coin_8c.html">File dap_chain_coin.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__coin_8h.html">File dap_chain_coin.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__common_8c.html">File dap_chain_common.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__common_8h.html">File dap_chain_common.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs_8c.html">File dap_chain_cs.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs_8h.html">File dap_chain_cs.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__block__poa_8c.html">File dap_chain_cs_block_poa.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__block__poa_8h.html">File dap_chain_cs_block_poa.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__block__pow_8c.html">File dap_chain_cs_block_pow.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__block__pow_8h.html">File dap_chain_cs_block_pow.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__blocks_8c.html">File dap_chain_cs_blocks.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__blocks_8h.html">File dap_chain_cs_blocks.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag_8c.html">File dap_chain_cs_dag.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag_8h.html">File dap_chain_cs_dag.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag__event_8c.html">File dap_chain_cs_dag_event.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag__event_8h.html">File dap_chain_cs_dag_event.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag__poa_8c.html">File dap_chain_cs_dag_poa.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag__poa_8h.html">File dap_chain_cs_dag_poa.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag__pos_8c.html">File dap_chain_cs_dag_pos.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__dag__pos_8h.html">File dap_chain_cs_dag_pos.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__none_8c.html">File dap_chain_cs_none.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__cs__none_8h.html">File dap_chain_cs_none.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum_8c.html">File dap_chain_datum.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum_8h.html">File dap_chain_datum.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__decree_8c.html">File dap_chain_datum_decree.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__decree_8h.html">File dap_chain_datum_decree.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__hashtree__roots_8c.html">File dap_chain_datum_hashtree_roots.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__hashtree__roots_8h.html">File dap_chain_datum_hashtree_roots.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__poll_8c.html">File dap_chain_datum_poll.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__poll_8h.html">File dap_chain_datum_poll.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__token_8c.html">File dap_chain_datum_token.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__token_8h.html">File dap_chain_datum_token.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx_8c.html">File dap_chain_datum_tx.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx_8h.html">File dap_chain_datum_tx.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__in_8h.html">File dap_chain_datum_tx_in.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__in__cond_8h.html">File dap_chain_datum_tx_in_cond.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__items_8c.html">File dap_chain_datum_tx_items.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__items_8h.html">File dap_chain_datum_tx_items.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__out_8h.html">File dap_chain_datum_tx_out.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__out__cond_8h.html">File dap_chain_datum_tx_out_cond.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__out__ext_8h.html">File dap_chain_datum_tx_out_ext.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__pkey_8h.html">File dap_chain_datum_tx_pkey.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__receipt_8c.html">File dap_chain_datum_tx_receipt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__receipt_8h.html">File dap_chain_datum_tx_receipt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__sig_8h.html">File dap_chain_datum_tx_sig.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__token_8c.html">File dap_chain_datum_tx_token.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__tx__token_8h.html">File dap_chain_datum_tx_token.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__vote_8c.html">File dap_chain_datum_vote.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__datum__vote_8h.html">File dap_chain_datum_vote.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__dht_8c.html">File dap_chain_dht.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__dht_8h.html">File dap_chain_dht.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db_8c.html">File dap_chain_global_db.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db_8h.html">File dap_chain_global_db.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver_8c.html">File dap_chain_global_db_driver.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver_8h.html">File dap_chain_global_db_driver.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver__cdb_8c.html">File dap_chain_global_db_driver_cdb.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver__cdb_8h.html">File dap_chain_global_db_driver_cdb.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver__mdbx_8c.html">File dap_chain_global_db_driver_mdbx.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver__mdbx_8h.html">File dap_chain_global_db_driver_mdbx.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver__sqlite_8c.html">File dap_chain_global_db_driver_sqlite.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__driver__sqlite_8h.html">File dap_chain_global_db_driver_sqlite.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__hist_8c.html">File dap_chain_global_db_hist.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__hist_8h.html">File dap_chain_global_db_hist.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__remote_8c.html">File dap_chain_global_db_remote.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__global__db__remote_8h.html">File dap_chain_global_db_remote.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__ledger_8c.html">File dap_chain_ledger.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__ledger_8h.html">File dap_chain_ledger.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__mempool_8c.html">File dap_chain_mempool.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__mempool_8h.html">File dap_chain_mempool.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net_8c.html">File dap_chain_net.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net_8h.html">File dap_chain_net.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__bugreport_8h.html">File dap_chain_net_bugreport.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__news_8h.html">File dap_chain_net_news.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__remote_8c.html">File dap_chain_net_remote.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__remote_8h.html">File dap_chain_net_remote.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv_8c.html">File dap_chain_net_srv.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv_8h.html">File dap_chain_net_srv.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__app_8c.html">File dap_chain_net_srv_app.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__app_8h.html">File dap_chain_net_srv_app.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__app__db_8c.html">File dap_chain_net_srv_app_db.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__app__db_8h.html">File dap_chain_net_srv_app_db.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__client_8c.html">File dap_chain_net_srv_client.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__client_8h.html">File dap_chain_net_srv_client.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__common_8c.html">File dap_chain_net_srv_common.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__common_8h.html">File dap_chain_net_srv_common.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__countries_8h.html">File dap_chain_net_srv_countries.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__datum_8c.html">File dap_chain_net_srv_datum.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__datum_8h.html">File dap_chain_net_srv_datum.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__datum__pool_8c.html">File dap_chain_net_srv_datum_pool.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__datum__pool_8h.html">File dap_chain_net_srv_datum_pool.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__geoip_8c.html">File dap_chain_net_srv_geoip.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__geoip_8h.html">File dap_chain_net_srv_geoip.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__order_8c.html">File dap_chain_net_srv_order.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__order_8h.html">File dap_chain_net_srv_order.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__stake_8c.html">File dap_chain_net_srv_stake.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__stake_8h.html">File dap_chain_net_srv_stake.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__stream__session_8c.html">File dap_chain_net_srv_stream_session.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__stream__session_8h.html">File dap_chain_net_srv_stream_session.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__vpn_8c.html">File dap_chain_net_srv_vpn.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__vpn_8h.html">File dap_chain_net_srv_vpn.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__vpn__cmd_8c.html">File dap_chain_net_srv_vpn_cmd.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__vpn__cmd_8h.html">File dap_chain_net_srv_vpn_cmd.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__xchange_8c.html">File dap_chain_net_srv_xchange.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__srv__xchange_8h.html">File dap_chain_net_srv_xchange.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__vpn__client_8c.html">File dap_chain_net_vpn_client.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__vpn__client_8h.html">File dap_chain_net_vpn_client.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__vpn__client__tun_8c.html">File dap_chain_net_vpn_client_tun.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__net__vpn__client__tun_8h.html">File dap_chain_net_vpn_client_tun.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node_8c.html">File dap_chain_node.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node_8h.html">File dap_chain_node.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__cli_8c.html">File dap_chain_node_cli.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__cli_8h.html">File dap_chain_node_cli.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__cli__cmd_8c.html">File dap_chain_node_cli_cmd.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__cli__cmd_8h.html">File dap_chain_node_cli_cmd.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__cli__cmd__tx_8c.html">File dap_chain_node_cli_cmd_tx.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__cli__cmd__tx_8h.html">File dap_chain_node_cli_cmd_tx.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__client_8c.html">File dap_chain_node_client.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__client_8h.html">File dap_chain_node_client.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__dns__client_8c.html">File dap_chain_node_dns_client.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__dns__client_8h.html">File dap_chain_node_dns_client.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__dns__server_8c.html">File dap_chain_node_dns_server.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__dns__server_8h.html">File dap_chain_node_dns_server.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__ping_8c.html">File dap_chain_node_ping.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__ping_8h.html">File dap_chain_node_ping.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__remote_8c.html">File dap_chain_node_remote.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__node__remote_8h.html">File dap_chain_node_remote.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__pvt_8c.html">File dap_chain_pvt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__pvt_8h.html">File dap_chain_pvt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__vf_8c.html">File dap_chain_vf.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__vf_8h.html">File dap_chain_vf.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__wallet_8c.html">File dap_chain_wallet.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__wallet_8h.html">File dap_chain_wallet.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__wallet__internal_8h.html">File dap_chain_wallet_internal.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__wallet__ops_8c.html">File dap_chain_wallet_ops.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__chain__wallet__ops_8h.html">File dap_chain_wallet_ops.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__circular__buffer_8c.html">File dap_circular_buffer.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__circular__buffer_8h.html">File dap_circular_buffer.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__circular__test_8c.html">File dap_circular_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__circular__test_8h.html">File dap_circular_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client_8c.html">File dap_client.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client_8h.html">File dap_client.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client__http_8c.html">File dap_client_http.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client__http_8h.html">File dap_client_http.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client__pool_8c.html">File dap_client_pool.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client__pool_8h.html">File dap_client_pool.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client__pvt_8c.html">File dap_client_pvt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client__pvt_8h.html">File dap_client_pvt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__client__pvt__hh_8c.html">File dap_client_pvt_hh.c</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">File dap_common.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__common_8h.html">File dap_common.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__common__test_8c.html">File dap_common_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__common__test_8h.html">File dap_common_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__config_8c.html">File dap_config.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__config_8h.html">File dap_config.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__config__test_8c.html">File dap_config_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__config__test_8h.html">File dap_config_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__console__manager_8c.html">File dap_console_manager.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__console__manager_8h.html">File dap_console_manager.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__cpu__monitor__test_8c.html">File dap_cpu_monitor_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__cpu__monitor__test_8h.html">File dap_cpu_monitor_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__crypto__cert__save__tests_8c.html">File dap_crypto_cert_save_tests.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__crypto__cert__save__tests_8h.html">File dap_crypto_cert_save_tests.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__crypto__common_8h.html">File dap_crypto_common.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc_8c.html">File dap_enc.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc_8h.html">File dap_enc.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc___g_o_s_t_8c.html">File dap_enc_GOST.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc___g_o_s_t_8h.html">File dap_enc_GOST.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc___s_e_e_d_8c.html">File dap_enc_SEED.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc___s_e_e_d_8h.html">File dap_enc_SEED.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base58_8c.html">File dap_enc_base58.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base58_8h.html">File dap_enc_base58.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base58__test_8c.html">File dap_enc_base58_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base58__test_8h.html">File dap_enc_base58_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base64_8c.html">File dap_enc_base64.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base64_8h.html">File dap_enc_base64.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base64__test_8c.html">File dap_enc_base64_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__base64__test_8h.html">File dap_enc_base64_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__bf_8c.html">File dap_enc_bf.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__bf_8h.html">File dap_enc_bf.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__bliss_8c.html">File dap_enc_bliss.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__bliss_8h.html">File dap_enc_bliss.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ca_8c.html">File dap_enc_ca.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ca_8h.html">File dap_enc_ca.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__defeo_8c.html">File dap_enc_defeo.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__defeo_8h.html">File dap_enc_defeo.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__defeo__test_8c.html">File dap_enc_defeo_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__defeo__test_8h.html">File dap_enc_defeo_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__dilithium_8c.html">File dap_enc_dilithium.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__dilithium_8h.html">File dap_enc_dilithium.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__dilithium__test_8c.html">File dap_enc_dilithium_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__dilithium__test_8h.html">File dap_enc_dilithium_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__http_8c.html">File dap_enc_http.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__http_8h.html">File dap_enc_http.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__iaes_8c.html">File dap_enc_iaes.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__iaes_8h.html">File dap_enc_iaes.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__key_8c.html">File dap_enc_key.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__key_8h.html">File dap_enc_key.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ks_8c.html">File dap_enc_ks.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ks_8h.html">File dap_enc_ks.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__msrln_8c.html">File dap_enc_msrln.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__msrln_8h.html">File dap_enc_msrln.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__msrln__test_8c.html">File dap_enc_msrln_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__msrln__test_8h.html">File dap_enc_msrln_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__newhope_8c.html">File dap_enc_newhope.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__newhope_8h.html">File dap_enc_newhope.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__newhope__test_8c.html">File dap_enc_newhope_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__oaes_8c.html">File dap_enc_oaes.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__oaes_8h.html">File dap_enc_oaes.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__picnic_8c.html">File dap_enc_picnic.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__picnic_8h.html">File dap_enc_picnic.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__picnic__test_8c.html">File dap_enc_picnic_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__picnic__test_8h.html">File dap_enc_picnic_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ringct20_8c.html">File dap_enc_ringct20.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ringct20_8h.html">File dap_enc_ringct20.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ringct20__test_8c.html">File dap_enc_ringct20_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__ringct20__test_8h.html">File dap_enc_ringct20_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__salsa2012_8c.html">File dap_enc_salsa2012.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__salsa2012_8h.html">File dap_enc_salsa2012.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__sig__bliss__test_8c.html">File dap_enc_sig_bliss_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__sig__bliss__test_8h.html">File dap_enc_sig_bliss_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__sign__multi__test_8c.html">File dap_enc_sign_multi_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__sign__multi__test_8h.html">File dap_enc_sign_multi_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__tesla_8c.html">File dap_enc_tesla.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__tesla_8h.html">File dap_enc_tesla.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__tesla__test_8c.html">File dap_enc_tesla_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__tesla__test_8h.html">File dap_enc_tesla_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__test_8c.html">File dap_enc_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__enc__test_8h.html">File dap_enc_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__events_8c.html">File dap_events.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__events_8h.html">File dap_events.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__events__socket_8c.html">File dap_events_socket.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__events__socket_8h.html">File dap_events_socket.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__file__utils_8c.html">File dap_file_utils.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__file__utils_8h.html">File dap_file_utils.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__fnmatch_8c.html">File dap_fnmatch.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__fnmatch_8h.html">File dap_fnmatch.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__fnmatch__loop_8h.html">File dap_fnmatch_loop.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash_8c.html">File dap_hash.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash_8h.html">File dap_hash.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash__fusion_8c.html">File dap_hash_fusion.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash__fusion_8h.html">File dap_hash_fusion.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash__keccak_8c.html">File dap_hash_keccak.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash__keccak_8h.html">File dap_hash_keccak.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash__slow_8c.html">File dap_hash_slow.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__hash__slow_8h.html">File dap_hash_slow.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http_8c.html">File dap_http.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http_8h.html">File dap_http.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__cache_8c.html">File dap_http_cache.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__cache_8h.html">File dap_http_cache.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__client_8c.html">File dap_http_client.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__client_8h.html">File dap_http_client.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__folder_8c.html">File dap_http_folder.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__folder_8h.html">File dap_http_folder.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__header_8c.html">File dap_http_header.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__header_8h.html">File dap_http_header.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__simple_8c.html">File dap_http_simple.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__simple_8h.html">File dap_http_simple.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__simple__test_8c.html">File dap_http_simple_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__simple__test_8h.html">File dap_http_simple_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__user__agent_8c.html">File dap_http_user_agent.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__user__agent_8h.html">File dap_http_user_agent.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__user__agent__test_8c.html">File dap_http_user_agent_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__http__user__agent__test_8h.html">File dap_http_user_agent_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__iaes__proto_8h.html">File dap_iaes_proto.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc_8c.html">File dap_json_rpc.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc_8h.html">File dap_json_rpc.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__errors_8c.html">File dap_json_rpc_errors.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__errors_8h.html">File dap_json_rpc_errors.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__notification_8c.html">File dap_json_rpc_notification.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__notification_8h.html">File dap_json_rpc_notification.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__params_8c.html">File dap_json_rpc_params.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__params_8h.html">File dap_json_rpc_params.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__request_8c.html">File dap_json_rpc_request.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__request_8h.html">File dap_json_rpc_request.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__request__handler_8c.html">File dap_json_rpc_request_handler.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__request__handler_8h.html">File dap_json_rpc_request_handler.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__response_8c.html">File dap_json_rpc_response.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__response_8h.html">File dap_json_rpc_response.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__response__handler_8c.html">File dap_json_rpc_response_handler.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__json__rpc__response__handler_8h.html">File dap_json_rpc_response_handler.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__list_8c.html">File dap_list.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__list_8h.html">File dap_list.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__lut_8h.html">File dap_lut.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__math__ops_8c.html">File dap_math_ops.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__math__ops_8h.html">File dap_math_ops.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__meta_8c.html">File dap_meta.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__meta_8h.html">File dap_meta.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__module_8c.html">File dap_module.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__module_8h.html">File dap_module.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__modules__dynamic__cdb_8c.html">File dap_modules_dynamic_cdb.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__modules__dynamic__cdb_8h.html">File dap_modules_dynamic_cdb.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__net_8c.html">File dap_net.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__net_8h.html">File dap_net.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__network__monitor__test_8c.html">File dap_network_monitor_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__network__monitor__test_8h.html">File dap_network_monitor_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__notify__srv_8c.html">File dap_notify_srv.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__notify__srv_8h.html">File dap_notify_srv.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__pkey_8c.html">File dap_pkey.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__pkey_8h.html">File dap_pkey.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__proc__queue_8c.html">File dap_proc_queue.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__proc__queue_8h.html">File dap_proc_queue.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__proc__thread_8c.html">File dap_proc_thread.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__proc__thread_8h.html">File dap_proc_thread.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__process__mem__test_8c.html">File dap_process_mem_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__process__mem__test_8h.html">File dap_process_mem_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__rand_8c.html">File dap_rand.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__rand_8h.html">File dap_rand.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__server_8c.html">File dap_server.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__server_8h.html">File dap_server.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__sha3__tests_8c.html">File dap_sha3_tests.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__sign_8c.html">File dap_sign.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__sign_8h.html">File dap_sign.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream_8c.html">File dap_stream.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream_8h.html">File dap_stream.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch_8c.html">File dap_stream_ch.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch_8h.html">File dap_stream_ch.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain_8c.html">File dap_stream_ch_chain.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain_8h.html">File dap_stream_ch_chain.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net_8c.html">File dap_stream_ch_chain_net.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net_8h.html">File dap_stream_ch_chain_net.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net__pkt_8c.html">File dap_stream_ch_chain_net_pkt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net__pkt_8h.html">File dap_stream_ch_chain_net_pkt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net__srv_8c.html">File dap_stream_ch_chain_net_srv.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net__srv_8h.html">File dap_stream_ch_chain_net_srv.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net__srv__pkt_8c.html">File dap_stream_ch_chain_net_srv_pkt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__net__srv__pkt_8h.html">File dap_stream_ch_chain_net_srv_pkt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__pkt_8c.html">File dap_stream_ch_chain_pkt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__chain__pkt_8h.html">File dap_stream_ch_chain_pkt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__pkt_8c.html">File dap_stream_ch_pkt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__pkt_8h.html">File dap_stream_ch_pkt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__proc_8c.html">File dap_stream_ch_proc.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ch__proc_8h.html">File dap_stream_ch_proc.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ctl_8c.html">File dap_stream_ctl.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__ctl_8h.html">File dap_stream_ctl.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__pkt_8c.html">File dap_stream_pkt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__pkt_8h.html">File dap_stream_pkt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__session_8c.html">File dap_stream_session.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__session_8h.html">File dap_stream_session.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__worker_8c.html">File dap_stream_worker.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__stream__worker_8h.html">File dap_stream_worker.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__strfuncs_8c.html">File dap_strfuncs.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__strfuncs_8h.html">File dap_strfuncs.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__strfuncs__test_8c.html">File dap_strfuncs_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__strfuncs__test_8h.html">File dap_strfuncs_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__string_8c.html">File dap_string.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__string_8h.html">File dap_string.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__test_8c.html">File dap_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__test_8h.html">File dap_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__test__generator_8c.html">File dap_test_generator.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__test__generator_8h.html">File dap_test_generator.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__timerfd_8c.html">File dap_timerfd.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__timerfd_8h.html">File dap_timerfd.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__traffic__track__test_8c.html">File dap_traffic_track_test.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__traffic__track__test_8h.html">File dap_traffic_track_test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__tsd_8c.html">File dap_tsd.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__tsd_8h.html">File dap_tsd.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__uuid_8c.html">File dap_uuid.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__uuid_8h.html">File dap_uuid.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__worker_8c.html">File dap_worker.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dap__worker_8h.html">File dap_worker.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="darwin_2macos_2dap__network__monitor_8c.html">File dap_network_monitor.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="darwin_2macos_2dap__network__monitor_8h.html">File dap_network_monitor.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="darwin_2macos_2pthread__barrier_8h.html">File pthread_barrier.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data-pool_8c.html">File data-pool.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="data-pool_8h.html">File data-pool.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="defeo___p768__internal_8h.html">File defeo_P768_internal.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="defeo__config_8h.html">File defeo_config.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="defeo__kex_8c.html">File defeo_kex.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__packing_8c.html">File dilithium_packing.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__packing_8h.html">File dilithium_packing.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__params_8c.html">File dilithium_params.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__params_8h.html">File dilithium_params.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__poly_8c.html">File dilithium_poly.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__poly_8h.html">File dilithium_poly.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__polyvec_8c.html">File dilithium_polyvec.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__polyvec_8h.html">File dilithium_polyvec.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__rounding__reduce_8c.html">File dilithium_rounding_reduce.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__rounding__reduce_8h.html">File dilithium_rounding_reduce.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__sign_8c.html">File dilithium_sign.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dilithium__sign_8h.html">File dilithium_sign.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dll__import_8h.html">File dll_import.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="entropy_8c.html">File entropy.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="extension_8c.html">File extension.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="fips202_8c.html">File fips202.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="fips202_8h.html">File fips202.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="flowlabel_8h.html">File flowlabel.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="hash_8c.html">File hash.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="hash_8h.html">File hash.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="http__status__code_8h.html">File http_status_code.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="iaes256__cbc__cernal_8c.html">File iaes256_cbc_cernal.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="iaes__tables_8h.html">File iaes_tables.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="include_2dap__stream__ch__chain__net__srv_8h.html">File dap_stream_ch_chain_net_srv.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="int-util_8h.html">File int-util.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="iputils_8c.html">File iputils.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="iputils_8h.html">File iputils.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="kex_8c.html">File kex.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="lowmc__constants_8c.html">File lowmc_constants.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="lowmc__constants_8h.html">File lowmc_constants.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="macos__specific__endian_8h.html">File macos_specific_endian.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="maxminddb-compat-util_8h.html">File maxminddb-compat-util.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="maxminddb_8c.html">File maxminddb.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="maxminddb_8h.html">File maxminddb.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="maxminddb__config_8h.html">File maxminddb_config.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="memwipe_8c.html">File memwipe.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="memwipe_8h.html">File memwipe.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mmdblookup_8c.html">File mmdblookup.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mod-dccp_8c.html">File mod-dccp.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mod-icmp_8c.html">File mod-icmp.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mod-raw_8c.html">File mod-raw.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mod-tcp_8c.html">File mod-tcp.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mod-tcpconn_8c.html">File mod-tcpconn.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mod-udp_8c.html">File mod-udp.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="modes_8h.html">File modes.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="module_8c.html">File module.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules_2net_2iputils_2traceroute_2random_8c.html">File random.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules_2net_2win32_2ip_8h.html">File ip.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules_2net_2win32_2iphdr_8h.html">File iphdr.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="msrln_2_a_m_d64_2consts_8c.html">File consts.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="msrln_2generic_2ntt_8c.html">File ntt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="msrln_8h.html">File msrln.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="msrln__priv_8h.html">File msrln_priv.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="net_2client_2test_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="net_2core_2test_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="net_2server_2test_2enc__server_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="net_2server_2test_2http__server_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="net_2server_2test_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="net_2stream_2test_2main_8c.html">File main.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__api_8h.html">File newhope_api.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__cpakem_8c.html">File newhope_cpakem.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__cpakem_8h.html">File newhope_cpakem.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__cpapke_8c.html">File newhope_cpapke.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__cpapke_8h.html">File newhope_cpapke.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__ntt_8c.html">File newhope_ntt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__ntt_8h.html">File newhope_ntt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__params_8h.html">File newhope_params.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__poly_8c.html">File newhope_poly.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__poly_8h.html">File newhope_poly.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__precomp_8c.html">File newhope_precomp.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__reduce_8c.html">File newhope_reduce.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newhope__reduce_8h.html">File newhope_reduce.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ntt_8h.html">File ntt.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ntt__api_8h.html">File ntt_api.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ntt__api__blzzd_8c.html">File ntt_api_blzzd.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ntt__blzzd_8c.html">File ntt_blzzd.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ntt__x64_8c.html">File ntt_x64.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oaes__lib_8c.html">File oaes_lib.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="oaes__lib_8h.html">File oaes_lib.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ofb128_8c.html">File ofb128.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="os_2win32_2ip_8h.html">File ip.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="os_2win32_2iphdr_8h.html">File iphdr.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="params_8h.html">File params.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="picnic_8c.html">File picnic.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="picnic_8h.html">File picnic.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="picnic__impl_8c.html">File picnic_impl.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="picnic__impl_8h.html">File picnic_impl.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="picnic__types_8c.html">File picnic_types.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="picnic__types_8h.html">File picnic_types.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ping6__common_8c.html">File ping6_common.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ping_8c.html">File ping.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ping_8h.html">File ping.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ping__common_8c.html">File ping_common.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="platform_8h.html">File platform.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="poll_8c.html">File poll.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="poly_8c.html">File poly.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="poly_8h.html">File poly.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="portable__endian_8h.html">File portable_endian.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="precomp_8c.html">File precomp.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="print__data_8c.html">File print_data.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="print__data_8h.html">File print_data.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pthread__barrier_8c.html">File pthread_barrier.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="reduce_8c.html">File reduce.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="reduce_8h.html">File reduce.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="registry_8c.html">File registry.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="registry_8h.html">File registry.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ring_8c.html">File ring.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ring_8h.html">File ring.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ringct20_2ntt_8c.html">File ntt.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ringct20__params_8c.html">File ringct20_params.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ringct20__params_8h.html">File ringct20_params.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rpmalloc_8c.html">File rpmalloc.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rpmalloc_8h.html">File rpmalloc.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sample_8c.html">File sample.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sampler_8c.html">File sampler.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sampler_8h.html">File sampler.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="seed_8c.html">File seed.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="seed_8h.html">File seed.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="seed__local_8h.html">File seed_local.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="seed__ofb_8c.html">File seed_ofb.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sig__tesla_2consts_8c.html">File consts.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sign_8c.html">File sign.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="stream__salsa2012_8c.html">File stream_salsa2012.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="stream__salsa2012__ref_8c.html">File stream_salsa2012_ref.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="table_8h.html">File table.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tesla__params_8c.html">File tesla_params.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tesla__params_8h.html">File tesla_params.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="test_8h.html">File test.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="thread_8c.html">File thread.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="thread_8h.html">File thread.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="time_8c.html">File time.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="timer_8c.html">File timer.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="timer_8h.html">File timer.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tracepath_8c.html">File tracepath.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="traceroute_8c.html">File traceroute.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="traceroute_8h.html">File traceroute.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2dap__cpu__monitor_8c.html">File dap_cpu_monitor.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2dap__cpu__monitor_8h.html">File dap_cpu_monitor.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2dap__process__manager_8c.html">File dap_process_manager.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2dap__process__manager_8h.html">File dap_process_manager.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2dap__process__memory_8c.html">File dap_process_memory.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2dap__process__memory_8h.html">File dap_process_memory.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2linux_2dap__network__monitor_8c.html">File dap_network_monitor.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="unix_2linux_2dap__network__monitor_8h.html">File dap_network_monitor.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="win32_2dap__cpu__monitor_8c.html">File dap_cpu_monitor.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="win32_2dap__cpu__monitor_8h.html">File dap_cpu_monitor.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="win32_2dap__process__manager_8c.html">File dap_process_manager.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="win32_2dap__process__manager_8h.html">File dap_process_manager.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="win32_2dap__process__memory_8c.html">File dap_process_memory.c</a></li>
+<li class="toctree-l3"><a class="reference internal" href="win32_2dap__process__memory_8h.html">File dap_process_memory.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../structlist.html">Struct list</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../unionlist.html">Union list</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">cellframe</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../filelist.html">File list</a> &raquo;</li>
+        
+          <li><a href="../filelist.html">File list</a> &raquo;</li>
+        
+      <li>File dap_common.c</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/files/file/dap__common_8c.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="file-dap-common-c">
+<h1>File dap_common.c<a class="headerlink" href="#file-dap-common-c" title="Permalink to this headline">¶</a></h1>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-defines">Defines</p>
+<dl class="cpp macro">
+<dt class="sig sig-object cpp" id="c._POSIX_THREAD_SAFE_FUNCTIONS">
+<span class="target" id="dap__common_8c_1ade059a4eb8c07d70a146f0e49181509f"></span><span class="sig-name descname"><span class="n"><span class="pre">_POSIX_THREAD_SAFE_FUNCTIONS</span></span></span><a class="headerlink" href="#c._POSIX_THREAD_SAFE_FUNCTIONS" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp macro">
+<dt class="sig sig-object cpp" id="c.DAP_LOG_USE_SPINLOCK">
+<span class="target" id="dap__common_8c_1a07d3657dc652b5153d5bc3eb01740438"></span><span class="sig-name descname"><span class="n"><span class="pre">DAP_LOG_USE_SPINLOCK</span></span></span><a class="headerlink" href="#c.DAP_LOG_USE_SPINLOCK" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp macro">
+<dt class="sig sig-object cpp" id="c.DAP_LOG_HISTORY">
+<span class="target" id="dap__common_8c_1a1e3797afc636ba042064e860abbea828"></span><span class="sig-name descname"><span class="n"><span class="pre">DAP_LOG_HISTORY</span></span></span><a class="headerlink" href="#c.DAP_LOG_HISTORY" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp macro">
+<dt class="sig sig-object cpp" id="c.LAST_ERROR_MAX">
+<span class="target" id="dap__common_8c_1aaa5fc6c48a65650511f1b50caa1c6672"></span><span class="sig-name descname"><span class="n"><span class="pre">LAST_ERROR_MAX</span></span></span><a class="headerlink" href="#c.LAST_ERROR_MAX" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp macro">
+<dt class="sig sig-object cpp" id="c.LOG_TAG">
+<span class="target" id="dap__common_8c_1a7ce0df38eb467e59f209470c8f5ac4e6"></span><span class="sig-name descname"><span class="n"><span class="pre">LOG_TAG</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp macro">
+<dt class="sig sig-object cpp" id="c.INT_DIGITS">
+<span class="target" id="dap__common_8c_1a6b293a3f1ddf0b2dd42c5ed279e245ca"></span><span class="sig-name descname"><span class="n"><span class="pre">INT_DIGITS</span></span></span><a class="headerlink" href="#c.INT_DIGITS" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp macro">
+<dt class="sig sig-object cpp" id="c.BREAK_LATENCY">
+<span class="target" id="dap__common_8c_1aaaced1a9f5e622c92caba1c1b3931a1e"></span><span class="sig-name descname"><span class="n"><span class="pre">BREAK_LATENCY</span></span></span><a class="headerlink" href="#c.BREAK_LATENCY" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-typedefs">Typedefs</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv49log_str_t">
+<span id="_CPPv39log_str_t"></span><span id="_CPPv29log_str_t"></span><span id="log_str_t"></span><span class="target" id="dap__common_8c_1a98dcfae462f432069aeca5d80bca2fa2"></span><span class="k"><span class="pre">typedef</span></span><span class="w"> </span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv49log_str_t" title="log_str_t"><span class="n"><span class="pre">log_str_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">log_str_t</span></span></span><a class="headerlink" href="#_CPPv49log_str_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-functions">Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv417s_log_thread_procPv">
+<span id="_CPPv317s_log_thread_procPv"></span><span id="_CPPv217s_log_thread_procPv"></span><span id="s_log_thread_proc__voidP"></span><span class="target" id="dap__common_8c_1a2b44985ef736f9866e937953826c1d81"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">s_log_thread_proc</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">arg</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv417s_log_thread_procPv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>s_log_thread_proc </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>arg</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp">
+<span class="target" id="dap__common_8c_1a76033f51465c89d07d01a5c6ffd5b679"></span><span class="sig-name descname"><span class="pre">DAP_STATIC_INLINE</span> <span class="pre">void</span> <span class="pre">s_update_log_time</span> <span class="pre">(char</span> <span class="pre">*a_datetime_str)</span></span></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv417dap_log_level_set13dap_log_level">
+<span id="_CPPv317dap_log_level_set13dap_log_level"></span><span id="_CPPv217dap_log_level_set13dap_log_level"></span><span id="dap_log_level_set__dap_log_level"></span><span class="target" id="dap__common_8c_1a1b100765271d344b09c83b789eb966f0"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_log_level_set</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">enum</span></span><span class="w"> </span><a class="reference internal" href="dap__common_8h.html#_CPPv413dap_log_level" title="dap_log_level"><span class="n"><span class="pre">dap_log_level</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">a_ll</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv417dap_log_level_set13dap_log_level" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>set_log_level Sets the logging level </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>ll</strong> – <strong>[in]</strong> logging level </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv415dap_get_appnamev">
+<span id="_CPPv315dap_get_appnamev"></span><span id="_CPPv215dap_get_appnamev"></span><span id="dap_get_appname"></span><span class="target" id="dap__common_8c_1ab70a0ad851b8c2b1c2a0a8cfefec7b47"></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">dap_get_appname</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv415dap_get_appnamev" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>dap_get_appname </p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv415dap_set_appnamePKc">
+<span id="_CPPv315dap_set_appnamePKc"></span><span id="_CPPv215dap_set_appnamePKc"></span><span id="dap_set_appname__cCP"></span><span class="target" id="dap__common_8c_1a13b1317942710ca2e1cdeb9907c9e75e"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_set_appname</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_appname</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv415dap_set_appnamePKc" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>dap_set_appname set application name in global s_appname variable </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>a_appname</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv417dap_log_level_getv">
+<span id="_CPPv317dap_log_level_getv"></span><span id="_CPPv217dap_log_level_getv"></span><span id="dap_log_level_get__void"></span><span class="target" id="dap__common_8c_1aa0cbcc1f8409f1f27fe64febf264eb96"></span><span class="k"><span class="pre">enum</span></span><span class="w"> </span><a class="reference internal" href="dap__common_8h.html#_CPPv413dap_log_level" title="dap_log_level"><span class="n"><span class="pre">dap_log_level</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_log_level_get</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">void</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv417dap_log_level_getv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv421dap_set_log_tag_width6size_t">
+<span id="_CPPv321dap_set_log_tag_width6size_t"></span><span id="_CPPv221dap_set_log_tag_width6size_t"></span><span id="dap_set_log_tag_width__s"></span><span class="target" id="dap__common_8c_1a8e9e97590f5cdd78165e9dc6b5032ae0"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_set_log_tag_width</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">a_width</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv421dap_set_log_tag_width6size_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>dap_set_log_tag_width Sets the length of the label </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>width</strong> – <strong>[in]</strong> Length not more than 99 </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv415dap_common_initPKcPKcPKc">
+<span id="_CPPv315dap_common_initPKcPKcPKc"></span><span id="_CPPv215dap_common_initPKcPKcPKc"></span><span id="dap_common_init__cCP.cCP.cCP"></span><span class="target" id="dap__common_8c_1ab7e4b438d9d9d95f19ba2bbd7d841380"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_common_init</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_console_title</span></span>, <span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_log_file_path</span></span>, <span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_log_dirpath</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv415dap_common_initPKcPKcPKc" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>dap_common_init initialise </p>
+<p>
+dap_common_init call this function before using dap sdk modules</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>a_log_file</strong> – <strong>[in]</strong> </p></li>
+<li><p><strong>a_console_title</strong> – set console title. Can be result of dap_get_appname(). For example: cellframe-node </p></li>
+<li><p><strong>a_log_file_path</strong> – path to log file. Saved in s_log_file_path variable. For example: C:\Users\Public\Documents/cellframe-node/var/log/cellframe-node.log </p></li>
+<li><p><strong>a_log_dirpath</strong> – path to log directory. Saved in s_log_dir_path variable. For example. C:\Users\Public\Documents/cellframe-node/var/log </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>int (0 if succcess, -1 if error) </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv417dap_common_deinitv">
+<span id="_CPPv317dap_common_deinitv"></span><span id="_CPPv217dap_common_deinitv"></span><span id="dap_common_deinit"></span><span class="target" id="dap__common_8c_1adf17f0c9b75afc0078ab0fc56c0eec98"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_common_deinit</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv417dap_common_deinitv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>dap_common_deinit Deinitialise </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv47_log_itPKc13dap_log_levelPKcz">
+<span id="_CPPv37_log_itPKc13dap_log_levelPKcz"></span><span id="_CPPv27_log_itPKc13dap_log_levelPKcz"></span><span id="_log_it__cCP.dap_log_level.cCP.z"></span><span class="target" id="dap__common_8c_1ac8073b9f0a23c35ccf32cb626c85dae8"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">_log_it</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_log_tag</span></span>, <span class="k"><span class="pre">enum</span></span><span class="w"> </span><a class="reference internal" href="dap__common_8h.html#_CPPv413dap_log_level" title="dap_log_level"><span class="n"><span class="pre">dap_log_level</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">a_ll</span></span>, <span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_fmt</span></span>, <span class="p"><span class="pre">...</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv47_log_itPKc13dap_log_levelPKcz" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>_log_it </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>log_tag</strong> – </p></li>
+<li><p><strong>ll</strong> – </p></li>
+<li><p><strong>fmt</strong> – </p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv416dap_log_get_item6time_ti">
+<span id="_CPPv316dap_log_get_item6time_ti"></span><span id="_CPPv216dap_log_get_item6time_ti"></span><span id="dap_log_get_item__time_t.i"></span><span class="target" id="dap__common_8c_1a5af22519e5bf69001fd82e85048ff0c5"></span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">dap_log_get_item</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">time_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">a_start_time</span></span>, <span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">a_limit</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv416dap_log_get_item6time_ti" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>dap_log_get_item </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>a_start_time</strong> – </p></li>
+<li><p><strong>a_limit</strong> – </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv49log_errorv">
+<span id="_CPPv39log_errorv"></span><span id="_CPPv29log_errorv"></span><span id="log_error"></span><span class="target" id="dap__common_8c_1a8e2711edbd44b1b738ffb6c80a09187b"></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">log_error</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv49log_errorv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>log_error Error log </p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv48dap_itoai">
+<span id="_CPPv38dap_itoai"></span><span id="_CPPv28dap_itoai"></span><span id="dap_itoa__i"></span><span class="target" id="dap__common_8c_1a27a346c2fdd0f675d6e026c95be079e4"></span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">dap_itoa</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">i</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv48dap_itoai" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>itoa The function converts an integer num to a string equivalent and places the result in a string </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>i</strong> – <strong>[in]</strong> number </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv422dap_time_to_str_rfc822Pc6size_t6time_t">
+<span id="_CPPv322dap_time_to_str_rfc822Pc6size_t6time_t"></span><span id="_CPPv222dap_time_to_str_rfc822Pc6size_t6time_t"></span><span id="dap_time_to_str_rfc822__cP.s.time_t"></span><span class="target" id="dap__common_8c_1ac248c1ea97605a7037653a869dc508a1"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_time_to_str_rfc822</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">out</span></span>, <span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">out_size_max</span></span>, <span class="n"><span class="pre">time_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">t</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv422dap_time_to_str_rfc822Pc6size_t6time_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>time_to_rfc822 Convert time_t to string with RFC822 formatted date and time </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>out</strong> – <strong>[out]</strong> Output buffer </p></li>
+<li><p><strong>out_size_mac</strong> – <strong>[out]</strong> Maximum size of output buffer </p></li>
+<li><p><strong>t</strong> – <strong>[in]</strong> UNIX time </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Length of resulting string if ok or lesser than zero if not </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv413timespec_diffP8timespecP8timespecP8timespec">
+<span id="_CPPv313timespec_diffP8timespecP8timespecP8timespec"></span><span id="_CPPv213timespec_diffP8timespecP8timespecP8timespec"></span><span id="timespec_diff__timespecP.timespecP.timespecP"></span><span class="target" id="dap__common_8c_1a0e69b35d0701e0a8387db083d9ee9aca"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">timespec_diff</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="n"><span class="pre">timespec</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_start</span></span>, <span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="n"><span class="pre">timespec</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_stop</span></span>, <span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="n"><span class="pre">timespec</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_result</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv413timespec_diffP8timespecP8timespecP8timespec" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Calculate diff of two struct timespec. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>a_start</strong> – <strong>[in]</strong> - first time </p></li>
+<li><p><strong>a_stop</strong> – <strong>[in]</strong> - second time </p></li>
+<li><p><strong>a_result</strong> – <strong>[out]</strong> - diff time, may be NULL </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>diff time in millisecond </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv418get_select_breakerv">
+<span id="_CPPv318get_select_breakerv"></span><span id="_CPPv218get_select_breakerv"></span><span id="get_select_breaker"></span><span class="target" id="dap__common_8c_1a770a25cd7afda213e944f715a27f1e7c"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get_select_breaker</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv418get_select_breakerv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv417send_select_breakv">
+<span id="_CPPv317send_select_breakv"></span><span id="_CPPv217send_select_breakv"></span><span id="send_select_break"></span><span class="target" id="dap__common_8c_1a2e61ddaeeeb7e2ec14e002e7af8fadf6"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">send_select_break</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv417send_select_breakv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv413exec_with_retPPcPKc">
+<span id="_CPPv313exec_with_retPPcPKc"></span><span id="_CPPv213exec_with_retPPcPKc"></span><span id="exec_with_ret__cPP.cCP"></span><span class="target" id="dap__common_8c_1ad598005769c6fc128352ac5ccea641ff"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">exec_with_ret</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">repl</span></span>, <span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_cmd</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv413exec_with_retPPcPKc" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv422dap_random_string_fillPc6size_t">
+<span id="_CPPv322dap_random_string_fillPc6size_t"></span><span id="_CPPv222dap_random_string_fillPc6size_t"></span><span id="dap_random_string_fill__cP.s"></span><span class="target" id="dap__common_8c_1a3fa34950395c0139c5c95510de7119a8"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_random_string_fill</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">str</span></span>, <span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">length</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv422dap_random_string_fillPc6size_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>random_string_fill Filling a string with random characters </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>str</strong> – <strong>[out]</strong> A pointer to a char array </p></li>
+<li><p><strong>length</strong> – <strong>[in]</strong> The length of the array or string </p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv430dap_random_string_create_alloc6size_t">
+<span id="_CPPv330dap_random_string_create_alloc6size_t"></span><span id="_CPPv230dap_random_string_create_alloc6size_t"></span><span id="dap_random_string_create_alloc__s"></span><span class="target" id="dap__common_8c_1a89b711e0ef4fcf7229a3ae3229636b57"></span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">dap_random_string_create_alloc</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">a_length</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv430dap_random_string_create_alloc6size_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>random_string_create Generates a random string </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>a_length</strong> – <strong>[in]</strong> lenght </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>a pointer to an array </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv411dap_bin2hexPcPKv6size_t">
+<span id="_CPPv311dap_bin2hexPcPKv6size_t"></span><span id="_CPPv211dap_bin2hexPcPKv6size_t"></span><span id="dap_bin2hex__cP.voidCP.s"></span><span class="target" id="dap__common_8c_1ae1b9ef48071e14eac569a5f46fe7ae3f"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_bin2hex</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_out</span></span>, <span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_in</span></span>, <span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">a_len</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv411dap_bin2hexPcPKv6size_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Convert binary data to binhex encoded data.</p>
+<p>out output buffer, must be twice the number of bytes to encode. len is the size of the data in the in[] buffer to encode. return the number of bytes encoded, or -1 on error. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv411dap_hex2binP7uint8_tPKc6size_t">
+<span id="_CPPv311dap_hex2binP7uint8_tPKc6size_t"></span><span id="_CPPv211dap_hex2binP7uint8_tPKc6size_t"></span><span id="dap_hex2bin__uint8_tP.cCP.s"></span><span class="target" id="dap__common_8c_1a3fa4bb7881c6ff569fcf3bf5dc58b14c"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_hex2bin</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_out</span></span>, <span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_in</span></span>, <span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">a_len</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv411dap_hex2binP7uint8_tPKc6size_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Convert binhex encoded data to binary data</p>
+<p>len is the size of the data in the in[] buffer to decode, and must be even. out outputbuffer must be at least half of “len” in size. The buffers in[] and out[] can be the same to allow in-place decoding. return the number of bytes encoded, or 0 on error. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv421dap_digit_from_stringPKcPv6size_t">
+<span id="_CPPv321dap_digit_from_stringPKcPv6size_t"></span><span id="_CPPv221dap_digit_from_stringPKcPv6size_t"></span><span id="dap_digit_from_string__cCP.voidP.s"></span><span class="target" id="dap__common_8c_1af8c8456310ba2f961ffe568ad362c0d2"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_digit_from_string</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">num_str</span></span>, <span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">raw</span></span>, <span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">raw_len</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv421dap_digit_from_stringPKcPv6size_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Convert string to digit </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv422dap_digit_from_string2PKcPv6size_t">
+<span id="_CPPv322dap_digit_from_string2PKcPv6size_t"></span><span id="_CPPv222dap_digit_from_string2PKcPv6size_t"></span><span id="dap_digit_from_string2__cCP.voidP.s"></span><span class="target" id="dap__common_8c_1a920838720586cbfb2bd73835a997c4df"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_digit_from_string2</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">num_str</span></span>, <span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">raw</span></span>, <span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">raw_len</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv422dap_digit_from_string2PKcPv6size_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv411exec_silentPKc">
+<span id="_CPPv311exec_silentPKc"></span><span id="_CPPv211exec_silentPKc"></span><span id="exec_silent__cCP"></span><span class="target" id="dap__common_8c_1a1cbd831ad21248988734aa18b5e82d6d"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">exec_silent</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_cmd</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv411exec_silentPKc" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Execute shell command silently. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>a_cmd</strong> – command line </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>0 if success, -1 otherwise </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv425dap_interval_timer_deinitv">
+<span id="_CPPv325dap_interval_timer_deinitv"></span><span id="_CPPv225dap_interval_timer_deinitv"></span><span id="dap_interval_timer_deinit"></span><span class="target" id="dap__common_8c_1a08f2e89b535e4fd8d5ff88a441349b19"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_interval_timer_deinit</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv425dap_interval_timer_deinitv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv412s_timer_findPv">
+<span id="_CPPv312s_timer_findPv"></span><span id="_CPPv212s_timer_findPv"></span><span id="s_timer_find__voidP"></span><span class="target" id="dap__common_8c_1a5e93b901763a875bdabf4b20145fabca"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">s_timer_find</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_timer</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv412s_timer_findPv" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv416s_posix_callback6sigval">
+<span id="_CPPv316s_posix_callback6sigval"></span><span id="_CPPv216s_posix_callback6sigval"></span><span id="s_posix_callback__sigval"></span><span class="target" id="dap__common_8c_1a05c0eb1ee1c46e6c74325881cebe5ea7"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">s_posix_callback</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">union</span></span><span class="w"> </span><span class="n"><span class="pre">sigval</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">a_arg</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv416s_posix_callback6sigval" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv425dap_interval_timer_createj20dap_timer_callback_tPv">
+<span id="_CPPv325dap_interval_timer_createj20dap_timer_callback_tPv"></span><span id="_CPPv225dap_interval_timer_createj20dap_timer_callback_tPv"></span><span id="dap_interval_timer_create__unsigned-i.dap_timer_callback_t.voidP"></span><span class="target" id="dap__common_8c_1af8af1c983ae671281a7cec7159a31756"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">dap_interval_timer_create</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">unsigned</span> <span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">a_msec</span></span>, <a class="reference internal" href="dap__common_8h.html#_CPPv420dap_timer_callback_t" title="dap_timer_callback_t"><span class="n"><span class="pre">dap_timer_callback_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">a_callback</span></span>, <span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_param</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv425dap_interval_timer_createj20dap_timer_callback_tPv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>dap_interval_timer_create Create new timer object and set callback function to it </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>a_msec</strong> – Timer period </p></li>
+<li><p><strong>a_callback</strong> – Function to be called with timer period </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>pointer to timer object if success, otherwise return NULL </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv425dap_interval_timer_deletePv">
+<span id="_CPPv325dap_interval_timer_deletePv"></span><span id="_CPPv225dap_interval_timer_deletePv"></span><span id="dap_interval_timer_delete__voidP"></span><span class="target" id="dap__common_8c_1a5b11817da55641a36b7af965241266f7"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_interval_timer_delete</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_timer</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv425dap_interval_timer_deletePv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>dap_interval_timer_delete Delete existed timer object and stop callback function calls </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>a_timer</strong> – A timer object created previously with dap_interval_timer_create </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>0 if success, -1 otherwise </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv417dap_lendian_get16PK7uint8_t">
+<span id="_CPPv317dap_lendian_get16PK7uint8_t"></span><span id="_CPPv217dap_lendian_get16PK7uint8_t"></span><span id="dap_lendian_get16__uint8_tCP"></span><span class="target" id="dap__common_8c_1a93d27b609b07b9b6375a20050fe4a403"></span><span class="n"><span class="pre">uint16_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_lendian_get16</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_buf</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv417dap_lendian_get16PK7uint8_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>dap_lendian_get16 Get uint16 from little endian memory </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>a_buf</strong> – a buffer read from </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>uint16 in host endian memory </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv417dap_lendian_put16P7uint8_t8uint16_t">
+<span id="_CPPv317dap_lendian_put16P7uint8_t8uint16_t"></span><span id="_CPPv217dap_lendian_put16P7uint8_t8uint16_t"></span><span id="dap_lendian_put16__uint8_tP.uint16_t"></span><span class="target" id="dap__common_8c_1abf3de6c5a20b0b68b3abadcf3c14f6f5"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_lendian_put16</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_buf</span></span>, <span class="n"><span class="pre">uint16_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">a_val</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv417dap_lendian_put16P7uint8_t8uint16_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>dap_lendian_put16 Put uint16 to little endian memory </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>buf</strong> – a buffer write to </p></li>
+<li><p><strong>val</strong> – uint16 in host endian memory </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>none </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv417dap_lendian_get32PK7uint8_t">
+<span id="_CPPv317dap_lendian_get32PK7uint8_t"></span><span id="_CPPv217dap_lendian_get32PK7uint8_t"></span><span id="dap_lendian_get32__uint8_tCP"></span><span class="target" id="dap__common_8c_1ae87cd5ff9beca37bb351885582f380a2"></span><span class="n"><span class="pre">uint32_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_lendian_get32</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_buf</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv417dap_lendian_get32PK7uint8_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>dap_lendian_get32 Get uint32 from little endian memory </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>a_buf</strong> – a buffer read from </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>uint32 in host endian memory </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv417dap_lendian_put32P7uint8_t8uint32_t">
+<span id="_CPPv317dap_lendian_put32P7uint8_t8uint32_t"></span><span id="_CPPv217dap_lendian_put32P7uint8_t8uint32_t"></span><span id="dap_lendian_put32__uint8_tP.uint32_t"></span><span class="target" id="dap__common_8c_1a78df5d1fba9b0d38749c72e9c9d2ad50"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_lendian_put32</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_buf</span></span>, <span class="n"><span class="pre">uint32_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">a_val</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv417dap_lendian_put32P7uint8_t8uint32_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>dap_lendian_put32 Put uint32 to little endian memory </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>buf</strong> – a buffer write to </p></li>
+<li><p><strong>val</strong> – uint32 in host endian memory </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>none </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv417dap_lendian_get64PK7uint8_t">
+<span id="_CPPv317dap_lendian_get64PK7uint8_t"></span><span id="_CPPv217dap_lendian_get64PK7uint8_t"></span><span id="dap_lendian_get64__uint8_tCP"></span><span class="target" id="dap__common_8c_1a4667f7eb04608e1cfc5d5bb1e5adf9c5"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_lendian_get64</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_buf</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv417dap_lendian_get64PK7uint8_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>dap_lendian_get64 Get uint64 from little endian memory </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>a_buf</strong> – a buffer read from </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>uint64 in host endian memory </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv417dap_lendian_put64P7uint8_t8uint64_t">
+<span id="_CPPv317dap_lendian_put64P7uint8_t8uint64_t"></span><span id="_CPPv217dap_lendian_put64P7uint8_t8uint64_t"></span><span id="dap_lendian_put64__uint8_tP.uint64_t"></span><span class="target" id="dap__common_8c_1a839bfb8e8de000406b49aaffdf2a9038"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_lendian_put64</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_buf</span></span>, <span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">a_val</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv417dap_lendian_put64P7uint8_t8uint64_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>dap_lendian_put64 Put uint64 to little endian memory </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>buf</strong> – a buffer write to </p></li>
+<li><p><strong>val</strong> – uint64 in host endian memory </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>none </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv410dap_usleep6time_t">
+<span id="_CPPv310dap_usleep6time_t"></span><span id="_CPPv210dap_usleep6time_t"></span><span id="dap_usleep__time_t"></span><span class="target" id="dap__common_8c_1a0e96cfb34f3860ab68ea224d32e793f6"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_usleep</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">time_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">a_microseconds</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv410dap_usleep6time_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>dap_usleep: &#64;a_microseconds: number of microseconds to pause</p>
+<p>Pauses the current thread for the given number of microseconds. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv411dap_ctime_rP6time_tPc">
+<span id="_CPPv311dap_ctime_rP6time_tPc"></span><span id="_CPPv211dap_ctime_rP6time_tPc"></span><span id="dap_ctime_r__time_tP.cP"></span><span class="target" id="dap__common_8c_1aa596ae69f43dd9e4d4147316aca717b0"></span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">dap_ctime_r</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">time_t</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_time</span></span>, <span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_buf</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv411dap_ctime_rP6time_tPc" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>dap_ctime_r This function does the same as ctime_r, but if it returns (null), a line break is added. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>a_time</strong> – </p></li>
+<li><p><strong>a_buf</strong> – The minimum buffer size is 26 elements. </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p></p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-variables">Variables</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv415s_log_level_tag">
+<span id="_CPPv315s_log_level_tag"></span><span id="_CPPv215s_log_level_tag"></span><span id="s_log_level_tag__cCPA"></span><span class="target" id="dap__common_8c_1a569055f65bf0a06d8b7889148cd1c3e4"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">s_log_level_tag</span></span></span><span class="p"><span class="pre">[</span></span><span class="m"><span class="pre">16</span></span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="s"><span class="pre">&quot;</span> <span class="pre">[DBG]</span> <span class="pre">&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;</span> <span class="pre">[INF]</span> <span class="pre">&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;</span> <span class="pre">[</span> <span class="pre">*</span> <span class="pre">]</span> <span class="pre">&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;</span> <span class="pre">[MSG]</span> <span class="pre">&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;</span> <span class="pre">[DAP]</span> <span class="pre">&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;</span> <span class="pre">[WRN]</span> <span class="pre">&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;</span> <span class="pre">[ATT]</span> <span class="pre">&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;</span> <span class="pre">[ERR]</span> <span class="pre">&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;</span> <span class="pre">[</span> <span class="pre">!</span> <span class="pre">]</span> <span class="pre">&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;</span> <span class="pre">[---]</span> <span class="pre">&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;</span> <span class="pre">[---]</span> <span class="pre">&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;</span> <span class="pre">[---]</span> <span class="pre">&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;</span> <span class="pre">[---]</span> <span class="pre">&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;</span> <span class="pre">[---]</span> <span class="pre">&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;</span> <span class="pre">[---]</span> <span class="pre">&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;</span> <span class="pre">[---]</span> <span class="pre">&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="p"><span class="pre">}</span></span><a class="headerlink" href="#_CPPv415s_log_level_tag" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv416s_ansi_seq_color">
+<span id="_CPPv316s_ansi_seq_color"></span><span id="_CPPv216s_ansi_seq_color"></span><span id="s_ansi_seq_color__cCPA"></span><span class="target" id="dap__common_8c_1a1644ca13c1b5eeee92642858919c7a88"></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">s_ansi_seq_color</span></span></span><span class="p"><span class="pre">[</span></span><span class="m"><span class="pre">16</span></span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="s"><span class="pre">&quot;\x1b[0;37;40m&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;\x1b[1;32;40m&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;\x1b[0;32;40m&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;\x1b[1;33;40m&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;\x1b[0;36;40m&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;\x1b[1;35;40m&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;\x1b[1;36;40m&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;\x1b[1;31;40m&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;\x1b[1;37;41m&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;&quot;</span></span><span class="p"><span class="pre">,</span></span><span class="p"><span class="pre">}</span></span><a class="headerlink" href="#_CPPv416s_ansi_seq_color" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv420s_ansi_seq_color_len">
+<span id="_CPPv320s_ansi_seq_color_len"></span><span id="_CPPv220s_ansi_seq_color_len"></span><span id="s_ansi_seq_color_len__unsigned-iA"></span><span class="target" id="dap__common_8c_1a7566ff31a85b6757af565f97b51fc66d"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="kt"><span class="pre">unsigned</span> <span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">s_ansi_seq_color_len</span></span></span><span class="p"><span class="pre">[</span></span><span class="m"><span class="pre">16</span></span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="m"><span class="pre">0</span></span><span class="p"><span class="pre">}</span></span><a class="headerlink" href="#_CPPv420s_ansi_seq_color_len" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv417s_log_term_signal">
+<span id="_CPPv317s_log_term_signal"></span><span id="_CPPv217s_log_term_signal"></span><span id="s_log_term_signal__bV"></span><span class="target" id="dap__common_8c_1a77f173bf86e5541e6e64b4cc67bdbe3c"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">volatile</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">s_log_term_signal</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">false</span></span><a class="headerlink" href="#_CPPv417s_log_term_signal" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv414g_sys_dir_path">
+<span id="_CPPv314g_sys_dir_path"></span><span id="_CPPv214g_sys_dir_path"></span><span id="g_sys_dir_path__cP"></span><span class="target" id="dap__common_8c_1afca947e55f7bc92af8796d5f8b7ac978"></span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">g_sys_dir_path</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="n"><span class="pre">NULL</span></span><a class="headerlink" href="#_CPPv414g_sys_dir_path" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv412s_last_error">
+<span id="_CPPv312s_last_error"></span><span id="_CPPv212s_last_error"></span><span id="s_last_error__cA"></span><span class="target" id="dap__common_8c_1a841ba069ed0302001d1dc3ef00835349"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">s_last_error</span></span></span><span class="p"><span class="pre">[</span></span><span class="n"><span class="pre">LAST_ERROR_MAX</span></span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="sc"><span class="pre">'\0'</span></span><span class="p"><span class="pre">}</span></span><a class="headerlink" href="#_CPPv412s_last_error" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv415s_log_file_path">
+<span id="_CPPv315s_log_file_path"></span><span id="_CPPv215s_log_file_path"></span><span id="s_log_file_path__cA"></span><span class="target" id="dap__common_8c_1a9893fdcef8c368d916bc9e03ca16f6b3"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">s_log_file_path</span></span></span><span class="p"><span class="pre">[</span></span><span class="n"><span class="pre">MAX_PATH</span></span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="sc"><span class="pre">'\0'</span></span><span class="p"><span class="pre">}</span></span><a class="headerlink" href="#_CPPv415s_log_file_path" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv414s_log_dir_path">
+<span id="_CPPv314s_log_dir_path"></span><span id="_CPPv214s_log_dir_path"></span><span id="s_log_dir_path__cA"></span><span class="target" id="dap__common_8c_1a4a297fb5525aa653f1f60772301df5b6"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">s_log_dir_path</span></span></span><span class="p"><span class="pre">[</span></span><span class="n"><span class="pre">MAX_PATH</span></span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="sc"><span class="pre">'\0'</span></span><span class="p"><span class="pre">}</span></span><a class="headerlink" href="#_CPPv414s_log_dir_path" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv417s_log_tag_fmt_str">
+<span id="_CPPv317s_log_tag_fmt_str"></span><span id="_CPPv217s_log_tag_fmt_str"></span><span id="s_log_tag_fmt_str__cA"></span><span class="target" id="dap__common_8c_1af221160d731c27e503eaa4daab9184a0"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">s_log_tag_fmt_str</span></span></span><span class="p"><span class="pre">[</span></span><span class="m"><span class="pre">10</span></span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="sc"><span class="pre">'\0'</span></span><span class="p"><span class="pre">}</span></span><a class="headerlink" href="#_CPPv417s_log_tag_fmt_str" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv415s_dap_log_level">
+<span id="_CPPv315s_dap_log_level"></span><span id="_CPPv215s_dap_log_level"></span><span id="s_dap_log_level__dap_log_level"></span><span class="target" id="dap__common_8c_1a6dc020876c49645a708eb81f048896c6"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">enum</span></span><span class="w"> </span><a class="reference internal" href="dap__common_8h.html#_CPPv413dap_log_level" title="dap_log_level"><span class="n"><span class="pre">dap_log_level</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">s_dap_log_level</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="dap__common_8h.html#_CPPv4N13dap_log_level7L_DEBUGE" title="L_DEBUG"><span class="n"><span class="pre">L_DEBUG</span></span></a><a class="headerlink" href="#_CPPv415s_dap_log_level" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv410s_log_file">
+<span id="_CPPv310s_log_file"></span><span id="_CPPv210s_log_file"></span><span id="s_log_file__FILEP"></span><span class="target" id="dap__common_8c_1a50021147b626e80a4756b326379832e9"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="n"><span class="pre">FILE</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">s_log_file</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="n"><span class="pre">NULL</span></span><a class="headerlink" href="#_CPPv410s_log_file" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv411s_log_mutex">
+<span id="_CPPv311s_log_mutex"></span><span id="_CPPv211s_log_mutex"></span><span id="s_log_mutex__pthread_mutex_t"></span><span class="target" id="dap__common_8c_1a6ec8306ac5b15dfcbaa5a93f7a42c3f2"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="n"><span class="pre">pthread_mutex_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">s_log_mutex</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="n"><span class="pre">PTHREAD_MUTEX_INITIALIZER</span></span><a class="headerlink" href="#_CPPv411s_log_mutex" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv410s_log_cond">
+<span id="_CPPv310s_log_cond"></span><span id="_CPPv210s_log_cond"></span><span id="s_log_cond__pthread_cond_t"></span><span class="target" id="dap__common_8c_1acb0bf7d44bdf6cac53f335fbb0400796"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="n"><span class="pre">pthread_cond_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">s_log_cond</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="n"><span class="pre">PTHREAD_COND_INITIALIZER</span></span><a class="headerlink" href="#_CPPv410s_log_cond" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv411s_log_count">
+<span id="_CPPv311s_log_count"></span><span id="_CPPv211s_log_count"></span><span id="s_log_count__iV"></span><span class="target" id="dap__common_8c_1a60a8a8decc7af31c2b3d5e8c281a7943"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">volatile</span></span><span class="w"> </span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">s_log_count</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv411s_log_count" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv412s_log_thread">
+<span id="_CPPv312s_log_thread"></span><span id="_CPPv212s_log_thread"></span><span id="s_log_thread__pthread_t"></span><span class="target" id="dap__common_8c_1aeb58980a3d2b428b5647eb708b6e1087"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="n"><span class="pre">pthread_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">s_log_thread</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv412s_log_thread" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv412s_log_buffer">
+<span id="_CPPv312s_log_buffer"></span><span id="_CPPv212s_log_buffer"></span><span id="s_log_buffer__log_str_tP"></span><span class="target" id="dap__common_8c_1a23e562a9644937850caa7b2c8e7522cd"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv49log_str_t" title="log_str_t"><span class="n"><span class="pre">log_str_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">s_log_buffer</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="n"><span class="pre">NULL</span></span><a class="headerlink" href="#_CPPv412s_log_buffer" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv49s_appname">
+<span id="_CPPv39s_appname"></span><span id="_CPPv29s_appname"></span><span id="s_appname__cP"></span><span class="target" id="dap__common_8c_1a2494493fc79f0a0692ba9f92703d2a31"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">s_appname</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="n"><span class="pre">NULL</span></span><a class="headerlink" href="#_CPPv49s_appname" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv411breaker_set">
+<span id="_CPPv311breaker_set"></span><span id="_CPPv211breaker_set"></span><span id="breaker_set__iA"></span><span class="target" id="dap__common_8c_1abd3c99eacca06234a6e4411a5ff0ae22"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">breaker_set</span></span></span><span class="p"><span class="pre">[</span></span><span class="m"><span class="pre">2</span></span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="o"><span class="pre">-</span></span><span class="m"><span class="pre">1</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="o"><span class="pre">-</span></span><span class="m"><span class="pre">1</span></span><span class="p"><span class="pre">}</span></span><a class="headerlink" href="#_CPPv411breaker_set" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv411initialized">
+<span id="_CPPv311initialized"></span><span id="_CPPv211initialized"></span><span id="initialized__i"></span><span class="target" id="dap__common_8c_1ad06983e7f6e71b233ea7ff3dee1952f2"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">initialized</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv411initialized" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv413break_latency">
+<span id="_CPPv313break_latency"></span><span id="_CPPv213break_latency"></span><span id="break_latency__timespec"></span><span class="target" id="dap__common_8c_1af4baddcad4576299c1c44f1822c799fc"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="n"><span class="pre">timespec</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">break_latency</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="m"><span class="pre">0</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">BREAK_LATENCY</span></span><span class="w"> </span><span class="o"><span class="pre">*</span></span><span class="w"> </span><span class="m"><span class="pre">1000</span></span><span class="w"> </span><span class="o"><span class="pre">*</span></span><span class="w"> </span><span class="m"><span class="pre">1000</span></span><span class="p"><span class="pre">}</span></span><a class="headerlink" href="#_CPPv413break_latency" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv416l_possible_chars">
+<span id="_CPPv316l_possible_chars"></span><span id="_CPPv216l_possible_chars"></span><span id="l_possible_chars__cCA"></span><span class="target" id="dap__common_8c_1a38aacebea4dcb4a58907594acf07d45f"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">l_possible_chars</span></span></span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789&quot;</span></span><a class="headerlink" href="#_CPPv416l_possible_chars" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv414s_timers_count">
+<span id="_CPPv314s_timers_count"></span><span id="_CPPv214s_timers_count"></span><span id="s_timers_count__i"></span><span class="target" id="dap__common_8c_1a14059d06f24a066c25bc048871a48e9a"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">s_timers_count</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv414s_timers_count" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv48s_timers">
+<span id="_CPPv38s_timers"></span><span id="_CPPv28s_timers"></span><span id="s_timers__dap_timer_interface_tA"></span><span class="target" id="dap__common_8c_1a81680f863846d7620559431c8651cb6f"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><a class="reference internal" href="dap__common_8h.html#_CPPv421dap_timer_interface_t" title="dap_timer_interface_t"><span class="n"><span class="pre">dap_timer_interface_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">s_timers</span></span></span><span class="p"><span class="pre">[</span></span><span class="n"><span class="pre">DAP_INTERVAL_TIMERS_MAX</span></span><span class="p"><span class="pre">]</span></span><a class="headerlink" href="#_CPPv48s_timers" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv413s_timers_lock">
+<span id="_CPPv313s_timers_lock"></span><span id="_CPPv213s_timers_lock"></span><span id="s_timers_lock__pthread_mutex_t"></span><span class="target" id="dap__common_8c_1aad5bdc0a0bc5ea63af9441694a86b5a5"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="n"><span class="pre">pthread_mutex_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">s_timers_lock</span></span></span><a class="headerlink" href="#_CPPv413s_timers_lock" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<dl class="cpp struct">
+<dt class="sig sig-object cpp">
+<span class="target" id="structlog__str__t"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">log_str_t</span></span></span><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N9log_str_t3strE">
+<span id="_CPPv3N9log_str_t3strE"></span><span id="_CPPv2N9log_str_t3strE"></span><span id="log_str_t::str__cA"></span><span class="target" id="structlog__str__t_1a0eea25a5090ecad58318244be3f86891"></span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">str</span></span></span><span class="p"><span class="pre">[</span></span><span class="m"><span class="pre">1000</span></span><span class="p"><span class="pre">]</span></span><a class="headerlink" href="#_CPPv4N9log_str_t3strE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N9log_str_t6offsetE">
+<span id="_CPPv3N9log_str_t6offsetE"></span><span id="_CPPv2N9log_str_t6offsetE"></span><span id="log_str_t::offset__unsigned-i"></span><span class="target" id="structlog__str__t_1a29b5297d3393519050e3126c4cb07c1c"></span><span class="kt"><span class="pre">unsigned</span> <span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">offset</span></span></span><a class="headerlink" href="#_CPPv4N9log_str_t6offsetE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N9log_str_t4prevE">
+<span id="_CPPv3N9log_str_t4prevE"></span><span id="_CPPv2N9log_str_t4prevE"></span><span id="log_str_t::prev__log_str_tP"></span><span class="target" id="structlog__str__t_1ad018d95fae2b87364dec8a77fff87128"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv49log_str_t" title="log_str_t"><span class="n"><span class="pre">log_str_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">prev</span></span></span><a class="headerlink" href="#_CPPv4N9log_str_t4prevE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N9log_str_t4nextE">
+<span id="_CPPv3N9log_str_t4nextE"></span><span id="_CPPv2N9log_str_t4nextE"></span><span id="log_str_t::next__log_str_tP"></span><span class="target" id="structlog__str__t_1a11b3dc1690f99bc653f1f71793b89657"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv49log_str_t" title="log_str_t"><span class="n"><span class="pre">log_str_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">next</span></span></span><a class="headerlink" href="#_CPPv4N9log_str_t4nextE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp union">
+<dt class="sig sig-object cpp" id="_CPPv411node_addr_t">
+<span id="_CPPv311node_addr_t"></span><span id="_CPPv211node_addr_t"></span><span class="target" id="unionnode__addr__t"></span><span class="k"><span class="pre">union</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">node_addr_t</span></span></span><a class="headerlink" href="#_CPPv411node_addr_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N11node_addr_t5addrsE">
+<span id="_CPPv3N11node_addr_t5addrsE"></span><span id="_CPPv2N11node_addr_t5addrsE"></span><span id="node_addr_t::addrs__uint16_tA"></span><span class="target" id="unionnode__addr__t_1ade2360f66bf81754410407b364d96682"></span><span class="n"><span class="pre">uint16_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">addrs</span></span></span><span class="p"><span class="pre">[</span></span><span class="m"><span class="pre">4</span></span><span class="p"><span class="pre">]</span></span><a class="headerlink" href="#_CPPv4N11node_addr_t5addrsE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N11node_addr_t4addrE">
+<span id="_CPPv3N11node_addr_t4addrE"></span><span id="_CPPv2N11node_addr_t4addrE"></span><span id="node_addr_t::addr__uint64_t"></span><span class="target" id="unionnode__addr__t_1a0e89cf6b9f6cd3125470b1bed2b823df"></span><span class="n"><span class="pre">uint64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">addr</span></span></span><a class="headerlink" href="#_CPPv4N11node_addr_t4addrE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="dap__common_8h.html" class="btn btn-neutral float-right" title="File dap_common.h" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="dap__client__pvt__hh_8c.html" class="btn btn-neutral float-left" title="File dap_client_pvt_hh.c" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Demlabs.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

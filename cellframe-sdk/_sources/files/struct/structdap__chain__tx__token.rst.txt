@@ -1,0 +1,4 @@
+Struct dap_chain_tx_token
+=========================
+
+.. doxygenstruct:: dap_chain_tx_token

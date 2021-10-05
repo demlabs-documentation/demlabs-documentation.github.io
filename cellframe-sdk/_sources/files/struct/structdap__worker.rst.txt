@@ -1,0 +1,4 @@
+Struct dap_worker
+=================
+
+.. doxygenstruct:: dap_worker

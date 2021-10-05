@@ -1,0 +1,4 @@
+File dilithium_packing.h
+========================
+
+.. doxygenfile:: dilithium_packing.h

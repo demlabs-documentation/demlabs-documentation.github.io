@@ -1,0 +1,4 @@
+File picnic.c
+=============
+
+.. doxygenfile:: picnic.c

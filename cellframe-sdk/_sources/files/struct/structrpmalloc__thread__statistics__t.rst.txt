@@ -1,0 +1,4 @@
+Struct rpmalloc_thread_statistics_t
+===================================
+
+.. doxygenstruct:: rpmalloc_thread_statistics_t

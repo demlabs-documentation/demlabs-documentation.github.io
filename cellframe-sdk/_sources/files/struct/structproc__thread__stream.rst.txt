@@ -1,0 +1,4 @@
+Struct proc_thread_stream
+=========================
+
+.. doxygenstruct:: proc_thread_stream

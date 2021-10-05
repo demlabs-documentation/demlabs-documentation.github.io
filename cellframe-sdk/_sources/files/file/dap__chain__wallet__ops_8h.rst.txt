@@ -1,0 +1,4 @@
+File dap_chain_wallet_ops.h
+===========================
+
+.. doxygenfile:: dap_chain_wallet_ops.h

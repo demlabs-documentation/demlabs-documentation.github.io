@@ -1,0 +1,4 @@
+Struct list_priority_
+=====================
+
+.. doxygenstruct:: list_priority_

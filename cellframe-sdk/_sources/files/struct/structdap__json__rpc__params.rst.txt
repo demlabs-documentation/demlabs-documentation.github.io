@@ -1,0 +1,4 @@
+Struct dap_json_rpc_params
+==========================
+
+.. doxygenstruct:: dap_json_rpc_params

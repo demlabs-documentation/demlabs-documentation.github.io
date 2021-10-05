@@ -1,0 +1,4 @@
+Struct poly_newhope
+===================
+
+.. doxygenstruct:: poly_newhope

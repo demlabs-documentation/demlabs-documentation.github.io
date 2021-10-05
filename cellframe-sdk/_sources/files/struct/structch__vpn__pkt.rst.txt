@@ -1,0 +1,4 @@
+Struct ch_vpn_pkt
+=================
+
+.. doxygenstruct:: ch_vpn_pkt

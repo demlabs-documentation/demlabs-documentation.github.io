@@ -1,0 +1,4 @@
+Struct dap_cert_file_aux
+========================
+
+.. doxygenstruct:: dap_cert_file_aux

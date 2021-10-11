@@ -1,0 +1,5 @@
+﻿negate_ntt
+==========
+
+.. doxygenfunction:: negate_ntt
+

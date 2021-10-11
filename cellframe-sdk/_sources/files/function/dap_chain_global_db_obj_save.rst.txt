@@ -1,0 +1,5 @@
+﻿dap_chain_global_db_obj_save
+============================
+
+.. doxygenfunction:: dap_chain_global_db_obj_save
+

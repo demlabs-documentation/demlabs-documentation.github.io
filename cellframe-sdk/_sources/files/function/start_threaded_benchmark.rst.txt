@@ -1,0 +1,5 @@
+﻿start_threaded_benchmark
+========================
+
+.. doxygenfunction:: start_threaded_benchmark
+

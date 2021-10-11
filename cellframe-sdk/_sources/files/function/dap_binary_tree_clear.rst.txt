@@ -1,0 +1,5 @@
+﻿dap_binary_tree_clear
+=====================
+
+.. doxygenfunction:: dap_binary_tree_clear
+

@@ -1,0 +1,5 @@
+﻿dap_uuid_generate_uint64
+========================
+
+.. doxygenfunction:: dap_uuid_generate_uint64
+

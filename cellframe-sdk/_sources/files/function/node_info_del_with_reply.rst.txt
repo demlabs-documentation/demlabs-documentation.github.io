@@ -1,0 +1,5 @@
+﻿node_info_del_with_reply
+========================
+
+.. doxygenfunction:: node_info_del_with_reply
+

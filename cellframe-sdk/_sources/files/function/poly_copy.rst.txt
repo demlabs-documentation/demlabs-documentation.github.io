@@ -1,0 +1,5 @@
+﻿poly_copy
+=========
+
+.. doxygenfunction:: poly_copy
+

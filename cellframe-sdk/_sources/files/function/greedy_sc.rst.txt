@@ -1,0 +1,5 @@
+﻿greedy_sc
+=========
+
+.. doxygenfunction:: greedy_sc
+

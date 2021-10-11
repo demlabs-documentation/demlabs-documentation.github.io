@@ -1,0 +1,5 @@
+﻿dap_enc_oaes_decrypt_fast
+=========================
+
+.. doxygenfunction:: dap_enc_oaes_decrypt_fast
+

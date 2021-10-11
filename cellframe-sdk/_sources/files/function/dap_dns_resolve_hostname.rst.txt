@@ -1,0 +1,5 @@
+﻿dap_dns_resolve_hostname
+========================
+
+.. doxygenfunction:: dap_dns_resolve_hostname
+

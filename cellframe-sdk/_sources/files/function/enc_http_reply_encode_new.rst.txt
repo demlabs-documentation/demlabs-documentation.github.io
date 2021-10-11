@@ -1,0 +1,5 @@
+﻿enc_http_reply_encode_new
+=========================
+
+.. doxygenfunction:: enc_http_reply_encode_new
+

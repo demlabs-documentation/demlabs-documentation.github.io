@@ -1,0 +1,5 @@
+﻿dap_chain_mempool_add_proc
+==========================
+
+.. doxygenfunction:: dap_chain_mempool_add_proc
+

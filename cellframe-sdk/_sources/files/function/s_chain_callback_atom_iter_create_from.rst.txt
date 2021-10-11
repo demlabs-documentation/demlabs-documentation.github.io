@@ -1,0 +1,5 @@
+﻿s_chain_callback_atom_iter_create_from
+======================================
+
+.. doxygenfunction:: s_chain_callback_atom_iter_create_from
+

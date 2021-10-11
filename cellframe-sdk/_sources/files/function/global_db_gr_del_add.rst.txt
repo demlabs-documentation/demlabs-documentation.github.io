@@ -1,0 +1,5 @@
+﻿global_db_gr_del_add
+====================
+
+.. doxygenfunction:: global_db_gr_del_add
+

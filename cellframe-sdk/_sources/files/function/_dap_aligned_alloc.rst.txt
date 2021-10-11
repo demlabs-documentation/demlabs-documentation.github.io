@@ -1,0 +1,5 @@
+﻿_dap_aligned_alloc
+==================
+
+.. doxygenfunction:: _dap_aligned_alloc
+

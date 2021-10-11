@@ -1,0 +1,5 @@
+﻿dap_chain_enum_unlock
+=====================
+
+.. doxygenfunction:: dap_chain_enum_unlock
+

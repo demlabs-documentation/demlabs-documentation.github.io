@@ -1,0 +1,5 @@
+﻿get_options
+===========
+
+.. doxygenfunction:: get_options
+

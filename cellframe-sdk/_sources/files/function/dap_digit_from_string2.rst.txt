@@ -1,0 +1,5 @@
+﻿dap_digit_from_string2
+======================
+
+.. doxygenfunction:: dap_digit_from_string2
+

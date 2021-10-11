@@ -1,0 +1,5 @@
+﻿bytes_to_hex
+============
+
+.. doxygenfunction:: bytes_to_hex
+

@@ -1,0 +1,5 @@
+﻿s_block_get_sign_offset
+=======================
+
+.. doxygenfunction:: s_block_get_sign_offset
+

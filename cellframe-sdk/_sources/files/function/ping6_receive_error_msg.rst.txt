@@ -1,0 +1,5 @@
+﻿ping6_receive_error_msg
+=======================
+
+.. doxygenfunction:: ping6_receive_error_msg
+

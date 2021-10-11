@@ -1,0 +1,5 @@
+﻿test_init_deinit
+================
+
+.. doxygenfunction:: test_init_deinit
+

@@ -1,0 +1,5 @@
+﻿z_rootdirname
+=============
+
+.. doxygenfunction:: z_rootdirname
+

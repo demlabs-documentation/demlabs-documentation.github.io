@@ -1,0 +1,5 @@
+﻿dap_http_header_init
+====================
+
+.. doxygenfunction:: dap_http_header_init
+

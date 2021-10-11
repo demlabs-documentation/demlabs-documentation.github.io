@@ -1,0 +1,5 @@
+﻿split_word
+==========
+
+.. doxygenfunction:: split_word
+

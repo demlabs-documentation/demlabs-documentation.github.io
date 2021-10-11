@@ -1,0 +1,5 @@
+﻿fp2neg
+======
+
+.. doxygenfunction:: fp2neg
+

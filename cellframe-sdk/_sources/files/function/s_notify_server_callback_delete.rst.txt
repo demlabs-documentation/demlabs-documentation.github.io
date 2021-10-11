@@ -1,0 +1,5 @@
+﻿s_notify_server_callback_delete
+===============================
+
+.. doxygenfunction:: s_notify_server_callback_delete
+

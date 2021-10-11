@@ -1,0 +1,5 @@
+﻿s_http_error
+============
+
+.. doxygenfunction:: s_http_error
+

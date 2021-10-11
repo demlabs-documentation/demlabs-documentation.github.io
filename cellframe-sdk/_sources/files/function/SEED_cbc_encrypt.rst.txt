@@ -1,0 +1,5 @@
+﻿SEED_cbc_encrypt
+================
+
+.. doxygenfunction:: SEED_cbc_encrypt
+

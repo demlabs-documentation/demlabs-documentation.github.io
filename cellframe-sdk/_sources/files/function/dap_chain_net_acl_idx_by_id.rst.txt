@@ -1,0 +1,5 @@
+﻿dap_chain_net_acl_idx_by_id
+===========================
+
+.. doxygenfunction:: dap_chain_net_acl_idx_by_id
+

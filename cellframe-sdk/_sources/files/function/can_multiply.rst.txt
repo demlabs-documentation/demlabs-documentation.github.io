@@ -1,0 +1,5 @@
+﻿can_multiply
+============
+
+.. doxygenfunction:: can_multiply
+

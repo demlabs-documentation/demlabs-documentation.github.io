@@ -1,0 +1,5 @@
+﻿EphemeralKeyGeneration_B
+========================
+
+.. doxygenfunction:: EphemeralKeyGeneration_B
+

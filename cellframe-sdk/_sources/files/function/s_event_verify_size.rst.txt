@@ -1,0 +1,5 @@
+﻿s_event_verify_size
+===================
+
+.. doxygenfunction:: s_event_verify_size
+

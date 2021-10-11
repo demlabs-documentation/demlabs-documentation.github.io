@@ -1,0 +1,5 @@
+﻿dap_chain_net_set_flag_sync_from_zero
+=====================================
+
+.. doxygenfunction:: dap_chain_net_set_flag_sync_from_zero
+

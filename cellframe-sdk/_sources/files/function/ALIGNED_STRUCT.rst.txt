@@ -1,0 +1,5 @@
+﻿ALIGNED_STRUCT
+==============
+
+.. doxygenfunction:: ALIGNED_STRUCT
+

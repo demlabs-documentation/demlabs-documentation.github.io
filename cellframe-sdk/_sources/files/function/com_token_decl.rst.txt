@@ -1,0 +1,5 @@
+﻿com_token_decl
+==============
+
+.. doxygenfunction:: com_token_decl
+

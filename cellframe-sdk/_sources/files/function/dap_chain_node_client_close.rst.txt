@@ -1,0 +1,5 @@
+﻿dap_chain_node_client_close
+===========================
+
+.. doxygenfunction:: dap_chain_node_client_close
+

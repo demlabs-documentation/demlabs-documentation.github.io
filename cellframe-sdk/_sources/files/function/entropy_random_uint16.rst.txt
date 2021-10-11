@@ -1,0 +1,5 @@
+﻿entropy_random_uint16
+=====================
+
+.. doxygenfunction:: entropy_random_uint16
+

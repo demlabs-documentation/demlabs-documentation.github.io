@@ -1,0 +1,5 @@
+﻿dap_json_rpc_error_JSON_create
+==============================
+
+.. doxygenfunction:: dap_json_rpc_error_JSON_create
+

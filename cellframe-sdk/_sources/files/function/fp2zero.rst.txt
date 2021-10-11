@@ -1,0 +1,5 @@
+﻿fp2zero
+=======
+
+.. doxygenfunction:: fp2zero
+

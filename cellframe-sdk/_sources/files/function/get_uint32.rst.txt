@@ -1,0 +1,5 @@
+﻿get_uint32
+==========
+
+.. doxygenfunction:: get_uint32
+

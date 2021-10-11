@@ -1,0 +1,5 @@
+﻿vector_scalar_product
+=====================
+
+.. doxygenfunction:: vector_scalar_product
+

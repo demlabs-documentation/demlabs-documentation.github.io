@@ -1,0 +1,5 @@
+﻿rl_stripwhite
+=============
+
+.. doxygenfunction:: rl_stripwhite
+

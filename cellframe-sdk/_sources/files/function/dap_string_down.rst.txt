@@ -1,0 +1,5 @@
+﻿dap_string_down
+===============
+
+.. doxygenfunction:: dap_string_down
+

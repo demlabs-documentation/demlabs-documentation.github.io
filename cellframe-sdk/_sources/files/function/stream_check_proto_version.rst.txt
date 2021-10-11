@@ -1,0 +1,5 @@
+﻿stream_check_proto_version
+==========================
+
+.. doxygenfunction:: stream_check_proto_version
+

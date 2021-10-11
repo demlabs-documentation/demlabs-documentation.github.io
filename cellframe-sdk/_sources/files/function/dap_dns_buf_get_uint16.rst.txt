@@ -1,0 +1,5 @@
+﻿dap_dns_buf_get_uint16
+======================
+
+.. doxygenfunction:: dap_dns_buf_get_uint16
+

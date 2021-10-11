@@ -1,0 +1,5 @@
+﻿test_config_open_fail
+=====================
+
+.. doxygenfunction:: test_config_open_fail
+

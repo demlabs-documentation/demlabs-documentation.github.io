@@ -1,0 +1,5 @@
+﻿sock_setbufs
+============
+
+.. doxygenfunction:: sock_setbufs
+

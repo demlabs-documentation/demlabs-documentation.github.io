@@ -1,0 +1,5 @@
+﻿dap_events_socket_queue_on_remove_and_delete
+============================================
+
+.. doxygenfunction:: dap_events_socket_queue_on_remove_and_delete
+

@@ -1,0 +1,5 @@
+﻿atomic_store32
+==============
+
+.. doxygenfunction:: atomic_store32
+

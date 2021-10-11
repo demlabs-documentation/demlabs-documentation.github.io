@@ -1,0 +1,5 @@
+﻿rpmalloc_dump_statistics
+========================
+
+.. doxygenfunction:: rpmalloc_dump_statistics
+

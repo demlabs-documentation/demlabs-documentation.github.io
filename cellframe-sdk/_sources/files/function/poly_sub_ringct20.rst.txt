@@ -1,0 +1,5 @@
+﻿poly_sub_ringct20
+=================
+
+.. doxygenfunction:: poly_sub_ringct20
+

@@ -1,0 +1,5 @@
+﻿SelfTestGost14Ecb
+=================
+
+.. doxygenfunction:: SelfTestGost14Ecb
+

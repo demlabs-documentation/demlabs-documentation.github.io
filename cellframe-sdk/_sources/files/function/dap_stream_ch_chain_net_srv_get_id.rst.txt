@@ -1,0 +1,5 @@
+﻿dap_stream_ch_chain_net_srv_get_id
+==================================
+
+.. doxygenfunction:: dap_stream_ch_chain_net_srv_get_id
+

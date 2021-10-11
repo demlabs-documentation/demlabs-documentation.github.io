@@ -1,0 +1,5 @@
+﻿dap_http_folder_headers_write
+=============================
+
+.. doxygenfunction:: dap_http_folder_headers_write
+

@@ -1,0 +1,5 @@
+﻿dap_chain_cs_dag_find_event_by_hash
+===================================
+
+.. doxygenfunction:: dap_chain_cs_dag_find_event_by_hash
+

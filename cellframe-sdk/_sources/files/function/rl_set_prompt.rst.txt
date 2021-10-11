@@ -1,0 +1,5 @@
+﻿rl_set_prompt
+=============
+
+.. doxygenfunction:: rl_set_prompt
+

@@ -1,0 +1,5 @@
+﻿dap_string_up
+=============
+
+.. doxygenfunction:: dap_string_up
+

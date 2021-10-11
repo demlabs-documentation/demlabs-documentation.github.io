@@ -1,0 +1,5 @@
+﻿dap_config_get_array_str
+========================
+
+.. doxygenfunction:: dap_config_get_array_str
+

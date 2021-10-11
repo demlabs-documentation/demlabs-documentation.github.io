@@ -1,0 +1,5 @@
+﻿dap_proc_thread_deinit
+======================
+
+.. doxygenfunction:: dap_proc_thread_deinit
+

@@ -1,0 +1,5 @@
+﻿dap_chain_datum_tx_receipt_sign_get
+===================================
+
+.. doxygenfunction:: dap_chain_datum_tx_receipt_sign_get
+

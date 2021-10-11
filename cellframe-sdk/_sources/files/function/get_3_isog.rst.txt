@@ -1,0 +1,5 @@
+﻿get_3_isog
+==========
+
+.. doxygenfunction:: get_3_isog
+

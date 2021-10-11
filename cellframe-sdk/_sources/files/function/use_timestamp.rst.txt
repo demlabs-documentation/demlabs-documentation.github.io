@@ -1,0 +1,5 @@
+﻿use_timestamp
+=============
+
+.. doxygenfunction:: use_timestamp
+

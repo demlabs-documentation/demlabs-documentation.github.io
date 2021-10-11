@@ -1,0 +1,5 @@
+﻿dap_cert_deserialize_meta
+=========================
+
+.. doxygenfunction:: dap_cert_deserialize_meta
+

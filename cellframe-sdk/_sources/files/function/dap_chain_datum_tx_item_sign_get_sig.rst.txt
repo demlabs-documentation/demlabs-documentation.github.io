@@ -1,0 +1,5 @@
+﻿dap_chain_datum_tx_item_sign_get_sig
+====================================
+
+.. doxygenfunction:: dap_chain_datum_tx_item_sign_get_sig
+

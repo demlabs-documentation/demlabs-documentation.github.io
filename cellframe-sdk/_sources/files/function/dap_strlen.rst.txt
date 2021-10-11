@@ -1,0 +1,5 @@
+﻿dap_strlen
+==========
+
+.. doxygenfunction:: dap_strlen
+

@@ -1,0 +1,5 @@
+﻿circular_buffer_get_capacity
+============================
+
+.. doxygenfunction:: circular_buffer_get_capacity
+

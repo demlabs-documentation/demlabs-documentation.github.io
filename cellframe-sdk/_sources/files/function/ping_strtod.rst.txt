@@ -1,0 +1,5 @@
+﻿ping_strtod
+===========
+
+.. doxygenfunction:: ping_strtod
+

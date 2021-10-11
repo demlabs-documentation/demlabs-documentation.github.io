@@ -1,0 +1,5 @@
+﻿dap_enc_dilithium_tests_run
+===========================
+
+.. doxygenfunction:: dap_enc_dilithium_tests_run
+

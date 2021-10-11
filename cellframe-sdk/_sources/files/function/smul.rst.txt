@@ -1,0 +1,5 @@
+﻿smul
+====
+
+.. doxygenfunction:: smul
+

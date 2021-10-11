@@ -1,0 +1,5 @@
+﻿dap_stream_ch_new
+=================
+
+.. doxygenfunction:: dap_stream_ch_new
+

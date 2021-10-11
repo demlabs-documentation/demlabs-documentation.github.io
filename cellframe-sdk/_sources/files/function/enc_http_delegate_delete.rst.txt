@@ -1,0 +1,5 @@
+﻿enc_http_delegate_delete
+========================
+
+.. doxygenfunction:: enc_http_delegate_delete
+

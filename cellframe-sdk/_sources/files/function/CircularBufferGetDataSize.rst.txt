@@ -1,0 +1,5 @@
+﻿CircularBufferGetDataSize
+=========================
+
+.. doxygenfunction:: CircularBufferGetDataSize
+

@@ -1,0 +1,5 @@
+﻿dap_stream_ch_chain_pkt_write_error_inter
+=========================================
+
+.. doxygenfunction:: dap_stream_ch_chain_pkt_write_error_inter
+

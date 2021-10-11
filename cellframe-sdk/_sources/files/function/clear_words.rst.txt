@@ -1,0 +1,5 @@
+﻿clear_words
+===========
+
+.. doxygenfunction:: clear_words
+

@@ -1,0 +1,5 @@
+﻿crypto_kem_keypair
+==================
+
+.. doxygenfunction:: crypto_kem_keypair
+

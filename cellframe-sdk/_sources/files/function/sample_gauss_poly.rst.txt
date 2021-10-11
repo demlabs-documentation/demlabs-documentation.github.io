@@ -1,0 +1,5 @@
+﻿sample_gauss_poly
+=================
+
+.. doxygenfunction:: sample_gauss_poly
+

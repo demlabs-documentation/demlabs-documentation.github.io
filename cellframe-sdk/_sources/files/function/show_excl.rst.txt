@@ -1,0 +1,5 @@
+﻿show_excl
+=========
+
+.. doxygenfunction:: show_excl
+

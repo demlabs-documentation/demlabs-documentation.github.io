@@ -1,0 +1,5 @@
+﻿_is_user_agent_supported
+========================
+
+.. doxygenfunction:: _is_user_agent_supported
+

@@ -1,0 +1,5 @@
+﻿funcLSX
+=======
+
+.. doxygenfunction:: funcLSX
+

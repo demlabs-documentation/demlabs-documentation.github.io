@@ -1,0 +1,5 @@
+﻿s_callback_atom_get_datums
+==========================
+
+.. doxygenfunction:: s_callback_atom_get_datums
+

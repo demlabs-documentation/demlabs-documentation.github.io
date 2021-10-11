@@ -1,0 +1,5 @@
+﻿RoundShtrih
+===========
+
+.. doxygenfunction:: RoundShtrih
+

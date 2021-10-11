@@ -1,0 +1,5 @@
+﻿dap_strreverse
+==============
+
+.. doxygenfunction:: dap_strreverse
+

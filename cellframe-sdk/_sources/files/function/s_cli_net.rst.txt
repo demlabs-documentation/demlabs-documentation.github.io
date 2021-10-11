@@ -1,0 +1,5 @@
+﻿s_cli_net
+=========
+
+.. doxygenfunction:: s_cli_net
+

@@ -1,0 +1,5 @@
+﻿poly_tobytes
+============
+
+.. doxygenfunction:: poly_tobytes
+

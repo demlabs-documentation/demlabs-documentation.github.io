@@ -1,0 +1,5 @@
+﻿dap_stream_set_ready_to_write
+=============================
+
+.. doxygenfunction:: dap_stream_set_ready_to_write
+

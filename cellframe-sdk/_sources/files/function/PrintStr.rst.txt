@@ -1,0 +1,5 @@
+﻿PrintStr
+========
+
+.. doxygenfunction:: PrintStr
+

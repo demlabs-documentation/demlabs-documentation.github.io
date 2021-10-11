@@ -1,0 +1,5 @@
+﻿thread_entry
+============
+
+.. doxygenfunction:: thread_entry
+

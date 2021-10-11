@@ -1,0 +1,5 @@
+﻿test_z
+======
+
+.. doxygenfunction:: test_z
+

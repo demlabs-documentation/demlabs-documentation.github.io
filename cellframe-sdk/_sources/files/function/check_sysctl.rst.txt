@@ -1,0 +1,5 @@
+﻿check_sysctl
+============
+
+.. doxygenfunction:: check_sysctl
+

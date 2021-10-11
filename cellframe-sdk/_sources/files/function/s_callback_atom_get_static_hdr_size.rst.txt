@@ -1,0 +1,5 @@
+﻿s_callback_atom_get_static_hdr_size
+===================================
+
+.. doxygenfunction:: s_callback_atom_get_static_hdr_size
+

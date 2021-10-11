@@ -1,0 +1,5 @@
+﻿s_stage_connected_callback
+==========================
+
+.. doxygenfunction:: s_stage_connected_callback
+

@@ -1,0 +1,5 @@
+﻿raw_can_connect
+===============
+
+.. doxygenfunction:: raw_can_connect
+

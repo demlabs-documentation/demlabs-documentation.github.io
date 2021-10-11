@@ -1,0 +1,5 @@
+﻿is_local_address
+================
+
+.. doxygenfunction:: is_local_address
+

@@ -1,0 +1,5 @@
+﻿benchmark_free
+==============
+
+.. doxygenfunction:: benchmark_free
+

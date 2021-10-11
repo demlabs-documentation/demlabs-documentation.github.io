@@ -1,0 +1,5 @@
+﻿update_interval
+===============
+
+.. doxygenfunction:: update_interval
+

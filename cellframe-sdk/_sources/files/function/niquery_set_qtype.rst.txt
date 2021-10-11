@@ -1,0 +1,5 @@
+﻿niquery_set_qtype
+=================
+
+.. doxygenfunction:: niquery_set_qtype
+

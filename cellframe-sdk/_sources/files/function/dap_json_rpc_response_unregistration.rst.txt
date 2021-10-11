@@ -1,0 +1,5 @@
+﻿dap_json_rpc_response_unregistration
+====================================
+
+.. doxygenfunction:: dap_json_rpc_response_unregistration
+

@@ -1,0 +1,5 @@
+﻿crypto_sign_open
+================
+
+.. doxygenfunction:: crypto_sign_open
+

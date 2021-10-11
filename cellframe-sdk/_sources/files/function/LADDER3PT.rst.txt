@@ -1,0 +1,5 @@
+﻿LADDER3PT
+=========
+
+.. doxygenfunction:: LADDER3PT
+

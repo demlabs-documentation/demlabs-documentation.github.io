@@ -1,0 +1,5 @@
+﻿dap_http_simple_set_supported_user_agents
+=========================================
+
+.. doxygenfunction:: dap_http_simple_set_supported_user_agents
+

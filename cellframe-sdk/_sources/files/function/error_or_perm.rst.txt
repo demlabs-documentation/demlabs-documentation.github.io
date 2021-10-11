@@ -1,0 +1,5 @@
+﻿error_or_perm
+=============
+
+.. doxygenfunction:: error_or_perm
+

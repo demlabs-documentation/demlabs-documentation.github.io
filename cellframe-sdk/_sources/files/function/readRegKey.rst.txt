@@ -1,0 +1,5 @@
+﻿readRegKey
+==========
+
+.. doxygenfunction:: readRegKey
+

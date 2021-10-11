@@ -1,0 +1,5 @@
+﻿lo_dword
+========
+
+.. doxygenfunction:: lo_dword
+

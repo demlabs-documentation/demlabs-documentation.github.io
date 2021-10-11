@@ -1,0 +1,5 @@
+﻿atomic_store_ptr
+================
+
+.. doxygenfunction:: atomic_store_ptr
+

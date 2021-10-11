@@ -1,0 +1,5 @@
+﻿zRAND_reset
+===========
+
+.. doxygenfunction:: zRAND_reset
+

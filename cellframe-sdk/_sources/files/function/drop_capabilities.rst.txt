@@ -1,0 +1,5 @@
+﻿drop_capabilities
+=================
+
+.. doxygenfunction:: drop_capabilities
+

@@ -1,0 +1,5 @@
+﻿calc_datum_hash
+===============
+
+.. doxygenfunction:: calc_datum_hash
+

@@ -1,0 +1,5 @@
+﻿data_pool_alloc
+===============
+
+.. doxygenfunction:: data_pool_alloc
+

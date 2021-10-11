@@ -1,0 +1,5 @@
+﻿enable_capability_raw
+=====================
+
+.. doxygenfunction:: enable_capability_raw
+

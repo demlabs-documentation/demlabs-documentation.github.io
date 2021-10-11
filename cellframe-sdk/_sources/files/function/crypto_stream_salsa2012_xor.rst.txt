@@ -1,0 +1,5 @@
+﻿crypto_stream_salsa2012_xor
+===========================
+
+.. doxygenfunction:: crypto_stream_salsa2012_xor
+

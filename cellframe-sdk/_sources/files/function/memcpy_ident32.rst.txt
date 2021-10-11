@@ -1,0 +1,5 @@
+﻿memcpy_ident32
+==============
+
+.. doxygenfunction:: memcpy_ident32
+

@@ -1,0 +1,5 @@
+﻿m_request_getip_response
+========================
+
+.. doxygenfunction:: m_request_getip_response
+

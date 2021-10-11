@@ -1,0 +1,5 @@
+﻿char_pool_refresh
+=================
+
+.. doxygenfunction:: char_pool_refresh
+

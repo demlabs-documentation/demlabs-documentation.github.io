@@ -1,0 +1,5 @@
+﻿__attribute__
+=============
+
+.. doxygenfunction:: __attribute__
+

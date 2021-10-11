@@ -1,0 +1,5 @@
+﻿reduce12289
+===========
+
+.. doxygenfunction:: reduce12289
+

@@ -1,0 +1,5 @@
+﻿vector_norm2
+============
+
+.. doxygenfunction:: vector_norm2
+

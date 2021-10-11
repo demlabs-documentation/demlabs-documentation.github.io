@@ -1,0 +1,5 @@
+﻿dap_cdb_get_db_by_group
+=======================
+
+.. doxygenfunction:: dap_cdb_get_db_by_group
+

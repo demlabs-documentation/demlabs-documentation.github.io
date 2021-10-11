@@ -1,0 +1,5 @@
+﻿_memory_span_extract_deferred
+=============================
+
+.. doxygenfunction:: _memory_span_extract_deferred
+

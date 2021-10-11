@@ -1,0 +1,5 @@
+﻿bliss_signature_delete
+======================
+
+.. doxygenfunction:: bliss_signature_delete
+

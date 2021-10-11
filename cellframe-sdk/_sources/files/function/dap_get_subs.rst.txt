@@ -1,0 +1,5 @@
+﻿dap_get_subs
+============
+
+.. doxygenfunction:: dap_get_subs
+

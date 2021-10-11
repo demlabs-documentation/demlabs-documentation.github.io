@@ -1,0 +1,5 @@
+﻿cshake128_simple
+================
+
+.. doxygenfunction:: cshake128_simple
+

@@ -1,0 +1,5 @@
+﻿dap_pkey_type_from_sign
+=======================
+
+.. doxygenfunction:: dap_pkey_type_from_sign
+

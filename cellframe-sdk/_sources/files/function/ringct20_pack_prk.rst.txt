@@ -1,0 +1,5 @@
+﻿ringct20_pack_prk
+=================
+
+.. doxygenfunction:: ringct20_pack_prk
+

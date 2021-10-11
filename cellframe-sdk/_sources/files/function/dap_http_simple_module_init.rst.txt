@@ -1,0 +1,5 @@
+﻿dap_http_simple_module_init
+===========================
+
+.. doxygenfunction:: dap_http_simple_module_init
+

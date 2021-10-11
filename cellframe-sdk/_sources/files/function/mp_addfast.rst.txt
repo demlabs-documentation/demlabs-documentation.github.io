@@ -1,0 +1,5 @@
+﻿mp_addfast
+==========
+
+.. doxygenfunction:: mp_addfast
+

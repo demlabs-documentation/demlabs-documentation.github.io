@@ -1,0 +1,5 @@
+﻿digit_x_digit
+=============
+
+.. doxygenfunction:: digit_x_digit
+

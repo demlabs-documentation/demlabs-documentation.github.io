@@ -1,0 +1,5 @@
+﻿fpsub
+=====
+
+.. doxygenfunction:: fpsub
+

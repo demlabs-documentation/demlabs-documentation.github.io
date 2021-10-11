@@ -1,0 +1,5 @@
+﻿dap_chain_wallet_create
+=======================
+
+.. doxygenfunction:: dap_chain_wallet_create
+

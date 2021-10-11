@@ -1,0 +1,5 @@
+﻿wait_data
+=========
+
+.. doxygenfunction:: wait_data
+

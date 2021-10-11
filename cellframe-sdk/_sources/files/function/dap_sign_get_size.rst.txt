@@ -1,0 +1,5 @@
+﻿dap_sign_get_size
+=================
+
+.. doxygenfunction:: dap_sign_get_size
+

@@ -1,0 +1,5 @@
+﻿dap_slist_free
+==============
+
+.. doxygenfunction:: dap_slist_free
+

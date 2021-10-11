@@ -1,0 +1,5 @@
+﻿oaes_pseudo_encrypt_ecb
+=======================
+
+.. doxygenfunction:: oaes_pseudo_encrypt_ecb
+

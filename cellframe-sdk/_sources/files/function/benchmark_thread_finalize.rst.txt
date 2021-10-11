@@ -1,0 +1,5 @@
+﻿benchmark_thread_finalize
+=========================
+
+.. doxygenfunction:: benchmark_thread_finalize
+

@@ -1,0 +1,5 @@
+﻿benchmark_initialize
+====================
+
+.. doxygenfunction:: benchmark_initialize
+

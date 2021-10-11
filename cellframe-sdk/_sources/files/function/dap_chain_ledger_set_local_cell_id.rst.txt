@@ -1,0 +1,5 @@
+﻿dap_chain_ledger_set_local_cell_id
+==================================
+
+.. doxygenfunction:: dap_chain_ledger_set_local_cell_id
+

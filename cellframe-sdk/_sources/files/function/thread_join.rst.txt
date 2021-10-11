@@ -1,0 +1,5 @@
+﻿thread_join
+===========
+
+.. doxygenfunction:: thread_join
+

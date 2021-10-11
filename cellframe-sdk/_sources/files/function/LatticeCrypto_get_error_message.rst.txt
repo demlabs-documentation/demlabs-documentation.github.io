@@ -1,0 +1,5 @@
+﻿LatticeCrypto_get_error_message
+===============================
+
+.. doxygenfunction:: LatticeCrypto_get_error_message
+

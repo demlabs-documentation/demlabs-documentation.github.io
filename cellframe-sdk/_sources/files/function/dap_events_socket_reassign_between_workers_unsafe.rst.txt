@@ -1,0 +1,5 @@
+﻿dap_events_socket_reassign_between_workers_unsafe
+=================================================
+
+.. doxygenfunction:: dap_events_socket_reassign_between_workers_unsafe
+

@@ -1,0 +1,5 @@
+﻿mpc_LowMC
+=========
+
+.. doxygenfunction:: mpc_LowMC
+

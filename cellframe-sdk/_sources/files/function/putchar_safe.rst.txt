@@ -1,0 +1,5 @@
+﻿putchar_safe
+============
+
+.. doxygenfunction:: putchar_safe
+

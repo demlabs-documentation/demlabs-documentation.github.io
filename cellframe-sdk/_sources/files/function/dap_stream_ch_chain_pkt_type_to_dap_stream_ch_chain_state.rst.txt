@@ -1,0 +1,5 @@
+﻿dap_stream_ch_chain_pkt_type_to_dap_stream_ch_chain_state
+=========================================================
+
+.. doxygenfunction:: dap_stream_ch_chain_pkt_type_to_dap_stream_ch_chain_state
+

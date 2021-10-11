@@ -1,0 +1,5 @@
+﻿http_status_is_redirection
+==========================
+
+.. doxygenfunction:: http_status_is_redirection
+

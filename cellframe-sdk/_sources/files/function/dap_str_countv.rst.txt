@@ -1,0 +1,5 @@
+﻿dap_str_countv
+==============
+
+.. doxygenfunction:: dap_str_countv
+

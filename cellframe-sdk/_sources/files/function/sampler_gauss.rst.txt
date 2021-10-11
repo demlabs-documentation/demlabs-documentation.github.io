@@ -1,0 +1,5 @@
+﻿sampler_gauss
+=============
+
+.. doxygenfunction:: sampler_gauss
+

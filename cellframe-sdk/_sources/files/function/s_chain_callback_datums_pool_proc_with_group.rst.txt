@@ -1,0 +1,5 @@
+﻿s_chain_callback_datums_pool_proc_with_group
+============================================
+
+.. doxygenfunction:: s_chain_callback_datums_pool_proc_with_group
+

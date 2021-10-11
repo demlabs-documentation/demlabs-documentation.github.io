@@ -1,0 +1,5 @@
+﻿timespec_diff
+=============
+
+.. doxygenfunction:: timespec_diff
+

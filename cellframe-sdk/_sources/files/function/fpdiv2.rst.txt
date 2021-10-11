@@ -1,0 +1,5 @@
+﻿fpdiv2
+======
+
+.. doxygenfunction:: fpdiv2
+

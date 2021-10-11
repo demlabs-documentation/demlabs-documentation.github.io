@@ -1,0 +1,5 @@
+﻿benchmark_thread_initialize
+===========================
+
+.. doxygenfunction:: benchmark_thread_initialize
+

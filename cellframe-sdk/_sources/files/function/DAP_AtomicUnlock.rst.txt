@@ -1,0 +1,5 @@
+﻿DAP_AtomicUnlock
+================
+
+.. doxygenfunction:: DAP_AtomicUnlock
+

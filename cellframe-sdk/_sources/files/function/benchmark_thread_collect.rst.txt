@@ -1,0 +1,5 @@
+﻿benchmark_thread_collect
+========================
+
+.. doxygenfunction:: benchmark_thread_collect
+

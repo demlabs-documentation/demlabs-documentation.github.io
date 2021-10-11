@@ -1,0 +1,5 @@
+﻿b64_decode_ex
+=============
+
+.. doxygenfunction:: b64_decode_ex
+

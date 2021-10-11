@@ -1,0 +1,5 @@
+﻿niquery_option_ipv6_handler
+===========================
+
+.. doxygenfunction:: niquery_option_ipv6_handler
+

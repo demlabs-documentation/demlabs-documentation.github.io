@@ -1,0 +1,5 @@
+﻿sampler_ber_exp
+===============
+
+.. doxygenfunction:: sampler_ber_exp
+

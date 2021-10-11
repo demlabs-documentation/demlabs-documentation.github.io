@@ -1,0 +1,5 @@
+﻿mul2d
+=====
+
+.. doxygenfunction:: mul2d
+

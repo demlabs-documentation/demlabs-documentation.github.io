@@ -1,0 +1,5 @@
+﻿_memory_adjust_size_class
+=========================
+
+.. doxygenfunction:: _memory_adjust_size_class
+

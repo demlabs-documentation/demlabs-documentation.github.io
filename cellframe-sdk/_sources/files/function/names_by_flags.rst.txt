@@ -1,0 +1,5 @@
+﻿names_by_flags
+==============
+
+.. doxygenfunction:: names_by_flags
+

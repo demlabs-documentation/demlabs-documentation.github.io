@@ -1,0 +1,5 @@
+﻿dap_hash_slow
+=============
+
+.. doxygenfunction:: dap_hash_slow
+

@@ -1,0 +1,5 @@
+﻿bind_socket
+===========
+
+.. doxygenfunction:: bind_socket
+

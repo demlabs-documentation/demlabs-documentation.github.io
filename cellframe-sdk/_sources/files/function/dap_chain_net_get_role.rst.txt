@@ -1,0 +1,5 @@
+﻿dap_chain_net_get_role
+======================
+
+.. doxygenfunction:: dap_chain_net_get_role
+

@@ -1,0 +1,5 @@
+﻿_memory_span_partial_list_pop_head
+==================================
+
+.. doxygenfunction:: _memory_span_partial_list_pop_head
+

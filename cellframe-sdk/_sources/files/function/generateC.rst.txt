@@ -1,0 +1,5 @@
+﻿generateC
+=========
+
+.. doxygenfunction:: generateC
+

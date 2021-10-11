@@ -1,0 +1,5 @@
+﻿s_vpn_service_create
+====================
+
+.. doxygenfunction:: s_vpn_service_create
+

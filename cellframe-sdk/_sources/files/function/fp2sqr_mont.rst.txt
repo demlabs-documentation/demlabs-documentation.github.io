@@ -1,0 +1,5 @@
+﻿fp2sqr_mont
+===========
+
+.. doxygenfunction:: fp2sqr_mont
+

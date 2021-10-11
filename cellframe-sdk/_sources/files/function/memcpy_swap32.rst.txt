@@ -1,0 +1,5 @@
+﻿memcpy_swap32
+=============
+
+.. doxygenfunction:: memcpy_swap32
+

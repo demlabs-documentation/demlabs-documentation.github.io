@@ -1,0 +1,5 @@
+﻿tr_register_module
+==================
+
+.. doxygenfunction:: tr_register_module
+

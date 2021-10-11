@@ -1,0 +1,5 @@
+﻿dap_pkey_from_enc_key
+=====================
+
+.. doxygenfunction:: dap_pkey_from_enc_key
+

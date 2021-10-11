@@ -1,0 +1,5 @@
+﻿keccak_absorb
+=============
+
+.. doxygenfunction:: keccak_absorb
+

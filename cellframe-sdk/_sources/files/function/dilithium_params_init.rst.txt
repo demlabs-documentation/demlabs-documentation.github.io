@@ -1,0 +1,5 @@
+﻿dilithium_params_init
+=====================
+
+.. doxygenfunction:: dilithium_params_init
+

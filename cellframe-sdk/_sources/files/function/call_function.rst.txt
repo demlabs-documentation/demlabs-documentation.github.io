@@ -1,0 +1,5 @@
+﻿call_function
+=============
+
+.. doxygenfunction:: call_function
+

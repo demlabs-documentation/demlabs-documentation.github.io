@@ -1,0 +1,5 @@
+﻿dap_chain_datum_type_id_to_str
+==============================
+
+.. doxygenfunction:: dap_chain_datum_type_id_to_str
+

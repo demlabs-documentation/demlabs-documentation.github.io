@@ -1,0 +1,5 @@
+﻿_memory_reallocate
+==================
+
+.. doxygenfunction:: _memory_reallocate
+

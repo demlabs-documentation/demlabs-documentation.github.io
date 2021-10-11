@@ -1,0 +1,5 @@
+﻿DAP_AtomicTryLock
+=================
+
+.. doxygenfunction:: DAP_AtomicTryLock
+

@@ -1,0 +1,5 @@
+﻿polyveck_reduce
+===============
+
+.. doxygenfunction:: polyveck_reduce
+

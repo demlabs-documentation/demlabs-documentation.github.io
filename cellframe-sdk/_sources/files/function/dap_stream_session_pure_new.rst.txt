@@ -1,0 +1,5 @@
+﻿dap_stream_session_pure_new
+===========================
+
+.. doxygenfunction:: dap_stream_session_pure_new
+

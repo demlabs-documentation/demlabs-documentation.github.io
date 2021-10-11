@@ -1,0 +1,5 @@
+﻿DecryptBlock
+============
+
+.. doxygenfunction:: DecryptBlock
+

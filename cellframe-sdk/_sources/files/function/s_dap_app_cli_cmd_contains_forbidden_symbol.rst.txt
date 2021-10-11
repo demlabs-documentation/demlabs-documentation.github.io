@@ -1,0 +1,5 @@
+﻿s_dap_app_cli_cmd_contains_forbidden_symbol
+===========================================
+
+.. doxygenfunction:: s_dap_app_cli_cmd_contains_forbidden_symbol
+

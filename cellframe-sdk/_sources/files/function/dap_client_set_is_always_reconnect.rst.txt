@@ -1,0 +1,5 @@
+﻿dap_client_set_is_always_reconnect
+==================================
+
+.. doxygenfunction:: dap_client_set_is_always_reconnect
+

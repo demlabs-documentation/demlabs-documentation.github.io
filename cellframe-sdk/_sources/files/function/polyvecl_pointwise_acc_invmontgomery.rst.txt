@@ -1,0 +1,5 @@
+﻿polyvecl_pointwise_acc_invmontgomery
+====================================
+
+.. doxygenfunction:: polyvecl_pointwise_acc_invmontgomery
+

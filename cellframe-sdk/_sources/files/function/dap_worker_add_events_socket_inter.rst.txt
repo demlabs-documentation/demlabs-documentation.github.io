@@ -1,0 +1,5 @@
+﻿dap_worker_add_events_socket_inter
+==================================
+
+.. doxygenfunction:: dap_worker_add_events_socket_inter
+

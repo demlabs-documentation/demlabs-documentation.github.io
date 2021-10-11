@@ -1,0 +1,5 @@
+﻿HashInit
+========
+
+.. doxygenfunction:: HashInit
+

@@ -1,0 +1,5 @@
+﻿benchmark_mgs_rate
+==================
+
+.. doxygenfunction:: benchmark_mgs_rate
+

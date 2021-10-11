@@ -1,0 +1,5 @@
+﻿_dap_aligned_realloc
+====================
+
+.. doxygenfunction:: _dap_aligned_realloc
+

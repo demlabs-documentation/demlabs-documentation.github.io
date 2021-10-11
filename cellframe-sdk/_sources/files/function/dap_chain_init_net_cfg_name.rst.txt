@@ -1,0 +1,5 @@
+﻿dap_chain_init_net_cfg_name
+===========================
+
+.. doxygenfunction:: dap_chain_init_net_cfg_name
+

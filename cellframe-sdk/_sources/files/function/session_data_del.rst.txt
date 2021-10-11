@@ -1,0 +1,5 @@
+﻿session_data_del
+================
+
+.. doxygenfunction:: session_data_del
+

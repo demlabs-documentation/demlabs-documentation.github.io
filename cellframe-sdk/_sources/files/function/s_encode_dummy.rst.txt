@@ -1,0 +1,5 @@
+﻿s_encode_dummy
+==============
+
+.. doxygenfunction:: s_encode_dummy
+

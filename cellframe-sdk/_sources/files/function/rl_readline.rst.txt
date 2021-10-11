@@ -1,0 +1,5 @@
+﻿rl_readline
+===========
+
+.. doxygenfunction:: rl_readline
+

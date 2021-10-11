@@ -1,0 +1,5 @@
+﻿_memory_map_aligned_span_count
+==============================
+
+.. doxygenfunction:: _memory_map_aligned_span_count
+

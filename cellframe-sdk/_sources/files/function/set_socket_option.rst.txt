@@ -1,0 +1,5 @@
+﻿set_socket_option
+=================
+
+.. doxygenfunction:: set_socket_option
+

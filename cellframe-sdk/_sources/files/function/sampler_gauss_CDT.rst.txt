@@ -1,0 +1,5 @@
+﻿sampler_gauss_CDT
+=================
+
+.. doxygenfunction:: sampler_gauss_CDT
+

@@ -1,0 +1,5 @@
+﻿dap_chain_block_sign_get
+========================
+
+.. doxygenfunction:: dap_chain_block_sign_get
+

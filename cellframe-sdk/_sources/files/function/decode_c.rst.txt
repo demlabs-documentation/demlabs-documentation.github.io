@@ -1,0 +1,5 @@
+﻿decode_c
+========
+
+.. doxygenfunction:: decode_c
+

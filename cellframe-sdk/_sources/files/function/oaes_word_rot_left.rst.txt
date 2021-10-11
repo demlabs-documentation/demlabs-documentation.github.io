@@ -1,0 +1,5 @@
+﻿oaes_word_rot_left
+==================
+
+.. doxygenfunction:: oaes_word_rot_left
+

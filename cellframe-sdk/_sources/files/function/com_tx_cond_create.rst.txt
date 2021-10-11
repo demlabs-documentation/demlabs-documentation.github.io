@@ -1,0 +1,5 @@
+﻿com_tx_cond_create
+==================
+
+.. doxygenfunction:: com_tx_cond_create
+

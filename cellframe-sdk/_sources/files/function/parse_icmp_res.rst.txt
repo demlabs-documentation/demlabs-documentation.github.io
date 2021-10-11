@@ -1,0 +1,5 @@
+﻿parse_icmp_res
+==============
+
+.. doxygenfunction:: parse_icmp_res
+

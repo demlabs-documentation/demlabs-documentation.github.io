@@ -1,0 +1,5 @@
+﻿allocateViews
+=============
+
+.. doxygenfunction:: allocateViews
+

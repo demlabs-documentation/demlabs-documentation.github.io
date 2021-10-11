@@ -1,0 +1,5 @@
+﻿dap_client_set_active_channels_unsafe
+=====================================
+
+.. doxygenfunction:: dap_client_set_active_channels_unsafe
+

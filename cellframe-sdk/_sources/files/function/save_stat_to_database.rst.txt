@@ -1,0 +1,5 @@
+﻿save_stat_to_database
+=====================
+
+.. doxygenfunction:: save_stat_to_database
+

@@ -1,0 +1,5 @@
+﻿dap_string_hash
+===============
+
+.. doxygenfunction:: dap_string_hash
+

@@ -1,0 +1,5 @@
+﻿dap_chain_global_db_add_sync_group
+==================================
+
+.. doxygenfunction:: dap_chain_global_db_add_sync_group
+

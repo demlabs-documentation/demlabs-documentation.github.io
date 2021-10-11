@@ -1,0 +1,5 @@
+﻿s_xchage_tx_invalidate
+======================
+
+.. doxygenfunction:: s_xchage_tx_invalidate
+

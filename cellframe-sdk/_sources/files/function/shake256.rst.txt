@@ -1,0 +1,5 @@
+﻿shake256
+========
+
+.. doxygenfunction:: shake256
+

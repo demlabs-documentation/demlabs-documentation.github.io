@@ -1,0 +1,5 @@
+﻿dap_json_rpc_request_creation
+=============================
+
+.. doxygenfunction:: dap_json_rpc_request_creation
+

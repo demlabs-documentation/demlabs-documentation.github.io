@@ -1,0 +1,5 @@
+﻿ringct20_unpack_pbk
+===================
+
+.. doxygenfunction:: ringct20_unpack_pbk
+

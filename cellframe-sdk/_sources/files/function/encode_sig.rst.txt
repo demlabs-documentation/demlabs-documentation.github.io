@@ -1,0 +1,5 @@
+﻿encode_sig
+==========
+
+.. doxygenfunction:: encode_sig
+

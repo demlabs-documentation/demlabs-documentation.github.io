@@ -89,7 +89,7 @@
             
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="../../filelist.html">File list</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../api.html">API</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="../filelist.html">File list</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="28147__14_8c.html">File 28147_14.c</a></li>
 <li class="toctree-l3"><a class="reference internal" href="28147__14_8h.html">File 28147_14.h</a></li>
@@ -104,6 +104,7 @@
 <li class="toctree-l3"><a class="reference internal" href="_keccak_sponge_8inc.html">File KeccakSponge.inc</a></li>
 <li class="toctree-l3"><a class="reference internal" href="_keccak_sponge_width1600_8c.html">File KeccakSpongeWidth1600.c</a></li>
 <li class="toctree-l3"><a class="reference internal" href="_keccak_sponge_width1600_8h.html">File KeccakSpongeWidth1600.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_r_e_a_d_m_e_8md.html">File README.md</a></li>
 <li class="toctree-l3"><a class="reference internal" href="align_8h.html">File align.h</a></li>
 <li class="toctree-l3"><a class="reference internal" href="android_2pthread__barrier_8h.html">File pthread_barrier.h</a></li>
 <li class="toctree-l3"><a class="reference internal" href="as__lookups_8c.html">File as_lookups.c</a></li>
@@ -686,6 +687,7 @@
 <li class="toctree-l3"><a class="reference internal" href="win32_2dap__process__memory_8h.html">File dap_process_memory.h</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="../functions.html">Function list</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../structlist.html">Struct list</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../unionlist.html">Union list</a></li>
 </ul>
@@ -738,7 +740,7 @@
     
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
         
-          <li><a href="../../filelist.html">File list</a> &raquo;</li>
+          <li><a href="../../api.html">API</a> &raquo;</li>
         
           <li><a href="../filelist.html">File list</a> &raquo;</li>
         
@@ -819,14 +821,14 @@
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv413dap_list_freeP10dap_list_t">
 <span id="_CPPv313dap_list_freeP10dap_list_t"></span><span id="_CPPv213dap_list_freeP10dap_list_t"></span><span id="dap_list_free__dap_list_tP"></span><span class="target" id="dap__list_8h_1afdf59ba9f6e2e925652917aaf358c835"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_list_free</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv410dap_list_t" title="dap_list_t"><span class="n"><span class="pre">dap_list_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">list</span></span><span class="sig-paren">)</span><br /></dt>
-<dd><p>dap_list_free: Frees all of the memory used by a DapList. The freed elements are returned to the slice allocator. If list elements contain dynamically-allocated memory, you should either use dap_list_free_full() or free them manually first. </p>
+<dd><p>dap_list_free: Frees all of the memory used by a DapList. The freed elements are returned to the slice allocator. If list elements contain dynamically-allocated memory, you should either use <a class="reference internal" href="../../index.html#dap__list_8c_1a2efc4389030ac8a81d1963fb127bd4f0"><span class="std std-ref">dap_list_free_full()</span></a> or free them manually first. </p>
 </dd></dl>
 
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv414dap_list_free1P10dap_list_t">
 <span id="_CPPv314dap_list_free1P10dap_list_t"></span><span id="_CPPv214dap_list_free1P10dap_list_t"></span><span id="dap_list_free1__dap_list_tP"></span><span class="target" id="dap__list_8h_1aa255e452092ed92e67f52104f2f02b31"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_list_free1</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv410dap_list_t" title="dap_list_t"><span class="n"><span class="pre">dap_list_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">list</span></span><span class="sig-paren">)</span><br /></dt>
 <dd><p>dap_list_free_1:</p>
-<p>Frees one DapList element. It is usually used after dap_list_remove_link(). </p>
+<p>Frees one DapList element. It is usually used after <a class="reference internal" href="../../index.html#dap__list_8c_1a213a89d4e4b61c39d046b4760edce473"><span class="std std-ref">dap_list_remove_link()</span></a>. </p>
 </dd></dl>
 
 <dl class="cpp function">
@@ -842,7 +844,7 @@
 <dd><p>dap_list_append: &#64;list: a pointer to a DapList &#64;data: the data for the new element</p>
 <p>Adds a new element on to the end of the list.</p>
 <p>Note that the return value is the new start of the list, if &#64;list was empty; make sure you store the new value.</p>
-<p>dap_list_append() has to traverse the entire list to find the end, which is inefficient when adding multiple elements. A common idiom to avoid the inefficiency is to use dap_list_prepend() and reverse the list with dap_list_reverse() when all elements have been added.</p>
+<p><a class="reference internal" href="../../index.html#dap__list_8c_1a7d28f114162e661b5684755cfade7797"><span class="std std-ref">dap_list_append()</span></a> has to traverse the entire list to find the end, which is inefficient when adding multiple elements. A common idiom to avoid the inefficiency is to use <a class="reference internal" href="../../index.html#dap__list_8c_1ab21048bc24002499eb528e342fb02276"><span class="std std-ref">dap_list_prepend()</span></a> and reverse the list with <a class="reference internal" href="../../index.html#dap__list_8c_1a7715640a3f311514225e9e62ff16267b"><span class="std std-ref">dap_list_reverse()</span></a> when all elements have been added.</p>
 <p>|[ // Notice that these are initialized to the empty list. DapList *string_list = NULL, *number_list = NULL;</p>
 <p>// This is a list of strings. string_list = dap_list_append (string_list, “first”); string_list = dap_list_append (string_list, “second”);</p>
 <p>// This is a list of integers. number_list = dap_list_append (number_list, INT_TO_POINTER (27)); number_list = dap_list_append (number_list, INT_TO_POINTER (14)); ]|</p>
@@ -857,7 +859,7 @@
 <p>Note that the return value is the new start of the list, which will have changed, so make sure you store the new value.</p>
 <p>|[ // Notice that it is initialized to the empty list. DapList *list = NULL;</p>
 <p>list = dap_list_prepend (list, “last”); list = dap_list_prepend (list, “first”); ]|</p>
-<p>Do not use this function to prepend a new element to a different element than the start of the list. Use dap_list_insert_before() instead.</p>
+<p>Do not use this function to prepend a new element to a different element than the start of the list. Use <a class="reference internal" href="../../index.html#dap__list_8c_1a57c7d299957cbe3cf6020b91a0f67300"><span class="std std-ref">dap_list_insert_before()</span></a> instead.</p>
 <p>Returns: a pointer to the newly prepended element, which is the new start of the DapList </p>
 </dd></dl>
 
@@ -874,7 +876,7 @@
 <span id="_CPPv322dap_list_insert_sortedP10dap_list_tPv22dap_callback_compare_t"></span><span id="_CPPv222dap_list_insert_sortedP10dap_list_tPv22dap_callback_compare_t"></span><span id="dap_list_insert_sorted__dap_list_tP.voidP.dap_callback_compare_t"></span><span class="target" id="dap__list_8h_1a56e3b7f68c92eb4bfb5bee7dd70c05ff"></span><a class="reference internal" href="#_CPPv410dap_list_t" title="dap_list_t"><span class="n"><span class="pre">dap_list_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">dap_list_insert_sorted</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv410dap_list_t" title="dap_list_t"><span class="n"><span class="pre">dap_list_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">list</span></span>, <span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">data</span></span>, <a class="reference internal" href="#_CPPv422dap_callback_compare_t" title="dap_callback_compare_t"><span class="n"><span class="pre">dap_callback_compare_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">func</span></span><span class="sig-paren">)</span><br /></dt>
 <dd><p>dap_list_insert_sorted: &#64;list: a pointer to a DapList, this must point to the top of the already sorted list &#64;data: the data for the new element &#64;func: the function to compare elements in the list. It should return a number &gt; 0 if the first parameter comes after the second parameter in the sort order.</p>
 <p>Inserts a new element into the list, using the given comparison function to determine its position.</p>
-<p>If you are adding many new elements to a list, and the number of new elements is much larger than the length of the list, use dap_list_prepend() to add the new items and sort the list afterwards with dap_list_sort().</p>
+<p>If you are adding many new elements to a list, and the number of new elements is much larger than the length of the list, use <a class="reference internal" href="../../index.html#dap__list_8c_1ab21048bc24002499eb528e342fb02276"><span class="std std-ref">dap_list_prepend()</span></a> to add the new items and sort the list afterwards with <a class="reference internal" href="../../index.html#dap__list_8c_1a58b28b011b8b47a24d8b75a2bc704985"><span class="std std-ref">dap_list_sort()</span></a>.</p>
 <p>Returns: the (possibly changed) start of the DapList </p>
 </dd></dl>
 
@@ -883,7 +885,7 @@
 <span id="_CPPv332dap_list_insert_sorted_with_dataP10dap_list_tPv27dap_callback_compare_data_tPv"></span><span id="_CPPv232dap_list_insert_sorted_with_dataP10dap_list_tPv27dap_callback_compare_data_tPv"></span><span id="dap_list_insert_sorted_with_data__dap_list_tP.voidP.dap_callback_compare_data_t.voidP"></span><span class="target" id="dap__list_8h_1ab20ba64cb999b043f482520695efcf74"></span><a class="reference internal" href="#_CPPv410dap_list_t" title="dap_list_t"><span class="n"><span class="pre">dap_list_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">dap_list_insert_sorted_with_data</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv410dap_list_t" title="dap_list_t"><span class="n"><span class="pre">dap_list_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">list</span></span>, <span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">data</span></span>, <a class="reference internal" href="#_CPPv427dap_callback_compare_data_t" title="dap_callback_compare_data_t"><span class="n"><span class="pre">dap_callback_compare_data_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">func</span></span>, <span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">user_data</span></span><span class="sig-paren">)</span><br /></dt>
 <dd><p>dap_list_insert_sorted_with_data: &#64;list: a pointer to a DapList, this must point to the top of the already sorted list &#64;data: the data for the new element &#64;func: the function to compare elements in the list. It should return a number &gt; 0 if the first parameter comes after the second parameter in the sort order. &#64;user_data: user data to pass to comparison function</p>
 <p>Inserts a new element into the list, using the given comparison function to determine its position.</p>
-<p>If you are adding many new elements to a list, and the number of new elements is much larger than the length of the list, use dap_list_prepend() to add the new items and sort the list afterwards with dap_list_sort().</p>
+<p>If you are adding many new elements to a list, and the number of new elements is much larger than the length of the list, use <a class="reference internal" href="../../index.html#dap__list_8c_1ab21048bc24002499eb528e342fb02276"><span class="std std-ref">dap_list_prepend()</span></a> to add the new items and sort the list afterwards with <a class="reference internal" href="../../index.html#dap__list_8c_1a58b28b011b8b47a24d8b75a2bc704985"><span class="std std-ref">dap_list_sort()</span></a>.</p>
 <p>Returns: the (possibly changed) start of the DapList </p>
 </dd></dl>
 
@@ -916,7 +918,7 @@
 <dt class="sig sig-object cpp" id="_CPPv419dap_list_remove_allP10dap_list_tPKv">
 <span id="_CPPv319dap_list_remove_allP10dap_list_tPKv"></span><span id="_CPPv219dap_list_remove_allP10dap_list_tPKv"></span><span id="dap_list_remove_all__dap_list_tP.voidCP"></span><span class="target" id="dap__list_8h_1ad8552eae170456be577a002970e35613"></span><a class="reference internal" href="#_CPPv410dap_list_t" title="dap_list_t"><span class="n"><span class="pre">dap_list_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">dap_list_remove_all</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv410dap_list_t" title="dap_list_t"><span class="n"><span class="pre">dap_list_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">list</span></span>, <span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">data</span></span><span class="sig-paren">)</span><br /></dt>
 <dd><p>dap_list_remove_all: &#64;list: a DapList, this must point to the top of the list &#64;data: data to remove</p>
-<p>Removes all list nodes with data equal to &#64;data. Returns the new head of the list. Contrast with dap_list_remove() which removes only the first node matching the given data.</p>
+<p>Removes all list nodes with data equal to &#64;data. Returns the new head of the list. Contrast with <a class="reference internal" href="../../index.html#dap__list_8c_1a702523febd500ffdf30431db41efef8f"><span class="std std-ref">dap_list_remove()</span></a> which removes only the first node matching the given data.</p>
 <p>Returns: the (possibly changed) start of the DapList </p>
 </dd></dl>
 
@@ -925,7 +927,7 @@
 <span id="_CPPv320dap_list_remove_linkP10dap_list_tP10dap_list_t"></span><span id="_CPPv220dap_list_remove_linkP10dap_list_tP10dap_list_t"></span><span id="dap_list_remove_link__dap_list_tP.dap_list_tP"></span><span class="target" id="dap__list_8h_1a213a89d4e4b61c39d046b4760edce473"></span><a class="reference internal" href="#_CPPv410dap_list_t" title="dap_list_t"><span class="n"><span class="pre">dap_list_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">dap_list_remove_link</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv410dap_list_t" title="dap_list_t"><span class="n"><span class="pre">dap_list_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">list</span></span>, <a class="reference internal" href="#_CPPv410dap_list_t" title="dap_list_t"><span class="n"><span class="pre">dap_list_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">llink</span></span><span class="sig-paren">)</span><br /></dt>
 <dd><p>dap_list_remove_link: &#64;list: a DapList, this must point to the top of the list &#64;llink: an element in the DapList</p>
 <p>Removes an element from a DapList, without freeing the element. The removed element’s prev and next links are set to NULL, so that it becomes a self-contained list with one element.</p>
-<p>This function is for example used to move an element in the list (see the example for dap_list_concat()) or to remove an element in the list before freeing its data: |[ list = dap_list_remove_link (list, llink); free_some_data_that_may_access_the_list_again (llink-&gt;data); dap_list_free (llink); ]|</p>
+<p>This function is for example used to move an element in the list (see the example for <a class="reference internal" href="../../index.html#dap__list_8c_1aaafcba4195b6d672dfa6bbd7b2ea611f"><span class="std std-ref">dap_list_concat()</span></a>) or to remove an element in the list before freeing its data: |[ list = dap_list_remove_link (list, llink); free_some_data_that_may_access_the_list_again (llink-&gt;data); dap_list_free (llink); ]|</p>
 <p>Returns: the (possibly changed) start of the DapList </p>
 </dd></dl>
 
@@ -933,7 +935,7 @@
 <dt class="sig sig-object cpp" id="_CPPv420dap_list_delete_linkP10dap_list_tP10dap_list_t">
 <span id="_CPPv320dap_list_delete_linkP10dap_list_tP10dap_list_t"></span><span id="_CPPv220dap_list_delete_linkP10dap_list_tP10dap_list_t"></span><span id="dap_list_delete_link__dap_list_tP.dap_list_tP"></span><span class="target" id="dap__list_8h_1a5fad447e01f415c21902c7121708ebba"></span><a class="reference internal" href="#_CPPv410dap_list_t" title="dap_list_t"><span class="n"><span class="pre">dap_list_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">dap_list_delete_link</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv410dap_list_t" title="dap_list_t"><span class="n"><span class="pre">dap_list_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">list</span></span>, <a class="reference internal" href="#_CPPv410dap_list_t" title="dap_list_t"><span class="n"><span class="pre">dap_list_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">link_</span></span><span class="sig-paren">)</span><br /></dt>
 <dd><p>dap_list_delete_link: &#64;list: a DapList, this must point to the top of the list &#64;link_: node to delete from &#64;list</p>
-<p>Removes the node link_ from the list and frees it. Compare this to dap_list_remove_link() which removes the node without freeing it.</p>
+<p>Removes the node link_ from the list and frees it. Compare this to <a class="reference internal" href="../../index.html#dap__list_8c_1a213a89d4e4b61c39d046b4760edce473"><span class="std std-ref">dap_list_remove_link()</span></a> which removes the node without freeing it.</p>
 <p>Returns: the (possibly changed) start of the DapList </p>
 </dd></dl>
 
@@ -950,7 +952,7 @@
 <span id="_CPPv313dap_list_copyP10dap_list_t"></span><span id="_CPPv213dap_list_copyP10dap_list_t"></span><span id="dap_list_copy__dap_list_tP"></span><span class="target" id="dap__list_8h_1a78c4dbd4bee6d28175c83a2d1b3f589d"></span><a class="reference internal" href="#_CPPv410dap_list_t" title="dap_list_t"><span class="n"><span class="pre">dap_list_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">dap_list_copy</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv410dap_list_t" title="dap_list_t"><span class="n"><span class="pre">dap_list_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">list</span></span><span class="sig-paren">)</span><br /></dt>
 <dd><p>dap_list_copy: &#64;list: a DapList, this must point to the top of the list</p>
 <p>Copies a DapList.</p>
-<p>Note that this is a “shallow” copy. If the list elements consist of pointers to data, the pointers are copied but the actual data is not. See dap_list_copy_deep() if you need to copy the data as well.</p>
+<p>Note that this is a “shallow” copy. If the list elements consist of pointers to data, the pointers are copied but the actual data is not. See <a class="reference internal" href="../../index.html#dap__list_8c_1a94cbc5c8d4e469c46781b93c4131aaad"><span class="std std-ref">dap_list_copy_deep()</span></a> if you need to copy the data as well.</p>
 <p>Returns: the start of the new list that holds the same data as &#64;list </p>
 </dd></dl>
 
@@ -959,13 +961,13 @@
 <span id="_CPPv318dap_list_copy_deepP10dap_list_t19dap_callback_copy_tPv"></span><span id="_CPPv218dap_list_copy_deepP10dap_list_t19dap_callback_copy_tPv"></span><span id="dap_list_copy_deep__dap_list_tP.dap_callback_copy_t.voidP"></span><span class="target" id="dap__list_8h_1a94cbc5c8d4e469c46781b93c4131aaad"></span><a class="reference internal" href="#_CPPv410dap_list_t" title="dap_list_t"><span class="n"><span class="pre">dap_list_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">dap_list_copy_deep</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv410dap_list_t" title="dap_list_t"><span class="n"><span class="pre">dap_list_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">list</span></span>, <a class="reference internal" href="#_CPPv419dap_callback_copy_t" title="dap_callback_copy_t"><span class="n"><span class="pre">dap_callback_copy_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">func</span></span>, <span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">user_data</span></span><span class="sig-paren">)</span><br /></dt>
 <dd><p>dap_list_copy_deep: &#64;list: a DapList, this must point to the top of the list &#64;func: a copy function used to copy every element in the list &#64;user_data: user data passed to the copy function &#64;func, or NULL</p>
 <p>Makes a full (deep) copy of a DapList.</p>
-<p>In contrast with dap_list_copy(), this function uses &#64;func to make a copy of each list element, in addition to copying the list container itself.</p>
+<p>In contrast with <a class="reference internal" href="../../index.html#dap__list_8c_1a78c4dbd4bee6d28175c83a2d1b3f589d"><span class="std std-ref">dap_list_copy()</span></a>, this function uses &#64;func to make a copy of each list element, in addition to copying the list container itself.</p>
 <p>&#64;func, as a #DapCopyFunc, takes two arguments, the data to be copied and a &#64;user_data pointer. It’s safe to pass NULL as user_data, if the copy function takes only one argument.</p>
 <p><p>For instance, |[</p>
 <p>another_list = dap_list_copy_deep (list, (DapCopyFunc) dap_object_ref, NULL); ]|</p>
 </p>
 <p>And, to entirely free the new list, you could do: |[ dap_list_free_full (another_list, dap_object_unref); ]|</p>
-<p>Returns: the start of the new list that holds a full copy of &#64;list, use dap_list_free_full() to free it </p>
+<p>Returns: the start of the new list that holds a full copy of &#64;list, use <a class="reference internal" href="../../index.html#dap__list_8c_1a2efc4389030ac8a81d1963fb127bd4f0"><span class="std std-ref">dap_list_free_full()</span></a> to free it </p>
 </dd></dl>
 
 <dl class="cpp function">
@@ -1068,7 +1070,7 @@
 <dt class="sig sig-object cpp" id="_CPPv423dap_list_sort_with_dataP10dap_list_t27dap_callback_compare_data_tPv">
 <span id="_CPPv323dap_list_sort_with_dataP10dap_list_t27dap_callback_compare_data_tPv"></span><span id="_CPPv223dap_list_sort_with_dataP10dap_list_t27dap_callback_compare_data_tPv"></span><span id="dap_list_sort_with_data__dap_list_tP.dap_callback_compare_data_t.voidP"></span><span class="target" id="dap__list_8h_1aa9edf58cf20a77ea5fae1db945ac8f43"></span><a class="reference internal" href="#_CPPv410dap_list_t" title="dap_list_t"><span class="n"><span class="pre">dap_list_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">dap_list_sort_with_data</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv410dap_list_t" title="dap_list_t"><span class="n"><span class="pre">dap_list_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">list</span></span>, <a class="reference internal" href="#_CPPv427dap_callback_compare_data_t" title="dap_callback_compare_data_t"><span class="n"><span class="pre">dap_callback_compare_data_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">compare_func</span></span>, <span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">user_data</span></span><span class="sig-paren">)</span><br /></dt>
 <dd><p>dap_list_sort_with_data: &#64;list: a DapList, this must point to the top of the list &#64;compare_func: comparison function &#64;user_data: user data to pass to comparison function</p>
-<p>Like dap_list_sort(), but the comparison function accepts a user data argument.</p>
+<p>Like <a class="reference internal" href="../../index.html#dap__list_8c_1a58b28b011b8b47a24d8b75a2bc704985"><span class="std std-ref">dap_list_sort()</span></a>, but the comparison function accepts a user data argument.</p>
 <p>Returns: the (possibly changed) start of the DapList DapCompareFunc: <em></em>: a value <strong></strong>: a value to compare with &#64;user_data: user data</p>
 <p>Specifies the type of a comparison function used to compare two values. The function should return a negative integer if the first value comes before the second, 0 if they are equal, or a positive integer if the first value comes after the second.</p>
 <p>Returns: negative value if <em>&lt;</em> <strong></strong>; zero if <em>=</em> <strong></strong>; positive value if <em>&gt;</em> <strong></strong> </p>
@@ -1088,7 +1090,7 @@
 <dl class="cpp struct">
 <dt class="sig sig-object cpp" id="_CPPv49_dap_list">
 <span id="_CPPv39_dap_list"></span><span id="_CPPv29_dap_list"></span><span id="_dap_list"></span><span class="target" id="struct__dap__list"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">_dap_list</span></span></span><a class="headerlink" href="#_CPPv49_dap_list" title="Permalink to this definition">¶</a><br /></dt>
-<dd><em>#include &lt;D:/Git/demlabs/cellframe-for-test/cellframe-sdk/dap-sdk/core/include/dap_list.h&gt;</em><div class="breathe-sectiondef docutils container">
+<dd><em>#include &lt;dap_list.h&gt;</em><div class="breathe-sectiondef docutils container">
 <p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
 <dl class="cpp var">
 <dt class="sig sig-object cpp" id="_CPPv4N9_dap_list4dataE">

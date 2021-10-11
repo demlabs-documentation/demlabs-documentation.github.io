@@ -1,0 +1,5 @@
+﻿z_dirname
+=========
+
+.. doxygenfunction:: z_dirname
+

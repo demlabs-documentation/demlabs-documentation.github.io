@@ -1,0 +1,5 @@
+﻿mul_coefficients
+================
+
+.. doxygenfunction:: mul_coefficients
+

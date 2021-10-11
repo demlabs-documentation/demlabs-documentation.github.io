@@ -1,0 +1,5 @@
+﻿atomic_incr32
+=============
+
+.. doxygenfunction:: atomic_incr32
+

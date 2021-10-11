@@ -1,0 +1,5 @@
+﻿_rl_get_locale_var
+==================
+
+.. doxygenfunction:: _rl_get_locale_var
+

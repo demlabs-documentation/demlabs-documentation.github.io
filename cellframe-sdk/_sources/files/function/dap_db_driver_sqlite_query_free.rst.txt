@@ -1,0 +1,5 @@
+﻿dap_db_driver_sqlite_query_free
+===============================
+
+.. doxygenfunction:: dap_db_driver_sqlite_query_free
+

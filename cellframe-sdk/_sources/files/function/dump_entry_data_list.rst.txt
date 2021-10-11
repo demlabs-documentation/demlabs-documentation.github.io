@@ -1,0 +1,5 @@
+﻿dump_entry_data_list
+====================
+
+.. doxygenfunction:: dump_entry_data_list
+

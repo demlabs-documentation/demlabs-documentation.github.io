@@ -1,0 +1,5 @@
+﻿circular_buffer_reset
+=====================
+
+.. doxygenfunction:: circular_buffer_reset
+

@@ -1,0 +1,5 @@
+﻿decode_asm
+==========
+
+.. doxygenfunction:: decode_asm
+

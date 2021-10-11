@@ -1,0 +1,5 @@
+﻿dap_hash_fast_compare
+=====================
+
+.. doxygenfunction:: dap_hash_fast_compare
+

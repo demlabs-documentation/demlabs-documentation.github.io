@@ -1,0 +1,5 @@
+﻿dap_events_delete
+=================
+
+.. doxygenfunction:: dap_events_delete
+

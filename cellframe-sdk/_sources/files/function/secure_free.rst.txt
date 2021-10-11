@@ -1,0 +1,5 @@
+﻿secure_free
+===========
+
+.. doxygenfunction:: secure_free
+

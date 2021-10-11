@@ -1,0 +1,5 @@
+﻿_Static_assert
+==============
+
+.. doxygenfunction:: _Static_assert
+

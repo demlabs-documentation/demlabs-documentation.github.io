@@ -1,0 +1,5 @@
+﻿swap_endian
+===========
+
+.. doxygenfunction:: swap_endian
+

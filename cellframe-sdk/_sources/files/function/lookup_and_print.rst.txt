@@ -1,0 +1,5 @@
+﻿lookup_and_print
+================
+
+.. doxygenfunction:: lookup_and_print
+

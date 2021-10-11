@@ -1,0 +1,5 @@
+﻿CLIF_set_string
+===============
+
+.. doxygenfunction:: CLIF_set_string
+

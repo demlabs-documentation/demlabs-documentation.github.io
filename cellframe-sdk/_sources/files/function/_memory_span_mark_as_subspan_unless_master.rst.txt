@@ -1,0 +1,5 @@
+﻿_memory_span_mark_as_subspan_unless_master
+==========================================
+
+.. doxygenfunction:: _memory_span_mark_as_subspan_unless_master
+

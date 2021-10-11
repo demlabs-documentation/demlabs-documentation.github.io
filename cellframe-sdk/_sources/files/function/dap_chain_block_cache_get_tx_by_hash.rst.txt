@@ -1,0 +1,5 @@
+﻿dap_chain_block_cache_get_tx_by_hash
+====================================
+
+.. doxygenfunction:: dap_chain_block_cache_get_tx_by_hash
+

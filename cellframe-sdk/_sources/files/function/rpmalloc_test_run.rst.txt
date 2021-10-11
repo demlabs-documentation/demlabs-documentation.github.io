@@ -1,0 +1,5 @@
+﻿rpmalloc_test_run
+=================
+
+.. doxygenfunction:: rpmalloc_test_run
+

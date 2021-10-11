@@ -1,0 +1,5 @@
+﻿dap_http_new
+============
+
+.. doxygenfunction:: dap_http_new
+

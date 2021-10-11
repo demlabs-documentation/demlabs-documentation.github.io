@@ -1,0 +1,5 @@
+﻿check_session
+=============
+
+.. doxygenfunction:: check_session
+

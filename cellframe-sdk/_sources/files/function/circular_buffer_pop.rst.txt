@@ -1,0 +1,5 @@
+﻿circular_buffer_pop
+===================
+
+.. doxygenfunction:: circular_buffer_pop
+

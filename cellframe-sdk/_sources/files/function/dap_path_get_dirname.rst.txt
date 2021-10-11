@@ -1,0 +1,5 @@
+﻿dap_path_get_dirname
+====================
+
+.. doxygenfunction:: dap_path_get_dirname
+

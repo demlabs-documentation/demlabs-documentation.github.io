@@ -1,0 +1,5 @@
+﻿detect_end_of_line
+==================
+
+.. doxygenfunction:: detect_end_of_line
+

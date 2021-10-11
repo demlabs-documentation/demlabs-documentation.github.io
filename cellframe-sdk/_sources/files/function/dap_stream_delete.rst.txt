@@ -1,0 +1,5 @@
+﻿dap_stream_delete
+=================
+
+.. doxygenfunction:: dap_stream_delete
+

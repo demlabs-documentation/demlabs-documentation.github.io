@@ -1,0 +1,5 @@
+﻿bitrev_vector
+=============
+
+.. doxygenfunction:: bitrev_vector
+

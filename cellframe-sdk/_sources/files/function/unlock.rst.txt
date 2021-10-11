@@ -1,0 +1,5 @@
+﻿unlock
+======
+
+.. doxygenfunction:: unlock
+

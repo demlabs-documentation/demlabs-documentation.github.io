@@ -1,0 +1,5 @@
+﻿init_basis
+==========
+
+.. doxygenfunction:: init_basis
+

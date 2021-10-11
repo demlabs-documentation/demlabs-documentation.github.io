@@ -1,0 +1,5 @@
+﻿dap_chain_has_file_store
+========================
+
+.. doxygenfunction:: dap_chain_has_file_store
+

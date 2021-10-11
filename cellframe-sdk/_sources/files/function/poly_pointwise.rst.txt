@@ -1,0 +1,5 @@
+﻿poly_pointwise
+==============
+
+.. doxygenfunction:: poly_pointwise
+

@@ -1,0 +1,5 @@
+﻿mpc_xor_constant_verify
+=======================
+
+.. doxygenfunction:: mpc_xor_constant_verify
+

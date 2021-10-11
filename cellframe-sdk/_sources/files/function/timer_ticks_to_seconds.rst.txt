@@ -1,0 +1,5 @@
+﻿timer_ticks_to_seconds
+======================
+
+.. doxygenfunction:: timer_ticks_to_seconds
+

@@ -1,0 +1,5 @@
+﻿_memory_map_spans
+=================
+
+.. doxygenfunction:: _memory_map_spans
+

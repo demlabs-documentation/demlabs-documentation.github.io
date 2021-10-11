@@ -1,0 +1,5 @@
+﻿dap_chain_ledger_count
+======================
+
+.. doxygenfunction:: dap_chain_ledger_count
+

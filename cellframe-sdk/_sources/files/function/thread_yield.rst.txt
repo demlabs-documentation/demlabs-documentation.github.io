@@ -1,0 +1,5 @@
+﻿thread_yield
+============
+
+.. doxygenfunction:: thread_yield
+

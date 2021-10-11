@@ -1,0 +1,5 @@
+﻿_memory_span_initialize
+=======================
+
+.. doxygenfunction:: _memory_span_initialize
+

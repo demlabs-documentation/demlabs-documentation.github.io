@@ -1,0 +1,5 @@
+﻿com_ping
+========
+
+.. doxygenfunction:: com_ping
+

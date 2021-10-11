@@ -1,0 +1,5 @@
+﻿s_get_next_str
+==============
+
+.. doxygenfunction:: s_get_next_str
+

@@ -1,0 +1,5 @@
+﻿setBit
+======
+
+.. doxygenfunction:: setBit
+

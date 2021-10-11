@@ -1,0 +1,5 @@
+﻿_read_key_from_file
+===================
+
+.. doxygenfunction:: _read_key_from_file
+

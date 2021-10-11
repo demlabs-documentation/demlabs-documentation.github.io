@@ -1,0 +1,5 @@
+﻿matrix_mul
+==========
+
+.. doxygenfunction:: matrix_mul
+

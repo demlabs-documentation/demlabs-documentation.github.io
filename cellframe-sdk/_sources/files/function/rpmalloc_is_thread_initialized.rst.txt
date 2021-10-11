@@ -1,0 +1,5 @@
+﻿rpmalloc_is_thread_initialized
+==============================
+
+.. doxygenfunction:: rpmalloc_is_thread_initialized
+

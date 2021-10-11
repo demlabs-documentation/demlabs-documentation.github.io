@@ -1,0 +1,5 @@
+﻿MIMO_LRCT_Hash
+==============
+
+.. doxygenfunction:: MIMO_LRCT_Hash
+

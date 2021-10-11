@@ -1,0 +1,5 @@
+﻿dap_sign_type_from_str
+======================
+
+.. doxygenfunction:: dap_sign_type_from_str
+

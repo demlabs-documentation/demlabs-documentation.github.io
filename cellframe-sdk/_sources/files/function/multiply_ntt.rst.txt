@@ -1,0 +1,5 @@
+﻿multiply_ntt
+============
+
+.. doxygenfunction:: multiply_ntt
+

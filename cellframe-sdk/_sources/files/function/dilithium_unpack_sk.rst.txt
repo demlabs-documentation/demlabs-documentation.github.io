@@ -1,0 +1,5 @@
+﻿dilithium_unpack_sk
+===================
+
+.. doxygenfunction:: dilithium_unpack_sk
+

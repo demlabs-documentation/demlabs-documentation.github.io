@@ -1,0 +1,5 @@
+﻿encode_c
+========
+
+.. doxygenfunction:: encode_c
+

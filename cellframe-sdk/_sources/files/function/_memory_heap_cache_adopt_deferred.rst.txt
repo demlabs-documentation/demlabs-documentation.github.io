@@ -1,0 +1,5 @@
+﻿_memory_heap_cache_adopt_deferred
+=================================
+
+.. doxygenfunction:: _memory_heap_cache_adopt_deferred
+

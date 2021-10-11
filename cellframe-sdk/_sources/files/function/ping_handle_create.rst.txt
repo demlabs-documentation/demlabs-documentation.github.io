@@ -1,0 +1,5 @@
+﻿ping_handle_create
+==================
+
+.. doxygenfunction:: ping_handle_create
+

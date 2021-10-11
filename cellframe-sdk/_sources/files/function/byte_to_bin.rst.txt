@@ -1,0 +1,5 @@
+﻿byte_to_bin
+===========
+
+.. doxygenfunction:: byte_to_bin
+

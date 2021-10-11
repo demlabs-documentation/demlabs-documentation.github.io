@@ -1,0 +1,5 @@
+﻿run_bash_cmd
+============
+
+.. doxygenfunction:: run_bash_cmd
+

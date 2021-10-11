@@ -1,0 +1,5 @@
+﻿s_timer_find
+============
+
+.. doxygenfunction:: s_timer_find
+

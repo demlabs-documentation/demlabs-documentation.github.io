@@ -1,0 +1,5 @@
+﻿record_type
+===========
+
+.. doxygenfunction:: record_type
+

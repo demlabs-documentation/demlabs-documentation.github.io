@@ -1,0 +1,5 @@
+﻿_rl_init_locale
+===============
+
+.. doxygenfunction:: _rl_init_locale
+

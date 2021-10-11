@@ -1,0 +1,5 @@
+﻿rpaligned_realloc
+=================
+
+.. doxygenfunction:: rpaligned_realloc
+

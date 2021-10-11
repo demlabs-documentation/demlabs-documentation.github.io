@@ -1,0 +1,5 @@
+﻿dap_events_socket_event_proc_input_unsafe
+=========================================
+
+.. doxygenfunction:: dap_events_socket_event_proc_input_unsafe
+

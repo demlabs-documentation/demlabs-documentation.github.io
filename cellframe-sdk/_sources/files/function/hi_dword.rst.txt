@@ -1,0 +1,5 @@
+﻿hi_dword
+========
+
+.. doxygenfunction:: hi_dword
+

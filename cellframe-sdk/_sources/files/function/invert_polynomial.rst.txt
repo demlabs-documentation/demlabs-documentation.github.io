@@ -1,0 +1,5 @@
+﻿invert_polynomial
+=================
+
+.. doxygenfunction:: invert_polynomial
+

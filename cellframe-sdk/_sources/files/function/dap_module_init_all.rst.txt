@@ -1,0 +1,5 @@
+﻿dap_module_init_all
+===================
+
+.. doxygenfunction:: dap_module_init_all
+

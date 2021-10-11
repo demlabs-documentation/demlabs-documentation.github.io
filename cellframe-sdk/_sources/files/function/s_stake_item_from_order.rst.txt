@@ -1,0 +1,5 @@
+﻿s_stake_item_from_order
+=======================
+
+.. doxygenfunction:: s_stake_item_from_order
+

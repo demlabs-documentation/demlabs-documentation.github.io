@@ -1,0 +1,5 @@
+﻿dap_client_pvt_request_enc
+==========================
+
+.. doxygenfunction:: dap_client_pvt_request_enc
+

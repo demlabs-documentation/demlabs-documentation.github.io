@@ -1,0 +1,5 @@
+﻿ping_util_common
+================
+
+.. doxygenfunction:: ping_util_common
+

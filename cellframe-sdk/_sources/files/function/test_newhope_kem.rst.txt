@@ -1,0 +1,5 @@
+﻿test_newhope_kem
+================
+
+.. doxygenfunction:: test_newhope_kem
+

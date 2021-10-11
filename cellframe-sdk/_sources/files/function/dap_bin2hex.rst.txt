@@ -1,0 +1,5 @@
+﻿dap_bin2hex
+===========
+
+.. doxygenfunction:: dap_bin2hex
+

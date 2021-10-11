@@ -1,0 +1,5 @@
+﻿dap_http_simple_reply
+=====================
+
+.. doxygenfunction:: dap_http_simple_reply
+

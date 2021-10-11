@@ -1,0 +1,5 @@
+﻿dap_chain_gdb_init
+==================
+
+.. doxygenfunction:: dap_chain_gdb_init
+

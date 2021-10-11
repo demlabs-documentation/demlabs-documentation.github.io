@@ -1,0 +1,5 @@
+﻿dap_client_pool_deinit
+======================
+
+.. doxygenfunction:: dap_client_pool_deinit
+

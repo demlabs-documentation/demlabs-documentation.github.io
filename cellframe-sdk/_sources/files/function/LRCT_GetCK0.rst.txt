@@ -1,0 +1,5 @@
+﻿LRCT_GetCK0
+===========
+
+.. doxygenfunction:: LRCT_GetCK0
+

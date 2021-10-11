@@ -1,0 +1,5 @@
+﻿LRCT_PolyMultMatrix
+===================
+
+.. doxygenfunction:: LRCT_PolyMultMatrix
+

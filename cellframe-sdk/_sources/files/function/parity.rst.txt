@@ -1,0 +1,5 @@
+﻿parity
+======
+
+.. doxygenfunction:: parity
+

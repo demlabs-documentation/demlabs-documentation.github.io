@@ -1,0 +1,5 @@
+﻿oaes_alloc
+==========
+
+.. doxygenfunction:: oaes_alloc
+

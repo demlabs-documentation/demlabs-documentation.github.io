@@ -1,0 +1,5 @@
+﻿find_metadata
+=============
+
+.. doxygenfunction:: find_metadata
+

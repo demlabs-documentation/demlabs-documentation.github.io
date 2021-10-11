@@ -1,0 +1,5 @@
+﻿dap_store_obj_copy
+==================
+
+.. doxygenfunction:: dap_store_obj_copy
+

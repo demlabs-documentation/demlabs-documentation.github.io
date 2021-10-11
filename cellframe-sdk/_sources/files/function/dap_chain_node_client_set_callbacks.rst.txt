@@ -1,0 +1,5 @@
+﻿dap_chain_node_client_set_callbacks
+===================================
+
+.. doxygenfunction:: dap_chain_node_client_set_callbacks
+

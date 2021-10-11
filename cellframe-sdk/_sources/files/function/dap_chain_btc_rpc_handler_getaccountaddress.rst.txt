@@ -1,0 +1,5 @@
+﻿dap_chain_btc_rpc_handler_getaccountaddress
+===========================================
+
+.. doxygenfunction:: dap_chain_btc_rpc_handler_getaccountaddress
+

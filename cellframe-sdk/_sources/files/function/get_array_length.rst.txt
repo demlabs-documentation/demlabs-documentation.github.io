@@ -1,0 +1,5 @@
+﻿get_array_length
+================
+
+.. doxygenfunction:: get_array_length
+

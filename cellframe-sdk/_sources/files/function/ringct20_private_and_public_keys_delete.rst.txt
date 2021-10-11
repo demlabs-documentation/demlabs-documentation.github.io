@@ -1,0 +1,5 @@
+﻿ringct20_private_and_public_keys_delete
+=======================================
+
+.. doxygenfunction:: ringct20_private_and_public_keys_delete
+

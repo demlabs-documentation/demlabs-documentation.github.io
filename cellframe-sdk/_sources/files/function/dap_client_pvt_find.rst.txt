@@ -1,0 +1,5 @@
+﻿dap_client_pvt_find
+===================
+
+.. doxygenfunction:: dap_client_pvt_find
+

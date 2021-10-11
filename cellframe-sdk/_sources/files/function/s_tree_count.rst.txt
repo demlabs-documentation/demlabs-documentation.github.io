@@ -1,0 +1,5 @@
+﻿s_tree_count
+============
+
+.. doxygenfunction:: s_tree_count
+

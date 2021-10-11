@@ -1,0 +1,5 @@
+﻿wait_node_ping
+==============
+
+.. doxygenfunction:: wait_node_ping
+

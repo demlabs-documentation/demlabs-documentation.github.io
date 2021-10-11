@@ -1,0 +1,5 @@
+﻿dap_net_resolve_host
+====================
+
+.. doxygenfunction:: dap_net_resolve_host
+

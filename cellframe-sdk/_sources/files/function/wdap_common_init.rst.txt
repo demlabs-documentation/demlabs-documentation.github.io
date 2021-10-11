@@ -1,0 +1,5 @@
+﻿wdap_common_init
+================
+
+.. doxygenfunction:: wdap_common_init
+

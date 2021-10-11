@@ -1,0 +1,5 @@
+﻿err_bad_res
+===========
+
+.. doxygenfunction:: err_bad_res
+

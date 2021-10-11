@@ -1,0 +1,5 @@
+﻿mem_inplace_ident
+=================
+
+.. doxygenfunction:: mem_inplace_ident
+

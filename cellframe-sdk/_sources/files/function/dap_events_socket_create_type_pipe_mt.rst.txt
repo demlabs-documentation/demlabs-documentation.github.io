@@ -1,0 +1,5 @@
+﻿dap_events_socket_create_type_pipe_mt
+=====================================
+
+.. doxygenfunction:: dap_events_socket_create_type_pipe_mt
+

@@ -1,0 +1,5 @@
+﻿equal_addr
+==========
+
+.. doxygenfunction:: equal_addr
+

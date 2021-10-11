@@ -1,0 +1,5 @@
+﻿dap_string_erase
+================
+
+.. doxygenfunction:: dap_string_erase
+

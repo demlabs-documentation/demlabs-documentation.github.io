@@ -1,0 +1,5 @@
+﻿dap_string_set_size
+===================
+
+.. doxygenfunction:: dap_string_set_size
+

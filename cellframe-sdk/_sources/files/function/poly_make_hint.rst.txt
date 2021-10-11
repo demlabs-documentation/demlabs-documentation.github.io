@@ -1,0 +1,5 @@
+﻿poly_make_hint
+==============
+
+.. doxygenfunction:: poly_make_hint
+

@@ -1,0 +1,5 @@
+﻿dap_chain_node_client_connect_channels
+======================================
+
+.. doxygenfunction:: dap_chain_node_client_connect_channels
+

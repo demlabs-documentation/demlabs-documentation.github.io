@@ -1,0 +1,5 @@
+﻿test_encode_decode_base58
+=========================
+
+.. doxygenfunction:: test_encode_decode_base58
+

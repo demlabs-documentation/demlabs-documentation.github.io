@@ -1,0 +1,5 @@
+﻿dap_stream_ch_proc_add
+======================
+
+.. doxygenfunction:: dap_stream_ch_proc_add
+

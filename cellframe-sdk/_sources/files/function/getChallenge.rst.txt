@@ -1,0 +1,5 @@
+﻿getChallenge
+============
+
+.. doxygenfunction:: getChallenge
+

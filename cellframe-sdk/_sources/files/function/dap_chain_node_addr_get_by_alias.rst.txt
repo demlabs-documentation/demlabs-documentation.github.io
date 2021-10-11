@@ -1,0 +1,5 @@
+﻿dap_chain_node_addr_get_by_alias
+================================
+
+.. doxygenfunction:: dap_chain_node_addr_get_by_alias
+

@@ -1,0 +1,5 @@
+﻿resolve_any_address
+===================
+
+.. doxygenfunction:: resolve_any_address
+

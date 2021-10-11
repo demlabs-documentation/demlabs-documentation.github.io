@@ -1,0 +1,5 @@
+﻿com_exit
+========
+
+.. doxygenfunction:: com_exit
+

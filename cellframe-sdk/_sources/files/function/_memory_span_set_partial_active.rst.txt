@@ -1,0 +1,5 @@
+﻿_memory_span_set_partial_active
+===============================
+
+.. doxygenfunction:: _memory_span_set_partial_active
+

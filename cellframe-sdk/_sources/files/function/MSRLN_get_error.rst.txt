@@ -1,0 +1,5 @@
+﻿MSRLN_get_error
+===============
+
+.. doxygenfunction:: MSRLN_get_error
+

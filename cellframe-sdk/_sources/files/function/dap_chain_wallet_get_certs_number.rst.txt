@@ -1,0 +1,5 @@
+﻿dap_chain_wallet_get_certs_number
+=================================
+
+.. doxygenfunction:: dap_chain_wallet_get_certs_number
+

@@ -1,0 +1,5 @@
+﻿dap_events_socket_create_type_event_unsafe
+==========================================
+
+.. doxygenfunction:: dap_events_socket_create_type_event_unsafe
+

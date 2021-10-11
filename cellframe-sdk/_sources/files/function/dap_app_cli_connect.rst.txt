@@ -1,0 +1,5 @@
+﻿dap_app_cli_connect
+===================
+
+.. doxygenfunction:: dap_app_cli_connect
+

@@ -1,0 +1,5 @@
+﻿CircularBufferFree
+==================
+
+.. doxygenfunction:: CircularBufferFree
+

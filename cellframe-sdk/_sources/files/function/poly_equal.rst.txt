@@ -1,0 +1,5 @@
+﻿poly_equal
+==========
+
+.. doxygenfunction:: poly_equal
+

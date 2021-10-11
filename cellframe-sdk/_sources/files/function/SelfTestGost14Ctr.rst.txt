@@ -1,0 +1,5 @@
+﻿SelfTestGost14Ctr
+=================
+
+.. doxygenfunction:: SelfTestGost14Ctr
+

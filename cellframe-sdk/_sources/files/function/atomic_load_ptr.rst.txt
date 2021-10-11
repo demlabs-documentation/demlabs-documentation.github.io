@@ -1,0 +1,5 @@
+﻿atomic_load_ptr
+===============
+
+.. doxygenfunction:: atomic_load_ptr
+

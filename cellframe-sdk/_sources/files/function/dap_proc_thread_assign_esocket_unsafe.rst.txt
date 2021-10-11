@@ -1,0 +1,5 @@
+﻿dap_proc_thread_assign_esocket_unsafe
+=====================================
+
+.. doxygenfunction:: dap_proc_thread_assign_esocket_unsafe
+

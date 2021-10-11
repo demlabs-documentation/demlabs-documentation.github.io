@@ -1,0 +1,5 @@
+﻿dap_chain_cell_file_append
+==========================
+
+.. doxygenfunction:: dap_chain_cell_file_append
+

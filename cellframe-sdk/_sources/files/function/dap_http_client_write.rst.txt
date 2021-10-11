@@ -1,0 +1,5 @@
+﻿dap_http_client_write
+=====================
+
+.. doxygenfunction:: dap_http_client_write
+

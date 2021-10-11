@@ -1,0 +1,5 @@
+﻿dap_chain_tx_pkey_get_size
+==========================
+
+.. doxygenfunction:: dap_chain_tx_pkey_get_size
+

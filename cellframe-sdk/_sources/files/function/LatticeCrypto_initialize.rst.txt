@@ -1,0 +1,5 @@
+﻿LatticeCrypto_initialize
+========================
+
+.. doxygenfunction:: LatticeCrypto_initialize
+

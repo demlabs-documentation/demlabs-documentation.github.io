@@ -1,0 +1,5 @@
+﻿mpc_substitution_verify
+=======================
+
+.. doxygenfunction:: mpc_substitution_verify
+

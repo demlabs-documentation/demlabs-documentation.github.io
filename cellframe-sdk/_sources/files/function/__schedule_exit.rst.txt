@@ -1,0 +1,5 @@
+﻿__schedule_exit
+===============
+
+.. doxygenfunction:: __schedule_exit
+

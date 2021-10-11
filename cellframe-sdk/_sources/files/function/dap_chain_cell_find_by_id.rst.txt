@@ -1,0 +1,5 @@
+﻿dap_chain_cell_find_by_id
+=========================
+
+.. doxygenfunction:: dap_chain_cell_find_by_id
+

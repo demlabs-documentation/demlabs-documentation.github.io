@@ -1,0 +1,5 @@
+﻿ping6_run
+=========
+
+.. doxygenfunction:: ping6_run
+

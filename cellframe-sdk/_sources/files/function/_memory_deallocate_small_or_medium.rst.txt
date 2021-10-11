@@ -1,0 +1,5 @@
+﻿_memory_deallocate_small_or_medium
+==================================
+
+.. doxygenfunction:: _memory_deallocate_small_or_medium
+

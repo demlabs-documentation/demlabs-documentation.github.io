@@ -1,0 +1,5 @@
+﻿polyveck_use_hint
+=================
+
+.. doxygenfunction:: polyveck_use_hint
+

@@ -1,0 +1,5 @@
+﻿LRCT_Setup
+==========
+
+.. doxygenfunction:: LRCT_Setup
+

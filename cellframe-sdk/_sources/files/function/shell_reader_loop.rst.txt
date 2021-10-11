@@ -1,0 +1,5 @@
+﻿shell_reader_loop
+=================
+
+.. doxygenfunction:: shell_reader_loop
+

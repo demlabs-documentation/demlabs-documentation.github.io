@@ -1,0 +1,5 @@
+﻿get_ptr_from
+============
+
+.. doxygenfunction:: get_ptr_from
+

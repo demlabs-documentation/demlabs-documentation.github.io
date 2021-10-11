@@ -1,0 +1,5 @@
+﻿B64_DecodeByte
+==============
+
+.. doxygenfunction:: B64_DecodeByte
+

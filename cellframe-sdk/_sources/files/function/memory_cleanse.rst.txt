@@ -1,0 +1,5 @@
+﻿memory_cleanse
+==============
+
+.. doxygenfunction:: memory_cleanse
+

@@ -1,0 +1,5 @@
+﻿forward_ntt
+===========
+
+.. doxygenfunction:: forward_ntt
+

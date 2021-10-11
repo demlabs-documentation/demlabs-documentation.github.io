@@ -1,0 +1,5 @@
+﻿dap_chain_db_get_sync_groups_internal
+=====================================
+
+.. doxygenfunction:: dap_chain_db_get_sync_groups_internal
+

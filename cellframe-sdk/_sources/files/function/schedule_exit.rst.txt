@@ -1,0 +1,5 @@
+﻿schedule_exit
+=============
+
+.. doxygenfunction:: schedule_exit
+

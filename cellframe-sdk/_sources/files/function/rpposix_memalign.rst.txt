@@ -1,0 +1,5 @@
+﻿rpposix_memalign
+================
+
+.. doxygenfunction:: rpposix_memalign
+

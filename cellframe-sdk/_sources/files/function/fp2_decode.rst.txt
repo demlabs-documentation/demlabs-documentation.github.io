@@ -1,0 +1,5 @@
+﻿fp2_decode
+==========
+
+.. doxygenfunction:: fp2_decode
+

@@ -1,0 +1,5 @@
+﻿barr_reduce
+===========
+
+.. doxygenfunction:: barr_reduce
+

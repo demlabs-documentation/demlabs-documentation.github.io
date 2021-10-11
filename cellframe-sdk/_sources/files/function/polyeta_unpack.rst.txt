@@ -1,0 +1,5 @@
+﻿polyeta_unpack
+==============
+
+.. doxygenfunction:: polyeta_unpack
+

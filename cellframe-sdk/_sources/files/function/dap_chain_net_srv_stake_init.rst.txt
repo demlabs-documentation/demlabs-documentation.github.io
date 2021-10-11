@@ -1,0 +1,5 @@
+﻿dap_chain_net_srv_stake_init
+============================
+
+.. doxygenfunction:: dap_chain_net_srv_stake_init
+

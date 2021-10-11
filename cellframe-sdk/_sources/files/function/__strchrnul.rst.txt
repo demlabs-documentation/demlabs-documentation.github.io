@@ -1,0 +1,5 @@
+﻿__strchrnul
+===========
+
+.. doxygenfunction:: __strchrnul
+

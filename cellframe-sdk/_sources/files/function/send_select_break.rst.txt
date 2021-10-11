@@ -1,0 +1,5 @@
+﻿send_select_break
+=================
+
+.. doxygenfunction:: send_select_break
+

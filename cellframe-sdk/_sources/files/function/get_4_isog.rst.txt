@@ -1,0 +1,5 @@
+﻿get_4_isog
+==========
+
+.. doxygenfunction:: get_4_isog
+

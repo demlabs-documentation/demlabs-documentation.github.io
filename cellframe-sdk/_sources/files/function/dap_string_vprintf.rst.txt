@@ -1,0 +1,5 @@
+﻿dap_string_vprintf
+==================
+
+.. doxygenfunction:: dap_string_vprintf
+

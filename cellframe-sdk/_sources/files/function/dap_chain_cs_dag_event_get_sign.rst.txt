@@ -1,0 +1,5 @@
+﻿dap_chain_cs_dag_event_get_sign
+===============================
+
+.. doxygenfunction:: dap_chain_cs_dag_event_get_sign
+

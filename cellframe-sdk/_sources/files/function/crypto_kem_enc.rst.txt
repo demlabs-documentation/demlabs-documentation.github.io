@@ -1,0 +1,5 @@
+﻿crypto_kem_enc
+==============
+
+.. doxygenfunction:: crypto_kem_enc
+

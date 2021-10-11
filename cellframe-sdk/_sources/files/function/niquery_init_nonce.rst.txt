@@ -1,0 +1,5 @@
+﻿niquery_init_nonce
+==================
+
+.. doxygenfunction:: niquery_init_nonce
+

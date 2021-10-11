@@ -1,0 +1,5 @@
+﻿s_set_writable_flags
+====================
+
+.. doxygenfunction:: s_set_writable_flags
+

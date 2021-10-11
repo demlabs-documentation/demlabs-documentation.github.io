@@ -1,0 +1,5 @@
+﻿com_tx_verify
+=============
+
+.. doxygenfunction:: com_tx_verify
+

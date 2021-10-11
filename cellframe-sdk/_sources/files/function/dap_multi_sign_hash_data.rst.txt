@@ -1,0 +1,5 @@
+﻿dap_multi_sign_hash_data
+========================
+
+.. doxygenfunction:: dap_multi_sign_hash_data
+

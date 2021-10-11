@@ -1,0 +1,5 @@
+﻿oaes_encrypt_block
+==================
+
+.. doxygenfunction:: oaes_encrypt_block
+

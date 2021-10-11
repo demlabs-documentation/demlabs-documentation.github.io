@@ -1,0 +1,5 @@
+﻿fpneg
+=====
+
+.. doxygenfunction:: fpneg
+

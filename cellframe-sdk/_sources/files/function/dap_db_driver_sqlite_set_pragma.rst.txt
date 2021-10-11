@@ -1,0 +1,5 @@
+﻿dap_db_driver_sqlite_set_pragma
+===============================
+
+.. doxygenfunction:: dap_db_driver_sqlite_set_pragma
+

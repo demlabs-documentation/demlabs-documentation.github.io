@@ -1,0 +1,5 @@
+﻿s_esocket_data_read
+===================
+
+.. doxygenfunction:: s_esocket_data_read
+

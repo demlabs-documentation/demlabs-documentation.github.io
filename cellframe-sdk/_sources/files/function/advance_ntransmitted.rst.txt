@@ -1,0 +1,5 @@
+﻿advance_ntransmitted
+====================
+
+.. doxygenfunction:: advance_ntransmitted
+

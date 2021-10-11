@@ -1,0 +1,5 @@
+﻿dap_get_cpu_count
+=================
+
+.. doxygenfunction:: dap_get_cpu_count
+

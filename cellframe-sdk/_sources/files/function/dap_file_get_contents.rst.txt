@@ -1,0 +1,5 @@
+﻿dap_file_get_contents
+=====================
+
+.. doxygenfunction:: dap_file_get_contents
+

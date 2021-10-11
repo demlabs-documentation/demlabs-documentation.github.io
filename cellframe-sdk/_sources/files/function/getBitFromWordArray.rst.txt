@@ -1,0 +1,5 @@
+﻿getBitFromWordArray
+===================
+
+.. doxygenfunction:: getBitFromWordArray
+

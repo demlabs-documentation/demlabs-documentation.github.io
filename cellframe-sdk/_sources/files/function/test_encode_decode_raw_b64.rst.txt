@@ -1,0 +1,5 @@
+﻿test_encode_decode_raw_b64
+==========================
+
+.. doxygenfunction:: test_encode_decode_raw_b64
+

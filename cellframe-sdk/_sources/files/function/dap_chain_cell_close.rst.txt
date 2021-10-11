@@ -1,0 +1,5 @@
+﻿dap_chain_cell_close
+====================
+
+.. doxygenfunction:: dap_chain_cell_close
+

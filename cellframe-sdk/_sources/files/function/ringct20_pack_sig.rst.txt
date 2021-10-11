@@ -1,0 +1,5 @@
+﻿ringct20_pack_sig
+=================
+
+.. doxygenfunction:: ringct20_pack_sig
+

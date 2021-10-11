@@ -1,0 +1,5 @@
+﻿_memory_heap_set_reserved_spans
+===============================
+
+.. doxygenfunction:: _memory_heap_set_reserved_spans
+

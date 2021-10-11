@@ -1,0 +1,5 @@
+﻿reduce32
+========
+
+.. doxygenfunction:: reduce32
+

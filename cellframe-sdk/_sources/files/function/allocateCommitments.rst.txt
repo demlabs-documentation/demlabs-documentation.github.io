@@ -1,0 +1,5 @@
+﻿allocateCommitments
+===================
+
+.. doxygenfunction:: allocateCommitments
+

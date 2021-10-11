@@ -1,0 +1,5 @@
+﻿dap_cert_find_by_name
+=====================
+
+.. doxygenfunction:: dap_cert_find_by_name
+

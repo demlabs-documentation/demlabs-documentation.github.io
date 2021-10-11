@@ -1,0 +1,5 @@
+﻿pr_niquery_reply_addr
+=====================
+
+.. doxygenfunction:: pr_niquery_reply_addr
+

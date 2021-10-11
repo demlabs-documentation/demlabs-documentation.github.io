@@ -1,0 +1,5 @@
+﻿dap_string_insert_unichar
+=========================
+
+.. doxygenfunction:: dap_string_insert_unichar
+

@@ -1,0 +1,5 @@
+﻿LRCT_MatrixAddMatrix
+====================
+
+.. doxygenfunction:: LRCT_MatrixAddMatrix
+

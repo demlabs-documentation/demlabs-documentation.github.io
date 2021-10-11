@@ -1,0 +1,5 @@
+﻿dap_client_error_str
+====================
+
+.. doxygenfunction:: dap_client_error_str
+

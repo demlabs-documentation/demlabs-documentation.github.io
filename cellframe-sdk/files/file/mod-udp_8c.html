@@ -89,7 +89,7 @@
             
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="../../filelist.html">File list</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../api.html">API</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="../filelist.html">File list</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="28147__14_8c.html">File 28147_14.c</a></li>
 <li class="toctree-l3"><a class="reference internal" href="28147__14_8h.html">File 28147_14.h</a></li>
@@ -104,6 +104,7 @@
 <li class="toctree-l3"><a class="reference internal" href="_keccak_sponge_8inc.html">File KeccakSponge.inc</a></li>
 <li class="toctree-l3"><a class="reference internal" href="_keccak_sponge_width1600_8c.html">File KeccakSpongeWidth1600.c</a></li>
 <li class="toctree-l3"><a class="reference internal" href="_keccak_sponge_width1600_8h.html">File KeccakSpongeWidth1600.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_r_e_a_d_m_e_8md.html">File README.md</a></li>
 <li class="toctree-l3"><a class="reference internal" href="align_8h.html">File align.h</a></li>
 <li class="toctree-l3"><a class="reference internal" href="android_2pthread__barrier_8h.html">File pthread_barrier.h</a></li>
 <li class="toctree-l3"><a class="reference internal" href="as__lookups_8c.html">File as_lookups.c</a></li>
@@ -686,6 +687,7 @@
 <li class="toctree-l3"><a class="reference internal" href="win32_2dap__process__memory_8h.html">File dap_process_memory.h</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="../functions.html">Function list</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../structlist.html">Struct list</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../unionlist.html">Union list</a></li>
 </ul>
@@ -738,7 +740,7 @@
     
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
         
-          <li><a href="../../filelist.html">File list</a> &raquo;</li>
+          <li><a href="../../api.html">API</a> &raquo;</li>
         
           <li><a href="../filelist.html">File list</a> &raquo;</li>
         
@@ -888,22 +890,22 @@
 
 <dl class="cpp var">
 <dt class="sig sig-object cpp">
-<span class="target" id="mod-udp_8c_1a87625ac262498bfa14689482670f493e"></span><span class="sig-name descname"><span class="pre">static</span> <span class="pre">CLIF_option</span> <span class="pre">udplite_options</span> <span class="pre">[]</span> <span class="pre">=</span> <span class="pre">{{</span> <span class="pre">0,</span> <span class="pre">&quot;coverage&quot;,</span> <span class="pre">&quot;NUM&quot;,</span> <span class="pre">&quot;Set</span> <span class="pre">udplite</span> <span class="pre">send</span> <span class="pre">coverage</span> <span class="pre">to</span> <span class="pre">%s</span> <span class="pre">(default</span> <span class="pre">is</span> <span class="pre">&quot;_TEXT(MIN_COVERAGE)</span> <span class="pre">&quot;)&quot;,CLIF_set_uint,</span> <span class="pre">&amp;coverage,</span> <span class="pre">0,</span> <span class="pre">CLIF_ABBREV</span> <span class="pre">},CLIF_END_OPTION}</span></span></dt>
+<span class="target" id="mod-udp_8c_1a87625ac262498bfa14689482670f493e"></span><span class="sig-name descname"><span class="pre">static</span> <span class="pre">CLIF_option</span> <span class="pre">udplite_options</span> <span class="pre">[]</span> <span class="pre">=</span> <span class="pre">{{</span> <span class="pre">0,</span> <span class="pre">&quot;coverage&quot;,</span> <span class="pre">&quot;NUM&quot;,</span> <span class="pre">&quot;Set</span> <span class="pre">udplite</span> <span class="pre">send</span> <span class="pre">coverage</span> <span class="pre">to</span> <span class="pre">%s</span> <span class="pre">(default</span> <span class="pre">is</span> <span class="pre">&quot;_TEXT(MIN_COVERAGE)</span> <span class="pre">&quot;)&quot;,</span> <span class="pre">				CLIF_set_uint,</span> <span class="pre">&amp;coverage,</span> <span class="pre">0,</span> <span class="pre">CLIF_ABBREV</span> <span class="pre">},</span> <span class="pre">	CLIF_END_OPTION</span> <span class="pre">}</span></span></dt>
 <dd></dd></dl>
 
 <dl class="cpp var">
 <dt class="sig sig-object cpp">
-<span class="target" id="mod-udp_8c_1a85703d3c805bbc60e2d0b8e296fbbb5f"></span><span class="sig-name descname"><span class="pre">static</span> <span class="pre">tr_module</span> <span class="pre">default_ops</span>&#160; <span class="pre">=</span> <span class="pre">{.name</span> <span class="pre">=</span> <span class="pre">&quot;default&quot;,.init</span> <span class="pre">=</span> <span class="pre">udp_default_init,.send_probe</span> <span class="pre">=</span> <span class="pre">udp_send_probe,.recv_probe</span> <span class="pre">=</span> <span class="pre">udp_recv_probe,.expire_probe</span> <span class="pre">=</span> <span class="pre">udp_expire_probe,.header_len</span> <span class="pre">=</span> <span class="pre">sizeof</span> <span class="pre">(struct</span> <span class="pre">udphdr),}</span></span></dt>
+<span class="target" id="mod-udp_8c_1a85703d3c805bbc60e2d0b8e296fbbb5f"></span><span class="sig-name descname"><span class="pre">static</span> <span class="pre">tr_module</span> <span class="pre">default_ops</span>&#160; <span class="pre">=</span> <span class="pre">{.name=</span> <span class="pre">&quot;default&quot;,.init</span> <span class="pre">=</span> <span class="pre">udp_default_init,.send_probe</span> <span class="pre">=</span> <span class="pre">udp_send_probe,.recv_probe</span> <span class="pre">=</span> <span class="pre">udp_recv_probe,.expire_probe</span> <span class="pre">=</span> <span class="pre">udp_expire_probe,.header_len</span> <span class="pre">=</span> <span class="pre">sizeof</span> <span class="pre">(struct</span> <span class="pre">udphdr),}</span></span></dt>
 <dd></dd></dl>
 
 <dl class="cpp var">
 <dt class="sig sig-object cpp">
-<span class="target" id="mod-udp_8c_1a5845501787c726f847fb77bcca95fe30"></span><span class="sig-name descname"><span class="pre">static</span> <span class="pre">tr_module</span> <span class="pre">udp_ops</span>&#160; <span class="pre">=</span> <span class="pre">{.name</span> <span class="pre">=</span> <span class="pre">&quot;udp&quot;,.init</span> <span class="pre">=</span> <span class="pre">udp_init,.send_probe</span> <span class="pre">=</span> <span class="pre">udp_send_probe,.recv_probe</span> <span class="pre">=</span> <span class="pre">udp_recv_probe,.expire_probe</span> <span class="pre">=</span> <span class="pre">udp_expire_probe,.header_len</span> <span class="pre">=</span> <span class="pre">sizeof</span> <span class="pre">(struct</span> <span class="pre">udphdr),}</span></span></dt>
+<span class="target" id="mod-udp_8c_1a5845501787c726f847fb77bcca95fe30"></span><span class="sig-name descname"><span class="pre">static</span> <span class="pre">tr_module</span> <span class="pre">udp_ops</span>&#160; <span class="pre">=</span> <span class="pre">{.name=</span> <span class="pre">&quot;udp&quot;,.init</span> <span class="pre">=</span> <span class="pre">udp_init,.send_probe</span> <span class="pre">=</span> <span class="pre">udp_send_probe,.recv_probe</span> <span class="pre">=</span> <span class="pre">udp_recv_probe,.expire_probe</span> <span class="pre">=</span> <span class="pre">udp_expire_probe,.header_len</span> <span class="pre">=</span> <span class="pre">sizeof</span> <span class="pre">(struct</span> <span class="pre">udphdr),}</span></span></dt>
 <dd></dd></dl>
 
 <dl class="cpp var">
 <dt class="sig sig-object cpp">
-<span class="target" id="mod-udp_8c_1a0c3edb84097f65312d18711081730e7a"></span><span class="sig-name descname"><span class="pre">static</span> <span class="pre">tr_module</span> <span class="pre">udplite_ops</span>&#160; <span class="pre">=</span> <span class="pre">{.name</span> <span class="pre">=</span> <span class="pre">&quot;udplite&quot;,.init</span> <span class="pre">=</span> <span class="pre">udplite_init,.send_probe</span> <span class="pre">=</span> <span class="pre">udp_send_probe,.recv_probe</span> <span class="pre">=</span> <span class="pre">udp_recv_probe,.expire_probe</span> <span class="pre">=</span> <span class="pre">udp_expire_probe,.header_len</span> <span class="pre">=</span> <span class="pre">sizeof</span> <span class="pre">(struct</span> <span class="pre">udphdr),.options</span> <span class="pre">=</span> <span class="pre">udplite_options,}</span></span></dt>
+<span class="target" id="mod-udp_8c_1a0c3edb84097f65312d18711081730e7a"></span><span class="sig-name descname"><span class="pre">static</span> <span class="pre">tr_module</span> <span class="pre">udplite_ops</span>&#160; <span class="pre">=</span> <span class="pre">{.name=</span> <span class="pre">&quot;udplite&quot;,.init</span> <span class="pre">=</span> <span class="pre">udplite_init,.send_probe</span> <span class="pre">=</span> <span class="pre">udp_send_probe,.recv_probe</span> <span class="pre">=</span> <span class="pre">udp_recv_probe,.expire_probe</span> <span class="pre">=</span> <span class="pre">udp_expire_probe,.header_len</span> <span class="pre">=</span> <span class="pre">sizeof</span> <span class="pre">(struct</span> <span class="pre">udphdr),.options</span> <span class="pre">=</span> <span class="pre">udplite_options,}</span></span></dt>
 <dd></dd></dl>
 
 </div>

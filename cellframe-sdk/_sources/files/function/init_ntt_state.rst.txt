@@ -1,0 +1,5 @@
+﻿init_ntt_state
+==============
+
+.. doxygenfunction:: init_ntt_state
+

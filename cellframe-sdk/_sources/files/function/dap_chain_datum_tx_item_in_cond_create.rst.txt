@@ -1,0 +1,5 @@
+﻿dap_chain_datum_tx_item_in_cond_create
+======================================
+
+.. doxygenfunction:: dap_chain_datum_tx_item_in_cond_create
+

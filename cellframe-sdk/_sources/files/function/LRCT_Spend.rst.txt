@@ -1,0 +1,5 @@
+﻿LRCT_Spend
+==========
+
+.. doxygenfunction:: LRCT_Spend
+

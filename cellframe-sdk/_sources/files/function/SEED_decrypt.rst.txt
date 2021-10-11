@@ -1,0 +1,5 @@
+﻿SEED_decrypt
+============
+
+.. doxygenfunction:: SEED_decrypt
+

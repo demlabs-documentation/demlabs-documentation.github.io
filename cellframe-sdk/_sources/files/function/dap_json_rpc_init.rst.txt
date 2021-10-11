@@ -1,0 +1,5 @@
+﻿dap_json_rpc_init
+=================
+
+.. doxygenfunction:: dap_json_rpc_init
+

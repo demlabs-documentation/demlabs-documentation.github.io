@@ -1,0 +1,5 @@
+﻿rpmalloc_initialize
+===================
+
+.. doxygenfunction:: rpmalloc_initialize
+

@@ -1,0 +1,5 @@
+﻿is_digit_nonzero_ct
+===================
+
+.. doxygenfunction:: is_digit_nonzero_ct
+

@@ -1,0 +1,5 @@
+﻿inverse_ntt
+===========
+
+.. doxygenfunction:: inverse_ntt
+

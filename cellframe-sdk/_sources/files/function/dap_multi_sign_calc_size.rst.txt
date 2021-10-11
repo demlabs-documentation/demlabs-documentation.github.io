@@ -1,0 +1,5 @@
+﻿dap_multi_sign_calc_size
+========================
+
+.. doxygenfunction:: dap_multi_sign_calc_size
+

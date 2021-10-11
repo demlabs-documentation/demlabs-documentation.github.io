@@ -1,0 +1,5 @@
+﻿dap_events_socket_remove_and_delete_mt
+======================================
+
+.. doxygenfunction:: dap_events_socket_remove_and_delete_mt
+

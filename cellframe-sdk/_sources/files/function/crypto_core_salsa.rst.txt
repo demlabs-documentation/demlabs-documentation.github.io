@@ -1,0 +1,5 @@
+﻿crypto_core_salsa
+=================
+
+.. doxygenfunction:: crypto_core_salsa
+

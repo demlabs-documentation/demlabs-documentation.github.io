@@ -1,0 +1,5 @@
+﻿dap_chain_btc_rpc_unregistration_handlers
+=========================================
+
+.. doxygenfunction:: dap_chain_btc_rpc_unregistration_handlers
+

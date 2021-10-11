@@ -1,0 +1,5 @@
+﻿rpaligned_alloc
+===============
+
+.. doxygenfunction:: rpaligned_alloc
+

@@ -1,0 +1,5 @@
+﻿get_left_28_bit_record
+======================
+
+.. doxygenfunction:: get_left_28_bit_record
+

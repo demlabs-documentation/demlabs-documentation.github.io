@@ -1,0 +1,5 @@
+﻿s_callback_atom_iter_get_links
+==============================
+
+.. doxygenfunction:: s_callback_atom_iter_get_links
+

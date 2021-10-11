@@ -1,0 +1,5 @@
+﻿dilithium_private_and_public_keys_init
+======================================
+
+.. doxygenfunction:: dilithium_private_and_public_keys_init
+

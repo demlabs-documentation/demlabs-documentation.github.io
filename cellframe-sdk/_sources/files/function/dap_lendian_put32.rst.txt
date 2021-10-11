@@ -1,0 +1,5 @@
+﻿dap_lendian_put32
+=================
+
+.. doxygenfunction:: dap_lendian_put32
+

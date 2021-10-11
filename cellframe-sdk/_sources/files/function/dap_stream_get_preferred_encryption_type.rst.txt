@@ -1,0 +1,5 @@
+﻿dap_stream_get_preferred_encryption_type
+========================================
+
+.. doxygenfunction:: dap_stream_get_preferred_encryption_type
+

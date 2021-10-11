@@ -1,0 +1,5 @@
+﻿drop_bits
+=========
+
+.. doxygenfunction:: drop_bits
+

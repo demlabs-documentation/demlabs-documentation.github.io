@@ -1,0 +1,5 @@
+﻿dap_worker_thread
+=================
+
+.. doxygenfunction:: dap_worker_thread
+

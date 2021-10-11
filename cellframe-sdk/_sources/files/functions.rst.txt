@@ -1,0 +1,7 @@
+﻿Function list
+=============
+.. toctree::
+   :glob:
+
+   function/*
+

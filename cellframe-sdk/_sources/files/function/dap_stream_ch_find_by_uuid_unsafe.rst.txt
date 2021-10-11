@@ -1,0 +1,5 @@
+﻿dap_stream_ch_find_by_uuid_unsafe
+=================================
+
+.. doxygenfunction:: dap_stream_ch_find_by_uuid_unsafe
+

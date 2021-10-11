@@ -1,0 +1,5 @@
+﻿test_array_int
+==============
+
+.. doxygenfunction:: test_array_int
+

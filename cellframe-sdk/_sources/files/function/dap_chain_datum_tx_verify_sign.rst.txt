@@ -1,0 +1,5 @@
+﻿dap_chain_datum_tx_verify_sign
+==============================
+
+.. doxygenfunction:: dap_chain_datum_tx_verify_sign
+

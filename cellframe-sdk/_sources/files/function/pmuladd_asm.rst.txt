@@ -1,0 +1,5 @@
+﻿pmuladd_asm
+===========
+
+.. doxygenfunction:: pmuladd_asm
+

@@ -1,0 +1,5 @@
+﻿dap_get_appname
+===============
+
+.. doxygenfunction:: dap_get_appname
+

@@ -1,0 +1,5 @@
+﻿polyeta_pack
+============
+
+.. doxygenfunction:: polyeta_pack
+

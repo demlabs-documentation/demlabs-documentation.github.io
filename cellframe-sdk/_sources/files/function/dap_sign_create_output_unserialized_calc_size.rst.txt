@@ -1,0 +1,5 @@
+﻿dap_sign_create_output_unserialized_calc_size
+=============================================
+
+.. doxygenfunction:: dap_sign_create_output_unserialized_calc_size
+

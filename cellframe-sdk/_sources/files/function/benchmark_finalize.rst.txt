@@ -1,0 +1,5 @@
+﻿benchmark_finalize
+==================
+
+.. doxygenfunction:: benchmark_finalize
+

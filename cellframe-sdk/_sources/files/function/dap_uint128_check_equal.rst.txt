@@ -1,0 +1,5 @@
+﻿dap_uint128_check_equal
+=======================
+
+.. doxygenfunction:: dap_uint128_check_equal
+

@@ -1,0 +1,5 @@
+﻿niquery_set_subject_type
+========================
+
+.. doxygenfunction:: niquery_set_subject_type
+

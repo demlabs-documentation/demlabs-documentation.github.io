@@ -1,0 +1,5 @@
+﻿write_stdout
+============
+
+.. doxygenfunction:: write_stdout
+

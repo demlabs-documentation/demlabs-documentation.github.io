@@ -1,0 +1,5 @@
+﻿_memory_heap_reserved_extract
+=============================
+
+.. doxygenfunction:: _memory_heap_reserved_extract
+

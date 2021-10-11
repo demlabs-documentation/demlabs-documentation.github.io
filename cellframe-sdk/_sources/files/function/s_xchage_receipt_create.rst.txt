@@ -1,0 +1,5 @@
+﻿s_xchage_receipt_create
+=======================
+
+.. doxygenfunction:: s_xchage_receipt_create
+

@@ -1,0 +1,5 @@
+﻿gen_a
+=====
+
+.. doxygenfunction:: gen_a
+

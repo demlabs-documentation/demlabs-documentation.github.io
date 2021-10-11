@@ -1,0 +1,5 @@
+﻿dap_string_append_c
+===================
+
+.. doxygenfunction:: dap_string_append_c
+

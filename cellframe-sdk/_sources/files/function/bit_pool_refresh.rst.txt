@@ -1,0 +1,5 @@
+﻿bit_pool_refresh
+================
+
+.. doxygenfunction:: bit_pool_refresh
+

@@ -1,0 +1,5 @@
+﻿com_tx_wallet
+=============
+
+.. doxygenfunction:: com_tx_wallet
+

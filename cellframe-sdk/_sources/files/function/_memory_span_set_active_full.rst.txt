@@ -1,0 +1,5 @@
+﻿_memory_span_set_active_full
+============================
+
+.. doxygenfunction:: _memory_span_set_active_full
+

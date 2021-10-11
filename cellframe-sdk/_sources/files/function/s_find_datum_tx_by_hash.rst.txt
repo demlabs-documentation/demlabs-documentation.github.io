@@ -1,0 +1,5 @@
+﻿s_find_datum_tx_by_hash
+=======================
+
+.. doxygenfunction:: s_find_datum_tx_by_hash
+

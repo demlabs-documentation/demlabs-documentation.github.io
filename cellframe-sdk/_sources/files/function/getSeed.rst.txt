@@ -1,0 +1,5 @@
+﻿getSeed
+=======
+
+.. doxygenfunction:: getSeed
+

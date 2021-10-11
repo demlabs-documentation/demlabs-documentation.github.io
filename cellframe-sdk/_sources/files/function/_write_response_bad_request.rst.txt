@@ -1,0 +1,5 @@
+﻿_write_response_bad_request
+===========================
+
+.. doxygenfunction:: _write_response_bad_request
+

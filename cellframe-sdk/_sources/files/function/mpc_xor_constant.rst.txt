@@ -1,0 +1,5 @@
+﻿mpc_xor_constant
+================
+
+.. doxygenfunction:: mpc_xor_constant
+

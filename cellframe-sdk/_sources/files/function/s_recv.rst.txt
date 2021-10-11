@@ -1,0 +1,5 @@
+﻿s_recv
+======
+
+.. doxygenfunction:: s_recv
+

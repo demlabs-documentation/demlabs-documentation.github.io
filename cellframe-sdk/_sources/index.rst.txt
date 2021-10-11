@@ -11,7 +11,7 @@ Welcome to DAP SDK Crypto submodule documentation page!
    :caption: Contents:
    :glob:
    
-   filelist.rst
+   api.rst
    
 .. rubric:: Modules
 

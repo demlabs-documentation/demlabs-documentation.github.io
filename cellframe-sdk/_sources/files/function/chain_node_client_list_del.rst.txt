@@ -1,0 +1,5 @@
+﻿chain_node_client_list_del
+==========================
+
+.. doxygenfunction:: chain_node_client_list_del
+

@@ -1,0 +1,5 @@
+﻿dap_client_get_uplink_port_unsafe
+=================================
+
+.. doxygenfunction:: dap_client_get_uplink_port_unsafe
+

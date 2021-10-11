@@ -1,0 +1,5 @@
+﻿get_ext_type
+============
+
+.. doxygenfunction:: get_ext_type
+

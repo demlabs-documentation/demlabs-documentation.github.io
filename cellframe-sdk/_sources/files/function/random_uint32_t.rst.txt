@@ -1,0 +1,5 @@
+﻿random_uint32_t
+===============
+
+.. doxygenfunction:: random_uint32_t
+

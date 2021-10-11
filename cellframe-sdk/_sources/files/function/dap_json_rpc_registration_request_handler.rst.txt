@@ -1,0 +1,5 @@
+﻿dap_json_rpc_registration_request_handler
+=========================================
+
+.. doxygenfunction:: dap_json_rpc_registration_request_handler
+

@@ -1,0 +1,5 @@
+﻿dap_chain_cs_type_create
+========================
+
+.. doxygenfunction:: dap_chain_cs_type_create
+

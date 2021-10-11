@@ -1,0 +1,5 @@
+﻿dap_http_folder_data_read
+=========================
+
+.. doxygenfunction:: dap_http_folder_data_read
+

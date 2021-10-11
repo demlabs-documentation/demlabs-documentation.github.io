@@ -1,0 +1,5 @@
+﻿dap_client_http_init
+====================
+
+.. doxygenfunction:: dap_client_http_init
+

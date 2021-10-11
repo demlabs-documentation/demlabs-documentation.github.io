@@ -1,0 +1,5 @@
+﻿tr_get_module
+=============
+
+.. doxygenfunction:: tr_get_module
+

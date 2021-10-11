@@ -1,0 +1,5 @@
+﻿wait_send_socket
+================
+
+.. doxygenfunction:: wait_send_socket
+

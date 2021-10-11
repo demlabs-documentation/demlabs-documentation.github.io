@@ -1,0 +1,5 @@
+﻿use_hint
+========
+
+.. doxygenfunction:: use_hint
+

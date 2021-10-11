@@ -1,0 +1,5 @@
+﻿rpmalloc_thread_statistics
+==========================
+
+.. doxygenfunction:: rpmalloc_thread_statistics
+

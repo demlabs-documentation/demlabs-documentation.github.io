@@ -1,0 +1,5 @@
+﻿dap_hex_to_uint
+===============
+
+.. doxygenfunction:: dap_hex_to_uint
+

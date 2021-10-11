@@ -1,0 +1,5 @@
+﻿PrintHexArray
+=============
+
+.. doxygenfunction:: PrintHexArray
+

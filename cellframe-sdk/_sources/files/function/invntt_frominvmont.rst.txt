@@ -1,0 +1,5 @@
+﻿invntt_frominvmont
+==================
+
+.. doxygenfunction:: invntt_frominvmont
+

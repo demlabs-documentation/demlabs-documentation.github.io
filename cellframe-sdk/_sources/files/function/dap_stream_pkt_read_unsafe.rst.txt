@@ -1,0 +1,5 @@
+﻿dap_stream_pkt_read_unsafe
+==========================
+
+.. doxygenfunction:: dap_stream_pkt_read_unsafe
+

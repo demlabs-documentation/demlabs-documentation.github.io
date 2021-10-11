@@ -1,0 +1,5 @@
+﻿stream_session_close2
+=====================
+
+.. doxygenfunction:: stream_session_close2
+

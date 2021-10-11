@@ -1,0 +1,5 @@
+﻿tesla_crypto_sign_open
+======================
+
+.. doxygenfunction:: tesla_crypto_sign_open
+

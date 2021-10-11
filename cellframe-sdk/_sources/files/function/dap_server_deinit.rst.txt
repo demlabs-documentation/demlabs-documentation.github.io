@@ -1,0 +1,5 @@
+﻿dap_server_deinit
+=================
+
+.. doxygenfunction:: dap_server_deinit
+

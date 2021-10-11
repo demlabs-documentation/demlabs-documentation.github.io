@@ -1,0 +1,5 @@
+﻿benchmark_mgs_time
+==================
+
+.. doxygenfunction:: benchmark_mgs_time
+

@@ -1,0 +1,5 @@
+﻿check_picnic_params_t
+=====================
+
+.. doxygenfunction:: check_picnic_params_t
+

@@ -1,0 +1,5 @@
+﻿cpapke_enc
+==========
+
+.. doxygenfunction:: cpapke_enc
+

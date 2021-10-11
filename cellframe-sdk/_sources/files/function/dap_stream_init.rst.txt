@@ -1,0 +1,5 @@
+﻿dap_stream_init
+===============
+
+.. doxygenfunction:: dap_stream_init
+

@@ -1,0 +1,5 @@
+﻿test_encypt_decrypt_fast
+========================
+
+.. doxygenfunction:: test_encypt_decrypt_fast
+

@@ -1,0 +1,5 @@
+﻿s_report_error_and_restart
+==========================
+
+.. doxygenfunction:: s_report_error_and_restart
+

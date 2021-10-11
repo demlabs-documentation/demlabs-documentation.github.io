@@ -1,0 +1,5 @@
+﻿swap32
+======
+
+.. doxygenfunction:: swap32
+

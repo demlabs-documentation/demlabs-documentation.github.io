@@ -1,0 +1,5 @@
+﻿benchmark_test_rate
+===================
+
+.. doxygenfunction:: benchmark_test_rate
+

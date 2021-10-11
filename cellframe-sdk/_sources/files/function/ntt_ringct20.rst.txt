@@ -1,0 +1,5 @@
+﻿ntt_ringct20
+============
+
+.. doxygenfunction:: ntt_ringct20
+

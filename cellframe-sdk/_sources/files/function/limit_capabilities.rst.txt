@@ -1,0 +1,5 @@
+﻿limit_capabilities
+==================
+
+.. doxygenfunction:: limit_capabilities
+

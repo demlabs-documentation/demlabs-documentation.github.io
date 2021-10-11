@@ -1,0 +1,5 @@
+﻿dap_common_init
+===============
+
+.. doxygenfunction:: dap_common_init
+

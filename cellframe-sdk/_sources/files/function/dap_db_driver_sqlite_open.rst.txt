@@ -1,0 +1,5 @@
+﻿dap_db_driver_sqlite_open
+=========================
+
+.. doxygenfunction:: dap_db_driver_sqlite_open
+

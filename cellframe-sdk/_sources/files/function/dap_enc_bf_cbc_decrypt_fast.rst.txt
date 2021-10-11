@@ -1,0 +1,5 @@
+﻿dap_enc_bf_cbc_decrypt_fast
+===========================
+
+.. doxygenfunction:: dap_enc_bf_cbc_decrypt_fast
+

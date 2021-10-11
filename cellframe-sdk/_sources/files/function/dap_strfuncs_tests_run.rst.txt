@@ -1,0 +1,5 @@
+﻿dap_strfuncs_tests_run
+======================
+
+.. doxygenfunction:: dap_strfuncs_tests_run
+

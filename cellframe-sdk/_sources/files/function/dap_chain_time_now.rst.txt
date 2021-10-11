@@ -1,0 +1,5 @@
+﻿dap_chain_time_now
+==================
+
+.. doxygenfunction:: dap_chain_time_now
+

@@ -1,0 +1,5 @@
+﻿add_ptr_to_buf
+==============
+
+.. doxygenfunction:: add_ptr_to_buf
+

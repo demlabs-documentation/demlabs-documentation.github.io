@@ -1,0 +1,5 @@
+﻿dap_db_driver_sqlite_read_last_store_obj
+========================================
+
+.. doxygenfunction:: dap_db_driver_sqlite_read_last_store_obj
+

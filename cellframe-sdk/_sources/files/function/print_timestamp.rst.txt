@@ -1,0 +1,5 @@
+﻿print_timestamp
+===============
+
+.. doxygenfunction:: print_timestamp
+

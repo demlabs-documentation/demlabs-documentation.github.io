@@ -1,0 +1,5 @@
+﻿s_balance_the_tree
+==================
+
+.. doxygenfunction:: s_balance_the_tree
+

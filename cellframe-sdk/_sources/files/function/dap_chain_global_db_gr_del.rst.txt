@@ -1,0 +1,5 @@
+﻿dap_chain_global_db_gr_del
+==========================
+
+.. doxygenfunction:: dap_chain_global_db_gr_del
+

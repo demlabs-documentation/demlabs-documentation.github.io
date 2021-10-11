@@ -1,0 +1,5 @@
+﻿freeGCommitments
+================
+
+.. doxygenfunction:: freeGCommitments
+

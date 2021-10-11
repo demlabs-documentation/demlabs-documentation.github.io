@@ -1,0 +1,5 @@
+﻿dap_chain_net_set_srv_callback_notify
+=====================================
+
+.. doxygenfunction:: dap_chain_net_set_srv_callback_notify
+

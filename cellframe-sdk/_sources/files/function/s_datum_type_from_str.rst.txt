@@ -1,0 +1,5 @@
+﻿s_datum_type_from_str
+=====================
+
+.. doxygenfunction:: s_datum_type_from_str
+

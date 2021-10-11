@@ -1,0 +1,5 @@
+﻿dap_strfreev
+============
+
+.. doxygenfunction:: dap_strfreev
+

@@ -1,0 +1,5 @@
+﻿s_stream_ch_delete_in_proc
+==========================
+
+.. doxygenfunction:: s_stream_ch_delete_in_proc
+

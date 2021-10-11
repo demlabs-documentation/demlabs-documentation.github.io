@@ -1,0 +1,5 @@
+﻿init_mass_poly
+==============
+
+.. doxygenfunction:: init_mass_poly
+

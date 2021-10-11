@@ -1,0 +1,5 @@
+﻿dap_db_log_list_get
+===================
+
+.. doxygenfunction:: dap_db_log_list_get
+

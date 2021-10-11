@@ -1,0 +1,5 @@
+﻿box_output
+==========
+
+.. doxygenfunction:: box_output
+

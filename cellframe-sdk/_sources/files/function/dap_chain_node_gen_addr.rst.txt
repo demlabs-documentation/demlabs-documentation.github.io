@@ -1,0 +1,5 @@
+﻿dap_chain_node_gen_addr
+=======================
+
+.. doxygenfunction:: dap_chain_node_gen_addr
+

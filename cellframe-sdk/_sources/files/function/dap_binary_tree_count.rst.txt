@@ -1,0 +1,5 @@
+﻿dap_binary_tree_count
+=====================
+
+.. doxygenfunction:: dap_binary_tree_count
+

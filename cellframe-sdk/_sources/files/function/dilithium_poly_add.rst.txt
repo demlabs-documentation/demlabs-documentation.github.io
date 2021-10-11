@@ -1,0 +1,5 @@
+﻿dilithium_poly_add
+==================
+
+.. doxygenfunction:: dilithium_poly_add
+

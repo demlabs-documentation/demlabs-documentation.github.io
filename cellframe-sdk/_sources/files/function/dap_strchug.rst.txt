@@ -1,0 +1,5 @@
+﻿dap_strchug
+===========
+
+.. doxygenfunction:: dap_strchug
+

@@ -1,0 +1,5 @@
+﻿LatticeCrypto_allocate
+======================
+
+.. doxygenfunction:: LatticeCrypto_allocate
+

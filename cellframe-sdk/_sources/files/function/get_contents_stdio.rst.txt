@@ -1,0 +1,5 @@
+﻿get_contents_stdio
+==================
+
+.. doxygenfunction:: get_contents_stdio
+

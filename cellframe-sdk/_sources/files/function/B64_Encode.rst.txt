@@ -1,0 +1,5 @@
+﻿b64_encode
+==========
+
+.. doxygenfunction:: b64_encode
+

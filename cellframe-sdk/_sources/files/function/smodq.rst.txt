@@ -1,0 +1,5 @@
+﻿smodq
+=====
+
+.. doxygenfunction:: smodq
+

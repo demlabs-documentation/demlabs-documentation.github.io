@@ -1,0 +1,5 @@
+﻿exe_bash_cmd
+============
+
+.. doxygenfunction:: exe_bash_cmd
+

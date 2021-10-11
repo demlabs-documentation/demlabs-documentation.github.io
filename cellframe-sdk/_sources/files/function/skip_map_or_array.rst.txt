@@ -1,0 +1,5 @@
+﻿skip_map_or_array
+=================
+
+.. doxygenfunction:: skip_map_or_array
+

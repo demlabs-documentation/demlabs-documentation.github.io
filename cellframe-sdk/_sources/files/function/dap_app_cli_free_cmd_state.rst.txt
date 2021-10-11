@@ -1,0 +1,5 @@
+﻿dap_app_cli_free_cmd_state
+==========================
+
+.. doxygenfunction:: dap_app_cli_free_cmd_state
+

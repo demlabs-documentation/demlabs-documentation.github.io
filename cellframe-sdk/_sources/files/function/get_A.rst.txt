@@ -1,0 +1,5 @@
+﻿get_A
+=====
+
+.. doxygenfunction:: get_A
+

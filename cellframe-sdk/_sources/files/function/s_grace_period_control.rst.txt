@@ -1,0 +1,5 @@
+﻿s_grace_period_control
+======================
+
+.. doxygenfunction:: s_grace_period_control
+

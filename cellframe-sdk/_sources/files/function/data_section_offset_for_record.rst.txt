@@ -1,0 +1,5 @@
+﻿data_section_offset_for_record
+==============================
+
+.. doxygenfunction:: data_section_offset_for_record
+

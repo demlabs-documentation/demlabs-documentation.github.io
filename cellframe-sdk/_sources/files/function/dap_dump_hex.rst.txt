@@ -1,0 +1,5 @@
+﻿dap_dump_hex
+============
+
+.. doxygenfunction:: dap_dump_hex
+

@@ -89,7 +89,7 @@
             
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="../../filelist.html">File list</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../api.html">API</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="../filelist.html">File list</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="28147__14_8c.html">File 28147_14.c</a></li>
 <li class="toctree-l3"><a class="reference internal" href="28147__14_8h.html">File 28147_14.h</a></li>
@@ -104,6 +104,7 @@
 <li class="toctree-l3"><a class="reference internal" href="_keccak_sponge_8inc.html">File KeccakSponge.inc</a></li>
 <li class="toctree-l3"><a class="reference internal" href="_keccak_sponge_width1600_8c.html">File KeccakSpongeWidth1600.c</a></li>
 <li class="toctree-l3"><a class="reference internal" href="_keccak_sponge_width1600_8h.html">File KeccakSpongeWidth1600.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_r_e_a_d_m_e_8md.html">File README.md</a></li>
 <li class="toctree-l3"><a class="reference internal" href="align_8h.html">File align.h</a></li>
 <li class="toctree-l3"><a class="reference internal" href="android_2pthread__barrier_8h.html">File pthread_barrier.h</a></li>
 <li class="toctree-l3"><a class="reference internal" href="as__lookups_8c.html">File as_lookups.c</a></li>
@@ -686,6 +687,7 @@
 <li class="toctree-l3"><a class="reference internal" href="win32_2dap__process__memory_8h.html">File dap_process_memory.h</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="../functions.html">Function list</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../structlist.html">Struct list</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../unionlist.html">Union list</a></li>
 </ul>
@@ -738,7 +740,7 @@
     
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
         
-          <li><a href="../../filelist.html">File list</a> &raquo;</li>
+          <li><a href="../../api.html">API</a> &raquo;</li>
         
           <li><a href="../filelist.html">File list</a> &raquo;</li>
         
@@ -795,13 +797,13 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>hashInstance</strong> – Pointer to the hash instance initialized by Keccak_HashInitialize(). </p></li>
+<li><p><strong>hashInstance</strong> – Pointer to the hash instance initialized by <a class="reference internal" href="../../index.html#_keccak_hash_8h_1a47c0cc7f3311f2dbd9a3dbbb2e4c7fde"><span class="std std-ref">Keccak_HashInitialize()</span></a>. </p></li>
 <li><p><strong>data</strong> – Pointer to the input data. When <em>databitLen</em> is not a multiple of 8, the last bits of data must be in the least significant bits of the last byte (little-endian convention). </p></li>
 <li><p><strong>databitLen</strong> – The number of input bits provided in the input data. </p></li>
 </ul>
 </dd>
 <dt class="field-even">Pre</dt>
-<dd class="field-even"><p>In the previous call to Keccak_HashUpdate(), databitlen was a multiple of 8. </p>
+<dd class="field-even"><p>In the previous call to <a class="reference internal" href="../../index.html#_keccak_hash_8h_1a22547485e2c555825ddcc49c1639523b"><span class="std std-ref">Keccak_HashUpdate()</span></a>, databitlen was a multiple of 8. </p>
 </dd>
 <dt class="field-odd">Returns</dt>
 <dd class="field-odd"><p>SUCCESS if successful, FAIL otherwise. </p>
@@ -812,11 +814,11 @@
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv416Keccak_HashFinalP19Keccak_HashInstanceP11BitSequence">
 <span id="_CPPv316Keccak_HashFinalP19Keccak_HashInstanceP11BitSequence"></span><span id="_CPPv216Keccak_HashFinalP19Keccak_HashInstanceP11BitSequence"></span><span id="Keccak_HashFinal__Keccak_HashInstanceP.BitSequenceP"></span><span class="target" id="_keccak_hash_8c_1a9da4c2fb6a13d24f55e09ed440ec44fb"></span><a class="reference internal" href="_keccak_hash_8h.html#_CPPv410HashReturn" title="HashReturn"><span class="n"><span class="pre">HashReturn</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Keccak_HashFinal</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="_keccak_hash_8h.html#_CPPv419Keccak_HashInstance" title="Keccak_HashInstance"><span class="n"><span class="pre">Keccak_HashInstance</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">instance</span></span>, <a class="reference internal" href="_keccak_hash_8h.html#_CPPv411BitSequence" title="BitSequence"><span class="n"><span class="pre">BitSequence</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">hashval</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv416Keccak_HashFinalP19Keccak_HashInstanceP11BitSequence" title="Permalink to this definition">¶</a><br /></dt>
-<dd><p>Function to call after all input blocks have been input and to get output bits if the length was specified when calling Keccak_HashInitialize(). </p>
+<dd><p>Function to call after all input blocks have been input and to get output bits if the length was specified when calling <a class="reference internal" href="../../index.html#_keccak_hash_8h_1a47c0cc7f3311f2dbd9a3dbbb2e4c7fde"><span class="std std-ref">Keccak_HashInitialize()</span></a>. </p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>hashInstance</strong> – Pointer to the hash instance initialized by Keccak_HashInitialize(). If <em>hashbitlen</em> was not 0 in the call to Keccak_HashInitialize(), the number of output bits is equal to <em>hashbitlen</em>. If <em>hashbitlen</em> was 0 in the call to Keccak_HashInitialize(), the output bits must be extracted using the Keccak_HashSqueeze() function. </p></li>
+<li><p><strong>hashInstance</strong> – Pointer to the hash instance initialized by <a class="reference internal" href="../../index.html#_keccak_hash_8h_1a47c0cc7f3311f2dbd9a3dbbb2e4c7fde"><span class="std std-ref">Keccak_HashInitialize()</span></a>. If <em>hashbitlen</em> was not 0 in the call to <a class="reference internal" href="../../index.html#_keccak_hash_8h_1a47c0cc7f3311f2dbd9a3dbbb2e4c7fde"><span class="std std-ref">Keccak_HashInitialize()</span></a>, the number of output bits is equal to <em>hashbitlen</em>. If <em>hashbitlen</em> was 0 in the call to <a class="reference internal" href="../../index.html#_keccak_hash_8h_1a47c0cc7f3311f2dbd9a3dbbb2e4c7fde"><span class="std std-ref">Keccak_HashInitialize()</span></a>, the output bits must be extracted using the <a class="reference internal" href="../../index.html#_keccak_hash_8h_1a7f682af6a9fc1b3bc8f020ef28d09d6a"><span class="std std-ref">Keccak_HashSqueeze()</span></a> function. </p></li>
 <li><p><strong>hashval</strong> – Pointer to the buffer where to store the output data. </p></li>
 </ul>
 </dd>
@@ -833,13 +835,13 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>hashInstance</strong> – Pointer to the hash instance initialized by Keccak_HashInitialize(). </p></li>
+<li><p><strong>hashInstance</strong> – Pointer to the hash instance initialized by <a class="reference internal" href="../../index.html#_keccak_hash_8h_1a47c0cc7f3311f2dbd9a3dbbb2e4c7fde"><span class="std std-ref">Keccak_HashInitialize()</span></a>. </p></li>
 <li><p><strong>data</strong> – Pointer to the buffer where to store the output data. </p></li>
 <li><p><strong>databitlen</strong> – The number of output bits desired (must be a multiple of 8). </p></li>
 </ul>
 </dd>
 <dt class="field-even">Pre</dt>
-<dd class="field-even"><p>Keccak_HashFinal() must have been already called. </p>
+<dd class="field-even"><p><a class="reference internal" href="../../index.html#_keccak_hash_8h_1afded4cd56905ff3fa6bd176e49fd120d"><span class="std std-ref">Keccak_HashFinal()</span></a> must have been already called. </p>
 </dd>
 <dt class="field-odd">Pre</dt>
 <dd class="field-odd"><p><em>databitlen</em> is a multiple of 8. </p>

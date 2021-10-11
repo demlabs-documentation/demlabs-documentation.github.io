@@ -1,0 +1,5 @@
+﻿record_info_for_database
+========================
+
+.. doxygenfunction:: record_info_for_database
+

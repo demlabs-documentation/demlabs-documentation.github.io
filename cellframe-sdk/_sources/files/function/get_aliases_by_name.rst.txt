@@ -1,0 +1,5 @@
+﻿get_aliases_by_name
+===================
+
+.. doxygenfunction:: get_aliases_by_name
+

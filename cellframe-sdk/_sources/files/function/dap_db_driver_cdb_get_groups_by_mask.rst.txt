@@ -1,0 +1,5 @@
+﻿dap_db_driver_cdb_get_groups_by_mask
+====================================
+
+.. doxygenfunction:: dap_db_driver_cdb_get_groups_by_mask
+

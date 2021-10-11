@@ -1,0 +1,5 @@
+﻿dap_chain_wallet_save
+=====================
+
+.. doxygenfunction:: dap_chain_wallet_save
+

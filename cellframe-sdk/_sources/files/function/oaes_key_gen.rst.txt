@@ -1,0 +1,5 @@
+﻿oaes_key_gen
+============
+
+.. doxygenfunction:: oaes_key_gen
+

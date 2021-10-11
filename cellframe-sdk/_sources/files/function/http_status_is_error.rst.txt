@@ -1,0 +1,5 @@
+﻿http_status_is_error
+====================
+
+.. doxygenfunction:: http_status_is_error
+

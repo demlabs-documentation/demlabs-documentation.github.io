@@ -1,0 +1,5 @@
+﻿dap_json_rpc_error_search_by_code
+=================================
+
+.. doxygenfunction:: dap_json_rpc_error_search_by_code
+

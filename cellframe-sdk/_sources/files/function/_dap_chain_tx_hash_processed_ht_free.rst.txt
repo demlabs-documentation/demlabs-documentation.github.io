@@ -1,0 +1,5 @@
+﻿_dap_chain_tx_hash_processed_ht_free
+====================================
+
+.. doxygenfunction:: _dap_chain_tx_hash_processed_ht_free
+

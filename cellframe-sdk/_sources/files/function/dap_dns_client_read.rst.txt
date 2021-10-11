@@ -1,0 +1,5 @@
+﻿dap_dns_client_read
+===================
+
+.. doxygenfunction:: dap_dns_client_read
+

@@ -1,0 +1,5 @@
+﻿dap_db_log_list_delete
+======================
+
+.. doxygenfunction:: dap_db_log_list_delete
+

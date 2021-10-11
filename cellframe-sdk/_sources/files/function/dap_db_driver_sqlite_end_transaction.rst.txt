@@ -1,0 +1,5 @@
+﻿dap_db_driver_sqlite_end_transaction
+====================================
+
+.. doxygenfunction:: dap_db_driver_sqlite_end_transaction
+

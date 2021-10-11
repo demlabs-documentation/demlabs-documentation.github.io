@@ -1,0 +1,5 @@
+﻿pmul
+====
+
+.. doxygenfunction:: pmul
+

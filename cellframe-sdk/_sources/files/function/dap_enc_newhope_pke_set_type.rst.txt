@@ -1,0 +1,5 @@
+﻿dap_enc_newhope_pke_set_type
+============================
+
+.. doxygenfunction:: dap_enc_newhope_pke_set_type
+

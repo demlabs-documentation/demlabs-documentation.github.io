@@ -1,0 +1,5 @@
+﻿dap_db_driver_sqlite_create_group_table
+=======================================
+
+.. doxygenfunction:: dap_db_driver_sqlite_create_group_table
+

@@ -1,0 +1,5 @@
+﻿dap_multi_sign_serialize
+========================
+
+.. doxygenfunction:: dap_multi_sign_serialize
+

@@ -1,0 +1,5 @@
+﻿chain_net_geoip_get_ip_info_by_local_db
+=======================================
+
+.. doxygenfunction:: chain_net_geoip_get_ip_info_by_local_db
+

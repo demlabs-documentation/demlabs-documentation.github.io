@@ -1,0 +1,5 @@
+﻿error_sampling_asm
+==================
+
+.. doxygenfunction:: error_sampling_asm
+

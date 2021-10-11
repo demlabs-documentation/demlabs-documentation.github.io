@@ -1,0 +1,5 @@
+﻿_memory_heap_extract_new_span
+=============================
+
+.. doxygenfunction:: _memory_heap_extract_new_span
+

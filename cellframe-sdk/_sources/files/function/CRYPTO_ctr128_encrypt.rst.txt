@@ -1,0 +1,5 @@
+﻿CRYPTO_ctr128_encrypt
+=====================
+
+.. doxygenfunction:: CRYPTO_ctr128_encrypt
+

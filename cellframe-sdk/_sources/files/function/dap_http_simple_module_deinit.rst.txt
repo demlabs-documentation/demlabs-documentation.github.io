@@ -1,0 +1,5 @@
+﻿dap_http_simple_module_deinit
+=============================
+
+.. doxygenfunction:: dap_http_simple_module_deinit
+

@@ -1,0 +1,5 @@
+﻿div_with_reminder
+=================
+
+.. doxygenfunction:: div_with_reminder
+

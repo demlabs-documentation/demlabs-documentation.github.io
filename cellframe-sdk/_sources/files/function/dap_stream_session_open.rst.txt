@@ -1,0 +1,5 @@
+﻿dap_stream_session_open
+=======================
+
+.. doxygenfunction:: dap_stream_session_open
+

@@ -1,0 +1,5 @@
+﻿dap_chain_block_datum_del_by_hash
+=================================
+
+.. doxygenfunction:: dap_chain_block_datum_del_by_hash
+

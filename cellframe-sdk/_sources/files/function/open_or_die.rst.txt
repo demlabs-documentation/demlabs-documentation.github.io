@@ -1,0 +1,5 @@
+﻿open_or_die
+===========
+
+.. doxygenfunction:: open_or_die
+

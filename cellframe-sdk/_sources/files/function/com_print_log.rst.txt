@@ -1,0 +1,5 @@
+﻿com_print_log
+=============
+
+.. doxygenfunction:: com_print_log
+

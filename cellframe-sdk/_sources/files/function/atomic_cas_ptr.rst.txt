@@ -1,0 +1,5 @@
+﻿atomic_cas_ptr
+==============
+
+.. doxygenfunction:: atomic_cas_ptr
+

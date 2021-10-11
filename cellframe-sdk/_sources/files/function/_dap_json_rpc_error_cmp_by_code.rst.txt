@@ -1,0 +1,5 @@
+﻿_dap_json_rpc_error_cmp_by_code
+===============================
+
+.. doxygenfunction:: _dap_json_rpc_error_cmp_by_code
+

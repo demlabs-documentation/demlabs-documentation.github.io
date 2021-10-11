@@ -1,0 +1,5 @@
+﻿shake128_absorb
+===============
+
+.. doxygenfunction:: shake128_absorb
+

@@ -1,0 +1,5 @@
+﻿dap_chain_btc_rpc_handler_getaddednodeinfo
+==========================================
+
+.. doxygenfunction:: dap_chain_btc_rpc_handler_getaddednodeinfo
+

@@ -1,0 +1,5 @@
+﻿dap_proc_thread_get_auto
+========================
+
+.. doxygenfunction:: dap_proc_thread_get_auto
+

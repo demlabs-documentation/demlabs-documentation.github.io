@@ -1,0 +1,5 @@
+﻿atomic_add32
+============
+
+.. doxygenfunction:: atomic_add32
+

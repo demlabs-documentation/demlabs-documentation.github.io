@@ -1,0 +1,5 @@
+﻿dap_enc_ks_find
+===============
+
+.. doxygenfunction:: dap_enc_ks_find
+

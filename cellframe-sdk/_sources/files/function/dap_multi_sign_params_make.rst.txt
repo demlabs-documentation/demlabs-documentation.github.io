@@ -1,0 +1,5 @@
+﻿dap_multi_sign_params_make
+==========================
+
+.. doxygenfunction:: dap_multi_sign_params_make
+

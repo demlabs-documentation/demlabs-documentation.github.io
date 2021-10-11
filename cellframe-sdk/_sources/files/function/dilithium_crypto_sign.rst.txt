@@ -1,0 +1,5 @@
+﻿dilithium_crypto_sign
+=====================
+
+.. doxygenfunction:: dilithium_crypto_sign
+

@@ -1,0 +1,5 @@
+﻿parse_shell_options
+===================
+
+.. doxygenfunction:: parse_shell_options
+

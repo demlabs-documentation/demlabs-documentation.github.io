@@ -1,0 +1,5 @@
+﻿benchmark_malloc
+================
+
+.. doxygenfunction:: benchmark_malloc
+

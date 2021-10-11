@@ -1,0 +1,5 @@
+﻿dap_config_get_item
+===================
+
+.. doxygenfunction:: dap_config_get_item
+

@@ -1,0 +1,5 @@
+﻿picnic_get_param_name
+=====================
+
+.. doxygenfunction:: picnic_get_param_name
+

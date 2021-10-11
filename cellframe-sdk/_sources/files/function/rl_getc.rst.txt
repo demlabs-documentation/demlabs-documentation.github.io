@@ -1,0 +1,5 @@
+﻿rl_getc
+=======
+
+.. doxygenfunction:: rl_getc
+

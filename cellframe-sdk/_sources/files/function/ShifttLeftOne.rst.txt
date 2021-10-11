@@ -1,0 +1,5 @@
+﻿ShifttLeftOne
+=============
+
+.. doxygenfunction:: ShifttLeftOne
+

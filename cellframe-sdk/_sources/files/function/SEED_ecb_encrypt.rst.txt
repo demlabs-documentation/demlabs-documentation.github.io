@@ -1,0 +1,5 @@
+﻿SEED_ecb_encrypt
+================
+
+.. doxygenfunction:: SEED_ecb_encrypt
+

@@ -1,0 +1,5 @@
+﻿rprealloc
+=========
+
+.. doxygenfunction:: rprealloc
+

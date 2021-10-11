@@ -1,0 +1,5 @@
+﻿dap_chain_node_cli_cmd_get_first
+================================
+
+.. doxygenfunction:: dap_chain_node_cli_cmd_get_first
+

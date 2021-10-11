@@ -1,0 +1,5 @@
+﻿dap_chain_cs_block_poa_init
+===========================
+
+.. doxygenfunction:: dap_chain_cs_block_poa_init
+

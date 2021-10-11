@@ -1,0 +1,5 @@
+﻿picnic_sign
+===========
+
+.. doxygenfunction:: picnic_sign
+

@@ -1,0 +1,5 @@
+﻿tesla_private_key_delete
+========================
+
+.. doxygenfunction:: tesla_private_key_delete
+

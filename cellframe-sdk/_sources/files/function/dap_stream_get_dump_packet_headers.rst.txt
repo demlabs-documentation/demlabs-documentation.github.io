@@ -1,0 +1,5 @@
+﻿dap_stream_get_dump_packet_headers
+==================================
+
+.. doxygenfunction:: dap_stream_get_dump_packet_headers
+

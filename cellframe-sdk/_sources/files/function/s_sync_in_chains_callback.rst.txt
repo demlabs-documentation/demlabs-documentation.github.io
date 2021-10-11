@@ -1,0 +1,5 @@
+﻿s_sync_in_chains_callback
+=========================
+
+.. doxygenfunction:: s_sync_in_chains_callback
+

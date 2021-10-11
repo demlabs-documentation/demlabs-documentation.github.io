@@ -1,0 +1,5 @@
+﻿HashUpdate
+==========
+
+.. doxygenfunction:: HashUpdate
+

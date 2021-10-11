@@ -1,0 +1,5 @@
+﻿dap_stream_ctl_add_proc
+=======================
+
+.. doxygenfunction:: dap_stream_ctl_add_proc
+

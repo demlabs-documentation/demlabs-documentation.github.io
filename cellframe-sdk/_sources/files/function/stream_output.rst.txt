@@ -1,0 +1,5 @@
+﻿stream_output
+=============
+
+.. doxygenfunction:: stream_output
+

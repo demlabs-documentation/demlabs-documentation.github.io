@@ -1,0 +1,5 @@
+﻿decode_B
+========
+
+.. doxygenfunction:: decode_B
+

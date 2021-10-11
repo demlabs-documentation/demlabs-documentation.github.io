@@ -1,0 +1,5 @@
+﻿dap_strup
+=========
+
+.. doxygenfunction:: dap_strup
+

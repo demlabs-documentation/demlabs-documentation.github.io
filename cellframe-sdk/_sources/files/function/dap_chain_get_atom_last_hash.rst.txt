@@ -1,0 +1,5 @@
+﻿dap_chain_get_atom_last_hash
+============================
+
+.. doxygenfunction:: dap_chain_get_atom_last_hash
+

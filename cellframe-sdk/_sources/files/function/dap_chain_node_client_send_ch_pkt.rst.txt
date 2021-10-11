@@ -1,0 +1,5 @@
+﻿dap_chain_node_client_send_ch_pkt
+=================================
+
+.. doxygenfunction:: dap_chain_node_client_send_ch_pkt
+

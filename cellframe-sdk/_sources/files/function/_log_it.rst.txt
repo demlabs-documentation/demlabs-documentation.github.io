@@ -1,0 +1,5 @@
+﻿_log_it
+=======
+
+.. doxygenfunction:: _log_it
+

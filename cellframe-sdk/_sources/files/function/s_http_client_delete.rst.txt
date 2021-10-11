@@ -1,0 +1,5 @@
+﻿s_http_client_delete
+====================
+
+.. doxygenfunction:: s_http_client_delete
+

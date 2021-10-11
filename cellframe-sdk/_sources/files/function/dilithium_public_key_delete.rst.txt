@@ -1,0 +1,5 @@
+﻿dilithium_public_key_delete
+===========================
+
+.. doxygenfunction:: dilithium_public_key_delete
+

@@ -1,0 +1,5 @@
+﻿_dap_list_remove_link
+=====================
+
+.. doxygenfunction:: _dap_list_remove_link
+

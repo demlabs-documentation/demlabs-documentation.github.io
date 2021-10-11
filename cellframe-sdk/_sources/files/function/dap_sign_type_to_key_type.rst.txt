@@ -1,0 +1,5 @@
+﻿dap_sign_type_to_key_type
+=========================
+
+.. doxygenfunction:: dap_sign_type_to_key_type
+

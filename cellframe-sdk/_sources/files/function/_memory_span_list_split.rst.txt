@@ -1,0 +1,5 @@
+﻿_memory_span_list_split
+=======================
+
+.. doxygenfunction:: _memory_span_list_split
+

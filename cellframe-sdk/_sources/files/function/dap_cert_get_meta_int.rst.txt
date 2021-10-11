@@ -1,0 +1,5 @@
+﻿dap_cert_get_meta_int
+=====================
+
+.. doxygenfunction:: dap_cert_get_meta_int
+

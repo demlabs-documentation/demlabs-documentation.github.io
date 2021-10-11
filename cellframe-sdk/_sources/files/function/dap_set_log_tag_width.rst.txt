@@ -1,0 +1,5 @@
+﻿dap_set_log_tag_width
+=====================
+
+.. doxygenfunction:: dap_set_log_tag_width
+

@@ -1,0 +1,5 @@
+﻿_memory_cache_extract
+=====================
+
+.. doxygenfunction:: _memory_cache_extract
+

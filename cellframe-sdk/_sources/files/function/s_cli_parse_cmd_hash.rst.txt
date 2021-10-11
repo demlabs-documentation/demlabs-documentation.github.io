@@ -1,0 +1,5 @@
+﻿s_cli_parse_cmd_hash
+====================
+
+.. doxygenfunction:: s_cli_parse_cmd_hash
+

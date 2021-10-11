@@ -1,0 +1,5 @@
+﻿dap_strncmp
+===========
+
+.. doxygenfunction:: dap_strncmp
+

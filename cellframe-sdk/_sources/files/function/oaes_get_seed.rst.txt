@@ -1,0 +1,5 @@
+﻿oaes_get_seed
+=============
+
+.. doxygenfunction:: oaes_get_seed
+

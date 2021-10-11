@@ -1,0 +1,5 @@
+﻿_enc_key_free
+=============
+
+.. doxygenfunction:: _enc_key_free
+

@@ -1,0 +1,5 @@
+﻿CircularBufferRead
+==================
+
+.. doxygenfunction:: CircularBufferRead
+

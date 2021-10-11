@@ -1,0 +1,5 @@
+﻿test_rejection
+==============
+
+.. doxygenfunction:: test_rejection
+

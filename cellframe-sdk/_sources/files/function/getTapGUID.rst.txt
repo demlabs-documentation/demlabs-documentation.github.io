@@ -1,0 +1,5 @@
+﻿getTapGUID
+==========
+
+.. doxygenfunction:: getTapGUID
+

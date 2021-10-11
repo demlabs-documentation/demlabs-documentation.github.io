@@ -1,0 +1,5 @@
+﻿dap_chain_gdb_get_group
+=======================
+
+.. doxygenfunction:: dap_chain_gdb_get_group
+

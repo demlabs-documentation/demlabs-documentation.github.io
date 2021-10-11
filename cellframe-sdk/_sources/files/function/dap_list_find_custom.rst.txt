@@ -1,0 +1,5 @@
+﻿dap_list_find_custom
+====================
+
+.. doxygenfunction:: dap_list_find_custom
+

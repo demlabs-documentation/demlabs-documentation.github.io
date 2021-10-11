@@ -1,0 +1,5 @@
+﻿rpmalloc_config
+===============
+
+.. doxygenfunction:: rpmalloc_config
+

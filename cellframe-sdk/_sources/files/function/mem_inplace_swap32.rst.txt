@@ -1,0 +1,5 @@
+﻿mem_inplace_swap32
+==================
+
+.. doxygenfunction:: mem_inplace_swap32
+

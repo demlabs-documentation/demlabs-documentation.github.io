@@ -1,0 +1,5 @@
+﻿dap_chain_ledger_token_decl_add_check
+=====================================
+
+.. doxygenfunction:: dap_chain_ledger_token_decl_add_check
+

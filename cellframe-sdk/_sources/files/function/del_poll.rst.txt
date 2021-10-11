@@ -1,0 +1,5 @@
+﻿del_poll
+========
+
+.. doxygenfunction:: del_poll
+

@@ -1,0 +1,5 @@
+﻿s_stream_ch_write_error_unsafe
+==============================
+
+.. doxygenfunction:: s_stream_ch_write_error_unsafe
+

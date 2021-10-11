@@ -1,0 +1,5 @@
+﻿mmdb_get_value_double2
+======================
+
+.. doxygenfunction:: mmdb_get_value_double2
+

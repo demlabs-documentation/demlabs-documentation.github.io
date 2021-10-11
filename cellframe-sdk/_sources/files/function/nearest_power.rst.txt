@@ -1,0 +1,5 @@
+﻿nearest_power
+=============
+
+.. doxygenfunction:: nearest_power
+

@@ -1,0 +1,5 @@
+﻿dap_cert_mem_load
+=================
+
+.. doxygenfunction:: dap_cert_mem_load
+

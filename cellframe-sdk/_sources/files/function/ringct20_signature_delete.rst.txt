@@ -1,0 +1,5 @@
+﻿ringct20_signature_delete
+=========================
+
+.. doxygenfunction:: ringct20_signature_delete
+

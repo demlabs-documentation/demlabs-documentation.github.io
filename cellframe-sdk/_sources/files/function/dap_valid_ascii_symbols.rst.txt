@@ -1,0 +1,5 @@
+﻿dap_valid_ascii_symbols
+=======================
+
+.. doxygenfunction:: dap_valid_ascii_symbols
+

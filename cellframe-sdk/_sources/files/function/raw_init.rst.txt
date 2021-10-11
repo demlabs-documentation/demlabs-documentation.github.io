@@ -1,0 +1,5 @@
+﻿raw_init
+========
+
+.. doxygenfunction:: raw_init
+

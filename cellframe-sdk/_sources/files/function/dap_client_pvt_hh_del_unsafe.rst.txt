@@ -1,0 +1,5 @@
+﻿dap_client_pvt_hh_del_unsafe
+============================
+
+.. doxygenfunction:: dap_client_pvt_hh_del_unsafe
+

@@ -1,0 +1,5 @@
+﻿s_callback_client_sign_request
+==============================
+
+.. doxygenfunction:: s_callback_client_sign_request
+

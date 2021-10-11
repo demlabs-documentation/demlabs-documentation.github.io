@@ -1,0 +1,5 @@
+﻿MMDB_vget_value
+===============
+
+.. doxygenfunction:: MMDB_vget_value
+

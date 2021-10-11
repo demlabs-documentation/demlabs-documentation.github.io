@@ -1,0 +1,5 @@
+﻿dap_chain_datum_token_simple_signs_parse
+========================================
+
+.. doxygenfunction:: dap_chain_datum_token_simple_signs_parse
+

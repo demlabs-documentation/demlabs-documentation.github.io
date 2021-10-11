@@ -1,0 +1,5 @@
+﻿xor_array
+=========
+
+.. doxygenfunction:: xor_array
+

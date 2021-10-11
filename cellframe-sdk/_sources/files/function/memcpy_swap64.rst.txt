@@ -1,0 +1,5 @@
+﻿memcpy_swap64
+=============
+
+.. doxygenfunction:: memcpy_swap64
+

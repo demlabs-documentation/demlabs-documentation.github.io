@@ -1,0 +1,5 @@
+﻿dap_client_http_set_connect_timeout_ms
+======================================
+
+.. doxygenfunction:: dap_client_http_set_connect_timeout_ms
+

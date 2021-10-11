@@ -1,0 +1,5 @@
+﻿dap_events_worker_get_auto
+==========================
+
+.. doxygenfunction:: dap_events_worker_get_auto
+

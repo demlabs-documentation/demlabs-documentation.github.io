@@ -1,0 +1,5 @@
+﻿_memory_allocate_oversized
+==========================
+
+.. doxygenfunction:: _memory_allocate_oversized
+

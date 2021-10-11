@@ -1,0 +1,5 @@
+﻿dap_binary_tree_search
+======================
+
+.. doxygenfunction:: dap_binary_tree_search
+

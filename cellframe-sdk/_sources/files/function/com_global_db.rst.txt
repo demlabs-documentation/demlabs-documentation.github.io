@@ -1,0 +1,5 @@
+﻿com_global_db
+=============
+
+.. doxygenfunction:: com_global_db
+

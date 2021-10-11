@@ -1,0 +1,5 @@
+﻿decrypt_ecb
+===========
+
+.. doxygenfunction:: decrypt_ecb
+

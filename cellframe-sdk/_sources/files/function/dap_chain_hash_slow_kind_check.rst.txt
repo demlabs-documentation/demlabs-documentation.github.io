@@ -1,0 +1,5 @@
+﻿dap_chain_hash_slow_kind_check
+==============================
+
+.. doxygenfunction:: dap_chain_hash_slow_kind_check
+

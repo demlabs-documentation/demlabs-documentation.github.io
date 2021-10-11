@@ -1,0 +1,5 @@
+﻿mmdb_strdup
+===========
+
+.. doxygenfunction:: mmdb_strdup
+

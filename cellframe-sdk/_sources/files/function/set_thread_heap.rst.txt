@@ -1,0 +1,5 @@
+﻿set_thread_heap
+===============
+
+.. doxygenfunction:: set_thread_heap
+

@@ -1,0 +1,5 @@
+﻿mp_subfast
+==========
+
+.. doxygenfunction:: mp_subfast
+

@@ -1,0 +1,5 @@
+﻿modify_capability
+=================
+
+.. doxygenfunction:: modify_capability
+

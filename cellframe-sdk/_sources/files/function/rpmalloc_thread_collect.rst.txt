@@ -1,0 +1,5 @@
+﻿rpmalloc_thread_collect
+=======================
+
+.. doxygenfunction:: rpmalloc_thread_collect
+

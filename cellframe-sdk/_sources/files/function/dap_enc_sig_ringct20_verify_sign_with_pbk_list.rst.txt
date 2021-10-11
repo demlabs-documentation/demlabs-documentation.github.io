@@ -1,0 +1,5 @@
+﻿dap_enc_sig_ringct20_verify_sign_with_pbk_list
+==============================================
+
+.. doxygenfunction:: dap_enc_sig_ringct20_verify_sign_with_pbk_list
+

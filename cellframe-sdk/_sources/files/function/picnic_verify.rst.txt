@@ -1,0 +1,5 @@
+﻿picnic_verify
+=============
+
+.. doxygenfunction:: picnic_verify
+

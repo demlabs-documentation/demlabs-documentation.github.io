@@ -1,0 +1,5 @@
+﻿ntt32_cmu
+=========
+
+.. doxygenfunction:: ntt32_cmu
+

@@ -1,0 +1,5 @@
+﻿dap_strdup_printf
+=================
+
+.. doxygenfunction:: dap_strdup_printf
+

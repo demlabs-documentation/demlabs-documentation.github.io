@@ -1,0 +1,5 @@
+﻿_memory_allocate_heap
+=====================
+
+.. doxygenfunction:: _memory_allocate_heap
+

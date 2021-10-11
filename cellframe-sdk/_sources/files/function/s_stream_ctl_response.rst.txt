@@ -1,0 +1,5 @@
+﻿s_stream_ctl_response
+=====================
+
+.. doxygenfunction:: s_stream_ctl_response
+

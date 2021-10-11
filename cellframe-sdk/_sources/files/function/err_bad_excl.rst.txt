@@ -1,0 +1,5 @@
+﻿err_bad_excl
+============
+
+.. doxygenfunction:: err_bad_excl
+

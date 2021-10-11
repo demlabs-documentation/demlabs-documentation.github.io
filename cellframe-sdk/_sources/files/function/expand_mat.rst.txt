@@ -1,0 +1,5 @@
+﻿expand_mat
+==========
+
+.. doxygenfunction:: expand_mat
+

@@ -1,0 +1,5 @@
+﻿dap_enc_tesla_calc_signature_size
+=================================
+
+.. doxygenfunction:: dap_enc_tesla_calc_signature_size
+

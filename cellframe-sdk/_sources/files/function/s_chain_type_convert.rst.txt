@@ -1,0 +1,5 @@
+﻿s_chain_type_convert
+====================
+
+.. doxygenfunction:: s_chain_type_convert
+

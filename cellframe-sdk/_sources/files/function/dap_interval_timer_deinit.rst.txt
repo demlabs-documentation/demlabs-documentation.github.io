@@ -1,0 +1,5 @@
+﻿dap_interval_timer_deinit
+=========================
+
+.. doxygenfunction:: dap_interval_timer_deinit
+

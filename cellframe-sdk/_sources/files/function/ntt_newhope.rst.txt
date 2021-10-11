@@ -1,0 +1,5 @@
+﻿ntt_newhope
+===========
+
+.. doxygenfunction:: ntt_newhope
+

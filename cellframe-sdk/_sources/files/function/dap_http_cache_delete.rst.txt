@@ -1,0 +1,5 @@
+﻿dap_http_cache_delete
+=====================
+
+.. doxygenfunction:: dap_http_cache_delete
+

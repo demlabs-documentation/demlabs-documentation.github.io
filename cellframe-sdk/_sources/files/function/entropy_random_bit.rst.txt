@@ -1,0 +1,5 @@
+﻿entropy_random_bit
+==================
+
+.. doxygenfunction:: entropy_random_bit
+

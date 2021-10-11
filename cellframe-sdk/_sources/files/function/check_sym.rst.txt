@@ -1,0 +1,5 @@
+﻿check_sym
+=========
+
+.. doxygenfunction:: check_sym
+

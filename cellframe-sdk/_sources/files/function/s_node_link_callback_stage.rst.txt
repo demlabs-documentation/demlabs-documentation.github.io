@@ -1,0 +1,5 @@
+﻿s_node_link_callback_stage
+==========================
+
+.. doxygenfunction:: s_node_link_callback_stage
+

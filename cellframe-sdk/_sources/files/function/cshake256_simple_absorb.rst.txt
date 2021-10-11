@@ -1,0 +1,5 @@
+﻿cshake256_simple_absorb
+=======================
+
+.. doxygenfunction:: cshake256_simple_absorb
+

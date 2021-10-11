@@ -1,0 +1,5 @@
+﻿get_as_path
+===========
+
+.. doxygenfunction:: get_as_path
+

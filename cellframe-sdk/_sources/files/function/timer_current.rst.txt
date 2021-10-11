@@ -1,0 +1,5 @@
+﻿timer_current
+=============
+
+.. doxygenfunction:: timer_current
+

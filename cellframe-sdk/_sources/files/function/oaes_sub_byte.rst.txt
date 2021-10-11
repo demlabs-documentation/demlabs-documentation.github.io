@@ -1,0 +1,5 @@
+﻿oaes_sub_byte
+=============
+
+.. doxygenfunction:: oaes_sub_byte
+

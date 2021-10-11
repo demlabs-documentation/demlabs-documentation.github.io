@@ -1,0 +1,5 @@
+﻿rcvd_clear
+==========
+
+.. doxygenfunction:: rcvd_clear
+

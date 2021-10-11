@@ -1,0 +1,5 @@
+﻿dap_chain_net_id_from_str
+=========================
+
+.. doxygenfunction:: dap_chain_net_id_from_str
+

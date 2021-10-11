@@ -1,0 +1,5 @@
+﻿make_fake_metadata_db
+=====================
+
+.. doxygenfunction:: make_fake_metadata_db
+

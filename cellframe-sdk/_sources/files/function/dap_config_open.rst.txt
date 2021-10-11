@@ -1,0 +1,5 @@
+﻿dap_config_open
+===============
+
+.. doxygenfunction:: dap_config_open
+

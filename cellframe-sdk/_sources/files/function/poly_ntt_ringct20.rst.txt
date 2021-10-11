@@ -1,0 +1,5 @@
+﻿poly_ntt_ringct20
+=================
+
+.. doxygenfunction:: poly_ntt_ringct20
+

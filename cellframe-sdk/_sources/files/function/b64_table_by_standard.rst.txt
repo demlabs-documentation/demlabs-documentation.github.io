@@ -1,0 +1,5 @@
+﻿b64_table_by_standard
+=====================
+
+.. doxygenfunction:: b64_table_by_standard
+

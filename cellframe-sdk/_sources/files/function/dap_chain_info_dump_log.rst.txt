@@ -1,0 +1,5 @@
+﻿dap_chain_info_dump_log
+=======================
+
+.. doxygenfunction:: dap_chain_info_dump_log
+

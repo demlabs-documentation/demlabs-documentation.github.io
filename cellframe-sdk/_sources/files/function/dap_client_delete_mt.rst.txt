@@ -1,0 +1,5 @@
+﻿dap_client_delete_mt
+====================
+
+.. doxygenfunction:: dap_client_delete_mt
+

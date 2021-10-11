@@ -1,0 +1,5 @@
+﻿MMDB_free_entry_data_list
+=========================
+
+.. doxygenfunction:: MMDB_free_entry_data_list
+

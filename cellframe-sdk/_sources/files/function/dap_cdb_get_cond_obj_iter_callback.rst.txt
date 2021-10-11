@@ -1,0 +1,5 @@
+﻿dap_cdb_get_cond_obj_iter_callback
+==================================
+
+.. doxygenfunction:: dap_cdb_get_cond_obj_iter_callback
+

@@ -1,0 +1,5 @@
+﻿dap_chain_hash_fast_from_str
+============================
+
+.. doxygenfunction:: dap_chain_hash_fast_from_str
+

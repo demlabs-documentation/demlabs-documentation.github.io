@@ -1,0 +1,5 @@
+﻿test_cpu_get_stats
+==================
+
+.. doxygenfunction:: test_cpu_get_stats
+

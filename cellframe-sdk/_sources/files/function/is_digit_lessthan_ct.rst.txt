@@ -1,0 +1,5 @@
+﻿is_digit_lessthan_ct
+====================
+
+.. doxygenfunction:: is_digit_lessthan_ct
+

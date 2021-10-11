@@ -1,0 +1,5 @@
+﻿dap_chain_datoshi_to_coins
+==========================
+
+.. doxygenfunction:: dap_chain_datoshi_to_coins
+

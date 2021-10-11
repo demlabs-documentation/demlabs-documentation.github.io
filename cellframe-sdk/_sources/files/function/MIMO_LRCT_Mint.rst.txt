@@ -1,0 +1,5 @@
+﻿MIMO_LRCT_Mint
+==============
+
+.. doxygenfunction:: MIMO_LRCT_Mint
+

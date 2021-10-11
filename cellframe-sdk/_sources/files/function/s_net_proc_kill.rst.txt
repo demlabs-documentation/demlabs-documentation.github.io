@@ -1,0 +1,5 @@
+﻿s_net_proc_kill
+===============
+
+.. doxygenfunction:: s_net_proc_kill
+

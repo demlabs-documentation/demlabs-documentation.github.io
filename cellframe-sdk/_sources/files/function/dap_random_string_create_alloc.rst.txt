@@ -1,0 +1,5 @@
+﻿dap_random_string_create_alloc
+==============================
+
+.. doxygenfunction:: dap_random_string_create_alloc
+

@@ -1,0 +1,5 @@
+﻿encode_A
+========
+
+.. doxygenfunction:: encode_A
+

@@ -89,7 +89,7 @@
             
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="../../filelist.html">File list</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../api.html">API</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="../filelist.html">File list</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="28147__14_8c.html">File 28147_14.c</a></li>
 <li class="toctree-l3"><a class="reference internal" href="28147__14_8h.html">File 28147_14.h</a></li>
@@ -104,6 +104,7 @@
 <li class="toctree-l3"><a class="reference internal" href="_keccak_sponge_8inc.html">File KeccakSponge.inc</a></li>
 <li class="toctree-l3"><a class="reference internal" href="_keccak_sponge_width1600_8c.html">File KeccakSpongeWidth1600.c</a></li>
 <li class="toctree-l3"><a class="reference internal" href="_keccak_sponge_width1600_8h.html">File KeccakSpongeWidth1600.h</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_r_e_a_d_m_e_8md.html">File README.md</a></li>
 <li class="toctree-l3"><a class="reference internal" href="align_8h.html">File align.h</a></li>
 <li class="toctree-l3"><a class="reference internal" href="android_2pthread__barrier_8h.html">File pthread_barrier.h</a></li>
 <li class="toctree-l3"><a class="reference internal" href="as__lookups_8c.html">File as_lookups.c</a></li>
@@ -686,6 +687,7 @@
 <li class="toctree-l3"><a class="reference internal" href="win32_2dap__process__memory_8h.html">File dap_process_memory.h</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="../functions.html">Function list</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../structlist.html">Struct list</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../unionlist.html">Union list</a></li>
 </ul>
@@ -738,7 +740,7 @@
     
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
         
-          <li><a href="../../filelist.html">File list</a> &raquo;</li>
+          <li><a href="../../api.html">API</a> &raquo;</li>
         
           <li><a href="../filelist.html">File list</a> &raquo;</li>
         
@@ -865,7 +867,7 @@
 <dt class="sig sig-object cpp" id="_CPPv418dap_strdup_vprintfPKc7va_list">
 <span id="_CPPv318dap_strdup_vprintfPKc7va_list"></span><span id="_CPPv218dap_strdup_vprintfPKc7va_list"></span><span id="dap_strdup_vprintf__cCP.va_list"></span><span class="target" id="dap__strfuncs_8c_1a386e6fdcd4896264ec05340cf01871ae"></span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">dap_strdup_vprintf</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_format</span></span>, <span class="n"><span class="pre">va_list</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">a_args</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv418dap_strdup_vprintfPKc7va_list" title="Permalink to this definition">¶</a><br /></dt>
 <dd><p>dap_strdup_vprintf </p>
-<p>Similar to the standard C vsprintf() function but safer, since it calculates the maximum space required and allocates memory to hold the result. The returned string should be freed with DAP_DELETE() when no longer needed.</p>
+<p>Similar to the standard C vsprintf() function but safer, since it calculates the maximum space required and allocates memory to hold the result. The returned string should be freed with <a class="reference internal" href="../../index.html#dap__common_8h_1abc94d3603906f97d0ce7368f44eebf8b"><span class="std std-ref">DAP_DELETE()</span></a> when no longer needed.</p>
 <p>Returns: a newly-allocated string holding the result</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -885,7 +887,7 @@
 <span id="_CPPv317dap_strdup_printfPKcz"></span><span id="_CPPv217dap_strdup_printfPKcz"></span><span id="dap_strdup_printf__cCP.z"></span><span class="target" id="dap__strfuncs_8c_1aa3091b9ae28b22ba0abaf80061bb50b6"></span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">dap_strdup_printf</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">a_format</span></span>, <span class="p"><span class="pre">...</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv417dap_strdup_printfPKcz" title="Permalink to this definition">¶</a><br /></dt>
 <dd><p>dap_strdup_printf: </p>
 <p><ul class="simple">
-<li><p>Similar to the standard C sprintf() function but safer, since it calculates the maximum space required and allocates memory to hold the result. The returned string should be freed with DAP_DELETE() when no longer needed.</p></li>
+<li><p>Similar to the standard C sprintf() function but safer, since it calculates the maximum space required and allocates memory to hold the result. The returned string should be freed with <a class="reference internal" href="../../index.html#dap__common_8h_1abc94d3603906f97d0ce7368f44eebf8b"><span class="std std-ref">DAP_DELETE()</span></a> when no longer needed.</p></li>
 </ul>
 </p>
 <dl class="field-list simple">
@@ -950,8 +952,8 @@
 <dd><p>dap_strsplit: &#64;a_string: a string to split &#64;a_delimiter: a string which specifies the places at which to split the string. The delimiter is not included in any of the resulting strings, unless &#64;a_max_tokens is reached. &#64;a_max_tokens: the maximum number of pieces to split &#64;a_string into. If this is less than 1, the string is split completely.</p>
 <p>Splits a string into a maximum of &#64;a_max_tokens pieces, using the given &#64;a_delimiter. If &#64;a_max_tokens is reached, the remainder of &#64;a_string is appended to the last token.</p>
 <p>As an example, the result of dap_strsplit (“:a:bc::d:”, “:”, -1) is a NULL-terminated vector containing the six strings “”, “a”, “bc”, “”, “d” and “”.</p>
-<p>As a special case, the result of splitting the empty string “” is an empty vector, not a vector containing a single string. The reason for this special case is that being able to represent a empty vector is typically more useful than consistent handling of empty elements. If you do need to represent empty elements, you’ll need to check for the empty string before calling dap_strsplit().</p>
-<p>Returns: a newly-allocated NULL-terminated array of strings. Use dap_strfreev() to free it. </p>
+<p>As a special case, the result of splitting the empty string “” is an empty vector, not a vector containing a single string. The reason for this special case is that being able to represent a empty vector is typically more useful than consistent handling of empty elements. If you do need to represent empty elements, you’ll need to check for the empty string before calling <a class="reference internal" href="../../index.html#dap__strfuncs_8c_1ac37733a95c7a871d6362380427aff087"><span class="std std-ref">dap_strsplit()</span></a>.</p>
+<p>Returns: a newly-allocated NULL-terminated array of strings. Use <a class="reference internal" href="../../index.html#dap__strfuncs_8c_1aab1fd82170863652b274e87fc536f973"><span class="std std-ref">dap_strfreev()</span></a> to free it. </p>
 </dd></dl>
 
 <dl class="cpp function">

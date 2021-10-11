@@ -1,0 +1,5 @@
+﻿err_report
+==========
+
+.. doxygenfunction:: err_report
+

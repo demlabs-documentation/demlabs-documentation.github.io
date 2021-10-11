@@ -1,0 +1,5 @@
+﻿dap_chain_wallet_create_with_seed
+=================================
+
+.. doxygenfunction:: dap_chain_wallet_create_with_seed
+

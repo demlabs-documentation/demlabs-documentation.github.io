@@ -1,0 +1,5 @@
+﻿cleanup_polls
+=============
+
+.. doxygenfunction:: cleanup_polls
+

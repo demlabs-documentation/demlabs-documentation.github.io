@@ -1,0 +1,5 @@
+﻿entropy_init
+============
+
+.. doxygenfunction:: entropy_init
+

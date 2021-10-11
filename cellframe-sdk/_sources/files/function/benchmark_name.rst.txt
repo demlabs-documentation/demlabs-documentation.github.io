@@ -1,0 +1,5 @@
+﻿benchmark_name
+==============
+
+.. doxygenfunction:: benchmark_name
+

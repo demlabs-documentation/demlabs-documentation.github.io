@@ -1,0 +1,5 @@
+﻿MMDB_strerror
+=============
+
+.. doxygenfunction:: MMDB_strerror
+

@@ -1,0 +1,5 @@
+﻿rotl32
+======
+
+.. doxygenfunction:: rotl32
+

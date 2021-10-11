@@ -1,0 +1,5 @@
+﻿funcR
+=====
+
+.. doxygenfunction:: funcR
+

@@ -1,0 +1,5 @@
+﻿shake256_squeezeblocks
+======================
+
+.. doxygenfunction:: shake256_squeezeblocks
+

@@ -1,0 +1,5 @@
+﻿get_cur_time_msec
+=================
+
+.. doxygenfunction:: get_cur_time_msec
+

@@ -1,0 +1,5 @@
+﻿thread_main_func
+================
+
+.. doxygenfunction:: thread_main_func
+

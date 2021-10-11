@@ -1,0 +1,5 @@
+﻿dap_db_driver_sqlite_make_group_name
+====================================
+
+.. doxygenfunction:: dap_db_driver_sqlite_make_group_name
+

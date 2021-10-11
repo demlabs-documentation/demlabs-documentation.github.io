@@ -1,0 +1,5 @@
+﻿set_wait_specs
+==============
+
+.. doxygenfunction:: set_wait_specs
+

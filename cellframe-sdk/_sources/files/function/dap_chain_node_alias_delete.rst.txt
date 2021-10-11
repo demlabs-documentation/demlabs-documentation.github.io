@@ -1,0 +1,5 @@
+﻿dap_chain_node_alias_delete
+===========================
+
+.. doxygenfunction:: dap_chain_node_alias_delete
+

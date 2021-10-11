@@ -1,0 +1,5 @@
+﻿extended_output
+===============
+
+.. doxygenfunction:: extended_output
+

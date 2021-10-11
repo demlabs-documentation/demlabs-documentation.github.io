@@ -1,0 +1,5 @@
+﻿picnic_signature_size
+=====================
+
+.. doxygenfunction:: picnic_signature_size
+

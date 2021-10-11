@@ -1,0 +1,5 @@
+﻿free_descriptions_metadata
+==========================
+
+.. doxygenfunction:: free_descriptions_metadata
+

@@ -1,0 +1,5 @@
+﻿cshake128_simple_squeezeblocks
+==============================
+
+.. doxygenfunction:: cshake128_simple_squeezeblocks
+

@@ -1,0 +1,5 @@
+﻿store32_be
+==========
+
+.. doxygenfunction:: store32_be
+

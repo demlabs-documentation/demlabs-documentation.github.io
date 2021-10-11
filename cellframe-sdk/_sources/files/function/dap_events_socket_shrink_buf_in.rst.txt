@@ -1,0 +1,5 @@
+﻿dap_events_socket_shrink_buf_in
+===============================
+
+.. doxygenfunction:: dap_events_socket_shrink_buf_in
+

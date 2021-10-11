@@ -1,0 +1,5 @@
+﻿dap_stream_new_es_client
+========================
+
+.. doxygenfunction:: dap_stream_new_es_client
+

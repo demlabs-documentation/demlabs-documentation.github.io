@@ -1,0 +1,5 @@
+﻿test_get_bool
+=============
+
+.. doxygenfunction:: test_get_bool
+

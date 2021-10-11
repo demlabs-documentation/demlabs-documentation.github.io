@@ -1,0 +1,5 @@
+﻿ringct20_crypto_sign_open
+=========================
+
+.. doxygenfunction:: ringct20_crypto_sign_open
+

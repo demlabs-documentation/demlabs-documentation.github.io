@@ -1,0 +1,5 @@
+﻿vector_max_norm
+===============
+
+.. doxygenfunction:: vector_max_norm
+

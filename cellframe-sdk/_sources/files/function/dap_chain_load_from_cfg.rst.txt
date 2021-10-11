@@ -1,0 +1,5 @@
+﻿dap_chain_load_from_cfg
+=======================
+
+.. doxygenfunction:: dap_chain_load_from_cfg
+

@@ -1,0 +1,5 @@
+﻿serializeSignature
+==================
+
+.. doxygenfunction:: serializeSignature
+

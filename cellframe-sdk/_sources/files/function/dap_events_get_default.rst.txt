@@ -1,0 +1,5 @@
+﻿dap_events_get_default
+======================
+
+.. doxygenfunction:: dap_events_get_default
+

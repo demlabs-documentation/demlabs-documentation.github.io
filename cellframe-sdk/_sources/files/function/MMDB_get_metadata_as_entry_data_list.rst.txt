@@ -1,0 +1,5 @@
+﻿MMDB_get_metadata_as_entry_data_list
+====================================
+
+.. doxygenfunction:: MMDB_get_metadata_as_entry_data_list
+

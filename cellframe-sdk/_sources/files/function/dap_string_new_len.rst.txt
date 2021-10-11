@@ -1,0 +1,5 @@
+﻿dap_string_new_len
+==================
+
+.. doxygenfunction:: dap_string_new_len
+

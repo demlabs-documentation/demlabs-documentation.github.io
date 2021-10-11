@@ -1,0 +1,5 @@
+﻿dap_events_deinit
+=================
+
+.. doxygenfunction:: dap_events_deinit
+

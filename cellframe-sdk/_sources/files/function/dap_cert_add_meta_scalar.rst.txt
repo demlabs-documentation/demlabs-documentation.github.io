@@ -1,0 +1,5 @@
+﻿dap_cert_add_meta_scalar
+========================
+
+.. doxygenfunction:: dap_cert_add_meta_scalar
+

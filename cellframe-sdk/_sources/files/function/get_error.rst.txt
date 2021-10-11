@@ -1,0 +1,5 @@
+﻿get_error
+=========
+
+.. doxygenfunction:: get_error
+

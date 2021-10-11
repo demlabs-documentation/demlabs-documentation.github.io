@@ -1,0 +1,5 @@
+﻿s_gen_session_id
+================
+
+.. doxygenfunction:: s_gen_session_id
+

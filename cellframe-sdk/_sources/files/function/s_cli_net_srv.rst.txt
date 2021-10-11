@@ -1,0 +1,5 @@
+﻿s_cli_net_srv
+=============
+
+.. doxygenfunction:: s_cli_net_srv
+

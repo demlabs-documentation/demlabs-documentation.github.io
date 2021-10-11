@@ -1,0 +1,5 @@
+﻿parse_local_res
+===============
+
+.. doxygenfunction:: parse_local_res
+

@@ -1,0 +1,5 @@
+﻿B64_GetSize
+===========
+
+.. doxygenfunction:: B64_GetSize
+

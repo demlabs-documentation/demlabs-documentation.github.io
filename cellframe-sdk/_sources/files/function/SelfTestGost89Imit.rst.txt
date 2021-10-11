@@ -1,0 +1,5 @@
+﻿SelfTestGost89Imit
+==================
+
+.. doxygenfunction:: SelfTestGost89Imit
+

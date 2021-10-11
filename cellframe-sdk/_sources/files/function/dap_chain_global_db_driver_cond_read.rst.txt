@@ -1,0 +1,5 @@
+﻿dap_chain_global_db_driver_cond_read
+====================================
+
+.. doxygenfunction:: dap_chain_global_db_driver_cond_read
+

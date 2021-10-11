@@ -1,0 +1,5 @@
+﻿decode_one_follow
+=================
+
+.. doxygenfunction:: decode_one_follow
+

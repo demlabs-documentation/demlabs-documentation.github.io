@@ -1,0 +1,5 @@
+﻿sample_y
+========
+
+.. doxygenfunction:: sample_y
+

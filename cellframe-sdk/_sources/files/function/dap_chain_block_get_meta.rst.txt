@@ -1,0 +1,5 @@
+﻿dap_chain_block_get_meta
+========================
+
+.. doxygenfunction:: dap_chain_block_get_meta
+

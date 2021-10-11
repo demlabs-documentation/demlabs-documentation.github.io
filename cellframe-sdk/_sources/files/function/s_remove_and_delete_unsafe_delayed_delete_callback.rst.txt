@@ -1,0 +1,5 @@
+﻿s_remove_and_delete_unsafe_delayed_delete_callback
+==================================================
+
+.. doxygenfunction:: s_remove_and_delete_unsafe_delayed_delete_callback
+

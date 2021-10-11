@@ -1,0 +1,5 @@
+﻿dap_enc_salsa2012_calc_encode_size
+==================================
+
+.. doxygenfunction:: dap_enc_salsa2012_calc_encode_size
+

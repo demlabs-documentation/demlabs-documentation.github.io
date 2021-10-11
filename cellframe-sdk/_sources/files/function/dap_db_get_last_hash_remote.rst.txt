@@ -1,0 +1,5 @@
+﻿dap_db_get_last_hash_remote
+===========================
+
+.. doxygenfunction:: dap_db_get_last_hash_remote
+

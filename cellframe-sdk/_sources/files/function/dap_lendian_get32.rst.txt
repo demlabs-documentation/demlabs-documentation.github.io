@@ -1,0 +1,5 @@
+﻿dap_lendian_get32
+=================
+
+.. doxygenfunction:: dap_lendian_get32
+

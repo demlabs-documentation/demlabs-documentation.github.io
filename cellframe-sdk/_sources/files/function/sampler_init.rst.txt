@@ -1,0 +1,5 @@
+﻿sampler_init
+============
+
+.. doxygenfunction:: sampler_init
+

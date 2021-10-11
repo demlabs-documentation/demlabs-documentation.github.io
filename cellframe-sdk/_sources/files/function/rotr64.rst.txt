@@ -1,0 +1,5 @@
+﻿rotr64
+======
+
+.. doxygenfunction:: rotr64
+

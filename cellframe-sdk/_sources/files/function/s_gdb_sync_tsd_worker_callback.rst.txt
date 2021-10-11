@@ -1,0 +1,5 @@
+﻿s_gdb_sync_tsd_worker_callback
+==============================
+
+.. doxygenfunction:: s_gdb_sync_tsd_worker_callback
+

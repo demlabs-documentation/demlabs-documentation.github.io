@@ -1,0 +1,5 @@
+﻿dap_stream_add_proc_http
+========================
+
+.. doxygenfunction:: dap_stream_add_proc_http
+

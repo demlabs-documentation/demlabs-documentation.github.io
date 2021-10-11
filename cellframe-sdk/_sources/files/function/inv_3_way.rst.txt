@@ -1,0 +1,5 @@
+﻿inv_3_way
+=========
+
+.. doxygenfunction:: inv_3_way
+

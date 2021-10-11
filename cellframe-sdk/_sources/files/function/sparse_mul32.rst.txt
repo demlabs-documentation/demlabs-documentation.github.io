@@ -1,0 +1,5 @@
+﻿sparse_mul32
+============
+
+.. doxygenfunction:: sparse_mul32
+

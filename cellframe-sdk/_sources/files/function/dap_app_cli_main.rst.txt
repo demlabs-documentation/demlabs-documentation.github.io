@@ -1,0 +1,5 @@
+﻿dap_app_cli_main
+================
+
+.. doxygenfunction:: dap_app_cli_main
+

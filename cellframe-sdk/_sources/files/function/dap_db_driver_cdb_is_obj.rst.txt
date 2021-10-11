@@ -1,0 +1,5 @@
+﻿dap_db_driver_cdb_is_obj
+========================
+
+.. doxygenfunction:: dap_db_driver_cdb_is_obj
+

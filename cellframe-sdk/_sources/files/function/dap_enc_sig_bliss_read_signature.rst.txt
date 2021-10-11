@@ -1,0 +1,5 @@
+﻿dap_enc_sig_bliss_read_signature
+================================
+
+.. doxygenfunction:: dap_enc_sig_bliss_read_signature
+

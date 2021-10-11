@@ -1,0 +1,5 @@
+﻿bitrev_vector_newhope
+=====================
+
+.. doxygenfunction:: bitrev_vector_newhope
+

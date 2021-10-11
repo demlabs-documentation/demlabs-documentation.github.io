@@ -1,0 +1,5 @@
+﻿csubq
+=====
+
+.. doxygenfunction:: csubq
+

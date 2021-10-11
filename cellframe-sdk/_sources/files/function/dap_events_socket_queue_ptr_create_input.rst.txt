@@ -1,0 +1,5 @@
+﻿dap_events_socket_queue_ptr_create_input
+========================================
+
+.. doxygenfunction:: dap_events_socket_queue_ptr_create_input
+

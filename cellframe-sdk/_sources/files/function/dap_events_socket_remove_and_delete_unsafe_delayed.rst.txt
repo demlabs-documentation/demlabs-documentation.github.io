@@ -1,0 +1,5 @@
+﻿dap_events_socket_remove_and_delete_unsafe_delayed
+==================================================
+
+.. doxygenfunction:: dap_events_socket_remove_and_delete_unsafe_delayed
+

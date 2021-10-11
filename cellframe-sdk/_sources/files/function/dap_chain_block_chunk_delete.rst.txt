@@ -1,0 +1,5 @@
+﻿dap_chain_block_chunk_delete
+============================
+
+.. doxygenfunction:: dap_chain_block_chunk_delete
+

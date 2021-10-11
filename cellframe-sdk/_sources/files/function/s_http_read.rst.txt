@@ -1,0 +1,5 @@
+﻿s_http_read
+===========
+
+.. doxygenfunction:: s_http_read
+

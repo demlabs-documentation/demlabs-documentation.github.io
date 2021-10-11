@@ -1,0 +1,5 @@
+﻿dap_chain_net_news_init
+=======================
+
+.. doxygenfunction:: dap_chain_net_news_init
+

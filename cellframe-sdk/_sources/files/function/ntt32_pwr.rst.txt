@@ -1,0 +1,5 @@
+﻿ntt32_pwr
+=========
+
+.. doxygenfunction:: ntt32_pwr
+

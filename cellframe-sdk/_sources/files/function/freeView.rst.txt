@@ -1,0 +1,5 @@
+﻿freeView
+========
+
+.. doxygenfunction:: freeView
+

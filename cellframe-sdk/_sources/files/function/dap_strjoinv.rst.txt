@@ -1,0 +1,5 @@
+﻿dap_strjoinv
+============
+
+.. doxygenfunction:: dap_strjoinv
+

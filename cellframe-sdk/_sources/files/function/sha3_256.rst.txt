@@ -1,0 +1,5 @@
+﻿sha3_256
+========
+
+.. doxygenfunction:: sha3_256
+

@@ -1,0 +1,5 @@
+﻿rej_gamma1m1
+============
+
+.. doxygenfunction:: rej_gamma1m1
+

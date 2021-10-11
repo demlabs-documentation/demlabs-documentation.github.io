@@ -1,0 +1,5 @@
+﻿s_dap_chain_add_atom_to_events_table
+====================================
+
+.. doxygenfunction:: s_dap_chain_add_atom_to_events_table
+

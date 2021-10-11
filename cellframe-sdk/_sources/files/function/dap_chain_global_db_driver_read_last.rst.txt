@@ -1,0 +1,5 @@
+﻿dap_chain_global_db_driver_read_last
+====================================
+
+.. doxygenfunction:: dap_chain_global_db_driver_read_last
+

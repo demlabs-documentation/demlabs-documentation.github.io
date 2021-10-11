@@ -1,0 +1,5 @@
+﻿list_delete
+===========
+
+.. doxygenfunction:: list_delete
+

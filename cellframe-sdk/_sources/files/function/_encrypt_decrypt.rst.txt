@@ -1,0 +1,5 @@
+﻿_encrypt_decrypt
+================
+
+.. doxygenfunction:: _encrypt_decrypt
+

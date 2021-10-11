@@ -1,0 +1,5 @@
+﻿dap_log_level_get
+=================
+
+.. doxygenfunction:: dap_log_level_get
+

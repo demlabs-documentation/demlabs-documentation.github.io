@@ -1,0 +1,5 @@
+﻿dap_time_to_str_rfc822
+======================
+
+.. doxygenfunction:: dap_time_to_str_rfc822
+

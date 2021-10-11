@@ -1,0 +1,5 @@
+﻿rpmalloc_thread_initialize
+==========================
+
+.. doxygenfunction:: rpmalloc_thread_initialize
+

@@ -1,0 +1,5 @@
+﻿dap_chain_ledger_get_list_tx_outs_with_val
+==========================================
+
+.. doxygenfunction:: dap_chain_ledger_get_list_tx_outs_with_val
+

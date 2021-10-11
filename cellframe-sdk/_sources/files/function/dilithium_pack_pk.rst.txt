@@ -1,0 +1,5 @@
+﻿dilithium_pack_pk
+=================
+
+.. doxygenfunction:: dilithium_pack_pk
+

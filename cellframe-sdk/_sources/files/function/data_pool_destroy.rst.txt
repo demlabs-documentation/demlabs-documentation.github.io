@@ -1,0 +1,5 @@
+﻿data_pool_destroy
+=================
+
+.. doxygenfunction:: data_pool_destroy
+

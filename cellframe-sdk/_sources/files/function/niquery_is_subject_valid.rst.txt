@@ -1,0 +1,5 @@
+﻿niquery_is_subject_valid
+========================
+
+.. doxygenfunction:: niquery_is_subject_valid
+

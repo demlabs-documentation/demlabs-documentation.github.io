@@ -1,0 +1,5 @@
+﻿dap_get_contents_regfile
+========================
+
+.. doxygenfunction:: dap_get_contents_regfile
+

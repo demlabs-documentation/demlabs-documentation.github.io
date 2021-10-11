@@ -1,0 +1,5 @@
+﻿dap_server_new_local
+====================
+
+.. doxygenfunction:: dap_server_new_local
+

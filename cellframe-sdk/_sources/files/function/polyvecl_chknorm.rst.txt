@@ -1,0 +1,5 @@
+﻿polyvecl_chknorm
+================
+
+.. doxygenfunction:: polyvecl_chknorm
+

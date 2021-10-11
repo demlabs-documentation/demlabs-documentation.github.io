@@ -1,0 +1,5 @@
+﻿dilithium_ntt
+=============
+
+.. doxygenfunction:: dilithium_ntt
+

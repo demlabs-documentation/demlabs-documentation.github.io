@@ -1,0 +1,5 @@
+﻿disable_capability_admin
+========================
+
+.. doxygenfunction:: disable_capability_admin
+

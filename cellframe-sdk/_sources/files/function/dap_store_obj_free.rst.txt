@@ -1,0 +1,5 @@
+﻿dap_store_obj_free
+==================
+
+.. doxygenfunction:: dap_store_obj_free
+

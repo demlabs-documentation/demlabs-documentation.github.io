@@ -1,0 +1,5 @@
+﻿s_http_connected
+================
+
+.. doxygenfunction:: s_http_connected
+

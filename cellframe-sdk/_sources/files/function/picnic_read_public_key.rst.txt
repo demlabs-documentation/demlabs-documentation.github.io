@@ -1,0 +1,5 @@
+﻿picnic_read_public_key
+======================
+
+.. doxygenfunction:: picnic_read_public_key
+

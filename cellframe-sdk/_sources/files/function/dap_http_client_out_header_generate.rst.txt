@@ -1,0 +1,5 @@
+﻿dap_http_client_out_header_generate
+===================================
+
+.. doxygenfunction:: dap_http_client_out_header_generate
+

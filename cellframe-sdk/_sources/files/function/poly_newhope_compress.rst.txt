@@ -1,0 +1,5 @@
+﻿poly_newhope_compress
+=====================
+
+.. doxygenfunction:: poly_newhope_compress
+

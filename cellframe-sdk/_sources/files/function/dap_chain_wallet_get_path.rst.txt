@@ -1,0 +1,5 @@
+﻿dap_chain_wallet_get_path
+=========================
+
+.. doxygenfunction:: dap_chain_wallet_get_path
+

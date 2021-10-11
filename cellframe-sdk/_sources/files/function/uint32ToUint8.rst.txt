@@ -1,0 +1,5 @@
+﻿uint32ToUint8
+=============
+
+.. doxygenfunction:: uint32ToUint8
+

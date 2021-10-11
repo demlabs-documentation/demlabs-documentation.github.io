@@ -1,0 +1,5 @@
+﻿bliss_b_crypto_sign_keypair
+===========================
+
+.. doxygenfunction:: bliss_b_crypto_sign_keypair
+

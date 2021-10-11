@@ -1,0 +1,5 @@
+﻿dap_chain_net_get_chain_by_chain_type
+=====================================
+
+.. doxygenfunction:: dap_chain_net_get_chain_by_chain_type
+

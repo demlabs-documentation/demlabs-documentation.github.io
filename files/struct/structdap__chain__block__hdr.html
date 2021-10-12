@@ -557,8 +557,71 @@
 <h1>Struct dap_chain_block_hdr<a class="headerlink" href="#struct-dap-chain-block-hdr" title="Permalink to this headline">¶</a></h1>
 <dl class="cpp struct">
 <dt class="sig sig-object cpp" id="_CPPv419dap_chain_block_hdr">
-<span id="_CPPv319dap_chain_block_hdr"></span><span id="_CPPv219dap_chain_block_hdr"></span><span id="dap_chain_block_hdr"></span><span class="target" id="structdap__chain__block__hdr"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_chain_block_hdr</span></span></span><br /></dt>
+<span id="_CPPv319dap_chain_block_hdr"></span><span id="_CPPv219dap_chain_block_hdr"></span><span id="dap_chain_block_hdr"></span><span class="target" id="structdap__chain__block__hdr"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dap_chain_block_hdr</span></span></span><a class="headerlink" href="#_CPPv419dap_chain_block_hdr" title="Permalink to this definition">¶</a><br /></dt>
 <dd><p>Block header. </p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N19dap_chain_block_hdr9signatureE">
+<span id="_CPPv3N19dap_chain_block_hdr9signatureE"></span><span id="_CPPv2N19dap_chain_block_hdr9signatureE"></span><span id="dap_chain_block_hdr::signature__uint32_t"></span><span class="target" id="structdap__chain__block__hdr_1acd2a6284879dded65f0b8daa7c68485a"></span><span class="n"><span class="pre">uint32_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">signature</span></span></span><a class="headerlink" href="#_CPPv4N19dap_chain_block_hdr9signatureE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N19dap_chain_block_hdr7versionE">
+<span id="_CPPv3N19dap_chain_block_hdr7versionE"></span><span id="_CPPv2N19dap_chain_block_hdr7versionE"></span><span id="dap_chain_block_hdr::version__int32_t"></span><span class="target" id="structdap__chain__block__hdr_1a67fae7dd1de9edce3656ed214d20377f"></span><a class="reference internal" href="../../index.html#_CPPv47int32_t" title="int32_t"><span class="n"><span class="pre">int32_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">version</span></span></span><a class="headerlink" href="#_CPPv4N19dap_chain_block_hdr7versionE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Magic number, always equels to DAP_CHAIN_BLOCK_SIGNATURE. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>signature</strong> – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N19dap_chain_block_hdr7cell_idE">
+<span id="_CPPv3N19dap_chain_block_hdr7cell_idE"></span><span id="_CPPv2N19dap_chain_block_hdr7cell_idE"></span><span id="dap_chain_block_hdr::cell_id__dap_chain_cell_id_t"></span><span class="target" id="structdap__chain__block__hdr_1ad68acaed959003b96091d442a2cb7563"></span><a class="reference internal" href="../../index.html#_CPPv419dap_chain_cell_id_t" title="dap_chain_cell_id_t"><span class="n"><span class="pre">dap_chain_cell_id_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">cell_id</span></span></span><a class="headerlink" href="#_CPPv4N19dap_chain_block_hdr7cell_idE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>block version (be carefull, signed value, as Bitcoin has) </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>version</strong> – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N19dap_chain_block_hdr8chain_idE">
+<span id="_CPPv3N19dap_chain_block_hdr8chain_idE"></span><span id="_CPPv2N19dap_chain_block_hdr8chain_idE"></span><span id="dap_chain_block_hdr::chain_id__dap_chain_cell_id_t"></span><span class="target" id="structdap__chain__block__hdr_1a656686e4323dd651a4148dccfe59b05d"></span><a class="reference internal" href="../../index.html#_CPPv419dap_chain_cell_id_t" title="dap_chain_cell_id_t"><span class="n"><span class="pre">dap_chain_cell_id_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">chain_id</span></span></span><a class="headerlink" href="#_CPPv4N19dap_chain_block_hdr8chain_idE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Cell id. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N19dap_chain_block_hdr10ts_createdE">
+<span id="_CPPv3N19dap_chain_block_hdr10ts_createdE"></span><span id="_CPPv2N19dap_chain_block_hdr10ts_createdE"></span><span id="dap_chain_block_hdr::ts_created__dap_chain_time_t"></span><span class="target" id="structdap__chain__block__hdr_1aab7bf9a6a40f484b551bd06bf086c9e0"></span><a class="reference internal" href="../../index.html#_CPPv416dap_chain_time_t" title="dap_chain_time_t"><span class="n"><span class="pre">dap_chain_time_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">ts_created</span></span></span><a class="headerlink" href="#_CPPv4N19dap_chain_block_hdr10ts_createdE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Chain id. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N19dap_chain_block_hdr10meta_countE">
+<span id="_CPPv3N19dap_chain_block_hdr10meta_countE"></span><span id="_CPPv2N19dap_chain_block_hdr10meta_countE"></span><span id="dap_chain_block_hdr::meta_count__uint16_t"></span><span class="target" id="structdap__chain__block__hdr_1abf18e1067b945f5014e8f8340e23ca27"></span><span class="n"><span class="pre">uint16_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">meta_count</span></span></span><a class="headerlink" href="#_CPPv4N19dap_chain_block_hdr10meta_countE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Block create time timestamp. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>timestamp</strong> – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N19dap_chain_block_hdr11datum_countE">
+<span id="_CPPv3N19dap_chain_block_hdr11datum_countE"></span><span id="_CPPv2N19dap_chain_block_hdr11datum_countE"></span><span id="dap_chain_block_hdr::datum_count__uint16_t"></span><span class="target" id="structdap__chain__block__hdr_1af97b61e775cf0cf72b02c26f2ad0b83d"></span><span class="n"><span class="pre">uint16_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">datum_count</span></span></span><a class="headerlink" href="#_CPPv4N19dap_chain_block_hdr11datum_countE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N19dap_chain_block_hdr25meta_n_datum_n_signs_sizeE">
+<span id="_CPPv3N19dap_chain_block_hdr25meta_n_datum_n_signs_sizeE"></span><span id="_CPPv2N19dap_chain_block_hdr25meta_n_datum_n_signs_sizeE"></span><span id="dap_chain_block_hdr::meta_n_datum_n_signs_size__uint32_t"></span><span class="target" id="structdap__chain__block__hdr_1ad6e6dacc01d35f3f27ff044ce076691b"></span><span class="n"><span class="pre">uint32_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">meta_n_datum_n_signs_size</span></span></span><a class="headerlink" href="#_CPPv4N19dap_chain_block_hdr25meta_n_datum_n_signs_sizeE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</div>
 </dd></dl>
 
 </div>

@@ -557,8 +557,53 @@
 <h1>Struct rpmalloc_global_statistics_t<a class="headerlink" href="#struct-rpmalloc-global-statistics-t" title="Permalink to this headline">¶</a></h1>
 <dl class="cpp struct">
 <dt class="sig sig-object cpp" id="_CPPv428rpmalloc_global_statistics_t">
-<span id="_CPPv328rpmalloc_global_statistics_t"></span><span id="_CPPv228rpmalloc_global_statistics_t"></span><span id="rpmalloc_global_statistics_t"></span><span class="target" id="structrpmalloc__global__statistics__t"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">rpmalloc_global_statistics_t</span></span></span><br /></dt>
-<dd></dd></dl>
+<span id="_CPPv328rpmalloc_global_statistics_t"></span><span id="_CPPv228rpmalloc_global_statistics_t"></span><span id="rpmalloc_global_statistics_t"></span><span class="target" id="structrpmalloc__global__statistics__t"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">rpmalloc_global_statistics_t</span></span></span><a class="headerlink" href="#_CPPv428rpmalloc_global_statistics_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_global_statistics_t6mappedE">
+<span id="_CPPv3N28rpmalloc_global_statistics_t6mappedE"></span><span id="_CPPv2N28rpmalloc_global_statistics_t6mappedE"></span><span id="rpmalloc_global_statistics_t::mapped__s"></span><span class="target" id="structrpmalloc__global__statistics__t_1aacd9dbf6e86a9d0dbb4ab95432bdbc6b"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">mapped</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_global_statistics_t6mappedE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Current amount of virtual memory mapped, all of which might not have been committed (only if ENABLE_STATISTICS=1) </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_global_statistics_t11mapped_peakE">
+<span id="_CPPv3N28rpmalloc_global_statistics_t11mapped_peakE"></span><span id="_CPPv2N28rpmalloc_global_statistics_t11mapped_peakE"></span><span id="rpmalloc_global_statistics_t::mapped_peak__s"></span><span class="target" id="structrpmalloc__global__statistics__t_1af206e6be09db3b4fcd803221436fa253"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">mapped_peak</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_global_statistics_t11mapped_peakE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Peak amount of virtual memory mapped, all of which might not have been committed (only if ENABLE_STATISTICS=1) </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_global_statistics_t6cachedE">
+<span id="_CPPv3N28rpmalloc_global_statistics_t6cachedE"></span><span id="_CPPv2N28rpmalloc_global_statistics_t6cachedE"></span><span id="rpmalloc_global_statistics_t::cached__s"></span><span class="target" id="structrpmalloc__global__statistics__t_1a27f5a316ee2b0cf143d1313f4f40fc19"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">cached</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_global_statistics_t6cachedE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Current amount of memory in global caches for small and medium sizes (&lt;32KiB) </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_global_statistics_t10huge_allocE">
+<span id="_CPPv3N28rpmalloc_global_statistics_t10huge_allocE"></span><span id="_CPPv2N28rpmalloc_global_statistics_t10huge_allocE"></span><span id="rpmalloc_global_statistics_t::huge_alloc__s"></span><span class="target" id="structrpmalloc__global__statistics__t_1af7d4ee03d8d5c3d710fd8e2d13762d22"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">huge_alloc</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_global_statistics_t10huge_allocE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Current amount of memory allocated in huge allocations, i.e larger than LARGE_SIZE_LIMIT which is 2MiB by default (only if ENABLE_STATISTICS=1) </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_global_statistics_t15huge_alloc_peakE">
+<span id="_CPPv3N28rpmalloc_global_statistics_t15huge_alloc_peakE"></span><span id="_CPPv2N28rpmalloc_global_statistics_t15huge_alloc_peakE"></span><span id="rpmalloc_global_statistics_t::huge_alloc_peak__s"></span><span class="target" id="structrpmalloc__global__statistics__t_1a30dec474e9c916612fd4e64f7b92d0fb"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">huge_alloc_peak</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_global_statistics_t15huge_alloc_peakE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Peak amount of memory allocated in huge allocations, i.e larger than LARGE_SIZE_LIMIT which is 2MiB by default (only if ENABLE_STATISTICS=1) </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_global_statistics_t12mapped_totalE">
+<span id="_CPPv3N28rpmalloc_global_statistics_t12mapped_totalE"></span><span id="_CPPv2N28rpmalloc_global_statistics_t12mapped_totalE"></span><span id="rpmalloc_global_statistics_t::mapped_total__s"></span><span class="target" id="structrpmalloc__global__statistics__t_1a950d04ba2ac184aa04701a571748a64a"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">mapped_total</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_global_statistics_t12mapped_totalE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Total amount of memory mapped since initialization (only if ENABLE_STATISTICS=1) </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_global_statistics_t14unmapped_totalE">
+<span id="_CPPv3N28rpmalloc_global_statistics_t14unmapped_totalE"></span><span id="_CPPv2N28rpmalloc_global_statistics_t14unmapped_totalE"></span><span id="rpmalloc_global_statistics_t::unmapped_total__s"></span><span class="target" id="structrpmalloc__global__statistics__t_1a2ffa37ba394a4e98a526cfee4b08afa8"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">unmapped_total</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_global_statistics_t14unmapped_totalE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Total amount of memory unmapped since initialization (only if ENABLE_STATISTICS=1) </p>
+</dd></dl>
+
+</div>
+</dd></dl>
 
 </div>
 

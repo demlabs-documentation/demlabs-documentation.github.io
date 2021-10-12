@@ -557,8 +557,47 @@
 <h1>Struct rpmalloc_config_t<a class="headerlink" href="#struct-rpmalloc-config-t" title="Permalink to this headline">¶</a></h1>
 <dl class="cpp struct">
 <dt class="sig sig-object cpp" id="_CPPv417rpmalloc_config_t">
-<span id="_CPPv317rpmalloc_config_t"></span><span id="_CPPv217rpmalloc_config_t"></span><span id="rpmalloc_config_t"></span><span class="target" id="structrpmalloc__config__t"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">rpmalloc_config_t</span></span></span><br /></dt>
-<dd></dd></dl>
+<span id="_CPPv317rpmalloc_config_t"></span><span id="_CPPv217rpmalloc_config_t"></span><span id="rpmalloc_config_t"></span><span class="target" id="structrpmalloc__config__t"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">rpmalloc_config_t</span></span></span><a class="headerlink" href="#_CPPv417rpmalloc_config_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N17rpmalloc_config_t10memory_mapE">
+<span id="_CPPv3N17rpmalloc_config_t10memory_mapE"></span><span id="_CPPv2N17rpmalloc_config_t10memory_mapE"></span><span class="target" id="structrpmalloc__config__t_1a875fe40d4c1ec743bda546bd7a00db1c"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="p"><span class="pre">(</span></span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">memory_map</span></span></span><span class="p"><span class="pre">)</span></span><span class="p"><span class="pre">(</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n"><span class="pre">size</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n"><span class="pre">offset</span></span><span class="p"><span class="pre">)</span></span><a class="headerlink" href="#_CPPv4N17rpmalloc_config_t10memory_mapE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Map memory pages for the given number of bytes. The returned address MUST be. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N17rpmalloc_config_t12memory_unmapE">
+<span id="_CPPv3N17rpmalloc_config_t12memory_unmapE"></span><span id="_CPPv2N17rpmalloc_config_t12memory_unmapE"></span><span class="target" id="structrpmalloc__config__t_1a3e019d8d0fb091b98199cf6b945ea060"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">(</span></span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">memory_unmap</span></span></span><span class="p"><span class="pre">)</span></span><span class="p"><span class="pre">(</span></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n"><span class="pre">address</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n"><span class="pre">size</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n"><span class="pre">offset</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n"><span class="pre">release</span></span><span class="p"><span class="pre">)</span></span><a class="headerlink" href="#_CPPv4N17rpmalloc_config_t12memory_unmapE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Unmap the memory pages starting at address and spanning the given number of bytes. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N17rpmalloc_config_t9page_sizeE">
+<span id="_CPPv3N17rpmalloc_config_t9page_sizeE"></span><span id="_CPPv2N17rpmalloc_config_t9page_sizeE"></span><span id="rpmalloc_config_t::page_size__s"></span><span class="target" id="structrpmalloc__config__t_1af91f634fbc8d26e705035b0613f7d077"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">page_size</span></span></span><a class="headerlink" href="#_CPPv4N17rpmalloc_config_t9page_sizeE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Size of memory pages. The page size MUST be a power of two. All memory mapping. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N17rpmalloc_config_t9span_sizeE">
+<span id="_CPPv3N17rpmalloc_config_t9span_sizeE"></span><span id="_CPPv2N17rpmalloc_config_t9span_sizeE"></span><span id="rpmalloc_config_t::span_size__s"></span><span class="target" id="structrpmalloc__config__t_1ae9bad630bddfa77e985136dbc5545ba2"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">span_size</span></span></span><a class="headerlink" href="#_CPPv4N17rpmalloc_config_t9span_sizeE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Size of a span of memory blocks. MUST be a power of two, and in [4096,262144]. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N17rpmalloc_config_t14span_map_countE">
+<span id="_CPPv3N17rpmalloc_config_t14span_map_countE"></span><span id="_CPPv2N17rpmalloc_config_t14span_map_countE"></span><span id="rpmalloc_config_t::span_map_count__s"></span><span class="target" id="structrpmalloc__config__t_1a96f6d8c7b306b641f1c16c4c2ad01171"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">span_map_count</span></span></span><a class="headerlink" href="#_CPPv4N17rpmalloc_config_t14span_map_countE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Number of spans to map at each request to map new virtual memory blocks. This can. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N17rpmalloc_config_t17enable_huge_pagesE">
+<span id="_CPPv3N17rpmalloc_config_t17enable_huge_pagesE"></span><span id="_CPPv2N17rpmalloc_config_t17enable_huge_pagesE"></span><span id="rpmalloc_config_t::enable_huge_pages__i"></span><span class="target" id="structrpmalloc__config__t_1a7d0075370fa6447bd3bcd9041fcf724d"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">enable_huge_pages</span></span></span><a class="headerlink" href="#_CPPv4N17rpmalloc_config_t17enable_huge_pagesE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Enable use of large/huge pages. If this flag is set to non-zero and page size is. </p>
+</dd></dl>
+
+</div>
+</dd></dl>
 
 </div>
 

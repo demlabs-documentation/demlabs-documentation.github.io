@@ -557,8 +557,71 @@
 <h1>Struct heap_t<a class="headerlink" href="#struct-heap-t" title="Permalink to this headline">¶</a></h1>
 <dl class="cpp struct">
 <dt class="sig sig-object cpp" id="_CPPv46heap_t">
-<span id="_CPPv36heap_t"></span><span id="_CPPv26heap_t"></span><span id="heap_t"></span><span class="target" id="structheap__t"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">heap_t</span></span></span><br /></dt>
-<dd></dd></dl>
+<span id="_CPPv36heap_t"></span><span id="_CPPv26heap_t"></span><span id="heap_t"></span><span class="target" id="structheap__t"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">heap_t</span></span></span><a class="headerlink" href="#_CPPv46heap_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6heap_t10span_classE">
+<span id="_CPPv3N6heap_t10span_classE"></span><span id="_CPPv2N6heap_t10span_classE"></span><span id="heap_t::span_class__heap_class_tA"></span><span class="target" id="structheap__t_1af86e49f75719720b002ab14b991d4695"></span><a class="reference internal" href="structheap__class__t.html#_CPPv412heap_class_t" title="heap_class_t"><span class="n"><span class="pre">heap_class_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">span_class</span></span></span><span class="p"><span class="pre">[</span></span><span class="n"><span class="pre">SIZE_CLASS_COUNT</span></span><span class="p"><span class="pre">]</span></span><a class="headerlink" href="#_CPPv4N6heap_t10span_classE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Active and semi-used span data per size class. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6heap_t10span_cacheE">
+<span id="_CPPv3N6heap_t10span_cacheE"></span><span id="_CPPv2N6heap_t10span_cacheE"></span><span id="heap_t::span_cache__span_tPA"></span><span class="target" id="structheap__t_1a4db2f1ca9c1c1ff48e8f5008e254b8cc"></span><a class="reference internal" href="structspan__t.html#_CPPv46span_t" title="span_t"><span class="n"><span class="pre">span_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">span_cache</span></span></span><span class="p"><span class="pre">[</span></span><span class="n"><span class="pre">LARGE_CLASS_COUNT</span></span><span class="p"><span class="pre">]</span></span><a class="headerlink" href="#_CPPv4N6heap_t10span_cacheE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>List of free spans (single linked list) </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6heap_t19span_cache_deferredE">
+<span id="_CPPv3N6heap_t19span_cache_deferredE"></span><span id="_CPPv2N6heap_t19span_cache_deferredE"></span><span id="heap_t::span_cache_deferred__atomicptr_t"></span><span class="target" id="structheap__t_1a18ef03f23992d32bf09ddcc0fb976a01"></span><a class="reference internal" href="../../index.html#_CPPv411atomicptr_t" title="atomicptr_t"><span class="n"><span class="pre">atomicptr_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">span_cache_deferred</span></span></span><a class="headerlink" href="#_CPPv4N6heap_t19span_cache_deferredE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>List of deferred free spans of class 0 (single linked list) </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6heap_t12span_reserveE">
+<span id="_CPPv3N6heap_t12span_reserveE"></span><span id="_CPPv2N6heap_t12span_reserveE"></span><span id="heap_t::span_reserve__span_tP"></span><span class="target" id="structheap__t_1aaa03b489b6197bf45965bf1e7693f693"></span><a class="reference internal" href="structspan__t.html#_CPPv46span_t" title="span_t"><span class="n"><span class="pre">span_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">span_reserve</span></span></span><a class="headerlink" href="#_CPPv4N6heap_t12span_reserveE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Mapped but unused spans. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6heap_t19span_reserve_masterE">
+<span id="_CPPv3N6heap_t19span_reserve_masterE"></span><span id="_CPPv2N6heap_t19span_reserve_masterE"></span><span id="heap_t::span_reserve_master__span_tP"></span><span class="target" id="structheap__t_1a7b06ad793ecd5f41584ab16fc7e69c1d"></span><a class="reference internal" href="structspan__t.html#_CPPv46span_t" title="span_t"><span class="n"><span class="pre">span_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">span_reserve_master</span></span></span><a class="headerlink" href="#_CPPv4N6heap_t19span_reserve_masterE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Master span for mapped but unused spans. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6heap_t14spans_reservedE">
+<span id="_CPPv3N6heap_t14spans_reservedE"></span><span id="_CPPv2N6heap_t14spans_reservedE"></span><span id="heap_t::spans_reserved__s"></span><span class="target" id="structheap__t_1a2cef7bfb07095c7e2e273b5e636f524f"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">spans_reserved</span></span></span><a class="headerlink" href="#_CPPv4N6heap_t14spans_reservedE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Number of mapped but unused spans. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6heap_t9next_heapE">
+<span id="_CPPv3N6heap_t9next_heapE"></span><span id="_CPPv2N6heap_t9next_heapE"></span><span id="heap_t::next_heap__heap_tP"></span><span class="target" id="structheap__t_1a2310171c759c568ac32e4295e7db69a1"></span><a class="reference internal" href="#_CPPv46heap_t" title="heap_t"><span class="n"><span class="pre">heap_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">next_heap</span></span></span><a class="headerlink" href="#_CPPv4N6heap_t9next_heapE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Next heap in id list. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6heap_t11next_orphanE">
+<span id="_CPPv3N6heap_t11next_orphanE"></span><span id="_CPPv2N6heap_t11next_orphanE"></span><span id="heap_t::next_orphan__heap_tP"></span><span class="target" id="structheap__t_1ab82148ed73e1c61c8b3956db3937a776"></span><a class="reference internal" href="#_CPPv46heap_t" title="heap_t"><span class="n"><span class="pre">heap_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">next_orphan</span></span></span><a class="headerlink" href="#_CPPv4N6heap_t11next_orphanE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Next heap in orphan list. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6heap_t12align_offsetE">
+<span id="_CPPv3N6heap_t12align_offsetE"></span><span id="_CPPv2N6heap_t12align_offsetE"></span><span id="heap_t::align_offset__s"></span><span class="target" id="structheap__t_1a91fdcc1efb3c99c5687cbb664cb3dd14"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">align_offset</span></span></span><a class="headerlink" href="#_CPPv4N6heap_t12align_offsetE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Memory pages alignment offset. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6heap_t2idE">
+<span id="_CPPv3N6heap_t2idE"></span><span id="_CPPv2N6heap_t2idE"></span><span id="heap_t::id__int32_t"></span><span class="target" id="structheap__t_1a2708c0bbb6f926149707c2c61fe43c3e"></span><a class="reference internal" href="../../index.html#_CPPv47int32_t" title="int32_t"><span class="n"><span class="pre">int32_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">id</span></span></span><a class="headerlink" href="#_CPPv4N6heap_t2idE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Heap ID. </p>
+</dd></dl>
+
+</div>
+</dd></dl>
 
 </div>
 

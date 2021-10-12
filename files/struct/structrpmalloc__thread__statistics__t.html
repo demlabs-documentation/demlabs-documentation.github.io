@@ -557,8 +557,143 @@
 <h1>Struct rpmalloc_thread_statistics_t<a class="headerlink" href="#struct-rpmalloc-thread-statistics-t" title="Permalink to this headline">¶</a></h1>
 <dl class="cpp struct">
 <dt class="sig sig-object cpp" id="_CPPv428rpmalloc_thread_statistics_t">
-<span id="_CPPv328rpmalloc_thread_statistics_t"></span><span id="_CPPv228rpmalloc_thread_statistics_t"></span><span id="rpmalloc_thread_statistics_t"></span><span class="target" id="structrpmalloc__thread__statistics__t"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">rpmalloc_thread_statistics_t</span></span></span><br /></dt>
-<dd></dd></dl>
+<span id="_CPPv328rpmalloc_thread_statistics_t"></span><span id="_CPPv228rpmalloc_thread_statistics_t"></span><span id="rpmalloc_thread_statistics_t"></span><span class="target" id="structrpmalloc__thread__statistics__t"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">rpmalloc_thread_statistics_t</span></span></span><a class="headerlink" href="#_CPPv428rpmalloc_thread_statistics_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_thread_statistics_t9sizecacheE">
+<span id="_CPPv3N28rpmalloc_thread_statistics_t9sizecacheE"></span><span id="_CPPv2N28rpmalloc_thread_statistics_t9sizecacheE"></span><span id="rpmalloc_thread_statistics_t::sizecache__s"></span><span class="target" id="structrpmalloc__thread__statistics__t_1a7321d6a49fa75bdf307fe1d4686676ec"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">sizecache</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_thread_statistics_t9sizecacheE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Current number of bytes available in thread size class caches for small and medium sizes (&lt;32KiB) </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_thread_statistics_t9spancacheE">
+<span id="_CPPv3N28rpmalloc_thread_statistics_t9spancacheE"></span><span id="_CPPv2N28rpmalloc_thread_statistics_t9spancacheE"></span><span id="rpmalloc_thread_statistics_t::spancache__s"></span><span class="target" id="structrpmalloc__thread__statistics__t_1a1e597d818c294b1cdd01cc8cca452dbd"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">spancache</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_thread_statistics_t9spancacheE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Current number of bytes available in thread span caches for small and medium sizes (&lt;32KiB) </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_thread_statistics_t16thread_to_globalE">
+<span id="_CPPv3N28rpmalloc_thread_statistics_t16thread_to_globalE"></span><span id="_CPPv2N28rpmalloc_thread_statistics_t16thread_to_globalE"></span><span id="rpmalloc_thread_statistics_t::thread_to_global__s"></span><span class="target" id="structrpmalloc__thread__statistics__t_1a8da0006bb6dec3f897bf8af436ac5daf"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">thread_to_global</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_thread_statistics_t16thread_to_globalE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Total number of bytes transitioned from thread cache to global cache (only if ENABLE_STATISTICS=1) </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_thread_statistics_t16global_to_threadE">
+<span id="_CPPv3N28rpmalloc_thread_statistics_t16global_to_threadE"></span><span id="_CPPv2N28rpmalloc_thread_statistics_t16global_to_threadE"></span><span id="rpmalloc_thread_statistics_t::global_to_thread__s"></span><span class="target" id="structrpmalloc__thread__statistics__t_1a8b84814a1d70f12d1ef2a304f9cbc09b"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">global_to_thread</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_thread_statistics_t16global_to_threadE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Total number of bytes transitioned from global cache to thread cache (only if ENABLE_STATISTICS=1) </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_thread_statistics_t7currentE">
+<span id="_CPPv3N28rpmalloc_thread_statistics_t7currentE"></span><span id="_CPPv2N28rpmalloc_thread_statistics_t7currentE"></span><span id="rpmalloc_thread_statistics_t::current__s"></span><span class="target" id="structrpmalloc__thread__statistics__t_1a2cb51d0acda029b457eba211467c2cca"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">current</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_thread_statistics_t7currentE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Currently used number of spans. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_thread_statistics_t4peakE">
+<span id="_CPPv3N28rpmalloc_thread_statistics_t4peakE"></span><span id="_CPPv2N28rpmalloc_thread_statistics_t4peakE"></span><span id="rpmalloc_thread_statistics_t::peak__s"></span><span class="target" id="structrpmalloc__thread__statistics__t_1ae27b0060fff3938aefde9d9dde9925b5"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">peak</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_thread_statistics_t4peakE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>High water mark of spans used. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_thread_statistics_t9to_globalE">
+<span id="_CPPv3N28rpmalloc_thread_statistics_t9to_globalE"></span><span id="_CPPv2N28rpmalloc_thread_statistics_t9to_globalE"></span><span id="rpmalloc_thread_statistics_t::to_global__s"></span><span class="target" id="structrpmalloc__thread__statistics__t_1af1ad62176fb14de69c989ed62ae26ed5"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">to_global</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_thread_statistics_t9to_globalE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Number of spans transitioned to global cache. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_thread_statistics_t11from_globalE">
+<span id="_CPPv3N28rpmalloc_thread_statistics_t11from_globalE"></span><span id="_CPPv2N28rpmalloc_thread_statistics_t11from_globalE"></span><span id="rpmalloc_thread_statistics_t::from_global__s"></span><span class="target" id="structrpmalloc__thread__statistics__t_1acb39a96d6e62f446922c8177f0e9de19"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">from_global</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_thread_statistics_t11from_globalE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Number of spans transitioned from global cache. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_thread_statistics_t8to_cacheE">
+<span id="_CPPv3N28rpmalloc_thread_statistics_t8to_cacheE"></span><span id="_CPPv2N28rpmalloc_thread_statistics_t8to_cacheE"></span><span id="rpmalloc_thread_statistics_t::to_cache__s"></span><span class="target" id="structrpmalloc__thread__statistics__t_1abe4486470da22f6df8f3965688547573"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">to_cache</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_thread_statistics_t8to_cacheE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Number of spans transitioned to thread cache. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_thread_statistics_t10from_cacheE">
+<span id="_CPPv3N28rpmalloc_thread_statistics_t10from_cacheE"></span><span id="_CPPv2N28rpmalloc_thread_statistics_t10from_cacheE"></span><span id="rpmalloc_thread_statistics_t::from_cache__s"></span><span class="target" id="structrpmalloc__thread__statistics__t_1a3c30a4990d39288e96a30eb650ba0e0a"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">from_cache</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_thread_statistics_t10from_cacheE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Number of spans transitioned from thread cache. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_thread_statistics_t11to_reservedE">
+<span id="_CPPv3N28rpmalloc_thread_statistics_t11to_reservedE"></span><span id="_CPPv2N28rpmalloc_thread_statistics_t11to_reservedE"></span><span id="rpmalloc_thread_statistics_t::to_reserved__s"></span><span class="target" id="structrpmalloc__thread__statistics__t_1a504ddf729441af35bf7ede6e680b6042"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">to_reserved</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_thread_statistics_t11to_reservedE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Number of spans transitioned to reserved state. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_thread_statistics_t13from_reservedE">
+<span id="_CPPv3N28rpmalloc_thread_statistics_t13from_reservedE"></span><span id="_CPPv2N28rpmalloc_thread_statistics_t13from_reservedE"></span><span id="rpmalloc_thread_statistics_t::from_reserved__s"></span><span class="target" id="structrpmalloc__thread__statistics__t_1ad392f024682fa967761f99a5bc3af982"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">from_reserved</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_thread_statistics_t13from_reservedE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Number of spans transitioned from reserved state. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_thread_statistics_t9map_callsE">
+<span id="_CPPv3N28rpmalloc_thread_statistics_t9map_callsE"></span><span id="_CPPv2N28rpmalloc_thread_statistics_t9map_callsE"></span><span id="rpmalloc_thread_statistics_t::map_calls__s"></span><span class="target" id="structrpmalloc__thread__statistics__t_1a45ad9740088aa08bf36b79e5cb00702f"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">map_calls</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_thread_statistics_t9map_callsE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Number of raw memory map calls (not hitting the reserve spans but resulting in actual OS mmap calls) </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_thread_statistics_t8span_useE">
+<span id="_CPPv3N28rpmalloc_thread_statistics_t8span_useE"></span><span id="_CPPv2N28rpmalloc_thread_statistics_t8span_useE"></span><span class="target" id="structrpmalloc__thread__statistics__t_1a23d72b0b3e766419baa260f754ce1b9b"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv428rpmalloc_thread_statistics_t" title="rpmalloc_thread_statistics_t"><span class="n"><span class="pre">rpmalloc_thread_statistics_t</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">[anonymous]</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">span_use</span></span></span><span class="p"><span class="pre">[</span></span><span class="m"><span class="pre">32</span></span><span class="p"><span class="pre">]</span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_thread_statistics_t8span_useE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Per span count statistics (only if ENABLE_STATISTICS=1) </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_thread_statistics_t13alloc_currentE">
+<span id="_CPPv3N28rpmalloc_thread_statistics_t13alloc_currentE"></span><span id="_CPPv2N28rpmalloc_thread_statistics_t13alloc_currentE"></span><span id="rpmalloc_thread_statistics_t::alloc_current__s"></span><span class="target" id="structrpmalloc__thread__statistics__t_1a8014d7a20c314d798b8b46f5be420c74"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">alloc_current</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_thread_statistics_t13alloc_currentE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Current number of allocations. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_thread_statistics_t10alloc_peakE">
+<span id="_CPPv3N28rpmalloc_thread_statistics_t10alloc_peakE"></span><span id="_CPPv2N28rpmalloc_thread_statistics_t10alloc_peakE"></span><span id="rpmalloc_thread_statistics_t::alloc_peak__s"></span><span class="target" id="structrpmalloc__thread__statistics__t_1a4dfc54b5314a465f3c6759778a80da2c"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">alloc_peak</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_thread_statistics_t10alloc_peakE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Peak number of allocations. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_thread_statistics_t11alloc_totalE">
+<span id="_CPPv3N28rpmalloc_thread_statistics_t11alloc_totalE"></span><span id="_CPPv2N28rpmalloc_thread_statistics_t11alloc_totalE"></span><span id="rpmalloc_thread_statistics_t::alloc_total__s"></span><span class="target" id="structrpmalloc__thread__statistics__t_1a5a0bae38eca7495c6c547a9c0379c879"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">alloc_total</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_thread_statistics_t11alloc_totalE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Total number of allocations. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_thread_statistics_t10free_totalE">
+<span id="_CPPv3N28rpmalloc_thread_statistics_t10free_totalE"></span><span id="_CPPv2N28rpmalloc_thread_statistics_t10free_totalE"></span><span id="rpmalloc_thread_statistics_t::free_total__s"></span><span class="target" id="structrpmalloc__thread__statistics__t_1a6a00f6410790972eb86b0390296571c4"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">free_total</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_thread_statistics_t10free_totalE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Total number of frees. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_thread_statistics_t14spans_to_cacheE">
+<span id="_CPPv3N28rpmalloc_thread_statistics_t14spans_to_cacheE"></span><span id="_CPPv2N28rpmalloc_thread_statistics_t14spans_to_cacheE"></span><span id="rpmalloc_thread_statistics_t::spans_to_cache__s"></span><span class="target" id="structrpmalloc__thread__statistics__t_1a18347f05dd4ce5eb26d8723849f8778d"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">spans_to_cache</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_thread_statistics_t14spans_to_cacheE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Number of spans transitioned to cache. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_thread_statistics_t16spans_from_cacheE">
+<span id="_CPPv3N28rpmalloc_thread_statistics_t16spans_from_cacheE"></span><span id="_CPPv2N28rpmalloc_thread_statistics_t16spans_from_cacheE"></span><span id="rpmalloc_thread_statistics_t::spans_from_cache__s"></span><span class="target" id="structrpmalloc__thread__statistics__t_1a3ab63321a37d841d4b3bd93b15f27232"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">spans_from_cache</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_thread_statistics_t16spans_from_cacheE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Number of spans transitioned from cache. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_thread_statistics_t19spans_from_reservedE">
+<span id="_CPPv3N28rpmalloc_thread_statistics_t19spans_from_reservedE"></span><span id="_CPPv2N28rpmalloc_thread_statistics_t19spans_from_reservedE"></span><span id="rpmalloc_thread_statistics_t::spans_from_reserved__s"></span><span class="target" id="structrpmalloc__thread__statistics__t_1a24262b9ace14d767473e0ef247406366"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">spans_from_reserved</span></span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_thread_statistics_t19spans_from_reservedE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Number of spans transitioned from reserved state. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N28rpmalloc_thread_statistics_t8size_useE">
+<span id="_CPPv3N28rpmalloc_thread_statistics_t8size_useE"></span><span id="_CPPv2N28rpmalloc_thread_statistics_t8size_useE"></span><span class="target" id="structrpmalloc__thread__statistics__t_1ab19aa33867620519dc5b2abe6253a285"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv428rpmalloc_thread_statistics_t" title="rpmalloc_thread_statistics_t"><span class="n"><span class="pre">rpmalloc_thread_statistics_t</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">[anonymous]</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">size_use</span></span></span><span class="p"><span class="pre">[</span></span><span class="m"><span class="pre">128</span></span><span class="p"><span class="pre">]</span></span><a class="headerlink" href="#_CPPv4N28rpmalloc_thread_statistics_t8size_useE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Per size class statistics (only if ENABLE_STATISTICS=1) </p>
+</dd></dl>
+
+</div>
+</dd></dl>
 
 </div>
 

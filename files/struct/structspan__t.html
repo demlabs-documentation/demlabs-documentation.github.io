@@ -557,8 +557,113 @@
 <h1>Struct span_t<a class="headerlink" href="#struct-span-t" title="Permalink to this headline">¶</a></h1>
 <dl class="cpp struct">
 <dt class="sig sig-object cpp" id="_CPPv46span_t">
-<span id="_CPPv36span_t"></span><span id="_CPPv26span_t"></span><span id="span_t"></span><span class="target" id="structspan__t"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">span_t</span></span></span><br /></dt>
-<dd></dd></dl>
+<span id="_CPPv36span_t"></span><span id="_CPPv26span_t"></span><span id="span_t"></span><span class="target" id="structspan__t"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">span_t</span></span></span><a class="headerlink" href="#_CPPv46span_t" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6span_t9free_listE">
+<span id="_CPPv3N6span_t9free_listE"></span><span id="_CPPv2N6span_t9free_listE"></span><span id="span_t::free_list__voidP"></span><span class="target" id="structspan__t_1a3925d79c81bfc28ef12e2ec0dd2601a9"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">free_list</span></span></span><a class="headerlink" href="#_CPPv4N6span_t9free_listE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Free list. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6span_t5stateE">
+<span id="_CPPv3N6span_t5stateE"></span><span id="_CPPv2N6span_t5stateE"></span><span id="span_t::state__uint32_t"></span><span class="target" id="structspan__t_1a1b0c7bd4d79798ef4e0ce23894c9aeb2"></span><span class="n"><span class="pre">uint32_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">state</span></span></span><a class="headerlink" href="#_CPPv4N6span_t5stateE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>State. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6span_t10used_countE">
+<span id="_CPPv3N6span_t10used_countE"></span><span id="_CPPv2N6span_t10used_countE"></span><span id="span_t::used_count__uint32_t"></span><span class="target" id="structspan__t_1ad2b624e63eb2d9416b7c90dd7eba8cfc"></span><span class="n"><span class="pre">uint32_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">used_count</span></span></span><a class="headerlink" href="#_CPPv4N6span_t10used_countE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Used count when not active (not including deferred free list) </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6span_t11block_countE">
+<span id="_CPPv3N6span_t11block_countE"></span><span id="_CPPv2N6span_t11block_countE"></span><span id="span_t::block_count__uint32_t"></span><span class="target" id="structspan__t_1a363d2f881a48a13506a9341784b7adf4"></span><span class="n"><span class="pre">uint32_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">block_count</span></span></span><a class="headerlink" href="#_CPPv4N6span_t11block_countE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Block count. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6span_t10size_classE">
+<span id="_CPPv3N6span_t10size_classE"></span><span id="_CPPv2N6span_t10size_classE"></span><span id="span_t::size_class__uint32_t"></span><span class="target" id="structspan__t_1a63c30a3e1841c2a11ada55a0472405f3"></span><span class="n"><span class="pre">uint32_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">size_class</span></span></span><a class="headerlink" href="#_CPPv4N6span_t10size_classE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Size class. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6span_t15free_list_limitE">
+<span id="_CPPv3N6span_t15free_list_limitE"></span><span id="_CPPv2N6span_t15free_list_limitE"></span><span id="span_t::free_list_limit__uint32_t"></span><span class="target" id="structspan__t_1a9fbbdfed291844727ffd067247363e9d"></span><span class="n"><span class="pre">uint32_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">free_list_limit</span></span></span><a class="headerlink" href="#_CPPv4N6span_t15free_list_limitE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Index of last block initialized in free list. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6span_t9list_sizeE">
+<span id="_CPPv3N6span_t9list_sizeE"></span><span id="_CPPv2N6span_t9list_sizeE"></span><span id="span_t::list_size__uint32_t"></span><span class="target" id="structspan__t_1aeff61809685e5df1b38aec1d871a49bb"></span><span class="n"><span class="pre">uint32_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">list_size</span></span></span><a class="headerlink" href="#_CPPv4N6span_t9list_sizeE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Span list size when part of a cache list, or size of deferred free list when partial/full. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6span_t18free_list_deferredE">
+<span id="_CPPv3N6span_t18free_list_deferredE"></span><span id="_CPPv2N6span_t18free_list_deferredE"></span><span id="span_t::free_list_deferred__atomicptr_t"></span><span class="target" id="structspan__t_1a13748d35c0012e484d2a7704c4fac139"></span><a class="reference internal" href="../../index.html#_CPPv411atomicptr_t" title="atomicptr_t"><span class="n"><span class="pre">atomicptr_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">free_list_deferred</span></span></span><a class="headerlink" href="#_CPPv4N6span_t18free_list_deferredE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Deferred free list. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6span_t10block_sizeE">
+<span id="_CPPv3N6span_t10block_sizeE"></span><span id="_CPPv2N6span_t10block_sizeE"></span><span id="span_t::block_size__uint32_t"></span><span class="target" id="structspan__t_1a9e3fb1e50a1c71b2337df296222d9553"></span><span class="n"><span class="pre">uint32_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">block_size</span></span></span><a class="headerlink" href="#_CPPv4N6span_t10block_sizeE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Size of a block. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6span_t5flagsE">
+<span id="_CPPv3N6span_t5flagsE"></span><span id="_CPPv2N6span_t5flagsE"></span><span id="span_t::flags__uint32_t"></span><span class="target" id="structspan__t_1a773b39d480759f67926cb18ae2219281"></span><span class="n"><span class="pre">uint32_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">flags</span></span></span><a class="headerlink" href="#_CPPv4N6span_t5flagsE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Flags and counters. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6span_t10span_countE">
+<span id="_CPPv3N6span_t10span_countE"></span><span id="_CPPv2N6span_t10span_countE"></span><span id="span_t::span_count__uint32_t"></span><span class="target" id="structspan__t_1abd240bbc66191d0f96837becbe81c906"></span><span class="n"><span class="pre">uint32_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">span_count</span></span></span><a class="headerlink" href="#_CPPv4N6span_t10span_countE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Number of spans. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6span_t23total_spans_or_distanceE">
+<span id="_CPPv3N6span_t23total_spans_or_distanceE"></span><span id="_CPPv2N6span_t23total_spans_or_distanceE"></span><span id="span_t::total_spans_or_distance__uint32_t"></span><span class="target" id="structspan__t_1a0c3b94ff14cadc7f8aad8ccbaadc49e5"></span><span class="n"><span class="pre">uint32_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">total_spans_or_distance</span></span></span><a class="headerlink" href="#_CPPv4N6span_t23total_spans_or_distanceE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Total span counter for master spans, distance for subspans. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6span_t15remaining_spansE">
+<span id="_CPPv3N6span_t15remaining_spansE"></span><span id="_CPPv2N6span_t15remaining_spansE"></span><span id="span_t::remaining_spans__atomic32_t"></span><span class="target" id="structspan__t_1ae0b106aba4d2fa5e64e160b3e2db1f41"></span><a class="reference internal" href="../../index.html#_CPPv410atomic32_t" title="atomic32_t"><span class="n"><span class="pre">atomic32_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">remaining_spans</span></span></span><a class="headerlink" href="#_CPPv4N6span_t15remaining_spansE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Remaining span counter, for master spans. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6span_t12align_offsetE">
+<span id="_CPPv3N6span_t12align_offsetE"></span><span id="_CPPv2N6span_t12align_offsetE"></span><span id="span_t::align_offset__uint32_t"></span><span class="target" id="structspan__t_1ab0f51b5e158b9a0a3203f61a1bd60545"></span><span class="n"><span class="pre">uint32_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">align_offset</span></span></span><a class="headerlink" href="#_CPPv4N6span_t12align_offsetE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Alignment offset. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6span_t4heapE">
+<span id="_CPPv3N6span_t4heapE"></span><span id="_CPPv2N6span_t4heapE"></span><span id="span_t::heap__heap_tP"></span><span class="target" id="structspan__t_1a030aa741640330c5c035c1a9dfd6e87f"></span><a class="reference internal" href="structheap__t.html#_CPPv46heap_t" title="heap_t"><span class="n"><span class="pre">heap_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">heap</span></span></span><a class="headerlink" href="#_CPPv4N6span_t4heapE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Owning heap. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6span_t4nextE">
+<span id="_CPPv3N6span_t4nextE"></span><span id="_CPPv2N6span_t4nextE"></span><span id="span_t::next__span_tP"></span><span class="target" id="structspan__t_1abf22e3e0b82ae33711bb6bfd3627cbf2"></span><a class="reference internal" href="#_CPPv46span_t" title="span_t"><span class="n"><span class="pre">span_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">next</span></span></span><a class="headerlink" href="#_CPPv4N6span_t4nextE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Next span. </p>
+</dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N6span_t4prevE">
+<span id="_CPPv3N6span_t4prevE"></span><span id="_CPPv2N6span_t4prevE"></span><span id="span_t::prev__span_tP"></span><span class="target" id="structspan__t_1af72b896ffcf3dbda98f45ab23a9acd51"></span><a class="reference internal" href="#_CPPv46span_t" title="span_t"><span class="n"><span class="pre">span_t</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">prev</span></span></span><a class="headerlink" href="#_CPPv4N6span_t4prevE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Previous span. </p>
+</dd></dl>
+
+</div>
+</dd></dl>
 
 </div>
 
